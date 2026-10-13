@@ -1,0 +1,514 @@
+[
+  {
+    "title": "Kernavė",
+    "qid": "Q215315",
+    "coordinates": [
+      54.88333333333333,
+      24.85
+    ],
+    "coordinateSource": "https://www.wikidata.org/wiki/Q215315",
+    "image": {
+      "src": "/destinations/Q215315.jpg",
+      "alt": "Kernavė",
+      "author": "Mindaur",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Kernave_mounds_20200926.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Kernave_mounds_20200926.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "width": 1600,
+      "height": 1200
+    },
+    "reference": "https://en.wikipedia.org/wiki/Kernav%C4%97",
+    "extraImage": {
+      "src": "/destinations/Q215315-2.jpg",
+      "alt": "Kernave Neris",
+      "author": "Dmitry A. Mottl",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Kernave_Neris.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/f/f1/Kernave_Neris.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "width": 1400,
+      "height": 788
+    }
+  },
+  {
+    "title": "Gediminas's Tower",
+    "qid": "Q1497616",
+    "coordinates": [
+      54.686759,
+      25.290685
+    ],
+    "coordinateSource": "https://www.wikidata.org/wiki/Q1497616",
+    "image": {
+      "src": "/destinations/Q1497616.jpg",
+      "alt": "Gediminas's Tower",
+      "author": "Gytis Grižas https://www.wikidata.org/wiki/Q16452479",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Gedimino_kalnas_120.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/9/9d/Gedimino_kalnas_120.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "width": 1600,
+      "height": 899
+    },
+    "reference": "https://en.wikipedia.org/wiki/Gediminas's_Tower",
+    "extraImage": {
+      "src": "/destinations/Q1497616-2.jpg",
+      "alt": "Gediminas Tower in Vilnius (cropped)",
+      "author": "Cropped by me",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:Gediminas_Tower_in_Vilnius_(cropped).jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/3/38/Gediminas_Tower_in_Vilnius_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "width": 1400,
+      "height": 1823
+    }
+  },
+  {
+    "title": "Dzūkija National Park",
+    "qid": "Q738428",
+    "coordinates": [
+      54.08194444,
+      24.37666667
+    ],
+    "coordinateSource": "https://www.wikidata.org/wiki/Q738428",
+    "image": {
+      "src": "/destinations/Q738428.jpg",
+      "alt": "Ūlos Akis, 2021",
+      "author": "Hugo.arg",
+      "license": "Public domain",
+      "source": "https://commons.wikimedia.org/wiki/File:%C5%AAlos_Akis,_2021.JPG",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/f/f8/%C5%AAlos_Akis%2C_2021.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "width": 1600,
+      "height": 1060,
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Licensing#Material_in_the_public_domain"
+    },
+    "reference": "https://en.wikipedia.org/wiki/Dz%C5%ABkija_National_Park",
+    "extraImage": {
+      "src": "/destinations/Q738428-2.jpg",
+      "alt": "Merkine Neman",
+      "author": "Wojsyl",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:Merkine_Neman.JPG",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/a/a6/Merkine_Neman.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "width": 1400,
+      "height": 1050
+    }
+  },
+  {
+    "title": "Hill of Crosses",
+    "qid": "Q223726",
+    "coordinates": [
+      56.015278,
+      23.416667
+    ],
+    "coordinateSource": "https://www.wikidata.org/wiki/Q223726",
+    "image": {
+      "src": "/destinations/Q223726.jpg",
+      "alt": "Hill of Crosses",
+      "author": "Pudelek (Marcin Szala)",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Kry%C5%BEi%C5%B3_kalnas_(G%C3%B3ra_Krzy%C5%BCy).JPG",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/8/8c/Kry%C5%BEi%C5%B3_kalnas_%28G%C3%B3ra_Krzy%C5%BCy%29.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "width": 1600,
+      "height": 578
+    },
+    "reference": "https://en.wikipedia.org/wiki/Hill_of_Crosses",
+    "extraImage": {
+      "src": "/destinations/Q223726-2.jpg",
+      "alt": "Colina de las Cruces, Lituania, 2012-08-09, DD 02",
+      "author": "Diego Delso",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Colina_de_las_Cruces,_Lituania,_2012-08-09,_DD_02.JPG",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/e/ed/Colina_de_las_Cruces%2C_Lituania%2C_2012-08-09%2C_DD_02.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "width": 1400,
+      "height": 682
+    }
+  },
+  {
+    "title": "Vilnius Old Town",
+    "qid": "Q445649",
+    "coordinates": [
+      54.683333333333,
+      25.283333333333
+    ],
+    "coordinateSource": "https://www.wikidata.org/wiki/Q445649",
+    "image": {
+      "src": "/destinations/Q445649.jpg",
+      "alt": "Vilnius Old Town",
+      "author": "BigHead",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Vilnius_old_town_by_Augustas_Didzgalvis.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Vilnius_old_town_by_Augustas_Didzgalvis.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "width": 1600,
+      "height": 1067
+    },
+    "reference": "https://en.wikipedia.org/wiki/Vilnius_Old_Town",
+    "extraImage": {
+      "src": "/destinations/Q445649-2.jpg",
+      "alt": "Vilnius - Panorama 02",
+      "author": "Lestat (Jan Mehlich)",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:Vilnius_-_Panorama_02.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/0/0d/Vilnius_-_Panorama_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "width": 1400,
+      "height": 417
+    }
+  },
+  {
+    "title": "Pažaislis Monastery",
+    "qid": "Q1775811",
+    "coordinates": [
+      54.876,
+      24.022
+    ],
+    "coordinateSource": "https://www.wikidata.org/wiki/Q1775811",
+    "image": {
+      "src": "/destinations/Q1775811.jpg",
+      "alt": "Pažaislis Monastery",
+      "author": "Augustas Didžgalvis",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Pazaislis_by_Augustas_Didzgalvis.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/7/77/Pazaislis_by_Augustas_Didzgalvis.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "width": 1600,
+      "height": 1067
+    },
+    "reference": "https://en.wikipedia.org/wiki/Pa%C5%BEaislis_Monastery",
+    "extraImage": {
+      "src": "/destinations/Q1775811-2.jpg",
+      "alt": "Pažaislis Monastery interior dome, Kaunas, Lithuania - Diliff",
+      "author": "Diliff",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Pa%C5%BEaislis_Monastery_interior_dome,_Kaunas,_Lithuania_-_Diliff.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/f/f3/Pa%C5%BEaislis_Monastery_interior_dome%2C_Kaunas%2C_Lithuania_-_Diliff.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "width": 1400,
+      "height": 1355
+    }
+  },
+  {
+    "title": "Trakai Island Castle",
+    "qid": "Q1482013",
+    "coordinates": [
+      54.6525,
+      24.933055555555555
+    ],
+    "coordinateSource": "https://www.wikidata.org/wiki/Q1482013",
+    "image": {
+      "src": "/destinations/Q1482013.jpg",
+      "alt": "Trakai Island Castle",
+      "author": "BigHead",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Traku_pilis_by_Augustas_Didzgalvis.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/7/77/Traku_pilis_by_Augustas_Didzgalvis.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "width": 1600,
+      "height": 1067
+    },
+    "reference": "https://en.wikipedia.org/wiki/Trakai_Island_Castle",
+    "extraImage": {
+      "src": "/destinations/Q1482013-2.jpg",
+      "alt": "Trakai Island Castle, Lithuania - Diliff",
+      "author": "Diliff",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Trakai_Island_Castle,_Lithuania_-_Diliff.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/d/db/Trakai_Island_Castle%2C_Lithuania_-_Diliff.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "width": 1400,
+      "height": 868
+    }
+  },
+  {
+    "title": "Panemunė Castle",
+    "qid": "Q1023846",
+    "coordinates": [
+      55.099,
+      22.986
+    ],
+    "coordinateSource": "https://www.wikidata.org/wiki/Q1023846",
+    "image": {
+      "src": "/destinations/Q1023846.jpg",
+      "alt": "Panemunė Castle",
+      "author": "Soolo",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Panemun%C4%97s_pilies_kiemas.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/d/de/Panemun%C4%97s_pilies_kiemas.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "width": 1600,
+      "height": 1199
+    },
+    "reference": "https://en.wikipedia.org/wiki/Panemun%C4%97_Castle",
+    "extraImage": {
+      "src": "/destinations/Q1023846-2.jpg",
+      "alt": "Panemune Castle Aerial",
+      "author": "Steveo89",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Panemune_Castle_Aerial.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Panemune_Castle_Aerial.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "width": 1400,
+      "height": 1163
+    }
+  },
+  {
+    "title": "Hill of Witches",
+    "qid": "Q2028073",
+    "coordinates": [
+      55.536389,
+      21.114722
+    ],
+    "coordinateSource": "https://www.wikidata.org/wiki/Q2028073",
+    "image": {
+      "src": "/destinations/Q2028073.jpg",
+      "alt": "Hill of Witches",
+      "author": "Thomas Pusch",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:Raimundas_ir_Anicentas_Pu%C5%A1koriai_%E2%80%9ELiuciferis_ir_pragaro_vartai%E2%80%9C.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/3/30/Raimundas_ir_Anicentas_Pu%C5%A1koriai_%E2%80%9ELiuciferis_ir_pragaro_vartai%E2%80%9C.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "width": 1600,
+      "height": 2133
+    },
+    "reference": "https://en.wikipedia.org/wiki/Hill_of_Witches",
+    "extraImage": {
+      "src": "/destinations/Q2028073-2.jpg",
+      "alt": "Eduardo Jonušo skulptūra-rodykle „Raganų kalnas“",
+      "author": "Apolinaras \"Apollo\" Sinkevicius",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Eduardo_Jonu%C5%A1o_skulpt%C5%ABra-rodykle_%E2%80%9ERagan%C5%B3_kalnas%E2%80%9C.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/0/02/Eduardo_Jonu%C5%A1o_skulpt%C5%ABra-rodykle_%E2%80%9ERagan%C5%B3_kalnas%E2%80%9C.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "width": 1400,
+      "height": 2642
+    }
+  },
+  {
+    "title": "Palanga Amber Museum",
+    "qid": "Q826824",
+    "coordinates": [
+      55.906944,
+      21.055833
+    ],
+    "coordinateSource": "https://www.wikidata.org/wiki/Q826824",
+    "image": {
+      "src": "/destinations/Q826824.jpg",
+      "alt": "Palanga Amber Museum",
+      "author": "Diliff",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Ti%C5%A1kevi%C4%8Diai_Palace_at_dusk,_Palanga,_Lithuania_-_Diliff.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/3/30/Ti%C5%A1kevi%C4%8Diai_Palace_at_dusk%2C_Palanga%2C_Lithuania_-_Diliff.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "width": 1600,
+      "height": 1001
+    },
+    "reference": "https://en.wikipedia.org/wiki/Palanga_Amber_Museum",
+    "extraImage": {
+      "src": "/destinations/Q826824-2.jpg",
+      "alt": "Sun of Amber",
+      "author": "Beny Shlevich",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Sun_of_Amber.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/b/b7/Sun_of_Amber.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "width": 1400,
+      "height": 1050
+    }
+  },
+  {
+    "title": "Anykščiai Regional Park",
+    "qid": "Q582379",
+    "coordinates": [
+      55.51,
+      25.139
+    ],
+    "coordinateSource": "https://www.wikidata.org/wiki/Q582379",
+    "image": {
+      "src": "/destinations/Q582379.jpg",
+      "alt": "Anykščiai Regional Park",
+      "author": "Andrius Vanagas",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Puntuko_brolis_(09-06-28)02.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/1/10/Puntuko_brolis_%2809-06-28%2902.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "width": 1600,
+      "height": 992
+    },
+    "reference": "https://en.wikipedia.org/wiki/Anyk%C5%A1%C4%8Diai_Regional_Park",
+    "extraImage": {
+      "src": "/destinations/Q582379-2.jpg",
+      "alt": "Puntukas",
+      "author": "The original uploader was Vilensija at Lithuanian Wikipedia.",
+      "license": "Public domain",
+      "source": "https://commons.wikimedia.org/wiki/File:Puntukas.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/2/20/Puntukas.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "width": 1600,
+      "height": 643,
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Licensing#Material_in_the_public_domain"
+    }
+  },
+  {
+    "title": "Plokštinė missile base",
+    "qid": "Q5766160",
+    "coordinates": [
+      56.0275,
+      21.90916667
+    ],
+    "coordinateSource": "https://www.wikidata.org/wiki/Q5766160",
+    "image": {
+      "src": "/destinations/Q5766160.jpg",
+      "alt": "Plokštinė missile base",
+      "author": "foundin_a_attic",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Plok%C5%A1tin%C4%97_missile_base,_the_dome_covering_missile_silo,_2019.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/c/c8/Plok%C5%A1tin%C4%97_missile_base%2C_the_dome_covering_missile_silo%2C_2019.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "width": 1600,
+      "height": 1067
+    },
+    "reference": "https://en.wikipedia.org/wiki/Plok%C5%A1tin%C4%97_missile_base",
+    "extraImage": {
+      "src": "/destinations/Q5766160-2.jpg",
+      "alt": "Plokštinė missile base, the launch silo, 2019",
+      "author": "foundin_a_attic",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Plok%C5%A1tin%C4%97_missile_base,_the_launch_silo,_2019.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/0/06/Plok%C5%A1tin%C4%97_missile_base%2C_the_launch_silo%2C_2019.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "width": 1400,
+      "height": 933
+    }
+  },
+  {
+    "title": "Nida, Lithuania",
+    "qid": "Q1004306",
+    "coordinates": [
+      55.303973,
+      21.00532
+    ],
+    "coordinateSource": "https://www.wikidata.org/wiki/Q1004306",
+    "image": {
+      "src": "/destinations/Q1004306.jpg",
+      "alt": "Nida, Lithuania",
+      "author": "LinasD",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Nida_from_bird%27s-eye_view.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/0/02/Nida_from_bird%27s-eye_view.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "width": 1600,
+      "height": 1199
+    },
+    "reference": "https://en.wikipedia.org/wiki/Nida%2C_Lithuania",
+    "extraImage": {
+      "src": "/destinations/Q1004306-2.jpg",
+      "alt": "Nida Beach 07",
+      "author": "Derbrauni",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Nida_Beach_07.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/c/c5/Nida_Beach_07.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "width": 1400,
+      "height": 631
+    }
+  },
+  {
+    "title": "Klaipėdos senamiestis",
+    "qid": "Q12660816",
+    "coordinates": [
+      55.70777777777778,
+      21.133333333333333
+    ],
+    "coordinateSource": "https://www.wikidata.org/wiki/Q12660816",
+    "image": {
+      "src": "/destinations/Q12660816.jpg",
+      "alt": "Klaipėdos senamiestis",
+      "author": "<squareshadow>",
+      "license": "Public domain",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Licensing",
+      "source": "https://commons.wikimedia.org/wiki/File:Klaipeda_old_town.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/5/59/Klaipeda_old_town.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "width": 1600,
+      "height": 899
+    },
+    "reference": "https://lt.wikipedia.org/wiki/Klaip%C4%97dos_senamiestis",
+    "extraImage": {
+      "src": "/destinations/Q12660816-2.jpg",
+      "alt": "Meridianas 2019 m",
+      "author": "Turaids",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Meridianas_2019_m.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/5/57/Meridianas_2019_m.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "width": 1400,
+      "height": 1050
+    }
+  },
+  {
+    "title": "Pūčkorių atodanga",
+    "qid": "Q12670627",
+    "coordinates": [
+      54.69191944,
+      25.35271111
+    ],
+    "coordinateSource": "https://www.wikidata.org/wiki/Q12670627",
+    "image": {
+      "src": "/destinations/Q12670627.jpg",
+      "alt": "Pūčkorių atodanga",
+      "author": "Original uploader was Andrjusgeo at lt.wikipedia",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:P%C5%AB%C4%8Dkori%C5%B3Atodanga.JPG",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/e/e0/P%C5%AB%C4%8Dkori%C5%B3Atodanga.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "width": 1600,
+      "height": 2133
+    },
+    "reference": "https://lt.wikipedia.org/wiki/P%C5%AB%C4%8Dkori%C5%B3_atodanga",
+    "extraImage": {
+      "src": "/destinations/Q12670627-2.jpg",
+      "alt": "Puckoriu-atodanga-2",
+      "author": "Kontis Šatūnas",
+      "license": "Public domain",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Licensing",
+      "source": "https://commons.wikimedia.org/wiki/File:Puckoriu-atodanga-2.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Puckoriu-atodanga-2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "width": 1400,
+      "height": 931
+    }
+  },
+  {
+    "title": "Druskininkai",
+    "qid": "Q1261509",
+    "coordinates": [
+      54.020555555556,
+      23.9725
+    ],
+    "coordinateSource": "https://www.wikidata.org/wiki/Q1261509",
+    "image": {
+      "src": "/destinations/Q1261509.jpg",
+      "alt": "Lake and church in Druskininkai",
+      "author": "Quintin Soloviev",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Druskininkai,_Lithuania.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/d/da/Druskininkai%2C_Lithuania.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "width": 1600,
+      "height": 1067
+    },
+    "extraImage": {
+      "src": "/destinations/Q1261509-2.jpg",
+      "alt": "Druskininkai seen from the cable car",
+      "author": "Zairon",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Druskininkai_Blick_von_der_Seilbahn_auf_Druskininkai_5.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/1/16/Druskininkai_Blick_von_der_Seilbahn_auf_Druskininkai_5.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "width": 1600,
+      "height": 1136
+    },
+    "reference": "https://en.wikipedia.org/wiki/Druskininkai"
+  }
+]

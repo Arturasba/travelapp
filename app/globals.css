@@ -1,26 +1,36 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  color-scheme: light;
+  --paper: #f4f1e8;
+  --ink: #29382f;
 }
 
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --color-background: var(--paper);
+  --color-foreground: var(--ink);
+  --font-sans: Arial, Helvetica, sans-serif;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
+* { box-sizing: border-box; }
+body { margin: 0; background: #dfdfd5; color: var(--ink); font-family: Arial, Helvetica, sans-serif; }
+button, a { -webkit-tap-highlight-color: transparent; }
+button { font: inherit; cursor: pointer; }
+a { color: inherit; }
+button:disabled { cursor: default; }
+button:focus-visible, a:focus-visible { outline: 2px solid #687a51; outline-offset: 5px; }
+::selection { background: #d8dfbd; color: #26372c; }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
-}
+/* Leaflet is loaded only for the atlas; its base stylesheet is available globally. */
+.destination-pin { background: none; border: 0; }
+.destination-pin > span { display: block; width: 22px; height: 22px; border: 3px solid #fffbed; border-radius: 50% 50% 50% 0; transform: rotate(-45deg); box-shadow: 0 2px 7px #20352566; }
+.destination-map-preview { width: 220px; font-family: Arial, Helvetica, sans-serif; color: #3a5036; }
+.destination-map-preview img { width: 220px; height: 110px; object-fit: cover; display: block; margin-bottom: 12px; }
+.destination-map-preview strong { display: block; font: 21px/1.15 Georgia, serif; }
+.destination-map-preview p { font-size: 11px; color: #7d8c6d; margin: 8px 0 12px; }
+.destination-map-preview a { color: #5a7c43; font-size: 12px; }
+.leaflet-container { font-family: Arial, Helvetica, sans-serif; }
+.leaflet-popup-content-wrapper { border-radius: 1px; background: #f9f6eb; }
+.leaflet-popup-tip { background: #f9f6eb; }
+.leaflet-control-attribution { font-size: 10px; }
+.destination-map-preview .destination-map-credit { display: block; font-size: 9px; line-height: 1.5; color: #8c997a; margin-top: 12px; }
