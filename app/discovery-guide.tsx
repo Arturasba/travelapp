@@ -96,6 +96,7 @@ export default function DiscoveryGuide({ initialSlug }: { initialSlug?: string }
       timer.current = setTimeout(() => { lock.current = false; setTurn(null); }, TURN_MS);
     }
     changeLocation(url);
+    window.scrollTo?.({ top: 0, behavior: "instant" });
     stage.current?.focus({ preventScroll: true });
   }, [changeLocation]);
 
@@ -109,6 +110,7 @@ export default function DiscoveryGuide({ initialSlug }: { initialSlug?: string }
   function updateFilters(patch: Partial<GuideFilters>, replace = false) {
     const next = { ...filters, ...patch };
     changeLocation(guideUrl(next, view === "map" ? { map: "all" } : {}), replace);
+    if (!replace) window.scrollTo?.({ top: 0, behavior: "instant" });
     setMenuOpen(false);
   }
   function chooseCity(nextCity: CityId) {
@@ -217,7 +219,7 @@ export default function DiscoveryGuide({ initialSlug }: { initialSlug?: string }
             <label className={styles.searchField}><span className={styles.srOnly}>Search places</span><span aria-hidden="true">⌕</span><input id="destination-search" type="search" value={query} placeholder={cityName ? `Search in ${cityName}…` : "Search places, towns or keywords…"} onChange={event => updateFilters({query:event.target.value},true)} /></label>
             <label className={styles.mobileLocation}>Location<select aria-label="Location" value={city} onChange={event => chooseCity(event.target.value as CityId)}><option value="all">All Lithuania</option>{cities.map(item => <option key={item.id} value={item.id}>{item.label}</option>)}</select></label>
             <label className={styles.categoryFilter}>Category<select aria-label="Category" value={category} onChange={event => updateFilters({category:event.target.value as Category})}>{categories.map(item => <option key={item.id} value={item.id} disabled={city !== "all" && filterDestinations("",item.id,"all",city).length === 0}>{item.label}</option>)}</select></label>
-            <details className={styles.moreFilters}><summary>Collections{collection !== "all" ? " •" : ""}</summary><label>Show<select aria-label="Collection" value={collection} onChange={event => updateFilters({collection:event.target.value as Collection})}><option value="all">All places</option><option value="popular">First-time favourites</option><option value="hidden">Hidden gems</option></select></label><p>Editorial selections, not popularity rankings.</p></details>
+            <details className={styles.moreFilters}><summary>{collection === "popular" ? "First-time favourites" : collection === "hidden" ? "Hidden gems" : "Collections"}</summary><label>Show<select aria-label="Collection" value={collection} onChange={event => updateFilters({collection:event.target.value as Collection})}><option value="all">All places</option><option value="popular">First-time favourites</option><option value="hidden">Hidden gems</option></select></label><p>Editorial selections, not popularity rankings.</p></details>
           </div>
           <div className={styles.resultsHeading}><p role="status">{results.length} {results.length === 1 ? "place" : "places"}{cityName ? ` in and around ${cityName}` : " across Lithuania"}</p>{hasFilters && <button onClick={resetFilters}>Clear filters ×</button>}</div>
         </section>}

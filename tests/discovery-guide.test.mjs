@@ -1,4 +1,4 @@
-import { test } from 'node:test';
+﻿import { test } from 'node:test';
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
 import vm from 'node:vm';
@@ -24,12 +24,14 @@ function createGuide({ initialSlug, reduced = true } = {}) {
   const compile=file=>ts.transpileModule(fs.readFileSync(file,'utf8'),{compilerOptions:{jsx:ts.JsxEmit.ReactJSX,module:ts.ModuleKind.CommonJS,esModuleInterop:true}}).outputText;
   const data={exports:{},require:()=>JSON.parse(fs.readFileSync('app/data/destination-assets.json','utf8'))};
   vm.runInNewContext(compile('app/destinations.ts'),data);
+  const navigation={exports:{},URLSearchParams,require:()=>data.exports};
+  vm.runInNewContext(compile('app/guide-navigation.ts'),navigation);
   const css=new Proxy({},{get:(_target,key)=>key==='__esModule'?false:String(key)});
   const scope={
     exports:{},URLSearchParams,Event,HTMLElement:class{},
-    window:{...events,location:url,matchMedia:()=>({matches:reduced}),history:{pushState(_state,_unused,path){const next=new URL(path,url);url.href=next.href;}}},
+    window:{...events,location:url,matchMedia:query=>({matches:query.includes('prefers-reduced-motion')?reduced:false}),history:{pushState(_state,_unused,path){url.href=new URL(path,url).href;},replaceState(_state,_unused,path){url.href=new URL(path,url).href;}}},
     setTimeout:fn=>{timers.push(fn);return timers.length;},clearTimeout(){},
-    require:name=>name==='react'?react:name==='react/jsx-runtime'?{jsx,jsxs:jsx,Fragment:'fragment'}:name==='./destinations'?data.exports:name==='next/dynamic'?()=>function MapStub(){}:name.endsWith('.css')?css:()=>null,
+    require:name=>name==='react'?react:name==='react/jsx-runtime'?{jsx,jsxs:jsx,Fragment:'fragment'}:name==='./destinations'?data.exports:name==='./guide-navigation'?navigation.exports:name==='next/dynamic'?()=>function MapStub(){}:name.endsWith('.css')?css:()=>null,
   };
   vm.runInNewContext(compile('app/discovery-guide.tsx'),scope);
   const walk=node=>{if(!node||typeof node!=='object')return[];const children=node.props?.children;return[node,...(Array.isArray(children)?children.flat(Infinity):[children]).flatMap(walk)];};
@@ -44,10 +46,10 @@ test('search and category filters update the discovery index, including empty re
   tree=guide.render();
   assert(guide.find(tree,n=>n.type==='a'&&n.props.href==='/places/puckoriai-outcrop'));
   assert(!guide.find(tree,n=>n.type==='a'&&n.props.href==='/places/trakai-island-castle'));
-  guide.find(tree,n=>n.type==='select').props.onChange({target:{value:'castles'}});
+  guide.find(tree,n=>n.type==='select'&&n.props['aria-label']==='Category').props.onChange({target:{value:'castles'}});
   tree=guide.render();
-  assert(guide.find(tree,n=>n.type==='h2'&&n.props.children==='No detours found.'));
-  guide.click(guide.find(tree,n=>n.type==='button'&&n.props.children==='Clear filters'));
+  assert(guide.find(tree,n=>n.type==='h2'&&n.props.children==='No places found.'));
+  guide.click(guide.find(tree,n=>n.type==='button'&&n.props.children==='Show all places'));
   tree=guide.render();
   assert(guide.find(tree,n=>n.type==='a'&&n.props.href==='/places/trakai-island-castle'));
 });
@@ -64,7 +66,7 @@ test('destination links, previous/next controls and keyboard update shareable UR
 });
 test('map focus follows new marker selections and the popup opens a destination',()=>{
   const guide=createGuide({initialSlug:'trakai-island-castle'});let tree=guide.render();
-  guide.click(guide.find(tree,n=>n.type==='button'&&n.props.children==='Locate on the atlas ↗'));
+  guide.click(guide.find(tree,n=>n.type==='button'&&n.props.children==='Show on map'));
   assert.equal(guide.url(),'/?map=trakai-island-castle');
   tree=guide.render();let map=guide.find(tree,n=>n.type?.name==='MapStub');
   assert.equal(map.props.focusedSlug,'trakai-island-castle');
@@ -98,3 +100,4 @@ test('horizontal swipes navigate while vertical gestures stay on the current des
   nextMain.props.onTouchEnd({preventDefault(){},changedTouches:[{clientX:90,clientY:300}]});
   assert.equal(guide.url(),'/places/vilnius-old-town');
 });
+
