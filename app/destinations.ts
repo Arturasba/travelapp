@@ -10,9 +10,27 @@ export const categories = [
 ] as const;
 export type Category = typeof categories[number]["id"];
 export type Collection = "all" | "popular" | "hidden";
+export const cities = [
+  { id: "vilnius", label: "Vilnius" }, { id: "kaunas", label: "Kaunas" },
+  { id: "klaipeda", label: "Klaipėda" }, { id: "siauliai", label: "Šiauliai" },
+  { id: "trakai", label: "Trakai" }, { id: "druskininkai", label: "Druskininkai" },
+  { id: "nida", label: "Nida" }, { id: "palanga", label: "Palanga" },
+  { id: "anyksciai", label: "Anykščiai" }, { id: "juodkrante", label: "Juodkrantė" },
+  { id: "kernave", label: "Kernavė" }, { id: "plunge", label: "Plungė" },
+  { id: "jurbarkas", label: "Jurbarkas" }, { id: "varena", label: "Varėna" },
+] as const;
+export type CityId = "all" | typeof cities[number]["id"];
+const cityBySlug: Record<string, CityId> = {
+  "vilnius-old-town": "vilnius", "gediminas-tower": "vilnius", "puckoriai-outcrop": "vilnius",
+  "pazaislis-monastery": "kaunas", "klaipeda-old-town": "klaipeda", "hill-of-crosses": "siauliai",
+  "trakai-island-castle": "trakai", "druskininkai": "druskininkai", "nida": "nida",
+  "palanga-amber-museum": "palanga", "anyksciai-regional-park": "anyksciai", "hill-of-witches": "juodkrante",
+  "kernave": "kernave", "cold-war-museum": "plunge", "panemune-castle": "jurbarkas", "dzukija-national-park": "varena",
+};
 export type Photo = { src: string; alt: string; author: string; license: string; licenseUrl: string; source: string; width: number; height: number };
 export type Destination = {
   slug: string; name: string; location: string; category: Exclude<Category, "all">;
+  cityId: CityId;
   coordinates: [number, number]; coordinateSource: string; coordinateNote: string;
   description: string; reasons: string[]; visitorInfo: string[];
   featured: boolean; hidden: boolean; photos: Photo[]; sources: { label: string; url: string }[];
@@ -97,6 +115,12 @@ const entries: Entry[] = [
     reasons:["A former missile-base setting", "Exhibitions explaining Cold War history", "A distinctive historical detour near Plateliai"],
     visitorInfo:["Visitor address: Šilinė street 4, Plokščiai, Plungė District.","The operator asks visitors to book guided tours in advance. Check the official page for current ticketing, opening times and group arrangements."],
     official:"https://zemaitijosnpd.lrv.lt/en/information-for-visitors/expositions/the-cold-war-exposition1/" },
+  { qid:"Q1261509", slug:"druskininkai", name:"Druskininkai", location:"Druskininkai · Southern Lithuania", category:"cities", featured:true,
+    description:"A resort town surrounded by the forests of Dzūkija, Druskininkai combines a long spa tradition with lakeside walks and a relaxed town centre. Explore the waterfront, discover local art and choose a wellness or outdoor experience that suits your day.",
+    reasons:["Walks around Druskonis Lake and through town parks", "A long-established spa and wellness tradition", "A base for exploring southern Lithuania"],
+    visitorInfo:["The pin marks a town reference point, not a spa or attraction entrance.","Spas, museums and activity operators have separate booking and access arrangements; check the venue before travelling."],
+    coordinateNote:"Town reference point; select the entrance of your chosen venue before travelling.",
+    official:"https://lithuania.travel/en/where-to-visit/top-sites-in-lithuania/spa-and-wellness-in-druskininkai" },
 ];
 
 export const destinations: Destination[] = entries.map(entry => {
@@ -105,7 +129,7 @@ export const destinations: Destination[] = entries.map(entry => {
   const photos: Photo[] = [asset.image];
   if ("extraImage" in asset && asset.extraImage) photos.push(asset.extraImage);
   return {
-    ...entry, coordinates: entry.coordinates ?? asset.coordinates as [number, number],
+    ...entry, cityId: cityBySlug[entry.slug] ?? "all", coordinates: entry.coordinates ?? asset.coordinates as [number, number],
     coordinateSource: entry.coordinates && entry.official ? entry.official : asset.coordinateSource,
     coordinateNote: entry.coordinateNote ?? "Site reference coordinate; confirm the appropriate entrance locally.",
     photos, featured: entry.featured ?? false, hidden: entry.hidden ?? false,
@@ -116,9 +140,14 @@ export const destinations: Destination[] = entries.map(entry => {
 
 export function getDestination(slug: string) { return destinations.find(place => place.slug === slug); }
 export function normalizeSearch(value: string) { return value.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase().trim(); }
-export function filterDestinations(query: string, category: Category, collection: Collection) {
+export function filterDestinations(query: string, category: Category, collection: Collection, city: CityId = "all") {
   const terms = normalizeSearch(query).split(/\s+/).filter(Boolean);
   return destinations.filter(place => (category === "all" || place.category === category)
+    && (city === "all" || place.cityId === city)
     && (collection === "all" || (collection === "popular" ? place.featured : place.hidden))
     && terms.every(term => normalizeSearch(`${place.name} ${place.location} ${place.description} ${place.category}`).includes(term)));
+}
+
+export function directionsUrl(place: Destination) {
+  return `https://www.google.com/maps/dir/?api=1&destination=${encodeURIComponent(place.coordinates.join(","))}`;
 }
