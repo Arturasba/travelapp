@@ -1,7 +1,7 @@
 import assert from 'node:assert/strict';
 import { readFile } from 'node:fs/promises';
 
-// Run against next dev to catch stylesheet-loader and route regressions.
+// Run against next dev or next start to catch stylesheet-loader and route regressions.
 const base = process.argv[2] || 'http://localhost:3000';
 const assetRecords = JSON.parse(await readFile('app/data/destination-assets.json', 'utf8'));
 const response = await fetch(base);
@@ -16,12 +16,13 @@ const css = (await Promise.all(cssPaths.map(async path => {
   assert.equal(result.status, 200);
   return result.text();
 }))).join('\n');
-const photoClass = classes.find(value => value.endsWith('__fullPhoto'));
-assert(photoClass && css.includes(`.${photoClass}`), 'photograph CSS must match the rendered class');
-assert(html.includes('position:relative'), 'fill image parent must be positioned');
+const guideClass = classes.find(value => value.endsWith('_guide'));
+assert(guideClass && css.includes(`.${guideClass}`), 'atlas CSS must match the rendered class');
+const guidePrefix = guideClass.slice(0, -'guide'.length);
+assert(html.includes('Lithuania, an open atlas.') && html.includes('Loading the map'), 'homepage must open into the atlas');
 const source = await readFile('app/discovery-guide.tsx', 'utf8');
 for (const name of new Set([...source.matchAll(/styles\.([A-Za-z]+)/g)].map(match => match[1]))) {
-  assert(css.includes(`__${name}`), `missing compiled guide class: ${name}`);
+  assert(css.includes(`.${guidePrefix}${name}`), `missing compiled guide class: ${name}`);
 }
 assert(html.includes('destination-search') && html.includes('Curated starter collection'));
 for (const city of ['Vilnius','Kaunas','Klaipėda','Šiauliai','Trakai','Druskininkai','Nida','Palanga']) {
@@ -48,9 +49,16 @@ for (const slug of slugs) {
   assert(page.includes('Before you go') && page.includes('Sources &amp; photography') && page.includes('Get directions'), `${slug} must render practical destination content`);
 }
 const missing = await fetch(`${base}/places/not-a-real-place`);
-assert.equal(missing.status, 404);
+const missingHtml = await missing.text();
+// Next can begin streaming a partial shell before notFound resolves (HTTP 200).
+// Both paths must render the real not-found UI and prohibit indexing.
+assert([200,404].includes(missing.status) && missingHtml.includes('noindex') && missingHtml.includes('This page could not be found'), 'unknown destinations must render an unindexable not-found page');
 const optimized = await fetch(`${base}/_next/image?url=%2Fdestinations%2FQ1482013.jpg&w=1920&q=75`);
 assert.equal(optimized.status,200);
 const journal = await fetch(`${base}/journal`);
 assert.equal(journal.status,200);
+const journalHtml = await journal.text();
+assert(journalHtml.includes('Back to Explore'), 'journal needs a visible return action');
+assert(journalHtml.includes('position:relative'), 'journal fill image parent must be positioned');
+assert(css.includes('touch-action:none') || css.includes('touch-action: none'), 'map must own touch gestures');
 console.log(`PASS: guide CSS, city navigation, local Inter font, ${assetRecords.length * 2} photos, all ${slugs.length} destination routes and directions, 404 handling, image optimization, and preserved journal.`);

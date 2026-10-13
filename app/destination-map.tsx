@@ -3,27 +3,40 @@
 import L from "leaflet";
 import { getImageProps } from "next/image";
 import { useEffect, useRef, useState } from "react";
-import { categories, directionsUrl } from "./destinations";
+import { categories, destinations, directionsUrl } from "./destinations";
 import type { Destination } from "./destinations";
+import { readMapViewport, saveMapViewport } from "./map-viewport";
 import styles from "./guide.module.css";
 
-type Props = { places: Destination[]; focusedSlug: string | null; onSelect: (slug: string) => void; onOpen: (slug: string) => void };
+type Props = { places: Destination[]; viewportKey: string; destinationHref: (slug: string) => string; focusedSlug: string | null; onSelect: (slug: string) => void; onOpen: (slug: string) => void };
+// A country-wide camera, independent of the current result set.
+const LITHUANIA_BOUNDS: L.LatLngBoundsExpression = [[53.85, 20.9], [56.5, 26.9]];
 
-export default function DestinationMap({ places, focusedSlug, onSelect, onOpen }: Props) {
+export default function DestinationMap({ places, viewportKey, destinationHref, focusedSlug, onSelect, onOpen }: Props) {
   const container = useRef<HTMLDivElement>(null);
   const map = useRef<L.Map | null>(null);
   const layer = useRef<L.LayerGroup | null>(null);
   const tiles = useRef<L.TileLayer | null>(null);
   const markers = useRef(new Map<string, L.Marker>());
-  const callbacks = useRef({ onSelect, onOpen });
+  const callbacks = useRef({ onSelect, onOpen, destinationHref, focusedSlug });
+  const activeViewport = useRef({ key: viewportKey, focusedSlug });
+  const restoredFocus = useRef<string | null | undefined>(undefined);
   const [tileError, setTileError] = useState(false);
 
-  useEffect(() => { callbacks.current = { onSelect, onOpen }; }, [onSelect, onOpen]);
+  useEffect(() => { callbacks.current = { onSelect, onOpen, destinationHref, focusedSlug }; }, [onSelect, onOpen, destinationHref, focusedSlug]);
 
   useEffect(() => {
     if (!container.current) return;
-    const instance = L.map(container.current, { scrollWheelZoom: false, zoomControl: true }).setView([55.25, 23.8], 7);
+    const instance = L.map(container.current, {
+      scrollWheelZoom: true, dragging: true, touchZoom: true,
+      doubleClickZoom: true, keyboard: true, zoomControl: true,
+    }).setView([55.25, 23.8], 7);
     map.current = instance;
+    function rememberCamera() {
+      const center = instance.getCenter();
+      saveMapViewport(activeViewport.current.key, { center: [center.lat, center.lng], zoom: instance.getZoom(), focusedSlug: activeViewport.current.focusedSlug });
+    }
+    instance.on("moveend", rememberCamera);
     tiles.current = L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png", {
       maxZoom: 19,
       attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
@@ -34,6 +47,8 @@ export default function DestinationMap({ places, focusedSlug, onSelect, onOpen }
     const markerRegistry = markers.current;
     observer.observe(container.current);
     return () => {
+      rememberCamera();
+      instance.off("moveend", rememberCamera);
       observer.disconnect();
       instance.remove();
       map.current = null;
@@ -45,6 +60,9 @@ export default function DestinationMap({ places, focusedSlug, onSelect, onOpen }
 
   useEffect(() => {
     if (!map.current || !layer.current) return;
+    activeViewport.current = { key: viewportKey, focusedSlug: callbacks.current.focusedSlug };
+    const saved = readMapViewport(viewportKey);
+    restoredFocus.current = saved?.focusedSlug;
     layer.current.clearLayers();
     markers.current.clear();
     for (const place of places) {
@@ -67,7 +85,7 @@ export default function DestinationMap({ places, focusedSlug, onSelect, onOpen }
       const location = document.createElement("p");
       location.textContent = place.location;
       const link = document.createElement("a");
-      link.href = `/places/${place.slug}`;
+      link.href = callbacks.current.destinationHref(place.slug);
       link.textContent = "View place →";
       link.addEventListener("click", event => {
         if (event.ctrlKey || event.metaKey || event.shiftKey || event.altKey) return;
@@ -87,31 +105,46 @@ export default function DestinationMap({ places, focusedSlug, onSelect, onOpen }
       credit.className = "destination-map-credit";
       credit.textContent = `${place.photos[0].author} · ${place.photos[0].license}`;
       preview.append(image, name, location, link, directions, credit);
-      marker.bindPopup(preview, { maxWidth: 245 });
+      // Popup controls should not also trigger map clicks/zoom.
+      L.DomEvent.disableClickPropagation(preview);
+      L.DomEvent.disableScrollPropagation(preview);
+      marker.bindPopup(preview, { maxWidth: 245, maxHeight: 250, autoPan: true });
       marker.on("click", () => callbacks.current.onSelect(place.slug));
       marker.addTo(layer.current);
       markers.current.set(place.slug, marker);
     }
-    if (places.length) {
+    if (saved) {
+      map.current.setView(saved.center, saved.zoom, { animate: false });
+    } else if (places.length && places.length < destinations.length) {
       map.current.fitBounds(L.latLngBounds(places.map(place => place.coordinates)), { padding: [35, 35], maxZoom: 11, animate: false });
-    }
-  }, [places]);
+    } else map.current.fitBounds(LITHUANIA_BOUNDS, { padding: [25, 25], animate: false });
+  }, [places, viewportKey]);
 
   useEffect(() => {
+    activeViewport.current.focusedSlug = focusedSlug;
     if (!focusedSlug || !map.current) return;
     const marker = markers.current.get(focusedSlug);
     if (!marker) return;
-    map.current.setView(marker.getLatLng(), 12, { animate: !window.matchMedia("(prefers-reduced-motion: reduce)").matches });
+    const restored = restoredFocus.current === focusedSlug;
+    // New previews may pan into view; restoring an existing camera must not move it.
+    const popup = marker.getPopup();
+    if (popup) popup.options.autoPan = !restored;
+    if (!restored) map.current.setView(marker.getLatLng(), 12, { animate: false });
+    restoredFocus.current = undefined;
     marker.openPopup();
-  }, [focusedSlug, places]);
+  }, [focusedSlug, places, viewportKey]);
 
   function fitAll() {
-    if (map.current && places.length) map.current.fitBounds(L.latLngBounds(places.map(place => place.coordinates)), { padding: [35, 35], maxZoom: 11 });
+    callbacks.current.onSelect("all");
+    map.current?.closePopup();
+    map.current?.fitBounds(LITHUANIA_BOUNDS, { padding: [25, 25], animate: !window.matchMedia("(prefers-reduced-motion: reduce)").matches });
   }
 
-  return <div className={styles.mapFrame}>
+  // Leaflet completes drag/pinch/keyboard lifecycles on document. Do not stop
+  // touchend, mousemove or keydown here; the guide excludes map gestures itself.
+  return <div className={styles.mapFrame} onWheel={event => event.stopPropagation()}>
     <div ref={container} className={styles.mapCanvas} role="region" aria-label="Interactive map of Lithuania. Drag to pan, use plus and minus to zoom, and select a destination marker." />
-    <button className={styles.fitMap} onClick={fitAll} disabled={!places.length}>Show {places.length} {places.length === 1 ? "place" : "places"}</button>
+    <button className={styles.fitMap} onClick={fitAll}>Reset to Lithuania</button>
     {tileError && <div className={styles.mapNotice} role="status">The base map could not load. Place pins and the destination list are still available. <button onClick={() => { setTileError(false); tiles.current?.redraw(); }}>Retry map</button></div>}
     {!places.length && <div className={styles.mapNotice}>No places match these filters. Clear filters to restore the pins.</div>}
   </div>;

@@ -7,7 +7,7 @@ import { useCallback, useEffect, useMemo, useRef, useState, useSyncExternalStore
 import type { MouseEvent, ReactNode, TouchEvent } from "react";
 import { categories, cities, destinations, directionsUrl, filterDestinations, getDestination } from "./destinations";
 import type { Category, CityId, Collection, Destination, Photo } from "./destinations";
-import { guideUrl, readFilters } from "./guide-navigation";
+import { guideUrl, journalUrl, readFilters } from "./guide-navigation";
 import type { GuideFilters } from "./guide-navigation";
 import styles from "./guide.module.css";
 
@@ -55,8 +55,11 @@ export default function DiscoveryGuide({ initialSlug }: { initialSlug?: string }
   const { query, category, city, collection } = filters;
   const slug = location.startsWith("/places/") ? decodeURIComponent(location.split("/")[2].split("?")[0]) : null;
   const mapParameter = new URLSearchParams(location.split("?")[1] ?? "").get("map");
-  const view = slug ? "place" : mapParameter !== null ? "map" : "discover";
+  const view = slug ? "place" : new URLSearchParams(location.split("?")[1] ?? "").get("view") === "places" && mapParameter === null ? "discover" : "map";
+  const returnView = new URLSearchParams(location.split("?")[1] ?? "").get("from") === "places" ? "places" : "map";
+  const viewportKey = JSON.stringify([query, category, city, collection]);
   const current = slug ? getDestination(slug) : undefined;
+  const bookHref = journalUrl(current ? guideUrl(filters, { map: current.slug }) : location);
   const [photoIndices, setPhotoIndices] = useState<Record<string, number>>({});
   const [menuOpen, setMenuOpen] = useState(false);
   const [turn, setTurn] = useState<Turn | null>(null);
@@ -101,7 +104,7 @@ export default function DiscoveryGuide({ initialSlug }: { initialSlug?: string }
   }, [changeLocation]);
 
   function openPlace(nextSlug: string, animate = false, direction: "forward" | "backward" = "forward") {
-    navigate(guideUrl(filters, { slug: nextSlug }), animate, direction);
+    navigate(guideUrl(filters, { slug: nextSlug, from: view === "discover" || (view === "place" && returnView === "places") ? "places" : "map" }), animate, direction);
   }
   function openMap(placeSlug?: string) {
     const matching = !placeSlug || results.some(place => place.slug === placeSlug);
@@ -135,7 +138,7 @@ export default function DiscoveryGuide({ initialSlug }: { initialSlug?: string }
 
   useEffect(() => () => { if (timer.current) clearTimeout(timer.current); }, []);
   useEffect(() => {
-    document.title = current ? `${current.name} — Lithuania Discovery Guide` : cityName ? `Explore ${cityName} — Lithuania Discovery Guide` : view === "map" ? "Map — Lithuania Discovery Guide" : "Lithuania — The Discovery Guide";
+    document.title = current ? `${current.name} — Lithuania Travel Atlas` : cityName ? `Explore ${cityName} — Lithuania Travel Atlas` : view === "map" ? "Map — Lithuania Travel Atlas" : "Lithuania — Travel Atlas";
   }, [current, cityName, view]);
   useEffect(() => {
     const isDestination = location.startsWith("/places/");
@@ -153,7 +156,7 @@ export default function DiscoveryGuide({ initialSlug }: { initialSlug?: string }
   }, []);
   useEffect(() => {
     function keydown(event: KeyboardEvent) {
-      if (event.key === "Escape") { setMenuOpen(false); menuTrigger.current?.focus(); return; }
+      if (event.key === "Escape" && menuOpen) { setMenuOpen(false); menuTrigger.current?.focus(); return; }
       if (!current || menuOpen || (event.target instanceof HTMLElement && event.target.closest("input,textarea,select,[contenteditable=true],.leaflet-container,[data-gallery]"))) return;
       if (event.key === "ArrowRight" || event.key === "ArrowLeft") { event.preventDefault(); move(event.key === "ArrowRight" ? 1 : -1); }
     }
@@ -206,18 +209,18 @@ export default function DiscoveryGuide({ initialSlug }: { initialSlug?: string }
     <a className={styles.skipLink} href="#discovery-book">Skip to places</a>
     <aside ref={sidebar} id="guide-contents" className={`${styles.sidebar} ${menuOpen ? styles.sidebarOpen : ""}`} role={compact && menuOpen ? "dialog" : undefined} aria-modal={compact && menuOpen ? true : undefined} aria-label="Places in Lithuania">
       <div className={styles.brandRow}><button className={styles.brand} onClick={() => navigate("/")}>lithuania<span>.</span><small>Your guide to real places</small></button><button ref={closeMenu} className={styles.closeMenu} onClick={() => setMenuOpen(false)} aria-label="Close navigation">×</button></div>
-      <nav className={styles.primaryNav} aria-label="Explore"><button aria-current={view === "discover" && !hasFilters ? "page" : undefined} onClick={() => navigate("/")}>All places <span>{destinations.length}</span></button><button aria-current={view === "map" ? "page" : undefined} onClick={() => openMap()}>Explore the map <span aria-hidden="true">⌖</span></button></nav>
+      <nav className={styles.primaryNav} aria-label="Location filter"><button aria-pressed={city === "all"} onClick={() => chooseCity("all")}>All Lithuania <span>{destinations.length}</span></button></nav>
       <div className={styles.navHeading}>Cities &amp; towns</div><p className={styles.navHint}>Including nearby sights</p>
       <nav aria-label="Cities and towns" className={styles.cityNav}>{cities.slice(0,8).map(cityButton)}<details className={styles.moreTowns}><summary>More towns</summary>{cities.slice(8).map(cityButton)}</details></nav>
       <details className={styles.categoryNav}><summary>Browse by category</summary>{categories.filter(item => item.id !== "all").map(item => <button key={item.id} aria-pressed={category === item.id} onClick={() => updateFilters({category:item.id, city:"all",query:"",collection:"all"})}>{item.label}</button>)}</details>
-      <div className={styles.sidebarFooter}><Link href="/journal">The travel journal ↗</Link><span>Curated places. No rankings.</span></div>
+      <div className={styles.sidebarFooter}><span>Real places, thoughtfully selected.</span></div>
     </aside>
     {menuOpen && compact && <button className={styles.menuBackdrop} tabIndex={-1} aria-label="Close navigation" onClick={() => setMenuOpen(false)} />}
     <div className={styles.workspace} inert={menuOpen && compact ? true : undefined}>
-      <header className={styles.toolbar}><div><button className={styles.menuButton} aria-expanded={menuOpen} aria-controls="guide-contents" onClick={toggleMenu}>☰ <span>Locations</span></button><span className={styles.toolbarTitle}>The Lithuania guide</span></div><div className={styles.viewTabs} aria-label="View places"><button aria-pressed={view !== "map"} onClick={() => navigate(guideUrl(filters))}>List</button><button aria-pressed={view === "map"} onClick={() => openMap(current?.slug)}>⌖ Map</button></div></header>
+      <header className={styles.toolbar}><div><button className={styles.menuButton} aria-expanded={menuOpen} aria-controls="guide-contents" onClick={toggleMenu}>Locations</button><span className={styles.toolbarTitle}>Lithuania atlas</span></div><nav className={styles.viewTabs} aria-label="Explore Lithuania"><button aria-pressed={view === "map"} onClick={() => openMap(current?.slug)}>Explore the map</button><button aria-pressed={view === "discover"} onClick={() => navigate(guideUrl(filters))}>Browse places</button><Link href={bookHref}>Open travel book</Link></nav></header>
       <main ref={stage} id="discovery-book" className={styles.main} tabIndex={-1} aria-label={current?.name ?? (view === "map" ? "Destination map" : "Discover places")} onTouchStart={event => { touch.current = current && event.touches.length === 1 && !(event.target instanceof HTMLElement && event.target.closest("button,input,select,a,[data-gallery],.leaflet-container")) ? {x:event.touches[0].clientX,y:event.touches[0].clientY} : null; }} onTouchEnd={swipeEnd} onTouchCancel={() => { touch.current = null; }}>
         {!current && <section className={styles.discoveryHeader} aria-label="Find places">
-          <p className={styles.eyebrow}>{view === "map" ? "Explore Lithuania on the map" : "A book of places worth finding"}</p><h1 className={styles.discoveryTitle}>{cityName ? `Explore ${cityName}` : "Where would you like to go?"}</h1><p className={styles.headerDescription}>Find a place by name, location or what you love.</p>
+          <p className={styles.eyebrow}>{view === "map" ? "Explore Lithuania on the map" : "A book of places worth finding"}</p><h1 className={styles.discoveryTitle}>{cityName ? `Explore ${cityName}` : view === "map" ? "Lithuania, an open atlas." : "Find your next discovery."}</h1><p className={styles.headerDescription}>Cities, quiet corners and places worth a detour. Find yours by name or location.</p>
           <div className={styles.searchToolbar}>
             <label className={styles.searchField}><span className={styles.srOnly}>Search places</span><span aria-hidden="true">⌕</span><input id="destination-search" type="search" value={query} placeholder={cityName ? `Search in ${cityName}…` : "Search places, towns or keywords…"} onChange={event => updateFilters({query:event.target.value},true)} /></label>
             <label className={styles.mobileLocation}>Location<select aria-label="Location" value={city} onChange={event => chooseCity(event.target.value as CityId)}><option value="all">All Lithuania</option>{cities.map(item => <option key={item.id} value={item.id}>{item.label}</option>)}</select></label>
@@ -225,11 +228,12 @@ export default function DiscoveryGuide({ initialSlug }: { initialSlug?: string }
             <details className={styles.moreFilters}><summary>{collection === "popular" ? "First-time favourites" : collection === "hidden" ? "Hidden gems" : "Collections"}</summary><label>Show<select aria-label="Collection" value={collection} onChange={event => updateFilters({collection:event.target.value as Collection})}><option value="all">All places</option><option value="popular">First-time favourites</option><option value="hidden">Hidden gems</option></select></label><p>Editorial selections, not popularity rankings.</p></details>
           </div>
           <div className={styles.resultsHeading}><p role="status">{results.length} {results.length === 1 ? "place" : "places"}{cityName ? ` in and around ${cityName}` : " across Lithuania"}</p>{hasFilters && <button onClick={resetFilters}>Clear filters ×</button>}</div>
+          {view === "map" && query && results.length > 0 && <ul className={styles.searchMatches} aria-label="Matching places">{results.map(place => <li key={place.slug}><a href={guideUrl(filters,{slug:place.slug,from:"map"})} onClick={event=>internalClick(event,()=>openPlace(place.slug))}><strong>{place.name}</strong><span>{place.location}</span></a><button aria-label={`Locate ${place.name} on the map`} onClick={()=>openMap(place.slug)}>Show on map</button></li>)}</ul>}
         </section>}
 
         {current ? <div className={styles.detailLayout}>
           <article className={styles.sheet}>
-            <div className={styles.pageRunning}><button onClick={() => navigate(guideUrl(filters))}>← Back to places</button><span>{categories.find(item => item.id === current.category)?.label}</span></div>
+            <div className={styles.pageRunning}><button onClick={() => navigate(returnView === "map" ? guideUrl(filters, { map: current.slug }) : guideUrl(filters))}>← Back to Explore</button><span>{categories.find(item => item.id === current.category)?.label}</span></div>
             <div className={styles.detailHeading}><p className={styles.placeLocation}>{current.location}</p><h1 className={styles.destinationTitle}>{current.name}</h1><p className={styles.description}>{current.description}</p></div>
             <div className={styles.placeActions}><a className={styles.primaryAction} href={directionsUrl(current)} target="_blank" rel="noopener noreferrer">Get directions ↗</a><button className={styles.secondaryAction} onClick={() => openMap(current.slug)}>Show on map</button></div>
             <section><h2 className={styles.detailLabel}>Why visit</h2><ul className={styles.reasons}>{current.reasons.map(reason => <li key={reason}>{reason}</li>)}</ul></section>
@@ -239,20 +243,20 @@ export default function DiscoveryGuide({ initialSlug }: { initialSlug?: string }
           </article>
           <div className={styles.photoColumn}>{photoPage}{turn && <div className={`${styles.turnSurface} ${turn.direction === "backward" ? styles.turnBackward : ""}`} inert aria-hidden="true">{turn.photo}</div>}</div>
         </div> : view === "map" ? <section className={styles.mapSection} aria-label="Map results">
-          <DestinationMap places={results} focusedSlug={focusSlug} onSelect={selectMarker} onOpen={openPlace} />
-          <p className={styles.mapHelp}>Select a pin to see a place. Switch to List to browse every result.</p>
+          <DestinationMap viewportKey={viewportKey} destinationHref={placeSlug => guideUrl(filters, { slug: placeSlug, from: "map" })} places={results} focusedSlug={focusSlug} onSelect={selectMarker} onOpen={openPlace} />
+          <p className={styles.mapHelp}>Select a place on the map, or browse the collection.</p>
           {!results.length && <div className={styles.emptyState}><h2>No places match these filters.</h2><button onClick={resetFilters}>Show all places</button></div>}
         </section> : <div className={styles.discoveryLayout}>
           <section className={styles.resultsSection} aria-label="Places to visit"><ol className={styles.placeList}>{results.map(place => <li key={place.slug} className={styles.placeRow}>
-            <a href={guideUrl(filters,{slug:place.slug})} className={styles.rowLink} onClick={event => internalClick(event,()=>openPlace(place.slug))}><PlaceImage place={place} className={styles.rowImage} sizes="(max-width: 600px) 90px, 120px" /><span><span className={styles.rowCategory}>{categories.find(item=>item.id===place.category)?.label}</span><strong>{place.name}</strong><small>{place.location}</small></span></a>
+            <a href={guideUrl(filters,{slug:place.slug,from:"places"})} className={styles.rowLink} onClick={event => internalClick(event,()=>openPlace(place.slug))}><PlaceImage place={place} className={styles.rowImage} sizes="(max-width: 600px) 90px, 120px" /><span><span className={styles.rowCategory}>{categories.find(item=>item.id===place.category)?.label}</span><strong>{place.name}</strong><small>{place.location}</small></span></a>
             <button className={styles.rowLocate} aria-label={`Locate ${place.name} on the map`} onClick={()=>openMap(place.slug)}><span aria-hidden="true">⌖</span> Map</button>
           </li>)}</ol>{!results.length && <div className={styles.emptyState}><h2>No places found.</h2><p>Try another name or remove a filter.</p><button onClick={resetFilters}>Show all places</button>{city !== "all" && <button onClick={()=>updateFilters({city:"all"})}>Search all Lithuania</button>}</div>}</section>
-          {featured && <aside className={styles.featurePhoto} aria-label="A place to start"><PlaceImage place={featured} className={styles.fullPhoto} /><div className={styles.photoGradient}/><div className={styles.featureCaption}><span>A place to start · {featured.location}</span><h2>{featured.name}</h2><p>{featured.reasons[0]}</p><a href={guideUrl(filters,{slug:featured.slug})} onClick={event=>internalClick(event,()=>openPlace(featured.slug))}>Explore this place →</a></div><div className={styles.featureCredit}><PhotoCredit photo={featured.photos[0]}/></div></aside>}
+          {featured && <aside className={styles.featurePhoto} aria-label="A place to start"><PlaceImage place={featured} className={styles.fullPhoto} /><div className={styles.photoGradient}/><div className={styles.featureCaption}><span>A place to start · {featured.location}</span><h2>{featured.name}</h2><p>{featured.reasons[0]}</p><a href={guideUrl(filters,{slug:featured.slug,from:"places"})} onClick={event=>internalClick(event,()=>openPlace(featured.slug))}>Explore this place →</a></div><div className={styles.featureCredit}><PhotoCredit photo={featured.photos[0]}/></div></aside>}
         </div>}
         <footer className={styles.pageFooter}><span>Lithuania · {destinations.length} curated places</span><span>Curated starter collection. No popularity rankings.</span></footer>
       </main>
       <span className={styles.srOnly} role="status">{current ? `${current.name}. Destination ${destinationIndex + 1} of ${navigationPlaces.length}.` : ""}</span>
     </div>
-    <nav className={styles.mobileDock} aria-label="Mobile navigation"><button aria-current={view !== "map" ? "page" : undefined} onClick={()=>navigate(guideUrl(filters))}>Places</button><button aria-current={view === "map" ? "page" : undefined} onClick={()=>openMap(current?.slug)}>⌖ Map</button><button aria-expanded={menuOpen} aria-controls="guide-contents" onClick={toggleMenu}>Cities &amp; towns</button></nav>
+    <nav className={styles.mobileDock} aria-label="Mobile navigation"><button aria-current={view === "map" ? "page" : undefined} onClick={()=>openMap(current?.slug)}>Explore map</button><button aria-current={view === "discover" ? "page" : undefined} onClick={()=>navigate(guideUrl(filters))}>Browse places</button><Link href={bookHref}>Travel book</Link></nav>
   </div>;
 }

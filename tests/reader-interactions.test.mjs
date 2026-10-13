@@ -6,7 +6,9 @@ import ts from 'typescript';
 
 // Exercise the component's event handlers without adding a test-only browser dependency.
 // Layout/CSS is separately verified against the actual development server.
-function createReader({ mobile = false, reduced = false } = {}) {
+function createReader({ mobile = false, reduced = false, initialPath = "/journal" } = {}) {
+  const url = new URL(initialPath, "http://localhost");
+  const events = { addEventListener(event, fn) { if (!listeners.has(event)) listeners.set(event, new Set()); listeners.get(event).add(fn); }, removeEventListener(event, fn) { listeners.get(event)?.delete(fn); }, dispatchEvent(event) { for (const fn of listeners.get(event.type) || []) fn(event); } };
   const states = [], refs = [], effects = [], timers = [], listeners = new Map();
   let stateIndex, refIndex, effectIndex;
   const react = {
@@ -17,7 +19,7 @@ function createReader({ mobile = false, reduced = false } = {}) {
     },
     useRef(initial) { const index = refIndex++; return refs[index] ||= { current: initial }; },
     useCallback(callback) { return callback; },
-    useSyncExternalStore() { return mobile; },
+    useSyncExternalStore(_subscribe, snapshot) { return snapshot(); },
     useEffect(callback, deps) {
       const index = effectIndex++;
       const previous = effects[index];
@@ -35,10 +37,10 @@ function createReader({ mobile = false, reduced = false } = {}) {
   const data = { exports: {}, require: () => ({ src: '/test.jpg' }) };
   vm.runInNewContext(compile('app/book-data.ts'), data);
   const scope = {
-    exports: {}, HTMLElement: class {},
-    window: { matchMedia: () => ({ matches: reduced }), addEventListener: (event, fn) => listeners.set(event, fn), removeEventListener: event => listeners.delete(event) },
+    exports: {}, HTMLElement: class {}, URL, URLSearchParams, Event,
+    window: { ...events, location: url, history: { pushState(_state,_unused,path) { url.href = new URL(path, url).href; } }, matchMedia: query => ({ matches: query.includes("prefers-reduced-motion") ? reduced : mobile }) },
     setTimeout: fn => { timers.push(fn); return timers.length; }, clearTimeout() {},
-    require: name => name === 'react' ? react : name === 'react/jsx-runtime' ? runtime : name === './book-navigation' ? navigation.exports : name === './book-data' ? data.exports : {},
+    require: name => name === 'react' ? react : name === 'react/jsx-runtime' ? runtime : name === './book-navigation' ? navigation.exports : name === './book-data' ? data.exports : name === './guide-navigation' ? { exploreReturnUrl: value => value?.startsWith('/?') ? value : '/' } : {},
   };
   vm.runInNewContext(compile('app/travel-journal.tsx'), scope);
   const render = () => {
@@ -58,9 +60,12 @@ function createReader({ mobile = false, reduced = false } = {}) {
     chapter: (tree, index) => walk(tree).filter(node => node.type === 'button' && 'aria-current' in node.props)[index],
     main: tree => walk(tree).find(node => node.type === 'main'),
     finish: () => { while (timers.length) timers.shift()(); },
-    key: key => listeners.get('keydown')({ key, target: null, preventDefault() {} }),
-    page: () => states[0],
-    turning: () => states[1],
+    key: key => events.dispatchEvent({ type: 'keydown', key, target: null, preventDefault() {} }),
+    page: () => Number(url.searchParams.get("page") ?? 0),
+    url: () => url.pathname + url.search,
+    pop: path => { url.href = new URL(path, url).href; events.dispatchEvent({ type: "popstate" }); },
+    link: tree => walk(tree).find(node => node.props?.children === "\u2190 Back to Explore"),
+    turning: () => states[0],
   };
 }
 
@@ -109,4 +114,21 @@ test('mobile swipes turn individual pages and vertical scrolling does not change
   nextMain.props.onTouchEnd({ changedTouches: [{ clientX: 90, clientY: 250 }] });
   assert.equal(reader.page(), 2);
   reader.key('End'); assert.equal(reader.page(), 9);
+});
+
+test('journal restores shared pages, handles browser history, and retains the exploration return URL', () => {
+  const returnTo = '/?city=vilnius&map=vilnius-old-town';
+  const reader = createReader({ initialPath: `/journal?page=4&returnTo=${encodeURIComponent(returnTo)}` });
+  let tree = reader.render();
+  assert.equal(reader.page(), 4);
+  assert.equal(reader.link(tree).props.href, returnTo);
+  reader.find(tree, 'Next page').props.onClick();
+  assert.equal(reader.page(), 6);
+  reader.pop(`/journal?page=4&returnTo=${encodeURIComponent(returnTo)}`);
+  tree = reader.render();
+  assert.equal(reader.turning(), null);
+  assert.equal(reader.page(), 4);
+  assert.equal(reader.link(tree).props.href, returnTo);
+  reader.key('ArrowLeft');
+  assert.equal(reader.page(), 2);
 });
