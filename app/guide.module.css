@@ -1,4 +1,4 @@
-﻿.guide {
+.guide {
   --text: #263b30;
   --muted: #586b5c;
   --line: #d8ded0;
@@ -26,12 +26,12 @@
 .primaryNav button:hover { background: #e9eddf; }
 .primaryNav button > span { color: #566d4b; }
 .navHeading { font-size: 14px; font-weight: 650; color: #354e39; margin: 0 10px 2px; }
-.navHint { color: #687861; font-size: 12px; margin: 0 10px 10px; }
+.navHint { color: #5c6e54; font-size: 12px; margin: 0 10px 10px; }
 .cityNav { display: grid; gap: 1px; }
 .cityButton { width: 100%; display: flex; align-items: center; justify-content: space-between; gap: 12px; min-height: 40px; padding: 8px 12px; text-align: left; border: 0; background: none; border-radius: 5px; color: #405641; font-size: 14px; }
 .cityButton:hover { background: #edf0e4; }
 .cityButton[aria-pressed="true"] { background: #dfE8d6; color: #24482e; font-weight: 650; }
-.cityCount { font-size: 12px; color: #65785a; background: #e9eee0; border-radius: 15px; min-width: 23px; padding: 0 6px; text-align: center; }
+.cityCount { font-size: 12px; color: #506746; background: #e9eee0; border-radius: 15px; min-width: 23px; padding: 0 6px; text-align: center; }
 .moreTowns, .categoryNav { font-size: 14px; color: #4e684a; }
 .moreTowns summary, .categoryNav summary { cursor: pointer; min-height: 44px; padding: 11px 12px; }
 .categoryNav { border-top: 1px solid var(--line); margin-top: 20px; padding-top: 7px; }
@@ -39,7 +39,7 @@
 .categoryNav button:hover, .categoryNav button[aria-pressed="true"] { background: #e4ebdb; }
 .sidebarFooter { margin: 30px 10px 0; display: grid; gap: 12px; font-size: 13px; color: #5a7150; }
 .sidebarFooter a { text-decoration: none; }
-.sidebarFooter > span { font-size: 12px; color: #6d7b63; }
+.sidebarFooter > span { font-size: 12px; color: #5d6f55; }
 .closeMenu, .menuButton, .menuBackdrop, .mobileDock { display: none; }
 .workspace { min-width: 0; }
 .toolbar { position: sticky; top: 0; z-index: 10; min-height: 74px; padding: 12px 36px; display: flex; justify-content: space-between; align-items: center; gap: 20px; background: #f0f1e8f5; border-bottom: 1px solid #dce2d3; backdrop-filter: blur(12px); }
@@ -79,7 +79,7 @@
 .rowImage img { transition: transform .25s; }
 .rowLink:hover img { transform: scale(1.04); }
 .rowLink > span { min-width: 0; }
-.rowCategory { display: block; font-size: 12px; color: #58774d; margin-bottom: 5px; font-weight: 500; }
+.rowCategory { display: block; font-size: 12px; color: #48683d; margin-bottom: 5px; font-weight: 500; }
 .rowLink strong { display: block; font-size: 18px; line-height: 1.35; font-weight: 600; color: #2e4934; }
 .rowLink:hover strong { text-decoration: underline; text-underline-offset: 4px; }
 .rowLink small { display: block; font-size: 13px; line-height: 1.5; margin-top: 7px; color: #586e50; }
@@ -270,3 +270,5 @@
   .mapMode .mapFrame { height: calc(100dvh - 355px - env(safe-area-inset-bottom)); min-height: 320px; }
   .mapMode .mapLoading { min-height: 320px; }
 }
+
+@media (max-width:960px) { .cityButton, .categoryNav button { min-height: 44px; } }

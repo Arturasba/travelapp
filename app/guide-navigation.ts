@@ -1,4 +1,4 @@
-﻿import { categories, cities } from "./destinations";
+import { categories, cities } from "./destinations";
 import type { Category, CityId, Collection } from "./destinations";
 
 export type GuideFilters = { query: string; category: Category; city: CityId; collection: Collection };
