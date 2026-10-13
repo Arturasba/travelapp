@@ -49,7 +49,7 @@ export default function DestinationMap({ places, focusedSlug, onSelect, onOpen }
     markers.current.clear();
     for (const place of places) {
       const color = categories.find(category => category.id === place.category)?.color ?? "#667b50";
-      const icon = L.divIcon({ className: "destination-pin", html: `<span style="background:${color}"></span>`, iconSize: [26, 26], iconAnchor: [13, 26], popupAnchor: [0, -24] });
+      const icon = L.divIcon({ className: "destination-pin", html: `<span style="background:${color}"></span>`, iconSize: [44, 44], iconAnchor: [22, 35], popupAnchor: [0, -30] });
       const marker = L.marker(place.coordinates, { icon, title: place.name, alt: place.name, keyboard: true });
       const preview = document.createElement("div");
       preview.className = "destination-map-preview";
@@ -68,7 +68,7 @@ export default function DestinationMap({ places, focusedSlug, onSelect, onOpen }
       location.textContent = place.location;
       const link = document.createElement("a");
       link.href = `/places/${place.slug}`;
-      link.textContent = "Open this place →";
+      link.textContent = "View place →";
       link.addEventListener("click", event => {
         if (event.ctrlKey || event.metaKey || event.shiftKey || event.altKey) return;
         event.preventDefault();
