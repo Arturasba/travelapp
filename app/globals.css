@@ -38,3 +38,5 @@ button:focus-visible, a:focus-visible { outline: 2px solid #687a51; outline-offs
 input:focus-visible, select:focus-visible, summary:focus-visible { outline: 2px solid #3b643e; outline-offset: 4px; }
 .destination-pin > span { width: 26px; height: 26px; position: absolute; top: 6px; left: 9px; }
 .leaflet-touch .leaflet-bar a { width: 40px; height: 40px; line-height: 40px; }
+.destination-map-preview .destination-map-directions { display: inline-block; margin-left: 14px; min-height: 44px; padding-top: 10px; font-size: 13px; }
+.destination-map-preview > a:not(.destination-map-credit) { min-height: 44px; display: inline-block; padding-top: 10px; }

@@ -3,7 +3,7 @@
 import L from "leaflet";
 import { getImageProps } from "next/image";
 import { useEffect, useRef, useState } from "react";
-import { categories } from "./destinations";
+import { categories, directionsUrl } from "./destinations";
 import type { Destination } from "./destinations";
 import styles from "./guide.module.css";
 
@@ -75,12 +75,18 @@ export default function DestinationMap({ places, focusedSlug, onSelect, onOpen }
         callbacks.current.onOpen(place.slug);
       });
       const credit = document.createElement("a");
+      const directions = document.createElement("a");
+      directions.href = directionsUrl(place);
+      directions.target = "_blank";
+      directions.rel = "noopener noreferrer";
+      directions.className = "destination-map-directions";
+      directions.textContent = "Get directions ↗";
       credit.href = place.photos[0].source;
       credit.target = "_blank";
       credit.rel = "noopener noreferrer";
       credit.className = "destination-map-credit";
       credit.textContent = `${place.photos[0].author} · ${place.photos[0].license}`;
-      preview.append(image, name, location, link, credit);
+      preview.append(image, name, location, link, directions, credit);
       marker.bindPopup(preview, { maxWidth: 245 });
       marker.on("click", () => callbacks.current.onSelect(place.slug));
       marker.addTo(layer.current);
@@ -105,7 +111,7 @@ export default function DestinationMap({ places, focusedSlug, onSelect, onOpen }
 
   return <div className={styles.mapFrame}>
     <div ref={container} className={styles.mapCanvas} role="region" aria-label="Interactive map of Lithuania. Drag to pan, use plus and minus to zoom, and select a destination marker." />
-    <button className={styles.fitMap} onClick={fitAll} disabled={!places.length}>Show all {places.length} places</button>
+    <button className={styles.fitMap} onClick={fitAll} disabled={!places.length}>Show {places.length} {places.length === 1 ? "place" : "places"}</button>
     {tileError && <div className={styles.mapNotice} role="status">The base map could not load. Place pins and the destination list are still available. <button onClick={() => { setTileError(false); tiles.current?.redraw(); }}>Retry map</button></div>}
     {!places.length && <div className={styles.mapNotice}>No places match these filters. Clear filters to restore the pins.</div>}
   </div>;

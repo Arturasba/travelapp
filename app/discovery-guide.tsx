@@ -135,6 +135,9 @@ export default function DiscoveryGuide({ initialSlug }: { initialSlug?: string }
 
   useEffect(() => () => { if (timer.current) clearTimeout(timer.current); }, []);
   useEffect(() => {
+    document.title = current ? `${current.name} — Lithuania Discovery Guide` : cityName ? `Explore ${cityName} — Lithuania Discovery Guide` : view === "map" ? "Map — Lithuania Discovery Guide" : "Lithuania — The Discovery Guide";
+  }, [current, cityName, view]);
+  useEffect(() => {
     const isDestination = location.startsWith("/places/");
     if (isDestination) stage.current?.scrollIntoView?.({ block: "start", behavior: "instant" });
   }, [location]);
@@ -187,7 +190,7 @@ export default function DiscoveryGuide({ initialSlug }: { initialSlug?: string }
 
   function cityButton(item: typeof cities[number]) {
     const count = destinations.filter(place => place.cityId === item.id).length;
-    return <button key={item.id} className={styles.cityButton} aria-pressed={city === item.id} onClick={() => chooseCity(item.id)}><span>{item.label}</span><span className={styles.cityCount}>{count}</span></button>;
+    return <button key={item.id} className={styles.cityButton} aria-pressed={city === item.id} onClick={() => chooseCity(item.id)}><span>{item.label}</span><span className={styles.cityCount} aria-label={`${count} ${count === 1 ? "place" : "places"}`}>{count}</span></button>;
   }
   const photoPage = current ? <article className={styles.detailPhoto}>
     <PlaceImage place={current} index={photoIndex} className={styles.fullPhoto} priority />
@@ -199,7 +202,7 @@ export default function DiscoveryGuide({ initialSlug }: { initialSlug?: string }
   </article> : null;
   useEffect(() => { photoSnapshot.current = photoPage; });
 
-  return <div className={styles.guide}>
+  return <div className={`${styles.guide} ${view === "map" ? styles.mapMode : ""}`}>
     <a className={styles.skipLink} href="#discovery-book">Skip to places</a>
     <aside ref={sidebar} id="guide-contents" className={`${styles.sidebar} ${menuOpen ? styles.sidebarOpen : ""}`} role={compact && menuOpen ? "dialog" : undefined} aria-modal={compact && menuOpen ? true : undefined} aria-label="Places in Lithuania">
       <div className={styles.brandRow}><button className={styles.brand} onClick={() => navigate("/")}>lithuania<span>.</span><small>Your guide to real places</small></button><button ref={closeMenu} className={styles.closeMenu} onClick={() => setMenuOpen(false)} aria-label="Close navigation">×</button></div>
@@ -211,7 +214,7 @@ export default function DiscoveryGuide({ initialSlug }: { initialSlug?: string }
     </aside>
     {menuOpen && compact && <button className={styles.menuBackdrop} tabIndex={-1} aria-label="Close navigation" onClick={() => setMenuOpen(false)} />}
     <div className={styles.workspace} inert={menuOpen && compact ? true : undefined}>
-      <header className={styles.toolbar}><div><button className={styles.menuButton} aria-expanded={menuOpen} aria-controls="guide-contents" onClick={toggleMenu}>☰ <span>Locations</span></button><span className={styles.toolbarTitle}>The Lithuania guide</span></div><div className={styles.viewTabs} aria-label="View places"><button aria-pressed={view !== "map"} onClick={() => navigate(guideUrl(filters))}>List</button><button aria-pressed={view === "map"} onClick={() => openMap()}>⌖ Map</button></div></header>
+      <header className={styles.toolbar}><div><button className={styles.menuButton} aria-expanded={menuOpen} aria-controls="guide-contents" onClick={toggleMenu}>☰ <span>Locations</span></button><span className={styles.toolbarTitle}>The Lithuania guide</span></div><div className={styles.viewTabs} aria-label="View places"><button aria-pressed={view !== "map"} onClick={() => navigate(guideUrl(filters))}>List</button><button aria-pressed={view === "map"} onClick={() => openMap(current?.slug)}>⌖ Map</button></div></header>
       <main ref={stage} id="discovery-book" className={styles.main} tabIndex={-1} aria-label={current?.name ?? (view === "map" ? "Destination map" : "Discover places")} onTouchStart={event => { touch.current = current && event.touches.length === 1 && !(event.target instanceof HTMLElement && event.target.closest("button,input,select,a,[data-gallery],.leaflet-container")) ? {x:event.touches[0].clientX,y:event.touches[0].clientY} : null; }} onTouchEnd={swipeEnd} onTouchCancel={() => { touch.current = null; }}>
         {!current && <section className={styles.discoveryHeader} aria-label="Find places">
           <p className={styles.eyebrow}>{view === "map" ? "Explore Lithuania on the map" : "A book of places worth finding"}</p><h1 className={styles.discoveryTitle}>{cityName ? `Explore ${cityName}` : "Where would you like to go?"}</h1><p className={styles.headerDescription}>Find a place by name, location or what you love.</p>
@@ -232,7 +235,7 @@ export default function DiscoveryGuide({ initialSlug }: { initialSlug?: string }
             <section><h2 className={styles.detailLabel}>Why visit</h2><ul className={styles.reasons}>{current.reasons.map(reason => <li key={reason}>{reason}</li>)}</ul></section>
             <section><h2 className={styles.detailLabel}>Before you go</h2><ul className={styles.visitorInfo}>{current.visitorInfo.map(info => <li key={info}>{info}</li>)}</ul><p className={styles.coordinateNote}>{current.coordinateNote} Directions use this reference pin.</p>{current.sources.find(source => source.label === "Visitor information") && <a className={styles.visitorLink} href={current.sources.find(source => source.label === "Visitor information")!.url} target="_blank" rel="noopener noreferrer">Check visitor information ↗</a>}</section>
             <details className={styles.sources}><summary>Sources &amp; photography</summary><p>References reviewed {current.reviewed}. Check the linked operator for current hours, prices and closures.</p><a href={current.coordinateSource} target="_blank" rel="noopener noreferrer">Coordinates: {current.coordinates[0].toFixed(5)}° N, {current.coordinates[1].toFixed(5)}° E ↗</a>{current.sources.map(source => <a key={source.url} href={source.url} target="_blank" rel="noopener noreferrer">{source.label} ↗</a>)}{current.photos.map(photo => <p key={photo.src}><PhotoCredit photo={photo} /> · Display crop.</p>)}</details>
-            <nav className={styles.destinationNav} aria-label="More destinations"><button aria-label="Previous page" disabled={destinationIndex <= 0 || !!turn} onClick={() => move(-1)}><span>← Previous place</span><small>{navigationPlaces[destinationIndex-1]?.name}</small></button><button aria-label="Next page" disabled={destinationIndex >= navigationPlaces.length-1 || !!turn} onClick={() => move(1)}><span>Next place →</span><small>{navigationPlaces[destinationIndex+1]?.name}</small></button></nav>
+            <nav className={styles.destinationNav} aria-label="More destinations">{navigationPlaces.length > 1 ? <><button aria-label="Previous place" disabled={destinationIndex <= 0 || !!turn} onClick={() => move(-1)}><span>← Previous place</span><small>{navigationPlaces[destinationIndex-1]?.name}</small></button><button aria-label="Next place" disabled={destinationIndex >= navigationPlaces.length-1 || !!turn} onClick={() => move(1)}><span>Next place →</span><small>{navigationPlaces[destinationIndex+1]?.name}</small></button></> : <button onClick={() => navigate("/")}>Explore all places →</button>}</nav>
           </article>
           <div className={styles.photoColumn}>{photoPage}{turn && <div className={`${styles.turnSurface} ${turn.direction === "backward" ? styles.turnBackward : ""}`} inert aria-hidden="true">{turn.photo}</div>}</div>
         </div> : view === "map" ? <section className={styles.mapSection} aria-label="Map results">
@@ -244,11 +247,12 @@ export default function DiscoveryGuide({ initialSlug }: { initialSlug?: string }
             <a href={guideUrl(filters,{slug:place.slug})} className={styles.rowLink} onClick={event => internalClick(event,()=>openPlace(place.slug))}><PlaceImage place={place} className={styles.rowImage} sizes="(max-width: 600px) 90px, 120px" /><span><span className={styles.rowCategory}>{categories.find(item=>item.id===place.category)?.label}</span><strong>{place.name}</strong><small>{place.location}</small></span></a>
             <button className={styles.rowLocate} aria-label={`Locate ${place.name} on the map`} onClick={()=>openMap(place.slug)}><span aria-hidden="true">⌖</span> Map</button>
           </li>)}</ol>{!results.length && <div className={styles.emptyState}><h2>No places found.</h2><p>Try another name or remove a filter.</p><button onClick={resetFilters}>Show all places</button>{city !== "all" && <button onClick={()=>updateFilters({city:"all"})}>Search all Lithuania</button>}</div>}</section>
-          {featured && <aside className={styles.featurePhoto} aria-label="A place to start"><PlaceImage place={featured} className={styles.fullPhoto} priority /><div className={styles.photoGradient}/><div className={styles.featureCaption}><span>A place to start · {featured.location}</span><h2>{featured.name}</h2><p>{featured.reasons[0]}</p><a href={guideUrl(filters,{slug:featured.slug})} onClick={event=>internalClick(event,()=>openPlace(featured.slug))}>Explore this place →</a></div><div className={styles.featureCredit}><PhotoCredit photo={featured.photos[0]}/></div></aside>}
+          {featured && <aside className={styles.featurePhoto} aria-label="A place to start"><PlaceImage place={featured} className={styles.fullPhoto} /><div className={styles.photoGradient}/><div className={styles.featureCaption}><span>A place to start · {featured.location}</span><h2>{featured.name}</h2><p>{featured.reasons[0]}</p><a href={guideUrl(filters,{slug:featured.slug})} onClick={event=>internalClick(event,()=>openPlace(featured.slug))}>Explore this place →</a></div><div className={styles.featureCredit}><PhotoCredit photo={featured.photos[0]}/></div></aside>}
         </div>}
         <footer className={styles.pageFooter}><span>Lithuania · {destinations.length} curated places</span><span>Curated starter collection. No popularity rankings.</span></footer>
       </main>
+      <span className={styles.srOnly} role="status">{current ? `${current.name}. Destination ${destinationIndex + 1} of ${navigationPlaces.length}.` : ""}</span>
     </div>
-    <nav className={styles.mobileDock} aria-label="Mobile navigation"><button aria-current={view !== "map" ? "page" : undefined} onClick={()=>navigate(guideUrl(filters))}>Places</button><button aria-current={view === "map" ? "page" : undefined} onClick={()=>openMap()}>⌖ Map</button><button aria-expanded={menuOpen} aria-controls="guide-contents" onClick={toggleMenu}>Cities &amp; towns</button></nav>
+    <nav className={styles.mobileDock} aria-label="Mobile navigation"><button aria-current={view !== "map" ? "page" : undefined} onClick={()=>navigate(guideUrl(filters))}>Places</button><button aria-current={view === "map" ? "page" : undefined} onClick={()=>openMap(current?.slug)}>⌖ Map</button><button aria-expanded={menuOpen} aria-controls="guide-contents" onClick={toggleMenu}>Cities &amp; towns</button></nav>
   </div>;
 }

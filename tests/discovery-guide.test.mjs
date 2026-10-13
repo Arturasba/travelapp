@@ -28,7 +28,7 @@ function createGuide({ initialSlug, reduced = true } = {}) {
   vm.runInNewContext(compile('app/guide-navigation.ts'),navigation);
   const css=new Proxy({},{get:(_target,key)=>key==='__esModule'?false:String(key)});
   const scope={
-    exports:{},URLSearchParams,Event,HTMLElement:class{},
+    exports:{},URLSearchParams,Event,HTMLElement:class{},document:{title:""},
     window:{...events,location:url,matchMedia:query=>({matches:query.includes('prefers-reduced-motion')?reduced:false}),history:{pushState(_state,_unused,path){url.href=new URL(path,url).href;},replaceState(_state,_unused,path){url.href=new URL(path,url).href;}}},
     setTimeout:fn=>{timers.push(fn);return timers.length;},clearTimeout(){},
     require:name=>name==='react'?react:name==='react/jsx-runtime'?{jsx,jsxs:jsx,Fragment:'fragment'}:name==='./destinations'?data.exports:name==='./guide-navigation'?navigation.exports:name==='next/dynamic'?()=>function MapStub(){}:name.endsWith('.css')?css:()=>null,
@@ -44,8 +44,8 @@ test('search and category filters update the discovery index, including empty re
   const guide=createGuide();let tree=guide.render();
   guide.find(tree,n=>n.type==='input').props.onChange({target:{value:'Puckoriai'}});
   tree=guide.render();
-  assert(guide.find(tree,n=>n.type==='a'&&n.props.href==='/places/puckoriai-outcrop'));
-  assert(!guide.find(tree,n=>n.type==='a'&&n.props.href==='/places/trakai-island-castle'));
+  assert(guide.find(tree,n=>n.type==='a'&&n.props.href.startsWith('/places/puckoriai-outcrop')));
+  assert(!guide.find(tree,n=>n.type==='a'&&n.props.href.startsWith('/places/trakai-island-castle')));
   guide.find(tree,n=>n.type==='select'&&n.props['aria-label']==='Category').props.onChange({target:{value:'castles'}});
   tree=guide.render();
   assert(guide.find(tree,n=>n.type==='h2'&&n.props.children==='No places found.'));
@@ -58,8 +58,8 @@ test('destination links, previous/next controls and keyboard update shareable UR
   guide.click(guide.find(tree,n=>n.type==='a'&&n.props.href==='/places/trakai-island-castle'));
   assert.equal(guide.url(),'/places/trakai-island-castle');
   tree=guide.render();
-  assert(guide.find(tree,n=>n.props?.['aria-label']==='Previous page').props.disabled);
-  guide.click(guide.find(tree,n=>n.props?.['aria-label']==='Next page'));
+  assert(guide.find(tree,n=>n.props?.['aria-label']==='Previous place').props.disabled);
+  guide.click(guide.find(tree,n=>n.props?.['aria-label']==='Next place'));
   assert.equal(guide.url(),'/places/vilnius-old-town');
   tree=guide.render();guide.key('ArrowLeft');
   assert.equal(guide.url(),'/places/trakai-island-castle');
@@ -80,11 +80,11 @@ test('map focus follows new marker selections and the popup opens a destination'
 });
 test('rapid page clicks lock during animation and normal links retain modifier behavior',()=>{
   const guide=createGuide({initialSlug:'trakai-island-castle',reduced:false});let tree=guide.render();
-  const next=guide.find(tree,n=>n.props?.['aria-label']==='Next page');
+  const next=guide.find(tree,n=>n.props?.['aria-label']==='Next place');
   guide.click(next);guide.click(next);
   assert.equal(guide.url(),'/places/vilnius-old-town');
-  tree=guide.render();assert(guide.find(tree,n=>n.props?.['aria-label']==='Next page').props.disabled);
-  guide.finish();tree=guide.render();assert(!guide.find(tree,n=>n.props?.['aria-label']==='Next page').props.disabled);
+  tree=guide.render();assert(guide.find(tree,n=>n.props?.['aria-label']==='Next place').props.disabled);
+  guide.finish();tree=guide.render();assert(!guide.find(tree,n=>n.props?.['aria-label']==='Next place').props.disabled);
   const first=createGuide();tree=first.render();
   first.click(first.find(tree,n=>n.type==='a'&&n.props.href==='/places/trakai-island-castle'),{ctrlKey:true});
   assert.equal(first.url(),'/');
@@ -101,3 +101,35 @@ test('horizontal swipes navigate while vertical gestures stay on the current des
   assert.equal(guide.url(),'/places/vilnius-old-town');
 });
 
+
+
+test('every requested town is a working filter with real results and map/list context is preserved',()=>{
+  const names=['Vilnius','Kaunas','Klaipėda','Šiauliai','Trakai','Druskininkai','Nida','Palanga'];
+  for(const name of names){
+    const guide=createGuide();let tree=guide.render();
+    const button=guide.find(tree,n=>n.type==='button'&&n.props.children?.[0]?.props?.children===name);
+    assert(button,`missing sidebar location ${name}`);
+    guide.click(button);tree=guide.render();
+    assert(guide.url().includes('city='));
+    const links=guide.all(tree,n=>n.type==='a'&&n.props.href?.startsWith('/places/'));
+    assert(links.length>0,`${name} must never open an empty city filter`);
+    assert(!guide.find(tree,n=>n.props.className?.includes('turnSurface')),'city filters must be immediate');
+    guide.click(guide.find(tree,n=>n.type==='button'&&n.props.children==='⌖ Map'));
+    assert(guide.url().includes('city=')&&guide.url().includes('map=all'));
+    tree=guide.render();
+    const map=guide.find(tree,n=>n.type?.name==='MapStub');
+    assert(map.props.places.length>0);
+    guide.click(guide.find(tree,n=>n.type==='button'&&n.props.children==='List'));
+    assert(guide.url().includes('city=')&&!guide.url().includes('map='));
+  }
+});
+test('directions use the actual destination pin and discovery has no page-turn controls',()=>{
+  const guide=createGuide();let tree=guide.render();
+  assert(!guide.find(tree,n=>n.props?.['aria-label']==='Next place'));
+  guide.click(guide.find(tree,n=>n.type==='a'&&n.props.href==='/places/trakai-island-castle'));
+  tree=guide.render();
+  const directions=guide.find(tree,n=>n.type==='a'&&n.props.children==='Get directions ↗');
+  const url=new URL(directions.props.href);
+  assert.equal(url.searchParams.get('api'),'1');
+  assert(url.searchParams.get('destination').startsWith('54.6525,'));
+});

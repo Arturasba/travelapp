@@ -252,3 +252,21 @@
 @media (prefers-reduced-motion: reduce) {
   .guide *, .guide *::before, .guide *::after { animation: none !important; transition: none !important; }
 }
+/* On phones the bottom navigation owns view switching, leaving one clear header. */
+@media (max-width:760px) {
+  .toolbar { min-height: 56px; }
+  .toolbar .menuButton, .toolbar .viewTabs { display: none; }
+  .toolbarTitle { display: block; font-size: 16px; color: #35513b; }
+  .categoryFilter select, .mobileLocation select, .moreFilters select { font-size: 16px; }
+  .rowCategory { font-size: 12px; }
+  .rowLocate { font-size: 13px; }
+  .detailPhoto .featureCredit { font-size: 11px; }
+  .mapMode .eyebrow, .mapMode .headerDescription { display: none; }
+  .mapMode .discoveryTitle { font-size: 27px; margin-bottom: 15px; }
+  .mapMode .main { padding-top: 16px; }
+  .mapMode .searchToolbar { gap: 9px; }
+  .mapMode .moreFilters summary { min-height: 36px; padding: 6px 0; }
+  .mapMode .discoveryHeader { margin-bottom: 12px; }
+  .mapMode .mapFrame { height: calc(100dvh - 355px - env(safe-area-inset-bottom)); min-height: 320px; }
+  .mapMode .mapLoading { min-height: 320px; }
+}

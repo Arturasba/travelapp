@@ -45,3 +45,14 @@ test('popular and hidden collections are explicit editorial flags', () => {
   assert(hidden.some(place=>place.slug==='cold-war-museum'));
   assert.equal(getDestination('unknown-slug'),undefined);
 });
+
+test('city and town filters are explicit and nonempty, including Druskininkai',()=>{
+  for(const city of scope.exports.cities){
+    const matches=filterDestinations('','all','all',city.id);
+    assert(matches.length>0,`empty navigation for ${city.label}`);
+    assert(matches.every(place=>place.cityId===city.id));
+  }
+  assert.equal(filterDestinations('','all','all','druskininkai')[0].slug,'druskininkai');
+  assert.equal(filterDestinations('','castles','all','vilnius')[0].slug,'gediminas-tower');
+  assert(destinations.every(place=>place.cityId!=='all'));
+});
