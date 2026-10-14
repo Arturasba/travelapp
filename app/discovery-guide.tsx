@@ -9,6 +9,7 @@ import type { CityId, Destination, Photo } from "./destinations";
 import { guideUrl, readFilters } from "./guide-navigation";
 import type { GuideFilters } from "./guide-navigation";
 import RoutePlannerPanel from "./route-planner-panel";
+import { isDialogBackdrop, useDialog } from "./use-dialog";
 import { MAX_ROUTE_STOPS, readRoute, withRoute } from "./route-planner";
 import { getTravelResources } from "./travel-resources";
 import { useLocale } from "./locale-context";
@@ -76,8 +77,10 @@ export default function DiscoveryGuide({initialSlug}:{initialSlug?:string}){
   const photoIndex=current&&current.photos.length?(photoIndices[current.slug]??0)%current.photos.length:0;
   const [menuOpen,setMenuOpen]=useState(false);
   const stage=useRef<HTMLElement>(null);
-  const essentials=useRef<HTMLDetailsElement>(null);
-  const photoDialog=useRef<HTMLDialogElement>(null);
+  const [essentialsOpen,setEssentialsOpen]=useState(false);
+  const [photoOpen,setPhotoOpen]=useState(false);
+  const essentials=useDialog(essentialsOpen);
+  const photoDialog=useDialog(photoOpen&&!!current?.photos[photoIndex]);
   const sidebar=useRef<HTMLElement>(null);
   const closeMenu=useRef<HTMLButtonElement>(null);
   const menuTrigger=useRef<HTMLButtonElement|null>(null);
@@ -88,7 +91,7 @@ export default function DiscoveryGuide({initialSlug}:{initialSlug?:string}){
     if(replace)window.history.replaceState(null,"",url);else window.history.pushState(null,"",url);
     window.dispatchEvent(new Event("guide:navigate"));
   },[]);
-  function navigate(url:string){setMenuOpen(false);changeLocation(withRoute(url,routeSlugs));window.scrollTo?.({top:0,behavior:"instant"});stage.current?.focus({preventScroll:true});}
+  function navigate(url:string){setMenuOpen(false);setEssentialsOpen(false);setPhotoOpen(false);changeLocation(withRoute(url,routeSlugs));window.scrollTo?.({top:0,behavior:"instant"});stage.current?.focus({preventScroll:true});}
   function openPlace(nextSlug:string){navigate(urlFor(filters,{slug:nextSlug,from:view==="discover"||(view==="place"&&returnView==="places")?"places":"map"}));}
   function openMap(placeSlug?:string){const matching=!placeSlug||results.some(place=>place.slug===placeSlug);navigate(urlFor(matching?filters:EMPTY_FILTERS,{map:placeSlug??"all"}));}
   function openFood(){navigate(urlFor({...EMPTY_FILTERS,category:"restaurants"},{map:"all"}));}
@@ -98,7 +101,9 @@ export default function DiscoveryGuide({initialSlug}:{initialSlug?:string}){
   function resetFilters(){updateFilters(EMPTY_FILTERS);}
   function selectMarker(nextSlug:string){changeLocation(urlFor(nextSlug==="all"||results.some(place=>place.slug===nextSlug)?filters:EMPTY_FILTERS,{map:nextSlug}),true);}
   function changeRoute(slugs:string[]){changeLocation(withRoute(location,slugs));}
-  function openPlanner(){setMenuOpen(false);setPlannerOpen(true);}
+  function openPlanner(){setMenuOpen(false);setEssentialsOpen(false);setPhotoOpen(false);setPlannerOpen(true);}
+  function toggleEssentials(){setMenuOpen(false);setPlannerOpen(false);setPhotoOpen(false);setEssentialsOpen(value=>!value);}
+  function openPhoto(){setPlannerOpen(false);setEssentialsOpen(false);setPhotoOpen(true);}
   function addToRoute(place:Destination){if(routeSlugs.includes(place.slug)||routeSlugs.length>=MAX_ROUTE_STOPS){openPlanner();return;}changeRoute([...routeSlugs,place.slug]);}
   function viewRoute(){navigate(urlFor(EMPTY_FILTERS,{map:"all"}));setPlannerOpen(false);setFitRouteRequest(request=>request+1);}
   function toggleMenu(event:MouseEvent<HTMLButtonElement>){menuTrigger.current=event.currentTarget;setMenuOpen(value=>!value);}
@@ -108,7 +113,7 @@ export default function DiscoveryGuide({initialSlug}:{initialSlug?:string}){
 
   useEffect(()=>{document.title=current?`${current.name} – ${locale==="lt"?"Lietuvos kelionių atlasas":"Lithuania Travel Atlas"}`:locale==="lt"?"Lietuva – kelionių atlasas":"Lithuania – Travel Atlas";},[current,locale]);
   useEffect(()=>{if(pathname.startsWith("/places/"))stage.current?.scrollIntoView?.({block:"start",behavior:"instant"});},[pathname]);
-  useEffect(()=>{const back=()=>setMenuOpen(false);window.addEventListener("popstate",back);return ()=>window.removeEventListener("popstate",back);},[]);
+  useEffect(()=>{const back=()=>{setMenuOpen(false);setEssentialsOpen(false);setPhotoOpen(false);setPlannerOpen(false);};window.addEventListener("popstate",back);return ()=>window.removeEventListener("popstate",back);},[]);
   useEffect(()=>{function keydown(event:KeyboardEvent){if(event.key==="Escape"&&menuOpen){setMenuOpen(false);menuTrigger.current?.focus();}}window.addEventListener("keydown",keydown);return ()=>window.removeEventListener("keydown",keydown);},[menuOpen]);
   useEffect(()=>{
     if(!menuOpen||!compact||!sidebar.current)return;
@@ -129,7 +134,7 @@ export default function DiscoveryGuide({initialSlug}:{initialSlug?:string}){
   return <div className={`${styles.guide} ${view==="map"?styles.mapMode:""}`}>
     <a className={styles.skipLink} href="#atlas-content">{t("Skip to places")}</a>
     <aside ref={sidebar} id="guide-contents" className={`${styles.sidebar} ${menuOpen?styles.sidebarOpen:""}`} role={compact&&menuOpen?"dialog":undefined} aria-modal={compact&&menuOpen?true:undefined} aria-label={t("Places in Lithuania")}>
-      <div className={styles.brandRow}><button className={styles.brand} onClick={()=>navigate(`/${locale}`)}>{locale==="lt"?"lietuva":"lithuania"}<span>.</span><small>{t("Your guide to Lithuania")}</small></button><button ref={closeMenu} className={styles.closeMenu} onClick={()=>setMenuOpen(false)} aria-label={t("Close navigation")}>×</button></div>
+      <div className={styles.brandRow}><button className={styles.brand} aria-label={t("Return to the map")} onClick={()=>navigate(`/${locale}`)}><span className={styles.brandLockup}><Image src="/brand/lithuania-atlas-mark.svg" width={42} height={42} alt="" unoptimized/><span>{locale==="lt"?"lietuva":"lithuania"}<span className={styles.brandDot}>.</span></span></span><small>{t("Your guide to Lithuania")}</small></button><button ref={closeMenu} className={styles.closeMenu} onClick={()=>setMenuOpen(false)} aria-label={t("Close navigation")}>×</button></div>
       <nav className={styles.primaryNav} aria-label={t("Location filter")}><button aria-pressed={city==="all"} onClick={()=>chooseCity("all")}>{t("All Lithuania")} <span>{destinations.length}</span></button></nav>
       <div className={styles.navHeading}>{t("Cities & towns")}</div><p className={styles.navHint}>{t("Including nearby sights")}</p>
       <nav aria-label={t("Cities and towns")} className={styles.cityNav}>{cities.slice(0,8).map(cityButton)}<details className={styles.moreTowns}><summary>{t("More towns")}</summary>{cities.slice(8).map(cityButton)}</details></nav>
@@ -138,7 +143,7 @@ export default function DiscoveryGuide({initialSlug}:{initialSlug?:string}){
     {menuOpen&&compact&&<button className={styles.menuBackdrop} tabIndex={-1} aria-label={t("Close navigation")} onClick={()=>setMenuOpen(false)}/>}
     <div className={styles.workspace} inert={menuOpen&&compact?true:undefined}>
       <header className={styles.toolbar}>
-        <div><button className={styles.menuButton} aria-expanded={menuOpen} aria-controls="guide-contents" onClick={toggleMenu}>{t("Locations")}</button><a className={styles.toolbarTitle} href="#travel-essentials" onClick={event=>{event.preventDefault();if(essentials.current){essentials.current.open=true;essentials.current.scrollIntoView({block:"start",behavior:"instant"});essentials.current.focus({preventScroll:true});}}}><span className={styles.longInfo}>{t("Travel essentials")}</span><span className={styles.shortInfo}>{t("Info")}</span></a></div>
+        <div><button className={styles.menuButton} aria-expanded={menuOpen} aria-controls="guide-contents" onClick={toggleMenu}>{t("Locations")}</button><button className={styles.toolbarTitle} aria-haspopup="dialog" aria-expanded={essentialsOpen} aria-controls="travel-essentials" onClick={toggleEssentials}><span className={styles.longInfo}>{t("Travel essentials")}</span><span className={styles.shortInfo}>{t("Info")}</span></button></div>
         <nav className={styles.viewTabs} aria-label={t("Explore Lithuania")}><button aria-pressed={view==="map"&&category!=="restaurants"} onClick={exploreMap}>{t("Explore the map")}</button><button aria-pressed={view==="discover"} onClick={()=>navigate(urlFor(filters))}>{t("Browse places")}</button><button aria-pressed={view==="map"&&category==="restaurants"} onClick={openFood}>{t("Where to eat")}</button></nav>
         <button className={styles.plannerTrigger} onClick={openPlanner}><span className={styles.longInfo}>{t("Plan your route")}</span><span className={styles.shortInfo}>{t("Route")}</span><span>{routeSlugs.length}</span></button>
         <nav className={styles.languageSwitch} aria-label={t("Language")}><a href={switchLocaleUrl(location,"en")} hrefLang="en" lang="en" aria-label="English" aria-current={locale==="en"?"page":undefined}>EN</a><a href={switchLocaleUrl(location,"lt")} hrefLang="lt" lang="lt" aria-label="Lietuvių" aria-current={locale==="lt"?"page":undefined}>LT</a></nav>
@@ -166,7 +171,7 @@ export default function DiscoveryGuide({initialSlug}:{initialSlug?:string}){
             <nav className={styles.destinationNav} aria-label={t("More destinations")}>{navigationPlaces.length>1?<><button aria-label={t("Previous place")} disabled={destinationIndex<=0} onClick={()=>move(-1)}><span>← {t("Previous place")}</span><small>{navigationPlaces[destinationIndex-1]?.name}</small></button><button aria-label={t("Next place")} disabled={destinationIndex>=navigationPlaces.length-1} onClick={()=>move(1)}><span>{t("Next place")} →</span><small>{navigationPlaces[destinationIndex+1]?.name}</small></button></>:<button onClick={()=>navigate(`/${locale}`)}>{t("Explore all places")} →</button>}</nav>
           </article>
           {photo&&<div className={styles.photoColumn}><article className={styles.detailPhoto}>
-            <PlaceImage place={current} index={photoIndex} className={styles.fullPhoto} priority/><div className={styles.photoGradient}/><button className={styles.expandPhoto} onClick={()=>photoDialog.current?.showModal()}>{t("View full photograph")} ↗</button>
+            <PlaceImage place={current} index={photoIndex} className={styles.fullPhoto} priority/><div className={styles.photoGradient}/><button className={styles.expandPhoto} onClick={openPhoto}>{t("View full photograph")} ↗</button>
             <div className={styles.galleryControls} data-gallery onKeyDown={event=>{if(event.key==="ArrowLeft"||event.key==="ArrowRight"){event.preventDefault();cyclePhoto(event.key==="ArrowLeft"?-1:1);}}}>{current.photos.length>1&&<button aria-label={t("Previous photograph")} onClick={()=>cyclePhoto(-1)}>←</button>}<span role="status">{t("Photo")} {photoIndex+1} {t("of")} {current.photos.length}</span>{current.photos.length>1&&<button aria-label={t("Next photograph")} onClick={()=>cyclePhoto(1)}>→</button>}</div><div className={styles.featureCredit}><PhotoCredit photo={photo}/></div>
           </article></div>}
         </div>:view==="map"?<section className={styles.mapSection} aria-label={t("Map results")}>
@@ -182,8 +187,8 @@ export default function DiscoveryGuide({initialSlug}:{initialSlug?:string}){
           <section className={styles.resultsSection} aria-label={t("Places to visit")}><ol className={styles.placeList}>{results.map(place=><li key={place.slug} className={styles.placeRow}><a href={urlFor(filters,{slug:place.slug,from:"places"})} className={styles.rowLink} onClick={event=>internalClick(event,()=>openPlace(place.slug))}><PlaceImage place={place} className={styles.rowImage} sizes="(max-width: 600px) 90px, 120px"/><span><span className={styles.rowCategory}>{t(categories.find(item=>item.id===place.category)!.label)}</span><strong>{place.name}</strong><small>{place.address?`${place.address} · ${cities.find(item=>item.id===place.cityId)?.label}`:place.location}</small></span></a><button className={styles.rowLocate} aria-label={locateLabel(place)} onClick={()=>openMap(place.slug)}><span aria-hidden="true">⌖</span>{t("Map")}</button></li>)}</ol>{!results.length&&<div className={styles.emptyState}><h2>{t("No places found.")}</h2><p>{t("Try another name or remove a filter.")}</p><button onClick={resetFilters}>{t("Show all places")}</button>{city!=="all"&&<button onClick={()=>updateFilters({city:"all"})}>{t("Search all Lithuania")}</button>}</div>}</section>
           {featured&&<aside className={styles.featurePhoto} aria-label={t("A place to start")}><PlaceImage place={featured} className={styles.fullPhoto}/><div className={styles.photoGradient}/><div className={styles.featureCaption}><span>{featured.location}</span><h2>{featured.name}</h2><p>{featured.reasons[0]}</p><a href={urlFor(filters,{slug:featured.slug,from:"places"})} onClick={event=>internalClick(event,()=>openPlace(featured.slug))}>{t("Explore this place")} →</a></div><div className={styles.featureCredit}><PhotoCredit photo={featured.photos[0]}/></div></aside>}
         </div>}
-        <details ref={essentials} id="travel-essentials" tabIndex={-1} className={styles.travelEssentials}><summary>{t("Getting around & useful travel links")}</summary><button className={styles.closeEssentials} onClick={()=>{if(essentials.current)essentials.current.open=false;}}>{t("Close travel essentials")} ×</button><p className={styles.resourcesIntro}>{t("Plan the practical part of your visit. These links take you directly to visitor services; check them for current arrangements.")}</p><div className={styles.resourceList}>{resources.map(resource=><article key={resource.url}><h2>{resource.title}</h2><p>{resource.description}</p><a href={resource.url} target="_blank" rel="noopener noreferrer">{resource.label} ↗</a></article>)}</div></details>
-        {current&&photo&&<dialog ref={photoDialog} className={styles.photoViewer} data-gallery aria-label={`${current.name} · ${t("Photo")}`} onClick={event=>{if(event.target===event.currentTarget)photoDialog.current?.close();}}><button className={styles.closeViewer} onClick={()=>photoDialog.current?.close()}>{t("Close photograph")} ×</button><Image src={imageSource(photo)} alt={photo.alt} width={photo.width} height={photo.height} sizes="100vw" quality={90} style={{objectFit:"contain",width:"auto",height:"auto",maxWidth:"100%",maxHeight:"calc(100dvh - 150px)"}}/><p>{current.name} · <PhotoCredit photo={photo}/></p></dialog>}
+        <dialog ref={essentials} id="travel-essentials" className={styles.travelEssentials} aria-labelledby="travel-essentials-title" onCancel={()=>setEssentialsOpen(false)} onClose={()=>setEssentialsOpen(false)} onClick={event=>{if(isDialogBackdrop(event))setEssentialsOpen(false);}}><div className={styles.essentialsHeader}><h2 id="travel-essentials-title">{t("Travel essentials")}</h2><button type="button" className={styles.closeEssentials} aria-label={t("Close travel essentials")} onClick={()=>setEssentialsOpen(false)}><span>{t("Close")}</span><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="m6 6 12 12M18 6 6 18"/></svg></button></div><div className={styles.essentialsContent}><p className={styles.resourcesIntro}>{t("Plan the practical part of your visit. These links take you directly to visitor services; check them for current arrangements.")}</p><div className={styles.resourceList}>{resources.map(resource=><article key={resource.url}><h3>{resource.title}</h3><p>{resource.description}</p><a href={resource.url} target="_blank" rel="noopener noreferrer">{resource.label} ↗</a></article>)}</div></div></dialog>
+        {current&&photo&&<dialog ref={photoDialog} className={styles.photoViewer} data-gallery aria-label={`${current.name} · ${t("Photo")}`} onCancel={()=>setPhotoOpen(false)} onClose={()=>setPhotoOpen(false)} onClick={event=>{if(isDialogBackdrop(event))setPhotoOpen(false);}}><button className={styles.closeViewer} onClick={()=>setPhotoOpen(false)}>{t("Close photograph")} ×</button><Image src={imageSource(photo)} alt={photo.alt} width={photo.width} height={photo.height} sizes="100vw" quality={90} style={{objectFit:"contain",width:"auto",height:"auto",maxWidth:"100%",maxHeight:"calc(100dvh - 150px)"}}/><p>{current.name} · <PhotoCredit photo={photo}/></p></dialog>}
         <footer className={styles.pageFooter}><span>{t("Lithuania")} · {places.length} {locale==="lt"?"atrinktų vietų":"curated places"}</span><span>{t("Independent guide. No popularity rankings.")}</span></footer>
       </main>
       <RoutePlannerPanel open={plannerOpen} stops={routePlaces} onClose={()=>setPlannerOpen(false)} onChange={changeRoute} onViewMap={viewRoute}/>

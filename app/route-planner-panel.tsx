@@ -1,38 +1,30 @@
 "use client";
 
-import { useEffect, useMemo, useRef, useState } from "react";
+import { useMemo, useState } from "react";
 import type { Destination } from "./destinations";
 import { filterDestinations } from "./destinations";
 import { useLocale } from "./locale-context";
 import { localizeDestination, translator } from "./i18n";
 import { MAX_ROUTE_STOPS, moveRouteStop, routeDirectionsUrl } from "./route-planner";
+import { isDialogBackdrop, useDialog } from "./use-dialog";
 import styles from "./guide.module.css";
 
 type Props = {open:boolean;stops:Destination[];onClose:()=>void;onChange:(slugs:string[])=>void;onViewMap:()=>void};
 export default function RoutePlannerPanel({open,stops,onClose,onChange,onViewMap}:Props) {
   const locale=useLocale(),t=translator(locale);
-  const dialog=useRef<HTMLDialogElement>(null);
+  const dialog=useDialog(open);
   const [query,setQuery]=useState("");
   const [mode,setMode]=useState<"driving"|"walking">("driving");
   const [copyStatus,setCopyStatus]=useState<"idle"|"copied"|"fallback">("idle");
   const slugs=stops.map(stop=>stop.slug);
   const matches=useMemo(()=>query.trim()?filterDestinations(query,"all","all").map(place=>localizeDestination(place,locale)):[],[query,locale]);
   const directions=routeDirectionsUrl(stops,mode);
-  useEffect(()=>{
-    const element=dialog.current;
-    if(!element)return;
-    if(!open){if(element.open)element.close();return;}
-    if(!element.open)element.showModal();
-    const overflow=document.body.style.overflow;
-    document.body.style.overflow="hidden";
-    return ()=>{document.body.style.overflow=overflow;};
-  },[open]);
   async function copyLink(){
     try {await navigator.clipboard.writeText(window.location.href);setCopyStatus("copied");}
     catch {setCopyStatus("fallback");}
   }
   function change(next:string[]){setCopyStatus("idle");onChange(next);}
-  return <dialog ref={dialog} className={styles.routePlanner} aria-labelledby="route-planner-title" onClose={onClose} onClick={event=>{if(event.target===event.currentTarget){const rect=event.currentTarget.getBoundingClientRect();if(event.clientX<rect.left||event.clientX>rect.right||event.clientY<rect.top||event.clientY>rect.bottom)onClose();}}}>
+  return <dialog ref={dialog} className={styles.routePlanner} aria-labelledby="route-planner-title" onCancel={onClose} onClose={onClose} onClick={event=>{if(isDialogBackdrop(event))onClose();}}>
     <div className={styles.plannerHeader}><div><p>{t("Plan your route")}</p><h2 id="route-planner-title">{t("Your route")}</h2></div><button aria-label={t("Close route planner")} onClick={onClose}>×</button></div>
     <p className={styles.plannerIntro}>{t("Choose up to five stops, put them in order, then open directions.")}</p>
     <label className={styles.plannerSearch}><span>{t("Find a stop")}</span><input autoComplete="off" type="search" value={query} placeholder={t("Search for a place or restaurant…")} onChange={event=>setQuery(event.target.value)}/></label>

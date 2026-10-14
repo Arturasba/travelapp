@@ -17,9 +17,11 @@
 .guide a { text-underline-offset: 4px; }
 .sidebar { position: sticky; top: 0; height: 100dvh; overflow-y: auto; padding: 30px 20px 22px; background: var(--paper); border-right: 1px solid var(--line); z-index: 30; scrollbar-width: thin; scrollbar-color: #bdc8b4 transparent; }
 .brandRow { display: flex; align-items: center; justify-content: space-between; margin-bottom: 29px; }
-.brand { border: 0; background: none; padding: 0; text-align: left; color: #2c4936; font: 400 46px/1 var(--font-editorial),Georgia,serif !important; letter-spacing: -1.5px; }
-.brand > span { color: var(--atlas-rust); }
-.brand small { display: block; margin-top: 12px; font: 13px/1.5 var(--font-inter),system-ui,sans-serif; letter-spacing: 0; color: #60715d; }
+.brand { border: 0; background: none; padding: 0; text-align: left; color: #2c4936; font: 400 32px/1 var(--font-editorial),Georgia,serif !important; letter-spacing: -1px; }
+.brandLockup { display: flex; align-items: center; gap: 10px; white-space: nowrap; }
+.brandLockup img { flex-shrink: 0; }
+.brandDot { color: var(--atlas-rust); }
+.brand small { display: block; margin-top: 11px; font: 12px/1.5 var(--font-inter),system-ui,sans-serif; letter-spacing: 0; color: #60715d; }
 .primaryNav { display: grid; gap: 5px; margin-bottom: 26px; }
 .primaryNav button { min-height: 45px; display: flex; align-items: center; justify-content: space-between; border: 0; border-radius: 5px; padding: 10px 12px; background: none; text-align: left; color: #344e3a; font-size: 14px; font-weight: 550; }
 .primaryNav button[aria-pressed="true"] { background: #ece8dc; }
@@ -138,13 +140,11 @@
 .nearbySection strong { display: block; font-size: 15px; font-weight: 600; }
 .nearbySection a span { display: block; font-size: 13px; color: var(--muted); margin-top: 4px; }
 .nearbySection li > span { flex-shrink: 0; font-size: 13px; font-variant-numeric: tabular-nums; color: var(--muted); }
-.travelEssentials { margin-top: 32px; padding: 18px 0 0; border-top: 1px solid var(--line); scroll-margin-top: 94px; }
-.travelEssentials summary { cursor: pointer; padding: 10px 0; min-height: 44px; font-size: 17px; font-weight: 550; color: var(--text); }
 .resourcesIntro { font-size: 15px; line-height: 1.8; color: var(--muted); max-width: 65ch; margin: 12px 0 22px; }
 .resourceList { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); gap: 24px 40px; }
 .resourceList article { padding-bottom: 16px; border-bottom: 1px solid var(--line); }
 .resourceList article:last-child:nth-child(odd) { grid-column: 1/-1; }
-.resourceList h2 { font-size: 16px; font-weight: 600; margin: 0 0 8px; }
+.resourceList h3 { font-size: 16px; font-weight: 600; margin: 0 0 8px; }
 .resourceList p { font-size: 15px; line-height: 1.8; color: var(--muted); max-width: 50ch; margin: 0; }
 .resourceList a { display: inline-flex; align-items: center; min-height: 44px; font-size: 14px; color: #713f2d; }
 .detailLabel { font-size: 18px; font-weight: 650; color: #34533b; margin: 28px 0 15px; }
@@ -303,7 +303,6 @@
 @media (max-width:760px) {
   .routeControl { min-height: 44px; }
   .resourceList { grid-template-columns: minmax(0,1fr); gap: 16px; }
-  .travelEssentials { scroll-margin-top: 80px; }
   .discoveryMasthead { display: block; margin-bottom: 0; }
   .toolbar { min-height: 56px; }
   .toolbar .viewTabs { display: none; }
@@ -380,9 +379,6 @@
 .closePreview { position: absolute; top: 12px; left: 12px; z-index: 3; display: grid; place-items: center; width: 44px; height: 44px; border: 1px solid #e9e5d8; background: #faf8f0f5; border-radius: 50%; font-size: 25px; color: var(--text); }
 .mapMode .emptyState { position: absolute; z-index: 7; top: 80px; left: 20px; right: 20px; max-width: 400px; padding: 20px; background: var(--paper); border: 1px solid var(--line); box-shadow: 0 4px 20px #14231d20; }
 .mapMode .emptyState h2 { margin-top: 0; font-size: 20px; }
-.mapMode .travelEssentials:not([open]) { display: none; }
-.mapMode .travelEssentials[open] { position: fixed; z-index: 60; top: 85px; right: 24px; width: min(660px,calc(100vw - 48px)); max-height: calc(100dvh - 115px); overflow-y: auto; margin: 0; padding: 22px 26px; background: var(--paper); border: 1px solid var(--line); border-radius: 6px; box-shadow: 0 12px 60px #14231d45; }
-.closeEssentials { min-height: 44px; border: 0; background: none; padding: 8px 0; text-decoration: underline; color: var(--green); font-size: 14px; }
 .expandPhoto { position: absolute; top: 16px; right: 16px; z-index: 3; min-height: 44px; padding: 10px 15px; border: 1px solid #ffffff70; border-radius: 4px; background: #faf8f0ed; color: #243b2f; font-size: 14px; }
 .photoViewer { width: calc(100vw - 32px); max-width: 1800px; max-height: calc(100dvh - 32px); padding: 16px; border: 0; background: #17251f; color: #fffdf4; }
 .photoViewer[open] { display: flex; flex-direction: column; align-items: center; }
@@ -424,7 +420,6 @@
   .mapMode .atlasFeature .routeIconButton { top: auto; bottom: 12px; right: 12px; }
   .mapMode .atlasFeature .featureCredit { font-size: 10px; line-height: 1.5; left: 10px; right: 10px; }
   .mapMode .fitMap { font-size: 12px; padding: 10px 12px; }
-  .mapMode .travelEssentials[open] { top: 65px; right: 12px; width: calc(100vw - 24px); max-height: calc(100dvh - 150px); padding: 18px; }
   .photoViewer { width: calc(100vw - 16px); padding: 10px; }
 }
 
@@ -517,4 +512,24 @@
   .plannerHeader h2 { font-size: 35px; }
   .plannerPrimary { flex-direction: column; }
   .routeLegend { top: 65px; left: 12px; bottom: auto; max-width: calc(100% - 24px); font-size: 10px; padding: 7px 10px; }
+}
+
+/* All overlays use the browser's top layer, independent of map stacking. */
+.toolbar { z-index: 20; }
+.toolbarTitle { border: 0; background: none; padding: 0; text-align: left; }
+.travelEssentials { width: min(720px,calc(100vw - 32px)); max-height: calc(100dvh - 48px); margin: auto; padding: 0; border: 0; border-radius: 16px; background: var(--paper); color: var(--text); box-shadow: 0 20px 80px #13251d50; overscroll-behavior: contain; }
+.travelEssentials::backdrop { background: #14251dc0; backdrop-filter: blur(3px); }
+.essentialsHeader { position: sticky; top: 0; z-index: 2; display: flex; align-items: center; justify-content: space-between; gap: 20px; padding: 22px 26px; background: var(--paper); border-bottom: 1px solid var(--line); }
+.essentialsHeader h2 { flex: 1; min-width: 0; margin: 0; font-size: clamp(20px,3vw,24px); line-height: 1.4; font-weight: 550; text-wrap: balance; }
+.closeEssentials { display: inline-flex; align-items: center; justify-content: center; gap: 9px; flex-shrink: 0; min-height: 46px; padding: 11px 16px; border: 0; border-radius: 24px; background: #31573d; color: #fffdf6; font-size: 14px; font-weight: 600; line-height: 1.4; }
+.closeEssentials svg { width: 18px; height: 18px; stroke: currentColor; stroke-width: 1.8; stroke-linecap: round; }
+.closeEssentials:hover { background: #244b31; }
+.closeEssentials:active { background: #1b3c26; }
+.essentialsContent { padding: 0 26px 26px; }
+.photoViewer { margin: auto; overscroll-behavior: contain; }
+.closeViewer { position: sticky; top: 0; z-index: 2; background: #17251f; }
+@media (max-width:760px) {
+  .travelEssentials { width: calc(100vw - 16px); max-height: calc(100dvh - 24px); }
+  .essentialsHeader { padding: 18px 20px; gap: 14px; }
+  .essentialsContent { padding: 0 20px 20px; }
 }

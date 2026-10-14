@@ -3,6 +3,7 @@ import type { Destination } from "./destinations";
 import type { Locale } from "./locale";
 
 const lt = {
+  "Close": "Uždaryti",
   "Plan your route": "Planuoti maršrutą",
   "Your route": "Jūsų maršrutas",
   "Route": "Maršrutas",

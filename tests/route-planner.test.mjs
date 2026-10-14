@@ -36,7 +36,8 @@ function createPanel(locale='en',initial=[]){
  const react={useState(initial){const i=stateIndex++;if(!(i in states))states[i]=initial;return[states[i],v=>{states[i]=typeof v==='function'?v(states[i]):v;}];},useRef(initial){return refs[refIndex++]??={current:initial};},useMemo:fn=>fn(),useEffect(callback,deps){const i=effectIndex++;const old=effects[i];if(!old||deps.some((v,j)=>old.deps[j]!==v)){old?.cleanup?.();effects[i]={callback,deps};}}};
  const dialog={open:false,showModal(){this.open=true;},close(){this.open=false;}};
  const document={body:{style:{overflow:'auto'}}};
- const scope={exports:{},document,require:name=>name==='react'?react:name==='react/jsx-runtime'?{jsx,jsxs:jsx}:name.endsWith('.css')?css:name==='./locale-context'?{useLocale:()=>locale}:loadModule('app/'+name.slice(2)+'.ts')};
+ const dialogs={exports:{},document,require:()=>react};vm.runInNewContext(compile('app/use-dialog.ts'),dialogs);
+ const scope={exports:{},document,require:name=>name==='./use-dialog'?dialogs.exports:name==='react'?react:name==='react/jsx-runtime'?{jsx,jsxs:jsx}:name.endsWith('.css')?css:name==='./locale-context'?{useLocale:()=>locale}:loadModule('app/'+name.slice(2)+'.ts')};
  vm.runInNewContext(compile('app/route-planner-panel.tsx'),scope);
  const walk=node=>node&&typeof node==='object'?[node,...[node.props?.children].flat(Infinity).flatMap(walk)]:[];
  return{dialog,document,render(){stateIndex=refIndex=effectIndex=0;const tree=scope.exports.default({open,stops:stops.map(getDestination),onChange:ids=>{stops=ids;},onClose:()=>{open=false;},onViewMap:()=>{viewed=true;}});tree.props.ref.current=dialog;for(const effect of effects)if(effect.callback){effect.cleanup=effect.callback();effect.callback=null;}return tree;},find:(tree,p)=>walk(tree).find(p),click(node){assert(node);assert(!node.props.disabled);node.props.onClick({});},ids:()=>stops,viewed:()=>viewed};

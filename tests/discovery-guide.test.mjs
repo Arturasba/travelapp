@@ -11,10 +11,11 @@ function createGuide({locale='en',initialSlug,initialPath=`/${locale}?view=place
   const jsx=(type,props)=>({type,props});
   const css=new Proxy({},{get:(_target,key)=>key==='__esModule'?false:String(key)});
   const document={title:'',body:{style:{}},activeElement:null};
-  const scope={exports:{},Event,URLSearchParams,HTMLElement:class{},document,window:{...events,location:url,matchMedia:()=>({matches:compact}),history:{pushState(_state,_unused,path){url.href=new URL(path,url).href;},replaceState(_state,_unused,path){url.href=new URL(path,url).href;}}},require:name=>name==='react'?react:name==='react/jsx-runtime'?{jsx,jsxs:jsx,Fragment:'fragment'}:name==='./locale-context'?{useLocale:()=>locale}:name==='./route-planner-panel'?function PlannerStub(){}:name==='next/dynamic'?()=>function MapStub(){}:name.endsWith('.css')?css:name==='next/image'?()=>null:loadModule('app/'+name.replace(/^\.\//,'')+'.ts')};
+  const dialogs={exports:{},document,require:()=>react};vm.runInNewContext(compile('app/use-dialog.ts'),dialogs);
+  const scope={exports:{},Event,URLSearchParams,HTMLElement:class{},document,window:{...events,location:url,matchMedia:()=>({matches:compact}),history:{pushState(_state,_unused,path){url.href=new URL(path,url).href;},replaceState(_state,_unused,path){url.href=new URL(path,url).href;}}},require:name=>name==='./use-dialog'?dialogs.exports:name==='react'?react:name==='react/jsx-runtime'?{jsx,jsxs:jsx,Fragment:'fragment'}:name==='./locale-context'?{useLocale:()=>locale}:name==='./route-planner-panel'?function PlannerStub(){}:name==='next/dynamic'?()=>function MapStub(){}:name.endsWith('.css')?css:name==='next/image'?()=>null:loadModule('app/'+name.replace(/^\.\//,'')+'.ts')};
   vm.runInNewContext(compile('app/discovery-guide.tsx'),scope);
   const walk=node=>{if(!node||typeof node!=='object')return[];const c=node.props?.children;return[node,...(Array.isArray(c)?c.flat(Infinity):[c]).flatMap(walk)];};
-  const render=()=>{stateIndex=refIndex=effectIndex=0;const tree=scope.exports.default({initialSlug});for(const effect of effects)if(effect.callback){effect.cleanup=effect.callback();effect.callback=null;}return tree;};
+  const render=()=>{stateIndex=refIndex=effectIndex=0;const tree=scope.exports.default({initialSlug});for(const node of walk(tree))if(node.type==='dialog'&&node.props.ref&&!node.props.ref.current)node.props.ref.current={open:false,showModal(){this.open=true;},close(){this.open=false;},getBoundingClientRect(){return{left:20,top:20,right:300,bottom:400};}};for(const effect of effects)if(effect.callback){effect.cleanup=effect.callback();effect.callback=null;}return tree;};
   return {render,document,storage,find:(tree,predicate)=>walk(tree).find(predicate),all:(tree,predicate)=>walk(tree).filter(predicate),click:(node,extra={})=>{assert(node,'expected a working control');node.props.onClick({button:0,preventDefault(){},...extra});},url:()=>url.pathname+url.search,key:key=>events.dispatchEvent({type:'keydown',key}),pop:path=>{url.href=new URL(path,url).href;events.dispatchEvent({type:'popstate'});}};
 }
 
@@ -49,7 +50,7 @@ for(const locale of ['en','lt']){
   const directions=guide.find(tree,n=>n.type==='a'&&n.props.href?.startsWith('https://www.google.com/maps/dir/'));
   assert(new URL(directions.props.href).searchParams.get('destination').includes('Stiklių g. 8'));
   assert(guide.find(tree,n=>n.type==='a'&&n.props.href==='https://lokys.lt/en/'));
-  assert(!guide.find(tree,n=>n.type==='dialog'),'venues without licensed photography must not have a fake gallery');
+  assert(!guide.find(tree,n=>n.type==='dialog'&&n.props['data-gallery']),'venues without licensed photography must not have a fake gallery');
  });
  test(`${locale}: locating a bilingual search result dismisses the result overlay`,()=>{
   const guide=createGuide({locale,initialPath:`/${locale}`});let tree=guide.render();
@@ -78,12 +79,29 @@ test('destination browsing retains normal links and no book keyboard or swipe na
  const list=createGuide();tree=list.render();list.click(list.find(tree,n=>n.type==='a'&&n.props.href?.startsWith('/en/places/trakai-island-castle')),{ctrlKey:true});assert.equal(list.url(),'/en?view=places');
 });
 
-test('localized practical information opens, focuses and closes from the header',()=>{
- const guide=createGuide({locale:'lt'});const tree=guide.render();let focused=false;
- const details=guide.find(tree,n=>n.props.id==='travel-essentials');details.props.ref.current={open:false,scrollIntoView(){},focus(){focused=true;}};
- guide.click(guide.find(tree,n=>n.type==='a'&&n.props.href==='#travel-essentials'));assert(details.props.ref.current.open&&focused);
- assert.equal(guide.all(details,n=>n.type==='a').length,5);
- guide.click(guide.find(details,n=>n.type==='button'));assert(!details.props.ref.current.open);
+for(const locale of ['en','lt'])for(const initialPath of ['/'+locale,'/'+locale+'?view=places','/'+locale+'/places/trakai-island-castle'])test(locale+': useful links dismiss consistently from '+initialPath,()=>{
+ const guide=createGuide({locale,initialPath});let tree=guide.render();
+ const trigger=()=>guide.find(tree,n=>n.type==='button'&&n.props['aria-controls']==='travel-essentials');
+ const panel=()=>guide.find(tree,n=>n.props.id==='travel-essentials');
+ guide.click(trigger());tree=guide.render();assert(trigger().props['aria-expanded']);assert(panel().props.ref.current.open);assert.equal(guide.document.body.style.overflow,'hidden');
+ assert.equal(guide.all(panel(),n=>n.type==='a').length,5);
+ const close=guide.find(panel(),n=>n.props['aria-label']===(locale==='lt'?'Uždaryti kelionės informaciją':'Close travel essentials'));
+ assert(guide.find(close,n=>n.type==='span'&&n.props.children===(locale==='lt'?'Uždaryti':'Close')),'dismissal must have a visible localized label');
+ guide.click(guide.find(panel(),n=>n.props['aria-label']===(locale==='lt'?'Uždaryti kelionės informaciją':'Close travel essentials')));tree=guide.render();assert(!panel().props.ref.current.open);assert(!trigger().props['aria-expanded']);
+ guide.click(trigger());tree=guide.render();panel().props.onCancel();tree=guide.render();assert(!panel().props.ref.current.open);
+ guide.click(trigger());tree=guide.render();const element=panel().props.ref.current;
+ panel().props.onClick({target:element,currentTarget:element,clientX:35,clientY:35});tree=guide.render();assert(panel().props.ref.current.open,'inside padding must not dismiss');
+ panel().props.onClick({target:element,currentTarget:element,clientX:5,clientY:5});tree=guide.render();assert(!panel().props.ref.current.open,'backdrop must dismiss');
+ guide.click(trigger());tree=guide.render();guide.pop('/'+locale+'?city=vilnius&map=all');tree=guide.render();assert(!panel().props.ref.current.open,'browser back dismisses stale panels');
+});
+
+test('photograph padding stays open, backdrop dismisses and body scrolling restores',()=>{
+ const guide=createGuide({initialSlug:'trakai-island-castle'});let tree=guide.render();
+ guide.click(guide.find(tree,n=>n.type==='button'&&n.props.children?.[0]==='View full photograph'));tree=guide.render();
+ const panel=()=>guide.find(tree,n=>n.type==='dialog'&&n.props['data-gallery']);const element=panel().props.ref.current;
+ assert(element.open);assert.equal(guide.document.body.style.overflow,'hidden');
+ panel().props.onClick({target:element,currentTarget:element,clientX:35,clientY:35});tree=guide.render();assert(element.open);
+ panel().props.onClick({target:element,currentTarget:element,clientX:5,clientY:5});tree=guide.render();assert(!element.open);assert.notEqual(guide.document.body.style.overflow,'hidden');
 });
 
 for(const locale of ['en','lt'])test(locale+': ordered route survives discovery, language switching and browser history',()=>{

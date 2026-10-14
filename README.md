@@ -74,6 +74,10 @@ Complete both steps, review the output, add matching Lithuanian entries and run 
 
 Inter and Newsreader are self-hosted with their SIL licenses in `public/fonts/`. Readable body type, generous line height and high-contrast controls accompany restrained editorial headings. Mobile layouts are independent of the desktop sidebar. The navigation drawer traps focus, closes with Escape and makes the background inert; reduced-motion preferences are respected.
 
+Useful links, route planning and full photographs use native modal dialogs for focus containment and restoration. Explicit close controls, Escape and backdrop clicks dismiss them; clicking panel padding does not. Shared scroll locking survives panel switches and React Strict Mode. Useful links and photo close controls stay visible while scrolling, and browser back/forward dismisses stale overlays.
+
+The original atlas logo combines a route-shaped L with a compass star. The sidebar pairs it with a localized wordmark. Reusable vector and transparent PNG assets are in `public/brand/`; matching favicon, SVG browser icon and Apple touch icon are included in `app/`. Travel essentials has a persistent, visibly labelled Close / Uždaryti button with an X icon and a 46-pixel minimum height.
+
 Leaflet loads only for map exploration. Native gesture lifecycles remain intact, including document-level completion listeners. The map canvas owns touch gestures while the surrounding document scrolls normally. Markers do not mount a photograph for every destination. OpenStreetMap tiles require an internet connection, retain attribution and have a retry notice on failure.
 
 Responsive Next images use quality 85; the full-photo viewer uses quality 90. Source dimensions version optimized image requests. The Tailwind Turbopack loader must match only `globals.css`; applying its `as: "*.css"` rule to CSS Modules breaks scoped class exports. HTTP checks guard against this regression.
@@ -99,6 +103,7 @@ These are automated handler and HTTP checks. Browser tooling currently reports n
 - `app/[lang]/places/[slug]/page.tsx`: shareable localized destination routes.
 - `app/discovery-guide.tsx`: discovery, details, URL-backed routes, mobile navigation and galleries.
 - `app/route-planner.ts`, `app/route-planner-panel.tsx`: validated itineraries, Maps URLs and the accessible planner dialog.
+- `app/use-dialog.ts`: shared native dialog lifecycle, scroll locking and backdrop hit testing.
 - `app/locale.ts`, `app/locale-context.tsx`, `app/i18n.ts`: locale routing and translations.
 - `app/guide-navigation.ts`: validated filters and URL serialization.
 - `app/destinations.ts`, `app/data/`: structured content, search, city groups and directions.
