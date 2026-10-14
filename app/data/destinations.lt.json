@@ -1,0 +1,1613 @@
+{
+  "trakai-island-castle": {
+    "name": "Trakų salos pilis",
+    "description": "Galvės ežero saloje iškilusius raudonų plytų bokštus pasieksite pėsčiųjų tiltais. Apžiūrėkite pilies kiemus ir muziejų, o paskui pasivaikščiokite pakrante – iš čia buvusi Lietuvos didžiųjų kunigaikščių rezidencija atsiveria vis kitaip.",
+    "reasons": [
+      "Pilis, pasiekiama tiltais per ežerą",
+      "Istorinės ekspozicijos atkurtame komplekse",
+      "Trakų pakrantės takai ir pilies vaizdai"
+    ],
+    "visitorInfo": [
+      "Pilis pasiekiama pėsčiomis tiltais iš Trakų.",
+      "Muziejaus lankymas mokamas. Prieš kelionę patikrinkite muziejaus darbo laiką, bilietus ir laikinus lankymo apribojimus."
+    ],
+    "coordinateNote": "Orientacinis vietovės taškas iš nurodyto šaltinio; pasitikrinkite tinkamą įėjimą ar priėjimą."
+  },
+  "vilnius-old-town": {
+    "name": "Vilniaus senamiestis",
+    "description": "Bažnyčių bokštai, universiteto kiemai ir siauros gatvelės kviečia Vilnių pažinti pėsčiomis. Gotika, renesansas ir barokas čia susilieja su kasdieniu kavinių, galerijų ir miesto bendruomenių gyvenimu.",
+    "reasons": [
+      "Architektūros stilių įvairovė",
+      "Kiemai ir atradimai pėsčiomis",
+      "Patogi pradžia pažinti sostinę"
+    ],
+    "visitorInfo": [
+      "Žymeklis nurodo orientacinį didelės istorinės miesto dalies tašką, o ne vieną įėjimą.",
+      "Bažnyčios, muziejai ir universiteto pastatai turi atskiras lankymo taisykles. Pasitikrinkite pasirinktos įstaigos informaciją."
+    ],
+    "coordinateNote": "Orientacinis vietovės taškas iš nurodyto šaltinio; pasitikrinkite tinkamą įėjimą ar priėjimą."
+  },
+  "nida": {
+    "name": "Nida",
+    "description": "Kuršių marių pakrantėje įsikūrusi Nida žavi mediniais namais, žvejų paveldu ir kopų kraštovaizdžiu. Pasivaikščiokite krantine bei gyvenvietės gatvelėmis, o į aplinkines kopas keliaukite tik pažymėtais takais.",
+    "reasons": [
+      "Kuršių marių krantinė",
+      "Tradiciniai namai ir žvejų paveldas",
+      "Patogi pradžia kopoms ir Baltijos paplūdimiams pažinti"
+    ],
+    "visitorInfo": [
+      "Žymeklis nurodo gyvenvietės centrą, o ne Parnidžio kopos apžvalgos vietą.",
+      "Iš Klaipėdos į neriją reikia keltis keltu. Prieš kelionę patikrinkite keltų informaciją ir vietos įvažiavimo transportu tvarką.",
+      "Saugomose kopų teritorijose eikite pažymėtais takais."
+    ],
+    "coordinateNote": "Orientacinis vietovės taškas iš nurodyto šaltinio; pasitikrinkite tinkamą įėjimą ar priėjimą."
+  },
+  "gediminas-tower": {
+    "name": "Gedimino pilies bokštas",
+    "description": "Išlikęs Vilniaus Aukštutinės pilies bokštas žvelgia į senamiestį ir Nerį. Nedidelio muziejaus lankymas dera su miesto kalvų, stogų ir kintančio panoraminio vaizdo atradimais.",
+    "reasons": [
+      "Vilniaus panorama",
+      "Išlikęs Aukštutinės pilies bokštas",
+      "Miesto istorijos muziejinė ekspozicija"
+    ],
+    "visitorInfo": [
+      "Bokštas yra Lietuvos nacionalinio muziejaus padalinys.",
+      "Muziejaus svetainėje patikrinkite aktualią informaciją apie takus į kalną, keltuvą ir bokšto lankymą."
+    ],
+    "coordinateNote": "Orientacinis vietovės taškas iš nurodyto šaltinio; pasitikrinkite tinkamą įėjimą ar priėjimą."
+  },
+  "hill-of-crosses": {
+    "name": "Kryžių kalnas",
+    "description": "Į šiaurę nuo Šiaulių esančią kalvą dengia įvairaus dydžio kryžiai. Ši gyva piligrimystės vieta liudija tikėjimą, atmintį ir Lietuvos kryždirbystės tradiciją. Lankykite pagarbiai – žmonėms tai tebėra asmeninio susikaupimo vieta.",
+    "reasons": [
+      "Lietuvos kryždirbystės tradicija",
+      "Gyva piligrimystės vieta",
+      "Tikėjimo ir atminties kraštovaizdis"
+    ],
+    "visitorInfo": [
+      "Vieta yra už Šiaulių, netoli Domantų kaimo.",
+      "Pagarbiai elkitės su kryžiais ir religiniais objektais, neužstatykite takų kitiems lankytojams."
+    ],
+    "coordinateNote": "Orientacinis vietovės taškas iš nurodyto šaltinio; pasitikrinkite tinkamą įėjimą ar priėjimą."
+  },
+  "klaipeda-old-town": {
+    "name": "Klaipėdos senamiestis",
+    "description": "Fachverkiniai pastatai, nedidelės gatvės ir uostamiesčio atmosfera suteikia Klaipėdai savitą charakterį. Apžiūrėkite Teatro aikštės apylinkes, tada pasukite Danės krantinės link ir atraskite miesto architektūros bei jūrinės istorijos sąsajas.",
+    "reasons": [
+      "Fachverkinė architektūra",
+      "Teatro aikštė ir senamiesčio gatvės",
+      "Danės krantinė ir jūrinis paveldas"
+    ],
+    "visitorInfo": [
+      "Žemėlapio žymeklis nurodo senamiesčio teritoriją, o ne lankytino objekto įėjimą.",
+      "Muziejų lankymą ir renginius planuokite atskirai. Turizmo informacijos centras gali padėti pradėti pažintį."
+    ],
+    "coordinateNote": "Orientacinis vietovės taškas iš nurodyto šaltinio; pasitikrinkite tinkamą įėjimą ar priėjimą."
+  },
+  "panemune-castle": {
+    "name": "Panemunės pilis",
+    "description": "Prie Nemuno kelio esanti Panemunės pilis – rezidencinis ansamblis, kurį supa parkas ir tvenkiniai. Kiemai bei istorinės patalpos pasakoja apie buvusių šeimininkų gyvenimą ir užmojus.",
+    "reasons": [
+      "Rezidencinės pilies architektūra",
+      "Parkas ir tvenkiniai",
+      "Kultūrinė stotelė prie Nemuno"
+    ],
+    "visitorInfo": [
+      "Pilis yra Pilies I kaime, Jurbarko rajone.",
+      "Teritorijos lankymas, parodos, apgyvendinimas ir maitinimas yra skirtingos paslaugos. Pasitikrinkite jus dominančios paslaugos sąlygas."
+    ],
+    "coordinateNote": "Orientacinis vietovės taškas iš nurodyto šaltinio; pasitikrinkite tinkamą įėjimą ar priėjimą."
+  },
+  "puckoriai-outcrop": {
+    "name": "Pūčkorių atodanga",
+    "description": "Vilnia vingiuoja po stačia atodanga žaliame rytiniame Vilniaus pakraštyje. Apžvalgos vieta ir Pūčkorių pažintinis takas kviečia atrasti slėnio gamtą bei vietos pramoninės praeities pėdsakus.",
+    "reasons": [
+      "Vilnios slėnio vaizdai",
+      "Pasivaikščiojimas Pūčkorių pažintiniu taku",
+      "Gamtinė išvyka Vilniaus pakraštyje"
+    ],
+    "visitorInfo": [
+      "Pūčkorių pažintiniame take yra laiptų ir tiltelių. Rinkitės lauko takams tinkamą avalynę.",
+      "Žymeklis nurodo atodangą, o ne visus įėjimus į taką. Laikykitės ženklų ir neikite už apžvalgos aikštelių atitvarų."
+    ],
+    "coordinateNote": "Orientacinis vietovės taškas iš nurodyto šaltinio; pasitikrinkite tinkamą įėjimą ar priėjimą."
+  },
+  "anyksciai-regional-park": {
+    "name": "Anykščių regioninis parkas",
+    "description": "Šventosios slėnis, pušynai ir įspūdingi rieduliai kuria įvairų Anykščių kraštovaizdį. Iš anksto pasirinkite konkretų pasivaikščiojimą: gamtos paminklai ir Medžių lajų takas išsidėstę skirtingose parko vietose.",
+    "reasons": [
+      "Šventosios slėnio kraštovaizdis",
+      "Pušynai ir gamtos paminklai",
+      "Skirtingo ilgio pažintiniai pasivaikščiojimai"
+    ],
+    "visitorInfo": [
+      "Žymeklis yra orientacinis parko taškas, o ne įėjimas į Medžių lajų taką.",
+      "Prieš išvykdami pasirinkite konkretų taką ar objektą. Medžių lajų tako lankymo ir bilietų informaciją tikrinkite atskirai."
+    ],
+    "coordinateNote": "Orientacinis vietovės taškas iš nurodyto šaltinio; pasitikrinkite tinkamą įėjimą ar priėjimą."
+  },
+  "dzukija-national-park": {
+    "name": "Dzūkijos nacionalinis parkas",
+    "description": "Pietų Lietuvos kraštovaizdį čia formuoja pušynai, upės ir tradiciniai kaimai. Skirkite laiko suplanuotam žygiui ar kaimo lankymui. Nuotraukoje – miško aikštelė prie Ūlos akies, vieno iš parko gamtos objektų.",
+    "reasons": [
+      "Pušynai ir upių slėniai",
+      "Tradiciniai Dzūkijos kaimai",
+      "Lėtesnis gamtos pažinimas"
+    ],
+    "visitorInfo": [
+      "Žymeklis nurodo orientacinį tašką parke, o ne lankytojų centro įėjimą.",
+      "Maršrutą pasirinkite pagal parko lankytojams skirtą informaciją. Saugomiems rezervatams gali galioti atskiros lankymo taisyklės."
+    ],
+    "coordinateNote": "Orientacinis vietovės taškas iš nurodyto šaltinio; pasitikrinkite tinkamą įėjimą ar priėjimą."
+  },
+  "palanga-amber-museum": {
+    "name": "Palangos gintaro muziejus",
+    "description": "Tiškevičių rūmuose gintaras padeda pažinti Baltijos gamtos ir kultūros istoriją. Muziejaus lankymą derinkite su pasivaikščiojimu aplinkiniame parke – Palanga turi ką pasiūlyti ir už paplūdimio ribų.",
+    "reasons": [
+      "Gintaro istorija ir kolekcijos",
+      "Tiškevičių rūmų architektūra",
+      "Pasivaikščiojimas aplinkiniame parke"
+    ],
+    "visitorInfo": [
+      "Muziejus įsikūręs rūmuose Birutės parke, Palangoje.",
+      "Parko ir muziejaus lankymo sąlygos skiriasi. Prieš eidami į rūmus patikrinkite aktualią muziejaus informaciją."
+    ],
+    "coordinateNote": "Orientacinis vietovės taškas iš nurodyto šaltinio; pasitikrinkite tinkamą įėjimą ar priėjimą."
+  },
+  "hill-of-witches": {
+    "name": "Raganų kalnas",
+    "description": "Juodkrantės miškingoje kalvoje įsikūrusios medinės tautosakos personažų skulptūros. Sekite takais tarp drožinių ir leiskite pasakojimams bei miško aplinkai praturtinti dieną Kuršių nerijoje.",
+    "reasons": [
+      "Medinės tautosakos personažų skulptūros",
+      "Miško takai Juodkrantėje",
+      "Kultūra ir gamta viename pasivaikščiojime"
+    ],
+    "visitorInfo": [
+      "Skulptūros išdėstytos prie miško takų, o ne viename pastate.",
+      "Takų danga gali būti nelygi. Avėkite tinkamą avalynę ir nelipkite ant skulptūrų."
+    ],
+    "coordinateNote": "Orientacinis vietovės taškas iš nurodyto šaltinio; pasitikrinkite tinkamą įėjimą ar priėjimą."
+  },
+  "kernave": {
+    "name": "Kernavės archeologinė vietovė",
+    "description": "Virš Neries slėnio kylantys piliakalniai saugo priešistorinių ir viduramžių gyvenviečių pėdsakus. Pirmiausia pasivaikščiokite po vietovę, o tada archeologijos muziejuje susipažinkite su čia gyvenusių žmonių istorija.",
+    "reasons": [
+      "Piliakalnių kraštovaizdis",
+      "Archeologinė Lietuvos istorija",
+      "Neries slėnio vaizdai"
+    ],
+    "visitorInfo": [
+      "Žymeklis nurodo Kernavę. Piliakalniai ir muziejus yra atskiri šios vietovės objektai.",
+      "Rinkitės šlaitams ir laiptams tinkamą avalynę. Jei norite aplankyti ekspozicijas, atskirai patikrinkite muziejaus darbo laiką."
+    ],
+    "coordinateNote": "Orientacinis vietovės taškas iš nurodyto šaltinio; pasitikrinkite tinkamą įėjimą ar priėjimą."
+  },
+  "pazaislis-monastery": {
+    "name": "Pažaislio vienuolynas",
+    "description": "Barokinės bažnyčios ir vienuolyno ansamblis stovi pusiasalyje prie Kauno marių. Architektūra, freskos ir aplinka sudomins meno, sakralinių erdvių bei ramesnio Kauno ieškančius keliautojus.",
+    "reasons": [
+      "Baroko architektūra ir freskos",
+      "Sakralinio meno paveldas",
+      "Kauno marių aplinka"
+    ],
+    "visitorInfo": [
+      "Tai religinis kompleksas ir lankytina vieta. Gerbkite pamaldas ir riboto patekimo zonas.",
+      "Prieš kelionę patikrinkite lankymo ir ekskursijų tvarką. Per pamaldas ar renginius patekimo sąlygos gali skirtis."
+    ],
+    "coordinateNote": "Orientacinis vietovės taškas iš nurodyto šaltinio; pasitikrinkite tinkamą įėjimą ar priėjimą."
+  },
+  "cold-war-museum": {
+    "name": "Šaltojo karo muziejus · Plokštinė",
+    "description": "Buvusioje sovietų balistinių raketų bazėje Žemaitijoje veikia Šaltojo karo ekspozicija. Ramios miško aplinkos ir karinės infrastruktūros kontrastas kviečia susimąstyti apie sudėtingą XX amžiaus istoriją.",
+    "reasons": [
+      "Buvusi raketų bazė",
+      "Šaltojo karo istorijos ekspozicija",
+      "Kontrastas tarp miško ir karinio paveldo"
+    ],
+    "visitorInfo": [
+      "Lankytojų adresas: Šilinės g. 4, Plokščiai, Plungės rajonas.",
+      "Muziejus prašo ekskursijas su gidu užsakyti iš anksto. Oficialioje svetainėje patikrinkite bilietus, darbo laiką ir grupių lankymo sąlygas."
+    ],
+    "coordinateNote": "Orientacinis vietovės taškas iš nurodyto šaltinio; pasitikrinkite tinkamą įėjimą ar priėjimą."
+  },
+  "druskininkai": {
+    "name": "Druskininkai",
+    "description": "Dzūkijos miškų apsuptuose Druskininkuose sena kurorto ir sveikatinimo tradicija dera su ežero pakrantės takais bei ramiu miesto centru. Atraskite krantinę, vietos meną ir savo dienai tinkamą sveikatinimo ar lauko pramogą.",
+    "reasons": [
+      "Druskonio pakrantė ir miesto parkai",
+      "Sena kurorto ir sveikatinimo tradicija",
+      "Patogi pradžia pažinti Pietų Lietuvą"
+    ],
+    "visitorInfo": [
+      "Žymeklis nurodo orientacinį miesto tašką, o ne SPA ar kito objekto įėjimą.",
+      "SPA centrai, muziejai ir pramogų organizatoriai turi atskiras rezervavimo ir lankymo sąlygas. Pasitikrinkite prieš kelionę."
+    ],
+    "coordinateNote": "Orientacinis vietovės taškas iš nurodyto šaltinio; pasitikrinkite tinkamą įėjimą ar priėjimą."
+  },
+  "vilnius-cathedral": {
+    "name": "Vilniaus katedra",
+    "description": "Katedra ir jos aikštė – patogi pažinties su Vilniaus centru pradžia tarp senamiesčio ir Pilies kalno.",
+    "reasons": [
+      "Katedra ir jos aikštė – patogi pažinties su Vilniaus centru pradžia tarp senamiesčio ir Pilies kalno",
+      "Pažinkite vietovės apylinkes",
+      "Kultūrinė stotelė kelionėje"
+    ],
+    "visitorInfo": [
+      "Žymeklis padeda orientuotis. Prieš lankydamiesi pasitikrinkite tinkamą įėjimą.",
+      "Prieš kelionę tikrinkite lankymo sąlygas; patekimas į vidų, bilietai ir renginiai gali turėti atskirą tvarką."
+    ],
+    "coordinateNote": "Orientacinis vietovės taškas iš nurodyto šaltinio; pasitikrinkite tinkamą įėjimą ar priėjimą."
+  },
+  "st-anne-s-church": {
+    "name": "Šv. Onos bažnyčia",
+    "description": "Raudonų plytų bažnyčia Vilniaus senamiesčio pakraštyje išsiskiria ažūrišku gotikiniu siluetu.",
+    "reasons": [
+      "Raudonų plytų bažnyčia Vilniaus senamiesčio pakraštyje išsiskiria ažūrišku gotikiniu siluetu",
+      "Pažinkite vietovės apylinkes",
+      "Kultūrinė stotelė kelionėje"
+    ],
+    "visitorInfo": [
+      "Žymeklis padeda orientuotis. Prieš lankydamiesi pasitikrinkite tinkamą įėjimą.",
+      "Prieš kelionę tikrinkite lankymo sąlygas; patekimas į vidų, bilietai ir renginiai gali turėti atskirą tvarką."
+    ],
+    "coordinateNote": "Orientacinis vietovės taškas iš nurodyto šaltinio; pasitikrinkite tinkamą įėjimą ar priėjimą."
+  },
+  "gate-of-dawn": {
+    "name": "Aušros Vartai",
+    "description": "Išlikę miesto gynybinės sienos vartai ir piligrimų lankoma koplyčia jungia senamiesčio istoriją su gyva religine tradicija.",
+    "reasons": [
+      "Išlikę miesto gynybinės sienos vartai ir piligrimų lankoma koplyčia jungia senamiesčio istoriją su gyva religine tradicija",
+      "Pažinkite vietovės apylinkes",
+      "Kultūrinė stotelė kelionėje"
+    ],
+    "visitorInfo": [
+      "Žymeklis padeda orientuotis. Prieš lankydamiesi pasitikrinkite tinkamą įėjimą.",
+      "Prieš kelionę tikrinkite lankymo sąlygas; patekimas į vidų, bilietai ir renginiai gali turėti atskirą tvarką."
+    ],
+    "coordinateNote": "Orientacinis vietovės taškas iš nurodyto šaltinio; pasitikrinkite tinkamą įėjimą ar priėjimą."
+  },
+  "church-of-st-peter-and-st-paul": {
+    "name": "Šv. apaštalų Petro ir Povilo bažnyčia",
+    "description": "Už senamiesčio ribų atraskite barokinę bažnyčią, garsėjančią gausiu baltu interjero dekoru.",
+    "reasons": [
+      "Už senamiesčio ribų atraskite barokinę bažnyčią, garsėjančią gausiu baltu interjero dekoru",
+      "Pažinkite vietovės apylinkes",
+      "Kultūrinė stotelė kelionėje"
+    ],
+    "visitorInfo": [
+      "Žymeklis padeda orientuotis. Prieš lankydamiesi pasitikrinkite tinkamą įėjimą.",
+      "Prieš kelionę tikrinkite lankymo sąlygas; patekimas į vidų, bilietai ir renginiai gali turėti atskirą tvarką."
+    ],
+    "coordinateNote": "Orientacinis vietovės taškas iš nurodyto šaltinio; pasitikrinkite tinkamą įėjimą ar priėjimą."
+  },
+  "three-crosses-hill": {
+    "name": "Trijų Kryžių kalnas",
+    "description": "Nuo kalvos su Trijų Kryžių paminklu atsiveria senamiesčio panorama ir žaliuojantys Vilniaus šlaitai.",
+    "reasons": [
+      "Nuo kalvos su Trijų Kryžių paminklu atsiveria senamiesčio panorama ir žaliuojantys Vilniaus šlaitai",
+      "Pažinkite vietovės apylinkes",
+      "Pažintis su kraštovaizdžiu"
+    ],
+    "visitorInfo": [
+      "Žymeklis nurodo orientacinę vietovės vietą. Prieš planuodami maršrutą pasirinkite konkretų įėjimą, taką ar lankytiną objektą.",
+      "Rinkitės pažymėtą taką ir iš anksto tikrinkite saugomos teritorijos lankymo informaciją."
+    ],
+    "coordinateNote": "Orientacinis vietovės taškas iš nurodyto šaltinio; pasitikrinkite tinkamą įėjimą ar priėjimą."
+  },
+  "uzupis": {
+    "name": "Užupis",
+    "description": "Perėję Vilnią pateksite į menininkų pamėgtą rajoną su jaukiomis gatvelėmis ir žaisminga nepriklausomos respublikos idėja.",
+    "reasons": [
+      "Perėję Vilnią pateksite į menininkų pamėgtą rajoną su jaukiomis gatvelėmis ir žaisminga nepriklausomos respublikos idėja",
+      "Pažinkite vietovės apylinkes",
+      "Istorinės gatvės ir vietos gyvenimas"
+    ],
+    "visitorInfo": [
+      "Žymeklis nurodo orientacinę vietovės vietą. Prieš planuodami maršrutą pasirinkite konkretų įėjimą, taką ar lankytiną objektą.",
+      "Muziejai, bažnyčios ir kiti objektai turi atskirą lankymo tvarką."
+    ],
+    "coordinateNote": "Orientacinis vietovės taškas iš nurodyto šaltinio; pasitikrinkite tinkamą įėjimą ar priėjimą."
+  },
+  "vilnius-university-courtyards": {
+    "name": "Vilniaus universiteto kiemai",
+    "description": "Istorinis universiteto ansamblis senamiesčio širdyje atveria kiemų, architektūros ir akademinės istorijos pasaulį.",
+    "reasons": [
+      "Istorinis universiteto ansamblis senamiesčio širdyje atveria kiemų, architektūros ir akademinės istorijos pasaulį",
+      "Pažinkite vietovės apylinkes",
+      "Kultūrinė stotelė kelionėje"
+    ],
+    "visitorInfo": [
+      "Žymeklis padeda orientuotis. Prieš lankydamiesi pasitikrinkite tinkamą įėjimą.",
+      "Prieš kelionę tikrinkite lankymo sąlygas; patekimas į vidų, bilietai ir renginiai gali turėti atskirą tvarką."
+    ],
+    "coordinateNote": "Orientacinis vietovės taškas iš nurodyto šaltinio; pasitikrinkite tinkamą įėjimą ar priėjimą."
+  },
+  "palace-of-the-grand-dukes": {
+    "name": "Valdovų rūmai",
+    "description": "Šalia katedros atkurti rūmai supažindina su Lietuvos valdovų istorija ir materialiąja kultūra.",
+    "reasons": [
+      "Šalia katedros atkurti rūmai supažindina su Lietuvos valdovų istorija ir materialiąja kultūra",
+      "Pažinkite vietovės apylinkes",
+      "Dvarų ir architektūros paveldas"
+    ],
+    "visitorInfo": [
+      "Žymeklis padeda orientuotis. Prieš lankydamiesi pasitikrinkite tinkamą įėjimą.",
+      "Prieš kelionę tikrinkite lankymo sąlygas; patekimas į vidų, bilietai ir renginiai gali turėti atskirą tvarką."
+    ],
+    "coordinateNote": "Orientacinis vietovės taškas iš nurodyto šaltinio; pasitikrinkite tinkamą įėjimą ar priėjimą."
+  },
+  "museum-of-occupations-and-freedom-fights": {
+    "name": "Okupacijų ir laisvės kovų muziejus",
+    "description": "Buvusiame sovietų saugumo pastate įsikūręs muziejus pasakoja apie okupacijas, represijas ir pasipriešinimą.",
+    "reasons": [
+      "Buvusiame sovietų saugumo pastate įsikūręs muziejus pasakoja apie okupacijas, represijas ir pasipriešinimą",
+      "Pažinkite vietovės apylinkes",
+      "Kultūrinė stotelė kelionėje"
+    ],
+    "visitorInfo": [
+      "Žymeklis padeda orientuotis. Prieš lankydamiesi pasitikrinkite tinkamą įėjimą.",
+      "Prieš kelionę tikrinkite lankymo sąlygas; patekimas į vidų, bilietai ir renginiai gali turėti atskirą tvarką."
+    ],
+    "coordinateNote": "Orientacinis vietovės taškas iš nurodyto šaltinio; pasitikrinkite tinkamą įėjimą ar priėjimą."
+  },
+  "vilnius-tv-tower": {
+    "name": "Vilniaus televizijos bokštas",
+    "description": "Šiuolaikinio Vilniaus orientyras atveria kitokį sostinės vaizdą ir primena svarbius naujausios Lietuvos istorijos įvykius.",
+    "reasons": [
+      "Šiuolaikinio Vilniaus orientyras atveria kitokį sostinės vaizdą ir primena svarbius naujausios Lietuvos istorijos įvykius",
+      "Pažinkite vietovės apylinkes",
+      "Kultūrinė stotelė kelionėje"
+    ],
+    "visitorInfo": [
+      "Žymeklis padeda orientuotis. Prieš lankydamiesi pasitikrinkite tinkamą įėjimą.",
+      "Prieš kelionę tikrinkite lankymo sąlygas; patekimas į vidų, bilietai ir renginiai gali turėti atskirą tvarką."
+    ],
+    "coordinateNote": "Orientacinis vietovės taškas iš nurodyto šaltinio; pasitikrinkite tinkamą įėjimą ar priėjimą."
+  },
+  "verkiai-palace": {
+    "name": "Verkių rūmai",
+    "description": "Žaliame šiauriniame Vilniaus pakraštyje virš Neries slėnio įsikūręs rūmų ansamblis kviečia pažinti architektūrą ir kraštovaizdį.",
+    "reasons": [
+      "Žaliame šiauriniame Vilniaus pakraštyje virš Neries slėnio įsikūręs rūmų ansamblis kviečia pažinti architektūrą ir kraštovaizdį",
+      "Pažinkite vietovės apylinkes",
+      "Dvarų ir architektūros paveldas"
+    ],
+    "visitorInfo": [
+      "Žymeklis padeda orientuotis. Prieš lankydamiesi pasitikrinkite tinkamą įėjimą.",
+      "Prieš kelionę tikrinkite lankymo sąlygas; patekimas į vidų, bilietai ir renginiai gali turėti atskirą tvarką."
+    ],
+    "coordinateNote": "Orientacinis vietovės taškas iš nurodyto šaltinio; pasitikrinkite tinkamą įėjimą ar priėjimą."
+  },
+  "vingis-park": {
+    "name": "Vingio parkas",
+    "description": "Pasivaikščiokite didelio miesto parko takais Neries vingyje ir pailsėkite nuo senamiesčio šurmulio.",
+    "reasons": [
+      "Pasivaikščiokite didelio miesto parko takais Neries vingyje ir pailsėkite nuo senamiesčio šurmulio",
+      "Pažinkite vietovės apylinkes",
+      "Pažintis su kraštovaizdžiu"
+    ],
+    "visitorInfo": [
+      "Žymeklis nurodo orientacinę vietovės vietą. Prieš planuodami maršrutą pasirinkite konkretų įėjimą, taką ar lankytiną objektą.",
+      "Rinkitės pažymėtą taką ir iš anksto tikrinkite saugomos teritorijos lankymo informaciją."
+    ],
+    "coordinateNote": "Orientacinis vietovės taškas iš nurodyto šaltinio; pasitikrinkite tinkamą įėjimą ar priėjimą."
+  },
+  "trakai-peninsula-castle": {
+    "name": "Trakų pusiasalio pilis",
+    "description": "Pusiasalio pilies liekanos atskleidžia dar vieną Trakų gynybinės istorijos puslapį greta gerai pažįstamos salos pilies.",
+    "reasons": [
+      "Pusiasalio pilies liekanos atskleidžia dar vieną Trakų gynybinės istorijos puslapį greta gerai pažįstamos salos pilies",
+      "Pažinkite vietovės apylinkes",
+      "Dvarų ir architektūros paveldas"
+    ],
+    "visitorInfo": [
+      "Žymeklis padeda orientuotis. Prieš lankydamiesi pasitikrinkite tinkamą įėjimą.",
+      "Prieš kelionę tikrinkite lankymo sąlygas; patekimas į vidų, bilietai ir renginiai gali turėti atskirą tvarką."
+    ],
+    "coordinateNote": "Orientacinis vietovės taškas iš nurodyto šaltinio; pasitikrinkite tinkamą įėjimą ar priėjimą."
+  },
+  "uzutrakis-manor": {
+    "name": "Užutrakio dvaras",
+    "description": "Prie ežero esantis dvaras ir kraštovaizdžio parkas atveria kitokį Trakų vaizdą: elegantišką architektūrą ir plačias vandens panoramas.",
+    "reasons": [
+      "Prie ežero esantis dvaras ir kraštovaizdžio parkas atveria kitokį Trakų vaizdą: elegantišką architektūrą ir plačias vandens panoramas",
+      "Pažinkite vietovės apylinkes",
+      "Dvarų ir architektūros paveldas"
+    ],
+    "visitorInfo": [
+      "Žymeklis padeda orientuotis. Prieš lankydamiesi pasitikrinkite tinkamą įėjimą.",
+      "Prieš kelionę tikrinkite lankymo sąlygas; patekimas į vidų, bilietai ir renginiai gali turėti atskirą tvarką."
+    ],
+    "coordinateNote": "Orientacinis vietovės taškas iš nurodyto šaltinio; pasitikrinkite tinkamą įėjimą ar priėjimą."
+  },
+  "kaunas-castle": {
+    "name": "Kauno pilis",
+    "description": "Prie dviejų upių santakos išlikusi viduramžių pilis – natūrali pažinties su Kauno senamiesčiu pradžia.",
+    "reasons": [
+      "Prie dviejų upių santakos išlikusi viduramžių pilis – natūrali pažinties su Kauno senamiesčiu pradžia",
+      "Pažinkite vietovės apylinkes",
+      "Dvarų ir architektūros paveldas"
+    ],
+    "visitorInfo": [
+      "Žymeklis padeda orientuotis. Prieš lankydamiesi pasitikrinkite tinkamą įėjimą.",
+      "Prieš kelionę tikrinkite lankymo sąlygas; patekimas į vidų, bilietai ir renginiai gali turėti atskirą tvarką."
+    ],
+    "coordinateNote": "Orientacinis vietovės taškas iš nurodyto šaltinio; pasitikrinkite tinkamą įėjimą ar priėjimą."
+  },
+  "kaunas-town-hall": {
+    "name": "Kauno rotušė",
+    "description": "Rotušė stovi istorinės aikštės centre, iš kurio patogu pradėti ramų pasivaikščiojimą po senamiestį.",
+    "reasons": [
+      "Rotušė stovi istorinės aikštės centre, iš kurio patogu pradėti ramų pasivaikščiojimą po senamiestį",
+      "Pažinkite vietovės apylinkes",
+      "Kultūrinė stotelė kelionėje"
+    ],
+    "visitorInfo": [
+      "Žymeklis padeda orientuotis. Prieš lankydamiesi pasitikrinkite tinkamą įėjimą.",
+      "Prieš kelionę tikrinkite lankymo sąlygas; patekimas į vidų, bilietai ir renginiai gali turėti atskirą tvarką."
+    ],
+    "coordinateNote": "Orientacinis vietovės taškas iš nurodyto šaltinio; pasitikrinkite tinkamą įėjimą ar priėjimą."
+  },
+  "laisves-aleja": {
+    "name": "Laisvės alėja",
+    "description": "Ilga Kauno pėsčiųjų alėja jungia miesto architektūrą, kavines ir kasdienį kauniečių gyvenimą.",
+    "reasons": [
+      "Ilga Kauno pėsčiųjų alėja jungia miesto architektūrą, kavines ir kasdienį kauniečių gyvenimą",
+      "Pažinkite vietovės apylinkes",
+      "Istorinės gatvės ir vietos gyvenimas"
+    ],
+    "visitorInfo": [
+      "Žymeklis nurodo orientacinę vietovės vietą. Prieš planuodami maršrutą pasirinkite konkretų įėjimą, taką ar lankytiną objektą.",
+      "Muziejai, bažnyčios ir kiti objektai turi atskirą lankymo tvarką."
+    ],
+    "coordinateNote": "Orientacinis vietovės taškas iš nurodyto šaltinio; pasitikrinkite tinkamą įėjimą ar priėjimą."
+  },
+  "m-k-ciurlionis-national-art-museum": {
+    "name": "Nacionalinis M. K. Čiurlionio dailės muziejus",
+    "description": "Viename svarbiausių Kauno muziejų susipažinkite su Lietuvos dailininko ir kompozitoriaus kūryba bei kultūriniu palikimu.",
+    "reasons": [
+      "Viename svarbiausių Kauno muziejų susipažinkite su Lietuvos dailininko ir kompozitoriaus kūryba bei kultūriniu palikimu",
+      "Pažinkite vietovės apylinkes",
+      "Kultūrinė stotelė kelionėje"
+    ],
+    "visitorInfo": [
+      "Žymeklis padeda orientuotis. Prieš lankydamiesi pasitikrinkite tinkamą įėjimą.",
+      "Prieš kelionę tikrinkite lankymo sąlygas; patekimas į vidų, bilietai ir renginiai gali turėti atskirą tvarką."
+    ],
+    "coordinateNote": "Orientacinis vietovės taškas iš nurodyto šaltinio; pasitikrinkite tinkamą įėjimą ar priėjimą."
+  },
+  "devils-museum": {
+    "name": "Velnių muziejus",
+    "description": "Savita velnių figūrų kolekcija kviečia žaismingai pažinti tautosakos vaizdinius ir kolekcionavimo tradicijas.",
+    "reasons": [
+      "Savita velnių figūrų kolekcija kviečia žaismingai pažinti tautosakos vaizdinius ir kolekcionavimo tradicijas",
+      "Pažinkite vietovės apylinkes",
+      "Kultūrinė stotelė kelionėje"
+    ],
+    "visitorInfo": [
+      "Žymeklis padeda orientuotis. Prieš lankydamiesi pasitikrinkite tinkamą įėjimą.",
+      "Prieš kelionę tikrinkite lankymo sąlygas; patekimas į vidų, bilietai ir renginiai gali turėti atskirą tvarką."
+    ],
+    "coordinateNote": "Orientacinis vietovės taškas iš nurodyto šaltinio; pasitikrinkite tinkamą įėjimą ar priėjimą."
+  },
+  "ninth-fort": {
+    "name": "Kauno IX fortas",
+    "description": "Fortas, muziejus ir memorialas pasakoja apie sudėtingą kalinimo, okupacijų ir masinių žudynių istoriją.",
+    "reasons": [
+      "Fortas, muziejus ir memorialas pasakoja apie sudėtingą kalinimo, okupacijų ir masinių žudynių istoriją",
+      "Pažinkite vietovės apylinkes",
+      "Kultūrinė stotelė kelionėje"
+    ],
+    "visitorInfo": [
+      "Žymeklis padeda orientuotis. Prieš lankydamiesi pasitikrinkite tinkamą įėjimą.",
+      "Prieš kelionę tikrinkite lankymo sąlygas; patekimas į vidų, bilietai ir renginiai gali turėti atskirą tvarką."
+    ],
+    "coordinateNote": "Orientacinis vietovės taškas iš nurodyto šaltinio; pasitikrinkite tinkamą įėjimą ar priėjimą."
+  },
+  "house-of-perkunas": {
+    "name": "Perkūno namas",
+    "description": "Gausiai dekoruotas gotikinis namas – nedidelė, bet įsimintina architektūrinė stotelė Kauno senamiestyje.",
+    "reasons": [
+      "Gausiai dekoruotas gotikinis namas – nedidelė, bet įsimintina architektūrinė stotelė Kauno senamiestyje",
+      "Pažinkite vietovės apylinkes",
+      "Kultūrinė stotelė kelionėje"
+    ],
+    "visitorInfo": [
+      "Žymeklis padeda orientuotis. Prieš lankydamiesi pasitikrinkite tinkamą įėjimą.",
+      "Prieš kelionę tikrinkite lankymo sąlygas; patekimas į vidų, bilietai ir renginiai gali turėti atskirą tvarką."
+    ],
+    "coordinateNote": "Orientacinis vietovės taškas iš nurodyto šaltinio; pasitikrinkite tinkamą įėjimą ar priėjimą."
+  },
+  "st-michael-the-archangel-church": {
+    "name": "Šv. arkangelo Mykolo bažnyčia",
+    "description": "Laisvės alėjos gale stovinti kupolinė bažnyčia, dar vadinama Soboru, – ryškus Kauno centro orientyras.",
+    "reasons": [
+      "Laisvės alėjos gale stovinti kupolinė bažnyčia, dar vadinama Soboru, – ryškus Kauno centro orientyras",
+      "Pažinkite vietovės apylinkes",
+      "Kultūrinė stotelė kelionėje"
+    ],
+    "visitorInfo": [
+      "Žymeklis padeda orientuotis. Prieš lankydamiesi pasitikrinkite tinkamą įėjimą.",
+      "Prieš kelionę tikrinkite lankymo sąlygas; patekimas į vidų, bilietai ir renginiai gali turėti atskirą tvarką."
+    ],
+    "coordinateNote": "Orientacinis vietovės taškas iš nurodyto šaltinio; pasitikrinkite tinkamą įėjimą ar priėjimą."
+  },
+  "kaunas-botanical-garden": {
+    "name": "VDU Botanikos sodas",
+    "description": "Sodai ir augalų kolekcijos kviečia ramiam pasivaikščiojimui toliau nuo judrių Kauno centro gatvių.",
+    "reasons": [
+      "Sodai ir augalų kolekcijos kviečia ramiam pasivaikščiojimui toliau nuo judrių Kauno centro gatvių",
+      "Pažinkite vietovės apylinkes",
+      "Pažintis su kraštovaizdžiu"
+    ],
+    "visitorInfo": [
+      "Žymeklis nurodo orientacinę vietovės vietą. Prieš planuodami maršrutą pasirinkite konkretų įėjimą, taką ar lankytiną objektą.",
+      "Rinkitės pažymėtą taką ir iš anksto tikrinkite saugomos teritorijos lankymo informaciją."
+    ],
+    "coordinateNote": "Orientacinis vietovės taškas iš nurodyto šaltinio; pasitikrinkite tinkamą įėjimą ar priėjimą."
+  },
+  "zaliakalnis-funicular": {
+    "name": "Žaliakalnio funikulierius",
+    "description": "Istorinis keltuvas jungia žemutinę miesto dalį su Žaliakalniu ir suteikia Kauno pažinimui savitą kelionės patirtį.",
+    "reasons": [
+      "Istorinis keltuvas jungia žemutinę miesto dalį su Žaliakalniu ir suteikia Kauno pažinimui savitą kelionės patirtį",
+      "Pažinkite vietovės apylinkes",
+      "Kultūrinė stotelė kelionėje"
+    ],
+    "visitorInfo": [
+      "Žymeklis padeda orientuotis. Prieš lankydamiesi pasitikrinkite tinkamą įėjimą.",
+      "Prieš kelionę tikrinkite lankymo sąlygas; patekimas į vidų, bilietai ir renginiai gali turėti atskirą tvarką."
+    ],
+    "coordinateNote": "Orientacinis vietovės taškas iš nurodyto šaltinio; pasitikrinkite tinkamą įėjimą ar priėjimą."
+  },
+  "lithuanian-zoo": {
+    "name": "Lietuvos zoologijos sodas",
+    "description": "Kaune įsikūręs zoologijos sodas siūlo kitokią dienos išvyką; prieš apsilankydami pasitikrinkite lankymo tvarką.",
+    "reasons": [
+      "Kaune įsikūręs zoologijos sodas siūlo kitokią dienos išvyką; prieš apsilankydami pasitikrinkite lankymo tvarką",
+      "Pažinkite vietovės apylinkes",
+      "Pažintis su kraštovaizdžiu"
+    ],
+    "visitorInfo": [
+      "Žymeklis nurodo orientacinę vietovės vietą. Prieš planuodami maršrutą pasirinkite konkretų įėjimą, taką ar lankytiną objektą.",
+      "Rinkitės pažymėtą taką ir iš anksto tikrinkite saugomos teritorijos lankymo informaciją."
+    ],
+    "coordinateNote": "Orientacinis vietovės taškas iš nurodyto šaltinio; pasitikrinkite tinkamą įėjimą ar priėjimą."
+  },
+  "raudone-castle": {
+    "name": "Raudonės pilis",
+    "description": "Raudonų plytų pilis ir parkas prie Nemuno jungia dvaro istoriją su upės slėnio kraštovaizdžiu.",
+    "reasons": [
+      "Raudonų plytų pilis ir parkas prie Nemuno jungia dvaro istoriją su upės slėnio kraštovaizdžiu",
+      "Pažinkite vietovės apylinkes",
+      "Dvarų ir architektūros paveldas"
+    ],
+    "visitorInfo": [
+      "Žymeklis padeda orientuotis. Prieš lankydamiesi pasitikrinkite tinkamą įėjimą.",
+      "Prieš kelionę tikrinkite lankymo sąlygas; patekimas į vidų, bilietai ir renginiai gali turėti atskirą tvarką."
+    ],
+    "coordinateNote": "Orientacinis vietovės taškas iš nurodyto šaltinio; pasitikrinkite tinkamą įėjimą ar priėjimą."
+  },
+  "raudondvaris-manor": {
+    "name": "Raudondvario dvaras",
+    "description": "Netoli Kauno esantis dvaro ansamblis jungia istorinę architektūrą, parką ir kultūrinį gyvenimą.",
+    "reasons": [
+      "Netoli Kauno esantis dvaro ansamblis jungia istorinę architektūrą, parką ir kultūrinį gyvenimą",
+      "Pažinkite vietovės apylinkes",
+      "Dvarų ir architektūros paveldas"
+    ],
+    "visitorInfo": [
+      "Žymeklis padeda orientuotis. Prieš lankydamiesi pasitikrinkite tinkamą įėjimą.",
+      "Prieš kelionę tikrinkite lankymo sąlygas; patekimas į vidų, bilietai ir renginiai gali turėti atskirą tvarką."
+    ],
+    "coordinateNote": "Orientacinis vietovės taškas iš nurodyto šaltinio; pasitikrinkite tinkamą įėjimą ar priėjimą."
+  },
+  "kedainiai-old-town": {
+    "name": "Kėdainių senamiestis",
+    "description": "Atraskite istorinio miesto gatves, aikštes ir skirtingų religinių bendruomenių pastatus, liudijančius prekybinę bei daugiakultūrę praeitį.",
+    "reasons": [
+      "Atraskite istorinio miesto gatves, aikštes ir skirtingų religinių bendruomenių pastatus, liudijančius prekybinę bei daugiakultūrę praeitį",
+      "Pažinkite vietovės apylinkes",
+      "Istorinės gatvės ir vietos gyvenimas"
+    ],
+    "visitorInfo": [
+      "Žymeklis nurodo orientacinę vietovės vietą. Prieš planuodami maršrutą pasirinkite konkretų įėjimą, taką ar lankytiną objektą.",
+      "Muziejai, bažnyčios ir kiti objektai turi atskirą lankymo tvarką."
+    ],
+    "coordinateNote": "Orientacinis vietovės taškas iš nurodyto šaltinio; pasitikrinkite tinkamą įėjimą ar priėjimą."
+  },
+  "birzai-castle": {
+    "name": "Biržų pilis",
+    "description": "Atkurta rezidencinė pilis supažindina su Radvilų giminės ir Šiaurės Lietuvos istorija.",
+    "reasons": [
+      "Atkurta rezidencinė pilis supažindina su Radvilų giminės ir Šiaurės Lietuvos istorija",
+      "Pažinkite vietovės apylinkes",
+      "Dvarų ir architektūros paveldas"
+    ],
+    "visitorInfo": [
+      "Žymeklis padeda orientuotis. Prieš lankydamiesi pasitikrinkite tinkamą įėjimą.",
+      "Prieš kelionę tikrinkite lankymo sąlygas; patekimas į vidų, bilietai ir renginiai gali turėti atskirą tvarką."
+    ],
+    "coordinateNote": "Orientacinis vietovės taškas iš nurodyto šaltinio; pasitikrinkite tinkamą įėjimą ar priėjimą."
+  },
+  "birzai-regional-park": {
+    "name": "Biržų regioninis parkas",
+    "description": "Šiaurės Lietuvos kraštovaizdį čia keičia karstiniai procesai – parke išsidėsčiusios smegduobės ir kiti geologiniai objektai.",
+    "reasons": [
+      "Šiaurės Lietuvos kraštovaizdį čia keičia karstiniai procesai – parke išsidėsčiusios smegduobės ir kiti geologiniai objektai",
+      "Pažinkite vietovės apylinkes",
+      "Pažintis su kraštovaizdžiu"
+    ],
+    "visitorInfo": [
+      "Žymeklis nurodo orientacinę vietovės vietą. Prieš planuodami maršrutą pasirinkite konkretų įėjimą, taką ar lankytiną objektą.",
+      "Rinkitės pažymėtą taką ir iš anksto tikrinkite saugomos teritorijos lankymo informaciją."
+    ],
+    "coordinateNote": "Orientacinis vietovės taškas iš nurodyto šaltinio; pasitikrinkite tinkamą įėjimą ar priėjimą."
+  },
+  "astravas-manor": {
+    "name": "Astravo dvaras",
+    "description": "Prie ežero esantis dvaro ansamblis kviečia trumpam architektūriniam atradimui už Biržų centro.",
+    "reasons": [
+      "Prie ežero esantis dvaro ansamblis kviečia trumpam architektūriniam atradimui už Biržų centro",
+      "Pažinkite vietovės apylinkes",
+      "Dvarų ir architektūros paveldas"
+    ],
+    "visitorInfo": [
+      "Žymeklis padeda orientuotis. Prieš lankydamiesi pasitikrinkite tinkamą įėjimą.",
+      "Prieš kelionę tikrinkite lankymo sąlygas; patekimas į vidų, bilietai ir renginiai gali turėti atskirą tvarką."
+    ],
+    "coordinateNote": "Orientacinis vietovės taškas iš nurodyto šaltinio; pasitikrinkite tinkamą įėjimą ar priėjimą."
+  },
+  "rokiskis-manor": {
+    "name": "Rokiškio dvaras",
+    "description": "Dvaro ansamblis ir muziejus jungia rūmų architektūrą su Rokiškio krašto istorija bei meno tradicijomis.",
+    "reasons": [
+      "Dvaro ansamblis ir muziejus jungia rūmų architektūrą su Rokiškio krašto istorija bei meno tradicijomis",
+      "Pažinkite vietovės apylinkes",
+      "Dvarų ir architektūros paveldas"
+    ],
+    "visitorInfo": [
+      "Žymeklis padeda orientuotis. Prieš lankydamiesi pasitikrinkite tinkamą įėjimą.",
+      "Prieš kelionę tikrinkite lankymo sąlygas; patekimas į vidų, bilietai ir renginiai gali turėti atskirą tvarką."
+    ],
+    "coordinateNote": "Orientacinis vietovės taškas iš nurodyto šaltinio; pasitikrinkite tinkamą įėjimą ar priėjimą."
+  },
+  "pakruojis-manor": {
+    "name": "Pakruojo dvaras",
+    "description": "Didelis istorinis Šiaurės Lietuvos dvaras kviečia pažinti pastatus, parką ir besikeičiančias lankytojų programas.",
+    "reasons": [
+      "Didelis istorinis Šiaurės Lietuvos dvaras kviečia pažinti pastatus, parką ir besikeičiančias lankytojų programas",
+      "Pažinkite vietovės apylinkes",
+      "Dvarų ir architektūros paveldas"
+    ],
+    "visitorInfo": [
+      "Žymeklis padeda orientuotis. Prieš lankydamiesi pasitikrinkite tinkamą įėjimą.",
+      "Prieš kelionę tikrinkite lankymo sąlygas; patekimas į vidų, bilietai ir renginiai gali turėti atskirą tvarką."
+    ],
+    "coordinateNote": "Orientacinis vietovės taškas iš nurodyto šaltinio; pasitikrinkite tinkamą įėjimą ar priėjimą."
+  },
+  "taujenai-manor": {
+    "name": "Taujėnų dvaras",
+    "description": "Netoli Ukmergės esantis dvaro ansamblis sudomins istorinės architektūros ir parkų mėgėjus.",
+    "reasons": [
+      "Netoli Ukmergės esantis dvaro ansamblis sudomins istorinės architektūros ir parkų mėgėjus",
+      "Pažinkite vietovės apylinkes",
+      "Dvarų ir architektūros paveldas"
+    ],
+    "visitorInfo": [
+      "Žymeklis padeda orientuotis. Prieš lankydamiesi pasitikrinkite tinkamą įėjimą.",
+      "Prieš kelionę tikrinkite lankymo sąlygas; patekimas į vidų, bilietai ir renginiai gali turėti atskirą tvarką."
+    ],
+    "coordinateNote": "Orientacinis vietovės taškas iš nurodyto šaltinio; pasitikrinkite tinkamą įėjimą ar priėjimą."
+  },
+  "plunge-manor": {
+    "name": "Plungės dvaras",
+    "description": "Oginskių dvaras Plungėje jungia rūmus, parką ir regiono dailės paveldą.",
+    "reasons": [
+      "Oginskių dvaras Plungėje jungia rūmus, parką ir regiono dailės paveldą",
+      "Pažinkite vietovės apylinkes",
+      "Dvarų ir architektūros paveldas"
+    ],
+    "visitorInfo": [
+      "Žymeklis padeda orientuotis. Prieš lankydamiesi pasitikrinkite tinkamą įėjimą.",
+      "Prieš kelionę tikrinkite lankymo sąlygas; patekimas į vidų, bilietai ir renginiai gali turėti atskirą tvarką."
+    ],
+    "coordinateNote": "Orientacinis vietovės taškas iš nurodyto šaltinio; pasitikrinkite tinkamą įėjimą ar priėjimą."
+  },
+  "kretinga-manor": {
+    "name": "Kretingos dvaras",
+    "description": "Istorinis dvaras ir muziejus – kultūrinė stotelė keliaujant nuo Baltijos pajūrio į Kretingą.",
+    "reasons": [
+      "Istorinis dvaras ir muziejus – kultūrinė stotelė keliaujant nuo Baltijos pajūrio į Kretingą",
+      "Pažinkite vietovės apylinkes",
+      "Dvarų ir architektūros paveldas"
+    ],
+    "visitorInfo": [
+      "Žymeklis padeda orientuotis. Prieš lankydamiesi pasitikrinkite tinkamą įėjimą.",
+      "Prieš kelionę tikrinkite lankymo sąlygas; patekimas į vidų, bilietai ir renginiai gali turėti atskirą tvarką."
+    ],
+    "coordinateNote": "Orientacinis vietovės taškas iš nurodyto šaltinio; pasitikrinkite tinkamą įėjimą ar priėjimą."
+  },
+  "renavas-manor": {
+    "name": "Renavo dvaras",
+    "description": "Virš Varduvos slėnio esantis dvaras kviečia pažinti architektūrą miškingame šiaurės vakarų Lietuvos kraštovaizdyje.",
+    "reasons": [
+      "Virš Varduvos slėnio esantis dvaras kviečia pažinti architektūrą miškingame šiaurės vakarų Lietuvos kraštovaizdyje",
+      "Pažinkite vietovės apylinkes",
+      "Dvarų ir architektūros paveldas"
+    ],
+    "visitorInfo": [
+      "Žymeklis padeda orientuotis. Prieš lankydamiesi pasitikrinkite tinkamą įėjimą.",
+      "Prieš kelionę tikrinkite lankymo sąlygas; patekimas į vidų, bilietai ir renginiai gali turėti atskirą tvarką."
+    ],
+    "coordinateNote": "Orientacinis vietovės taškas iš nurodyto šaltinio; pasitikrinkite tinkamą įėjimą ar priėjimą."
+  },
+  "palanga": {
+    "name": "Palanga",
+    "description": "Baltijos paplūdimius, parkus ir judrias gatves jungiantis kurortas siūlo ir ramesnių pasivaikščiojimų toliau nuo centrinės promenados.",
+    "reasons": [
+      "Baltijos paplūdimius, parkus ir judrias gatves jungiantis kurortas siūlo ir ramesnių pasivaikščiojimų toliau nuo centrinės promenados",
+      "Pažinkite vietovės apylinkes",
+      "Baltijos ir Kuršių marių atradimai"
+    ],
+    "visitorInfo": [
+      "Žymeklis padeda orientuotis. Prieš lankydamiesi pasitikrinkite tinkamą įėjimą.",
+      "Pasirinkite konkretų paplūdimį, gyvenvietę ar krantinės prieigą ir iš anksto tikrinkite susisiekimą."
+    ],
+    "coordinateNote": "Orientacinis vietovės taškas iš nurodyto šaltinio; pasitikrinkite tinkamą įėjimą ar priėjimą."
+  },
+  "sventoji": {
+    "name": "Šventoji",
+    "description": "Pajūrio gyvenvietė netoli Latvijos sienos kviečia į paplūdimius ir siūlo kitokį poilsį nei Palangos centras.",
+    "reasons": [
+      "Pajūrio gyvenvietė netoli Latvijos sienos kviečia į paplūdimius ir siūlo kitokį poilsį nei Palangos centras",
+      "Pažinkite vietovės apylinkes",
+      "Baltijos ir Kuršių marių atradimai"
+    ],
+    "visitorInfo": [
+      "Žymeklis padeda orientuotis. Prieš lankydamiesi pasitikrinkite tinkamą įėjimą.",
+      "Pasirinkite konkretų paplūdimį, gyvenvietę ar krantinės prieigą ir iš anksto tikrinkite susisiekimą."
+    ],
+    "coordinateNote": "Orientacinis vietovės taškas iš nurodyto šaltinio; pasitikrinkite tinkamą įėjimą ar priėjimą."
+  },
+  "juodkrante": {
+    "name": "Juodkrantė",
+    "description": "Kuršių marių pakrantės gyvenvietėje dera miškingi šlaitai, krantinės pasivaikščiojimai ir tradiciniai pastatai.",
+    "reasons": [
+      "Kuršių marių pakrantės gyvenvietėje dera miškingi šlaitai, krantinės pasivaikščiojimai ir tradiciniai pastatai",
+      "Pažinkite vietovės apylinkes",
+      "Baltijos ir Kuršių marių atradimai"
+    ],
+    "visitorInfo": [
+      "Žymeklis padeda orientuotis. Prieš lankydamiesi pasitikrinkite tinkamą įėjimą.",
+      "Pasirinkite konkretų paplūdimį, gyvenvietę ar krantinės prieigą ir iš anksto tikrinkite susisiekimą."
+    ],
+    "coordinateNote": "Orientacinis vietovės taškas iš nurodyto šaltinio; pasitikrinkite tinkamą įėjimą ar priėjimą."
+  },
+  "preila": {
+    "name": "Preila",
+    "description": "Nedidelė Kuršių marių gyvenvietė kviečia lėčiau pažinti neriją tarp Nidos ir Juodkrantės.",
+    "reasons": [
+      "Nedidelė Kuršių marių gyvenvietė kviečia lėčiau pažinti neriją tarp Nidos ir Juodkrantės",
+      "Pažinkite vietovės apylinkes",
+      "Baltijos ir Kuršių marių atradimai"
+    ],
+    "visitorInfo": [
+      "Žymeklis padeda orientuotis. Prieš lankydamiesi pasitikrinkite tinkamą įėjimą.",
+      "Pasirinkite konkretų paplūdimį, gyvenvietę ar krantinės prieigą ir iš anksto tikrinkite susisiekimą."
+    ],
+    "coordinateNote": "Orientacinis vietovės taškas iš nurodyto šaltinio; pasitikrinkite tinkamą įėjimą ar priėjimą."
+  },
+  "pervalka": {
+    "name": "Pervalka",
+    "description": "Maža pamario gyvenvietė atveria ramesnę Kuršių nerijos ir jos vandens kraštovaizdžių pusę.",
+    "reasons": [
+      "Maža pamario gyvenvietė atveria ramesnę Kuršių nerijos ir jos vandens kraštovaizdžių pusę",
+      "Pažinkite vietovės apylinkes",
+      "Baltijos ir Kuršių marių atradimai"
+    ],
+    "visitorInfo": [
+      "Žymeklis padeda orientuotis. Prieš lankydamiesi pasitikrinkite tinkamą įėjimą.",
+      "Pasirinkite konkretų paplūdimį, gyvenvietę ar krantinės prieigą ir iš anksto tikrinkite susisiekimą."
+    ],
+    "coordinateNote": "Orientacinis vietovės taškas iš nurodyto šaltinio; pasitikrinkite tinkamą įėjimą ar priėjimą."
+  },
+  "smiltyne": {
+    "name": "Smiltynė",
+    "description": "Kitoje marių pusėje nuo Klaipėdos esanti Smiltynė jungia keltų prieplaukas, pušynus, paplūdimius ir jūrinius lankytinus objektus.",
+    "reasons": [
+      "Kitoje marių pusėje nuo Klaipėdos esanti Smiltynė jungia keltų prieplaukas, pušynus, paplūdimius ir jūrinius lankytinus objektus",
+      "Pažinkite vietovės apylinkes",
+      "Baltijos ir Kuršių marių atradimai"
+    ],
+    "visitorInfo": [
+      "Žymeklis padeda orientuotis. Prieš lankydamiesi pasitikrinkite tinkamą įėjimą.",
+      "Pasirinkite konkretų paplūdimį, gyvenvietę ar krantinės prieigą ir iš anksto tikrinkite susisiekimą."
+    ],
+    "coordinateNote": "Orientacinis vietovės taškas iš nurodyto šaltinio; pasitikrinkite tinkamą įėjimą ar priėjimą."
+  },
+  "vente-cape": {
+    "name": "Ventės ragas",
+    "description": "Kuršių marių iškyšulys siejamas su paukščių stebėjimu, ornitologijos stotimi ir plačiais marių vaizdais.",
+    "reasons": [
+      "Kuršių marių iškyšulys siejamas su paukščių stebėjimu, ornitologijos stotimi ir plačiais marių vaizdais",
+      "Pažinkite vietovės apylinkes",
+      "Baltijos ir Kuršių marių atradimai"
+    ],
+    "visitorInfo": [
+      "Žymeklis padeda orientuotis. Prieš lankydamiesi pasitikrinkite tinkamą įėjimą.",
+      "Pasirinkite konkretų paplūdimį, gyvenvietę ar krantinės prieigą ir iš anksto tikrinkite susisiekimą."
+    ],
+    "coordinateNote": "Orientacinis vietovės taškas iš nurodyto šaltinio; pasitikrinkite tinkamą įėjimą ar priėjimą."
+  },
+  "rusne": {
+    "name": "Rusnė",
+    "description": "Nemuno deltos gyvenvietė kviečia pažinti vandens kelius, žemumų kraštovaizdį ir pamario vietoves.",
+    "reasons": [
+      "Nemuno deltos gyvenvietė kviečia pažinti vandens kelius, žemumų kraštovaizdį ir pamario vietoves",
+      "Pažinkite vietovės apylinkes",
+      "Baltijos ir Kuršių marių atradimai"
+    ],
+    "visitorInfo": [
+      "Žymeklis padeda orientuotis. Prieš lankydamiesi pasitikrinkite tinkamą įėjimą.",
+      "Pasirinkite konkretų paplūdimį, gyvenvietę ar krantinės prieigą ir iš anksto tikrinkite susisiekimą."
+    ],
+    "coordinateNote": "Orientacinis vietovės taškas iš nurodyto šaltinio; pasitikrinkite tinkamą įėjimą ar priėjimą."
+  },
+  "nemunas-delta-regional-park": {
+    "name": "Nemuno deltos regioninis parkas",
+    "description": "Šlapynės, upės atšakos ir užliejamos pievos kuria savitą gamtinės kelionės kryptį.",
+    "reasons": [
+      "Šlapynės, upės atšakos ir užliejamos pievos kuria savitą gamtinės kelionės kryptį",
+      "Pažinkite vietovės apylinkes",
+      "Pažintis su kraštovaizdžiu"
+    ],
+    "visitorInfo": [
+      "Žymeklis nurodo orientacinę vietovės vietą. Prieš planuodami maršrutą pasirinkite konkretų įėjimą, taką ar lankytiną objektą.",
+      "Rinkitės pažymėtą taką ir iš anksto tikrinkite saugomos teritorijos lankymo informaciją."
+    ],
+    "coordinateNote": "Orientacinis vietovės taškas iš nurodyto šaltinio; pasitikrinkite tinkamą įėjimą ar priėjimą."
+  },
+  "silute": {
+    "name": "Šilutė",
+    "description": "Pakeliui į Nemuno deltą miestas supažindina su Mažosios Lietuvos architektūros ir kultūros paveldu.",
+    "reasons": [
+      "Pakeliui į Nemuno deltą miestas supažindina su Mažosios Lietuvos architektūros ir kultūros paveldu",
+      "Pažinkite vietovės apylinkes",
+      "Istorinės gatvės ir vietos gyvenimas"
+    ],
+    "visitorInfo": [
+      "Žymeklis nurodo orientacinę vietovės vietą. Prieš planuodami maršrutą pasirinkite konkretų įėjimą, taką ar lankytiną objektą.",
+      "Muziejai, bažnyčios ir kiti objektai turi atskirą lankymo tvarką."
+    ],
+    "coordinateNote": "Orientacinis vietovės taškas iš nurodyto šaltinio; pasitikrinkite tinkamą įėjimą ar priėjimą."
+  },
+  "aukstaitija-national-park": {
+    "name": "Aukštaitijos nacionalinis parkas",
+    "description": "Ežerai, miškai ir tradicinės gyvenvietės kuria vieną būdingiausių Lietuvos kraštovaizdžių suplanuotai išvykai į gamtą.",
+    "reasons": [
+      "Ežerai, miškai ir tradicinės gyvenvietės kuria vieną būdingiausių Lietuvos kraštovaizdžių suplanuotai išvykai į gamtą",
+      "Pažinkite vietovės apylinkes",
+      "Pažintis su kraštovaizdžiu"
+    ],
+    "visitorInfo": [
+      "Žymeklis nurodo orientacinę vietovės vietą. Prieš planuodami maršrutą pasirinkite konkretų įėjimą, taką ar lankytiną objektą.",
+      "Rinkitės pažymėtą taką ir iš anksto tikrinkite saugomos teritorijos lankymo informaciją."
+    ],
+    "coordinateNote": "Orientacinis vietovės taškas iš nurodyto šaltinio; pasitikrinkite tinkamą įėjimą ar priėjimą."
+  },
+  "zemaitija-national-park": {
+    "name": "Žemaitijos nacionalinis parkas",
+    "description": "Pažinkite Žemaitijos ežerus ir miškus – prieš išvykdami pasirinkite konkretų taką, gyvenvietę ar lankytojų objektą.",
+    "reasons": [
+      "Pažinkite Žemaitijos ežerus ir miškus – prieš išvykdami pasirinkite konkretų taką, gyvenvietę ar lankytojų objektą",
+      "Pažinkite vietovės apylinkes",
+      "Pažintis su kraštovaizdžiu"
+    ],
+    "visitorInfo": [
+      "Žymeklis nurodo orientacinę vietovės vietą. Prieš planuodami maršrutą pasirinkite konkretų įėjimą, taką ar lankytiną objektą.",
+      "Rinkitės pažymėtą taką ir iš anksto tikrinkite saugomos teritorijos lankymo informaciją."
+    ],
+    "coordinateNote": "Orientacinis vietovės taškas iš nurodyto šaltinio; pasitikrinkite tinkamą įėjimą ar priėjimą."
+  },
+  "plateliai": {
+    "name": "Plateliai",
+    "description": "Miestelis prie Platelių ežero – patogi pradžia pažinti Žemaitijos nacionalinį parką.",
+    "reasons": [
+      "Miestelis prie Platelių ežero – patogi pradžia pažinti Žemaitijos nacionalinį parką",
+      "Pažinkite vietovės apylinkes",
+      "Istorinės gatvės ir vietos gyvenimas"
+    ],
+    "visitorInfo": [
+      "Žymeklis nurodo orientacinę vietovės vietą. Prieš planuodami maršrutą pasirinkite konkretų įėjimą, taką ar lankytiną objektą.",
+      "Muziejai, bažnyčios ir kiti objektai turi atskirą lankymo tvarką."
+    ],
+    "coordinateNote": "Orientacinis vietovės taškas iš nurodyto šaltinio; pasitikrinkite tinkamą įėjimą ar priėjimą."
+  },
+  "lake-plateliai": {
+    "name": "Platelių ežeras",
+    "description": "Žemaitijos nacionalinio parko ežeras jungia vandens panoramas, miškus ir aplinkinius takus bei gyvenvietes.",
+    "reasons": [
+      "Žemaitijos nacionalinio parko ežeras jungia vandens panoramas, miškus ir aplinkinius takus bei gyvenvietes",
+      "Pažinkite vietovės apylinkes",
+      "Pažintis su kraštovaizdžiu"
+    ],
+    "visitorInfo": [
+      "Žymeklis nurodo orientacinę vietovės vietą. Prieš planuodami maršrutą pasirinkite konkretų įėjimą, taką ar lankytiną objektą.",
+      "Rinkitės pažymėtą taką ir iš anksto tikrinkite saugomos teritorijos lankymo informaciją."
+    ],
+    "coordinateNote": "Orientacinis vietovės taškas iš nurodyto šaltinio; pasitikrinkite tinkamą įėjimą ar priėjimą."
+  },
+  "paluse": {
+    "name": "Palūšė",
+    "description": "Aukštaitijos nacionalinio parko kaimas kviečia prie ežero ir istorinės medinės bažnyčios.",
+    "reasons": [
+      "Aukštaitijos nacionalinio parko kaimas kviečia prie ežero ir istorinės medinės bažnyčios",
+      "Pažinkite vietovės apylinkes",
+      "Istorinės gatvės ir vietos gyvenimas"
+    ],
+    "visitorInfo": [
+      "Žymeklis nurodo orientacinę vietovės vietą. Prieš planuodami maršrutą pasirinkite konkretų įėjimą, taką ar lankytiną objektą.",
+      "Muziejai, bažnyčios ir kiti objektai turi atskirą lankymo tvarką."
+    ],
+    "coordinateNote": "Orientacinis vietovės taškas iš nurodyto šaltinio; pasitikrinkite tinkamą įėjimą ar priėjimą."
+  },
+  "ginuciai": {
+    "name": "Ginučiai",
+    "description": "Aukštaitijos nacionalinio parko kaime susitinka tradiciniai pastatai, ežerai ir kaimiškas krašto paveldas.",
+    "reasons": [
+      "Aukštaitijos nacionalinio parko kaime susitinka tradiciniai pastatai, ežerai ir kaimiškas krašto paveldas",
+      "Pažinkite vietovės apylinkes",
+      "Istorinės gatvės ir vietos gyvenimas"
+    ],
+    "visitorInfo": [
+      "Žymeklis nurodo orientacinę vietovės vietą. Prieš planuodami maršrutą pasirinkite konkretų įėjimą, taką ar lankytiną objektą.",
+      "Muziejai, bažnyčios ir kiti objektai turi atskirą lankymo tvarką."
+    ],
+    "coordinateNote": "Orientacinis vietovės taškas iš nurodyto šaltinio; pasitikrinkite tinkamą įėjimą ar priėjimą."
+  },
+  "asveja-regional-park": {
+    "name": "Asvejos regioninis parkas",
+    "description": "Saugomas ežerų kraštovaizdis prie Dubingių kviečia į miškus, pakrantes ir ramesnę išvyką už miesto.",
+    "reasons": [
+      "Saugomas ežerų kraštovaizdis prie Dubingių kviečia į miškus, pakrantes ir ramesnę išvyką už miesto",
+      "Pažinkite vietovės apylinkes",
+      "Pažintis su kraštovaizdžiu"
+    ],
+    "visitorInfo": [
+      "Žymeklis nurodo orientacinę vietovės vietą. Prieš planuodami maršrutą pasirinkite konkretų įėjimą, taką ar lankytiną objektą.",
+      "Rinkitės pažymėtą taką ir iš anksto tikrinkite saugomos teritorijos lankymo informaciją."
+    ],
+    "coordinateNote": "Orientacinis vietovės taškas iš nurodyto šaltinio; pasitikrinkite tinkamą įėjimą ar priėjimą."
+  },
+  "moletai-astronomical-observatory": {
+    "name": "Molėtų astronomijos observatorija",
+    "description": "Prie Kulionių įsikūrusi observatorija – savita astronomijos pažinimo stotelė. Prieš kelionę pasitikrinkite lankymo ir programų sąlygas.",
+    "reasons": [
+      "Prie Kulionių įsikūrusi observatorija – savita astronomijos pažinimo stotelė",
+      "Pažinkite vietovės apylinkes",
+      "Kultūrinė stotelė kelionėje"
+    ],
+    "visitorInfo": [
+      "Žymeklis padeda orientuotis. Prieš lankydamiesi pasitikrinkite tinkamą įėjimą.",
+      "Prieš kelionę tikrinkite lankymo sąlygas; patekimas į vidų, bilietai ir renginiai gali turėti atskirą tvarką."
+    ],
+    "coordinateNote": "Orientacinis vietovės taškas iš nurodyto šaltinio; pasitikrinkite tinkamą įėjimą ar priėjimą."
+  },
+  "anyksciai": {
+    "name": "Anykščiai",
+    "description": "Miestas prie Šventosios – patogi pradžia miško pasivaikščiojimams, vietos muziejams ir regioniniam parkui pažinti.",
+    "reasons": [
+      "Miestas prie Šventosios – patogi pradžia miško pasivaikščiojimams, vietos muziejams ir regioniniam parkui pažinti",
+      "Pažinkite vietovės apylinkes",
+      "Istorinės gatvės ir vietos gyvenimas"
+    ],
+    "visitorInfo": [
+      "Žymeklis nurodo orientacinę vietovės vietą. Prieš planuodami maršrutą pasirinkite konkretų įėjimą, taką ar lankytiną objektą.",
+      "Muziejai, bažnyčios ir kiti objektai turi atskirą lankymo tvarką."
+    ],
+    "coordinateNote": "Orientacinis vietovės taškas iš nurodyto šaltinio; pasitikrinkite tinkamą įėjimą ar priėjimą."
+  },
+  "stelmuze-oak": {
+    "name": "Stelmužės ąžuolas",
+    "description": "Senasis Stelmužės ąžuolas – gyvas gamtos paminklas, kuriuo grožėkitės iš lankytojams skirtos vietos.",
+    "reasons": [
+      "Senasis Stelmužės ąžuolas – gyvas gamtos paminklas, kuriuo grožėkitės iš lankytojams skirtos vietos",
+      "Pažinkite vietovės apylinkes",
+      "Pažintis su kraštovaizdžiu"
+    ],
+    "visitorInfo": [
+      "Žymeklis nurodo orientacinę vietovės vietą. Prieš planuodami maršrutą pasirinkite konkretų įėjimą, taką ar lankytiną objektą.",
+      "Rinkitės pažymėtą taką ir iš anksto tikrinkite saugomos teritorijos lankymo informaciją."
+    ],
+    "coordinateNote": "Orientacinis vietovės taškas iš nurodyto šaltinio; pasitikrinkite tinkamą įėjimą ar priėjimą."
+  },
+  "trakai-historical-national-park": {
+    "name": "Trakų istorinis nacionalinis parkas",
+    "description": "Trakų pilis supa ežerai, miškingos pakrantės ir istorinės gyvenvietės, sudarančios saugomą kultūrinį kraštovaizdį.",
+    "reasons": [
+      "Trakų pilis supa ežerai, miškingos pakrantės ir istorinės gyvenvietės, sudarančios saugomą kultūrinį kraštovaizdį",
+      "Pažinkite vietovės apylinkes",
+      "Pažintis su kraštovaizdžiu"
+    ],
+    "visitorInfo": [
+      "Žymeklis nurodo orientacinę vietovės vietą. Prieš planuodami maršrutą pasirinkite konkretų įėjimą, taką ar lankytiną objektą.",
+      "Rinkitės pažymėtą taką ir iš anksto tikrinkite saugomos teritorijos lankymo informaciją."
+    ],
+    "coordinateNote": "Orientacinis vietovės taškas iš nurodyto šaltinio; pasitikrinkite tinkamą įėjimą ar priėjimą."
+  },
+  "neris-regional-park": {
+    "name": "Neries regioninis parkas",
+    "description": "Miškingi šlaitai ir upės vingiai kviečia į gamtą tarp Vilniaus ir Kernavės.",
+    "reasons": [
+      "Miškingi šlaitai ir upės vingiai kviečia į gamtą tarp Vilniaus ir Kernavės",
+      "Pažinkite vietovės apylinkes",
+      "Pažintis su kraštovaizdžiu"
+    ],
+    "visitorInfo": [
+      "Žymeklis nurodo orientacinę vietovės vietą. Prieš planuodami maršrutą pasirinkite konkretų įėjimą, taką ar lankytiną objektą.",
+      "Rinkitės pažymėtą taką ir iš anksto tikrinkite saugomos teritorijos lankymo informaciją."
+    ],
+    "coordinateNote": "Orientacinis vietovės taškas iš nurodyto šaltinio; pasitikrinkite tinkamą įėjimą ar priėjimą."
+  },
+  "kaunas-reservoir-regional-park": {
+    "name": "Kauno marių regioninis parkas",
+    "description": "Marių pakrantės papildo keliones į Kauną, Pažaislį ir Rumšiškes platesniu gamtiniu kraštovaizdžiu.",
+    "reasons": [
+      "Marių pakrantės papildo keliones į Kauną, Pažaislį ir Rumšiškes platesniu gamtiniu kraštovaizdžiu",
+      "Pažinkite vietovės apylinkes",
+      "Pažintis su kraštovaizdžiu"
+    ],
+    "visitorInfo": [
+      "Žymeklis nurodo orientacinę vietovės vietą. Prieš planuodami maršrutą pasirinkite konkretų įėjimą, taką ar lankytiną objektą.",
+      "Rinkitės pažymėtą taką ir iš anksto tikrinkite saugomos teritorijos lankymo informaciją."
+    ],
+    "coordinateNote": "Orientacinis vietovės taškas iš nurodyto šaltinio; pasitikrinkite tinkamą įėjimą ar priėjimą."
+  },
+  "rambynas-hill": {
+    "name": "Rambyno kalnas",
+    "description": "Virš Nemuno iškilusi kalva jungia upės panoramą su svarbia Mažosios Lietuvos kultūrinės atminties vieta.",
+    "reasons": [
+      "Virš Nemuno iškilusi kalva jungia upės panoramą su svarbia Mažosios Lietuvos kultūrinės atminties vieta",
+      "Pažinkite vietovės apylinkes",
+      "Pažintis su kraštovaizdžiu"
+    ],
+    "visitorInfo": [
+      "Žymeklis nurodo orientacinę vietovės vietą. Prieš planuodami maršrutą pasirinkite konkretų įėjimą, taką ar lankytiną objektą.",
+      "Rinkitės pažymėtą taką ir iš anksto tikrinkite saugomos teritorijos lankymo informaciją."
+    ],
+    "coordinateNote": "Orientacinis vietovės taškas iš nurodyto šaltinio; pasitikrinkite tinkamą įėjimą ar priėjimą."
+  },
+  "rambynas-regional-park": {
+    "name": "Rambyno regioninis parkas",
+    "description": "Žemupio Nemuno slėnio kraštovaizdžiai ir kultūros objektai sudaro šios saugomos teritorijos savitumą.",
+    "reasons": [
+      "Žemupio Nemuno slėnio kraštovaizdžiai ir kultūros objektai sudaro šios saugomos teritorijos savitumą",
+      "Pažinkite vietovės apylinkes",
+      "Pažintis su kraštovaizdžiu"
+    ],
+    "visitorInfo": [
+      "Žymeklis nurodo orientacinę vietovės vietą. Prieš planuodami maršrutą pasirinkite konkretų įėjimą, taką ar lankytiną objektą.",
+      "Rinkitės pažymėtą taką ir iš anksto tikrinkite saugomos teritorijos lankymo informaciją."
+    ],
+    "coordinateNote": "Orientacinis vietovės taškas iš nurodyto šaltinio; pasitikrinkite tinkamą įėjimą ar priėjimą."
+  },
+  "tytuvenai-regional-park": {
+    "name": "Tytuvėnų regioninis parkas",
+    "description": "Istorinį Tytuvėnų religinį ansamblį supa ežerų ir miškingų kalvų kraštovaizdis.",
+    "reasons": [
+      "Istorinį Tytuvėnų religinį ansamblį supa ežerų ir miškingų kalvų kraštovaizdis",
+      "Pažinkite vietovės apylinkes",
+      "Pažintis su kraštovaizdžiu"
+    ],
+    "visitorInfo": [
+      "Žymeklis nurodo orientacinę vietovės vietą. Prieš planuodami maršrutą pasirinkite konkretų įėjimą, taką ar lankytiną objektą.",
+      "Rinkitės pažymėtą taką ir iš anksto tikrinkite saugomos teritorijos lankymo informaciją."
+    ],
+    "coordinateNote": "Orientacinis vietovės taškas iš nurodyto šaltinio; pasitikrinkite tinkamą įėjimą ar priėjimą."
+  },
+  "tytuvenai-monastery": {
+    "name": "Tytuvėnų vienuolynas",
+    "description": "Bažnyčios ir vienuolyno ansamblis kviečia į architektūros bei religinės istorijos pažinimą Žemaitijoje.",
+    "reasons": [
+      "Bažnyčios ir vienuolyno ansamblis kviečia į architektūros bei religinės istorijos pažinimą Žemaitijoje",
+      "Pažinkite vietovės apylinkes",
+      "Kultūrinė stotelė kelionėje"
+    ],
+    "visitorInfo": [
+      "Žymeklis padeda orientuotis. Prieš lankydamiesi pasitikrinkite tinkamą įėjimą.",
+      "Prieš kelionę tikrinkite lankymo sąlygas; patekimas į vidų, bilietai ir renginiai gali turėti atskirą tvarką."
+    ],
+    "coordinateNote": "Orientacinis vietovės taškas iš nurodyto šaltinio; pasitikrinkite tinkamą įėjimą ar priėjimą."
+  },
+  "telsiai-cathedral": {
+    "name": "Telšių katedra",
+    "description": "Ant miesto kalvos stovinti katedra – religinio paveldo objektas ir patogus Telšių pažinimo orientyras.",
+    "reasons": [
+      "Ant miesto kalvos stovinti katedra – religinio paveldo objektas ir patogus Telšių pažinimo orientyras",
+      "Pažinkite vietovės apylinkes",
+      "Kultūrinė stotelė kelionėje"
+    ],
+    "visitorInfo": [
+      "Žymeklis padeda orientuotis. Prieš lankydamiesi pasitikrinkite tinkamą įėjimą.",
+      "Prieš kelionę tikrinkite lankymo sąlygas; patekimas į vidų, bilietai ir renginiai gali turėti atskirą tvarką."
+    ],
+    "coordinateNote": "Orientacinis vietovės taškas iš nurodyto šaltinio; pasitikrinkite tinkamą įėjimą ar priėjimą."
+  },
+  "siauliai-cathedral": {
+    "name": "Šiaulių katedra",
+    "description": "Ryški katedra – architektūrinis orientyras pasivaikščiojimui po Šiaulių centrą.",
+    "reasons": [
+      "Ryški katedra – architektūrinis orientyras pasivaikščiojimui po Šiaulių centrą",
+      "Pažinkite vietovės apylinkes",
+      "Kultūrinė stotelė kelionėje"
+    ],
+    "visitorInfo": [
+      "Žymeklis padeda orientuotis. Prieš lankydamiesi pasitikrinkite tinkamą įėjimą.",
+      "Prieš kelionę tikrinkite lankymo sąlygas; patekimas į vidų, bilietai ir renginiai gali turėti atskirą tvarką."
+    ],
+    "coordinateNote": "Orientacinis vietovės taškas iš nurodyto šaltinio; pasitikrinkite tinkamą įėjimą ar priėjimą."
+  },
+  "panevezys": {
+    "name": "Panevėžys",
+    "description": "Nevėžio suformuotame Šiaurės Lietuvos mieste atraskite kultūrines stoteles ir kasdienį miesto gyvenimą už įprastų turistinių maršrutų.",
+    "reasons": [
+      "Nevėžio suformuotame Šiaurės Lietuvos mieste atraskite kultūrines stoteles ir kasdienį miesto gyvenimą už įprastų turistinių maršrutų",
+      "Pažinkite vietovės apylinkes",
+      "Istorinės gatvės ir vietos gyvenimas"
+    ],
+    "visitorInfo": [
+      "Žymeklis nurodo orientacinę vietovės vietą. Prieš planuodami maršrutą pasirinkite konkretų įėjimą, taką ar lankytiną objektą.",
+      "Muziejai, bažnyčios ir kiti objektai turi atskirą lankymo tvarką."
+    ],
+    "coordinateNote": "Orientacinis vietovės taškas iš nurodyto šaltinio; pasitikrinkite tinkamą įėjimą ar priėjimą."
+  },
+  "marijampole": {
+    "name": "Marijampolė",
+    "description": "Pietų Lietuvos miestas prie Šešupės kviečia atrasti meną viešosiose erdvėse, aikštes ir parkus.",
+    "reasons": [
+      "Pietų Lietuvos miestas prie Šešupės kviečia atrasti meną viešosiose erdvėse, aikštes ir parkus",
+      "Pažinkite vietovės apylinkes",
+      "Istorinės gatvės ir vietos gyvenimas"
+    ],
+    "visitorInfo": [
+      "Žymeklis nurodo orientacinę vietovės vietą. Prieš planuodami maršrutą pasirinkite konkretų įėjimą, taką ar lankytiną objektą.",
+      "Muziejai, bažnyčios ir kiti objektai turi atskirą lankymo tvarką."
+    ],
+    "coordinateNote": "Orientacinis vietovės taškas iš nurodyto šaltinio; pasitikrinkite tinkamą įėjimą ar priėjimą."
+  },
+  "ukmerge": {
+    "name": "Ukmergė",
+    "description": "Miestas prie Šventosios jungia istorines gatves, piliakalnį ir aplinkinių dvarų kraštovaizdžius.",
+    "reasons": [
+      "Miestas prie Šventosios jungia istorines gatves, piliakalnį ir aplinkinių dvarų kraštovaizdžius",
+      "Pažinkite vietovės apylinkes",
+      "Istorinės gatvės ir vietos gyvenimas"
+    ],
+    "visitorInfo": [
+      "Žymeklis nurodo orientacinę vietovės vietą. Prieš planuodami maršrutą pasirinkite konkretų įėjimą, taką ar lankytiną objektą.",
+      "Muziejai, bažnyčios ir kiti objektai turi atskirą lankymo tvarką."
+    ],
+    "coordinateNote": "Orientacinis vietovės taškas iš nurodyto šaltinio; pasitikrinkite tinkamą įėjimą ar priėjimą."
+  },
+  "kretinga": {
+    "name": "Kretinga",
+    "description": "Netoli pajūrio esantis miestas kviečia pažinti vienuolyną, dvarą ir kitus vietos paveldo objektus.",
+    "reasons": [
+      "Netoli pajūrio esantis miestas kviečia pažinti vienuolyną, dvarą ir kitus vietos paveldo objektus",
+      "Pažinkite vietovės apylinkes",
+      "Istorinės gatvės ir vietos gyvenimas"
+    ],
+    "visitorInfo": [
+      "Žymeklis nurodo orientacinę vietovės vietą. Prieš planuodami maršrutą pasirinkite konkretų įėjimą, taką ar lankytiną objektą.",
+      "Muziejai, bažnyčios ir kiti objektai turi atskirą lankymo tvarką."
+    ],
+    "coordinateNote": "Orientacinis vietovės taškas iš nurodyto šaltinio; pasitikrinkite tinkamą įėjimą ar priėjimą."
+  },
+  "merkine": {
+    "name": "Merkinė",
+    "description": "Istorinė gyvenvietė prie Nemuno ir Merkio santakos – patogi pradžia pažinti Dzūkiją.",
+    "reasons": [
+      "Istorinė gyvenvietė prie Nemuno ir Merkio santakos – patogi pradžia pažinti Dzūkiją",
+      "Pažinkite vietovės apylinkes",
+      "Istorinės gatvės ir vietos gyvenimas"
+    ],
+    "visitorInfo": [
+      "Žymeklis nurodo orientacinę vietovės vietą. Prieš planuodami maršrutą pasirinkite konkretų įėjimą, taką ar lankytiną objektą.",
+      "Muziejai, bažnyčios ir kiti objektai turi atskirą lankymo tvarką."
+    ],
+    "coordinateNote": "Orientacinis vietovės taškas iš nurodyto šaltinio; pasitikrinkite tinkamą įėjimą ar priėjimą."
+  },
+  "liskiava": {
+    "name": "Liškiava",
+    "description": "Gyvenvietė prie Nemuno su bažnyčia ir buvusiu vienuolynu siūlo kultūrinę išvyką iš Druskininkų.",
+    "reasons": [
+      "Gyvenvietė prie Nemuno su bažnyčia ir buvusiu vienuolynu siūlo kultūrinę išvyką iš Druskininkų",
+      "Pažinkite vietovės apylinkes",
+      "Kultūrinė stotelė kelionėje"
+    ],
+    "visitorInfo": [
+      "Žymeklis padeda orientuotis. Prieš lankydamiesi pasitikrinkite tinkamą įėjimą.",
+      "Prieš kelionę tikrinkite lankymo sąlygas; patekimas į vidų, bilietai ir renginiai gali turėti atskirą tvarką."
+    ],
+    "coordinateNote": "Orientacinis vietovės taškas iš nurodyto šaltinio; pasitikrinkite tinkamą įėjimą ar priėjimą."
+  },
+  "grutas-park": {
+    "name": "Grūto parkas",
+    "description": "Lauko ekspozicijoje surinkti sovietmečio paminklai kviečia į prieštaringą ir susimąstyti skatinančią pažintį su XX amžiaus istorija.",
+    "reasons": [
+      "Lauko ekspozicijoje surinkti sovietmečio paminklai kviečia į prieštaringą ir susimąstyti skatinančią pažintį su XX amžiaus istorija",
+      "Pažinkite vietovės apylinkes",
+      "Kultūrinė stotelė kelionėje"
+    ],
+    "visitorInfo": [
+      "Žymeklis padeda orientuotis. Prieš lankydamiesi pasitikrinkite tinkamą įėjimą.",
+      "Prieš kelionę tikrinkite lankymo sąlygas; patekimas į vidų, bilietai ir renginiai gali turėti atskirą tvarką."
+    ],
+    "coordinateNote": "Orientacinis vietovės taškas iš nurodyto šaltinio; pasitikrinkite tinkamą įėjimą ar priėjimą."
+  },
+  "cepkeliai-marsh": {
+    "name": "Čepkelių raistas",
+    "description": "Saugoma Pietų Lietuvos šlapynė reikalauja atsakingo pasiruošimo – prieš vykdami pasitikrinkite galiojančią rezervato lankymo tvarką.",
+    "reasons": [
+      "Saugoma Pietų Lietuvos šlapynė reikalauja atsakingo pasiruošimo – prieš vykdami pasitikrinkite galiojančią rezervato lankymo tvarką",
+      "Pažinkite vietovės apylinkes",
+      "Pažintis su kraštovaizdžiu"
+    ],
+    "visitorInfo": [
+      "Žymeklis nurodo orientacinę vietovės vietą. Prieš planuodami maršrutą pasirinkite konkretų įėjimą, taką ar lankytiną objektą.",
+      "Rinkitės pažymėtą taką ir iš anksto tikrinkite saugomos teritorijos lankymo informaciją."
+    ],
+    "coordinateNote": "Orientacinis vietovės taškas iš nurodyto šaltinio; pasitikrinkite tinkamą įėjimą ar priėjimą."
+  },
+  "marcinkonys": {
+    "name": "Marcinkonys",
+    "description": "Dzūkijos kaimas jungia tradicinius kaimo pastatus, miškų kraštovaizdį ir galimybę pažinti nacionalinį parką.",
+    "reasons": [
+      "Dzūkijos kaimas jungia tradicinius kaimo pastatus, miškų kraštovaizdį ir galimybę pažinti nacionalinį parką",
+      "Pažinkite vietovės apylinkes",
+      "Istorinės gatvės ir vietos gyvenimas"
+    ],
+    "visitorInfo": [
+      "Žymeklis nurodo orientacinę vietovės vietą. Prieš planuodami maršrutą pasirinkite konkretų įėjimą, taką ar lankytiną objektą.",
+      "Muziejai, bažnyčios ir kiti objektai turi atskirą lankymo tvarką."
+    ],
+    "coordinateNote": "Orientacinis vietovės taškas iš nurodyto šaltinio; pasitikrinkite tinkamą įėjimą ar priėjimą."
+  },
+  "zervynos": {
+    "name": "Zervynos",
+    "description": "Tradicinis kaimas prie Ūlos kviečia pažinti dzūkiškus medinius pastatus tebegyvenamoje kaimo aplinkoje.",
+    "reasons": [
+      "Tradicinis kaimas prie Ūlos kviečia pažinti dzūkiškus medinius pastatus tebegyvenamoje kaimo aplinkoje",
+      "Pažinkite vietovės apylinkes",
+      "Istorinės gatvės ir vietos gyvenimas"
+    ],
+    "visitorInfo": [
+      "Žymeklis nurodo orientacinę vietovės vietą. Prieš planuodami maršrutą pasirinkite konkretų įėjimą, taką ar lankytiną objektą.",
+      "Muziejai, bažnyčios ir kiti objektai turi atskirą lankymo tvarką."
+    ],
+    "coordinateNote": "Orientacinis vietovės taškas iš nurodyto šaltinio; pasitikrinkite tinkamą įėjimą ar priėjimą."
+  },
+  "meteliai-regional-park": {
+    "name": "Metelių regioninis parkas",
+    "description": "Dideli ežerai ir saugomos buveinės kviečia į savitą Pietų Lietuvos gamtos išvyką.",
+    "reasons": [
+      "Dideli ežerai ir saugomos buveinės kviečia į savitą Pietų Lietuvos gamtos išvyką",
+      "Pažinkite vietovės apylinkes",
+      "Pažintis su kraštovaizdžiu"
+    ],
+    "visitorInfo": [
+      "Žymeklis nurodo orientacinę vietovės vietą. Prieš planuodami maršrutą pasirinkite konkretų įėjimą, taką ar lankytiną objektą.",
+      "Rinkitės pažymėtą taką ir iš anksto tikrinkite saugomos teritorijos lankymo informaciją."
+    ],
+    "coordinateNote": "Orientacinis vietovės taškas iš nurodyto šaltinio; pasitikrinkite tinkamą įėjimą ar priėjimą."
+  },
+  "vistytis-regional-park": {
+    "name": "Vištyčio regioninis parkas",
+    "description": "Pietvakariniame Lietuvos pakraštyje saugomas kraštovaizdis jungia ežerus, kalvas ir pasienio kaimiškas vietoves.",
+    "reasons": [
+      "Pietvakariniame Lietuvos pakraštyje saugomas kraštovaizdis jungia ežerus, kalvas ir pasienio kaimiškas vietoves",
+      "Pažinkite vietovės apylinkes",
+      "Pažintis su kraštovaizdžiu"
+    ],
+    "visitorInfo": [
+      "Žymeklis nurodo orientacinę vietovės vietą. Prieš planuodami maršrutą pasirinkite konkretų įėjimą, taką ar lankytiną objektą.",
+      "Rinkitės pažymėtą taką ir iš anksto tikrinkite saugomos teritorijos lankymo informaciją."
+    ],
+    "coordinateNote": "Orientacinis vietovės taškas iš nurodyto šaltinio; pasitikrinkite tinkamą įėjimą ar priėjimą."
+  },
+  "lake-sirvena": {
+    "name": "Širvėnos ežeras",
+    "description": "Prie Biržų esantis ežeras jungia miesto panoramas su Astravo dvaro kraštovaizdžiu.",
+    "reasons": [
+      "Prie Biržų esantis ežeras jungia miesto panoramas su Astravo dvaro kraštovaizdžiu",
+      "Pažinkite vietovės apylinkes",
+      "Pažintis su kraštovaizdžiu"
+    ],
+    "visitorInfo": [
+      "Žymeklis nurodo orientacinę vietovės vietą. Prieš planuodami maršrutą pasirinkite konkretų įėjimą, taką ar lankytiną objektą.",
+      "Rinkitės pažymėtą taką ir iš anksto tikrinkite saugomos teritorijos lankymo informaciją."
+    ],
+    "coordinateNote": "Orientacinis vietovės taškas iš nurodyto šaltinio; pasitikrinkite tinkamą įėjimą ar priėjimą."
+  },
+  "kelme-manor": {
+    "name": "Kelmės dvaras",
+    "description": "Istoriniame dvaro ansamblyje veikiantis krašto muziejus supažindina su Kelmės apylinkių istorija.",
+    "reasons": [
+      "Istoriniame dvaro ansamblyje veikiantis krašto muziejus supažindina su Kelmės apylinkių istorija",
+      "Pažinkite vietovės apylinkes",
+      "Dvarų ir architektūros paveldas"
+    ],
+    "visitorInfo": [
+      "Žymeklis padeda orientuotis. Prieš lankydamiesi pasitikrinkite tinkamą įėjimą.",
+      "Prieš kelionę tikrinkite lankymo sąlygas; patekimas į vidų, bilietai ir renginiai gali turėti atskirą tvarką."
+    ],
+    "coordinateNote": "Orientacinis vietovės taškas iš nurodyto šaltinio; pasitikrinkite tinkamą įėjimą ar priėjimą."
+  },
+  "ilzenberg-manor": {
+    "name": "Ilzenbergo dvaras",
+    "description": "Prie Latvijos sienos esantis dvaras kviečia pažinti architektūrą ir šiaurės rytų Lietuvos kraštovaizdį.",
+    "reasons": [
+      "Prie Latvijos sienos esantis dvaras kviečia pažinti architektūrą ir šiaurės rytų Lietuvos kraštovaizdį",
+      "Pažinkite vietovės apylinkes",
+      "Dvarų ir architektūros paveldas"
+    ],
+    "visitorInfo": [
+      "Žymeklis padeda orientuotis. Prieš lankydamiesi pasitikrinkite tinkamą įėjimą.",
+      "Prieš kelionę tikrinkite lankymo sąlygas; patekimas į vidų, bilietai ir renginiai gali turėti atskirą tvarką."
+    ],
+    "coordinateNote": "Orientacinis vietovės taškas iš nurodyto šaltinio; pasitikrinkite tinkamą įėjimą ar priėjimą."
+  },
+  "siesikai-castle": {
+    "name": "Siesikų pilis",
+    "description": "Prie ežero stovinti rezidencinė pilis atveria kitokį Lietuvos istorinių dvarų vaizdą.",
+    "reasons": [
+      "Prie ežero stovinti rezidencinė pilis atveria kitokį Lietuvos istorinių dvarų vaizdą",
+      "Pažinkite vietovės apylinkes",
+      "Dvarų ir architektūros paveldas"
+    ],
+    "visitorInfo": [
+      "Žymeklis padeda orientuotis. Prieš lankydamiesi pasitikrinkite tinkamą įėjimą.",
+      "Prieš kelionę tikrinkite lankymo sąlygas; patekimas į vidų, bilietai ir renginiai gali turėti atskirą tvarką."
+    ],
+    "coordinateNote": "Orientacinis vietovės taškas iš nurodyto šaltinio; pasitikrinkite tinkamą įėjimą ar priėjimą."
+  },
+  "norviliskes-castle": {
+    "name": "Norviliškių pilis",
+    "description": "Istorinė įtvirtinta rezidencija pietryčių Lietuvoje kviečia architektūriniam atradimui pasienio krašte.",
+    "reasons": [
+      "Istorinė įtvirtinta rezidencija pietryčių Lietuvoje kviečia architektūriniam atradimui pasienio krašte",
+      "Pažinkite vietovės apylinkes",
+      "Dvarų ir architektūros paveldas"
+    ],
+    "visitorInfo": [
+      "Žymeklis padeda orientuotis. Prieš lankydamiesi pasitikrinkite tinkamą įėjimą.",
+      "Prieš kelionę tikrinkite lankymo sąlygas; patekimas į vidų, bilietai ir renginiai gali turėti atskirą tvarką."
+    ],
+    "coordinateNote": "Orientacinis vietovės taškas iš nurodyto šaltinio; pasitikrinkite tinkamą įėjimą ar priėjimą."
+  },
+  "dieveniskes": {
+    "name": "Dieveniškės",
+    "description": "Pietryčių Lietuvos gyvenvietė supažindina su savitu pasienio kultūriniu kraštovaizdžiu ir aplinkiniais kaimais.",
+    "reasons": [
+      "Pietryčių Lietuvos gyvenvietė supažindina su savitu pasienio kultūriniu kraštovaizdžiu ir aplinkiniais kaimais",
+      "Pažinkite vietovės apylinkes",
+      "Istorinės gatvės ir vietos gyvenimas"
+    ],
+    "visitorInfo": [
+      "Žymeklis nurodo orientacinę vietovės vietą. Prieš planuodami maršrutą pasirinkite konkretų įėjimą, taką ar lankytiną objektą.",
+      "Muziejai, bažnyčios ir kiti objektai turi atskirą lankymo tvarką."
+    ],
+    "coordinateNote": "Orientacinis vietovės taškas iš nurodyto šaltinio; pasitikrinkite tinkamą įėjimą ar priėjimą."
+  },
+  "salcininkai": {
+    "name": "Šalčininkai",
+    "description": "Miestas į pietryčius nuo Vilniaus – patogi pradžia aplinkiniams dvarams ir Dieveniškių kraštui pažinti.",
+    "reasons": [
+      "Miestas į pietryčius nuo Vilniaus – patogi pradžia aplinkiniams dvarams ir Dieveniškių kraštui pažinti",
+      "Pažinkite vietovės apylinkes",
+      "Istorinės gatvės ir vietos gyvenimas"
+    ],
+    "visitorInfo": [
+      "Žymeklis nurodo orientacinę vietovės vietą. Prieš planuodami maršrutą pasirinkite konkretų įėjimą, taką ar lankytiną objektą.",
+      "Muziejai, bažnyčios ir kiti objektai turi atskirą lankymo tvarką."
+    ],
+    "coordinateNote": "Orientacinis vietovės taškas iš nurodyto šaltinio; pasitikrinkite tinkamą įėjimą ar priėjimą."
+  },
+  "mo-museum": {
+    "name": "MO muziejus",
+    "description": "Šiuolaikinis muziejaus pastatas ir modernaus Lietuvos meno kolekcija jungia architektūrą bei vizualiąją kultūrą netoli senamiesčio.",
+    "reasons": [
+      "Šiuolaikinis muziejaus pastatas ir modernaus Lietuvos meno kolekcija jungia architektūrą bei vizualiąją kultūrą netoli senamiesčio",
+      "Pažinkite vietovės apylinkes",
+      "Kultūrinė stotelė kelionėje"
+    ],
+    "visitorInfo": [
+      "Žymeklis padeda orientuotis. Prieš lankydamiesi pasitikrinkite tinkamą įėjimą.",
+      "Prieš kelionę tikrinkite lankymo sąlygas; patekimas į vidų, bilietai ir renginiai gali turėti atskirą tvarką."
+    ],
+    "coordinateNote": "Orientacinis vietovės taškas iš nurodyto šaltinio; pasitikrinkite tinkamą įėjimą ar priėjimą."
+  },
+  "bernardine-garden": {
+    "name": "Bernardinų sodas",
+    "description": "Sodas prie Vilnios kviečia ramiam pasivaikščiojimui tarp senamiesčio ir miškingų kalvų.",
+    "reasons": [
+      "Sodas prie Vilnios kviečia ramiam pasivaikščiojimui tarp senamiesčio ir miškingų kalvų",
+      "Pažinkite vietovės apylinkes",
+      "Pažintis su kraštovaizdžiu"
+    ],
+    "visitorInfo": [
+      "Žymeklis nurodo orientacinę vietovės vietą. Prieš planuodami maršrutą pasirinkite konkretų įėjimą, taką ar lankytiną objektą.",
+      "Rinkitės pažymėtą taką ir iš anksto tikrinkite saugomos teritorijos lankymo informaciją."
+    ],
+    "coordinateNote": "Orientacinis vietovės taškas iš nurodyto šaltinio; pasitikrinkite tinkamą įėjimą ar priėjimą."
+  },
+  "vilnius-calvary": {
+    "name": "Vilniaus Kalvarijos",
+    "description": "Piligrimystės kraštovaizdis šiauriniame Vilniuje jungia religines vietas su miško aplinka.",
+    "reasons": [
+      "Piligrimystės kraštovaizdis šiauriniame Vilniuje jungia religines vietas su miško aplinka",
+      "Pažinkite vietovės apylinkes",
+      "Kultūrinė stotelė kelionėje"
+    ],
+    "visitorInfo": [
+      "Žymeklis padeda orientuotis. Prieš lankydamiesi pasitikrinkite tinkamą įėjimą.",
+      "Prieš kelionę tikrinkite lankymo sąlygas; patekimas į vidų, bilietai ir renginiai gali turėti atskirą tvarką."
+    ],
+    "coordinateNote": "Orientacinis vietovės taškas iš nurodyto šaltinio; pasitikrinkite tinkamą įėjimą ar priėjimą."
+  },
+  "presidential-palace": {
+    "name": "Prezidentūra",
+    "description": "Prezidento rezidencija – Vilniaus centro orientyras, kurio išorę ir aplinkines gatves patogu apžiūrėti vaikštant senamiestyje.",
+    "reasons": [
+      "Prezidento rezidencija – Vilniaus centro orientyras, kurio išorę ir aplinkines gatves patogu apžiūrėti vaikštant senamiestyje",
+      "Pažinkite vietovės apylinkes",
+      "Kultūrinė stotelė kelionėje"
+    ],
+    "visitorInfo": [
+      "Žymeklis padeda orientuotis. Prieš lankydamiesi pasitikrinkite tinkamą įėjimą.",
+      "Prieš kelionę tikrinkite lankymo sąlygas; patekimas į vidų, bilietai ir renginiai gali turėti atskirą tvarką."
+    ],
+    "coordinateNote": "Orientacinis vietovės taškas iš nurodyto šaltinio; pasitikrinkite tinkamą įėjimą ar priėjimą."
+  },
+  "vilnius-town-hall": {
+    "name": "Vilniaus rotušė",
+    "description": "Rotušė ir plati aikštė – patogi susitikimo vieta pietinėje Vilniaus senamiesčio dalyje.",
+    "reasons": [
+      "Rotušė ir plati aikštė – patogi susitikimo vieta pietinėje Vilniaus senamiesčio dalyje",
+      "Pažinkite vietovės apylinkes",
+      "Kultūrinė stotelė kelionėje"
+    ],
+    "visitorInfo": [
+      "Žymeklis padeda orientuotis. Prieš lankydamiesi pasitikrinkite tinkamą įėjimą.",
+      "Prieš kelionę tikrinkite lankymo sąlygas; patekimas į vidų, bilietai ir renginiai gali turėti atskirą tvarką."
+    ],
+    "coordinateNote": "Orientacinis vietovės taškas iš nurodyto šaltinio; pasitikrinkite tinkamą įėjimą ar priėjimą."
+  },
+  "st-catherine-s-church": {
+    "name": "Šv. Kotrynos bažnyčia",
+    "description": "Barokinė bažnyčia ir kultūros renginių erdvė papildo pasivaikščiojimą po Vilniaus centrą.",
+    "reasons": [
+      "Barokinė bažnyčia ir kultūros renginių erdvė papildo pasivaikščiojimą po Vilniaus centrą",
+      "Pažinkite vietovės apylinkes",
+      "Kultūrinė stotelė kelionėje"
+    ],
+    "visitorInfo": [
+      "Žymeklis padeda orientuotis. Prieš lankydamiesi pasitikrinkite tinkamą įėjimą.",
+      "Prieš kelionę tikrinkite lankymo sąlygas; patekimas į vidų, bilietai ir renginiai gali turėti atskirą tvarką."
+    ],
+    "coordinateNote": "Orientacinis vietovės taškas iš nurodyto šaltinio; pasitikrinkite tinkamą įėjimą ar priėjimą."
+  },
+  "neringa-restaurant": {
+    "name": "Neringa",
+    "description": "Vilniaus kultūrinės istorijos dalimi tapęs restoranas išsiskiria modernistiniu interjeru. Gedimino prospekte įsikūrusi „Neringa“ kviečia pažinti klasikinius patiekalus ir sostinės atmosferą.",
+    "reasons": [
+      "Vilniaus kultūrinės istorijos dalimi tapęs restoranas išsiskiria modernistiniu interjeru",
+      "Pažinkite vietovės apylinkes",
+      "Vietos maisto kultūra"
+    ],
+    "visitorInfo": [
+      "Adresas: Gedimino pr. 23, Vilnius.",
+      "Aktualų meniu, darbo laiką ir rezervavimo sąlygas tikrinkite nurodytame restorano arba turizmo puslapyje.",
+      "Dėl mitybos poreikių ir vietos prieinamumo susisiekite su įstaiga prieš apsilankydami."
+    ],
+    "coordinateNote": "Orientacinis įstaigos taškas iš „OpenStreetMap“; įėjimą raskite pagal skelbiamą adresą.",
+    "cuisine": "Lietuviška klasika ir Europos virtuvė"
+  },
+  "lokys-restaurant": {
+    "name": "Lokys",
+    "description": "Istorinės Vilniaus senamiesčio salės kuria aplinką lietuviškai virtuvei, kurioje ypatingas dėmesys skiriamas žvėrienai ir kulinariniam paveldui.",
+    "reasons": [
+      "Istorinės Vilniaus senamiesčio salės kuria aplinką lietuviškai virtuvei, kurioje ypatingas dėmesys skiriamas žvėrienai ir kulinariniam paveldui",
+      "Pažinkite vietovės apylinkes",
+      "Vietos maisto kultūra"
+    ],
+    "visitorInfo": [
+      "Adresas: Stiklių g. 8, Vilnius.",
+      "Aktualų meniu, darbo laiką ir rezervavimo sąlygas tikrinkite nurodytame restorano arba turizmo puslapyje.",
+      "Dėl mitybos poreikių ir vietos prieinamumo susisiekite su įstaiga prieš apsilankydami."
+    ],
+    "coordinateNote": "Orientacinis įstaigos taškas iš „OpenStreetMap“; įėjimą raskite pagal skelbiamą adresą.",
+    "cuisine": "Istorinė lietuviška virtuvė ir žvėriena"
+  },
+  "dziaugsmas-restaurant": {
+    "name": "Džiaugsmas",
+    "description": "Šiuolaikiškas požiūris į lietuvišką virtuvę remiasi vietiniais sezoniniais produktais. Užsukite pažinti kitokios Lietuvos maisto kultūros pusės.",
+    "reasons": [
+      "Šiuolaikiškas požiūris į lietuvišką virtuvę remiasi vietiniais sezoniniais produktais",
+      "Pažinkite vietovės apylinkes",
+      "Vietos maisto kultūra"
+    ],
+    "visitorInfo": [
+      "Adresas: Vilniaus g. 28, Vilnius.",
+      "Aktualų meniu, darbo laiką ir rezervavimo sąlygas tikrinkite nurodytame restorano arba turizmo puslapyje.",
+      "Dėl mitybos poreikių ir vietos prieinamumo susisiekite su įstaiga prieš apsilankydami."
+    ],
+    "coordinateNote": "Orientacinis įstaigos taškas iš „OpenStreetMap“; įėjimą raskite pagal skelbiamą adresą.",
+    "cuisine": "Šiuolaikinė lietuviška virtuvė"
+  },
+  "spurgine": {
+    "name": "Spurginė",
+    "description": "Senųjų laikų dvasią išsaugojusi Kauno kavinė Laisvės alėjoje garsėja spurgomis. Tai nedidelė saldi stotelė vaikštant po miesto centrą.",
+    "reasons": [
+      "Senųjų laikų dvasią išsaugojusi Kauno kavinė Laisvės alėjoje garsėja spurgomis",
+      "Pažinkite vietovės apylinkes",
+      "Vietos maisto kultūra"
+    ],
+    "visitorInfo": [
+      "Adresas: Laisvės al. 84, Kaunas.",
+      "Aktualų meniu, darbo laiką ir rezervavimo sąlygas tikrinkite nurodytame restorano arba turizmo puslapyje.",
+      "Dėl mitybos poreikių ir vietos prieinamumo susisiekite su įstaiga prieš apsilankydami."
+    ],
+    "coordinateNote": "Orientacinis įstaigos taškas iš „OpenStreetMap“; įėjimą raskite pagal skelbiamą adresą.",
+    "cuisine": "Spurgos ir kava · kavinė"
+  },
+  "berneliu-uzeiga-old-town": {
+    "name": "Bernelių užeiga · Senamiestis",
+    "description": "Kauno senamiesčio „Bernelių užeigoje“ lietuviška virtuvė patiekiama kaimiško paveldo aplinkoje, vos trumpam pasivaikščiojimui nuo Rotušės aikštės.",
+    "reasons": [
+      "Kauno senamiesčio „Bernelių užeigoje“ lietuviška virtuvė patiekiama kaimiško paveldo aplinkoje, vos trumpam pasivaikščiojimui nuo Rotušės aikštės",
+      "Pažinkite vietovės apylinkes",
+      "Vietos maisto kultūra"
+    ],
+    "visitorInfo": [
+      "Adresas: M. Valančiaus g. 9, Kaunas.",
+      "Aktualų meniu, darbo laiką ir rezervavimo sąlygas tikrinkite nurodytame restorano arba turizmo puslapyje.",
+      "Dėl mitybos poreikių ir vietos prieinamumo susisiekite su įstaiga prieš apsilankydami."
+    ],
+    "coordinateNote": "Orientacinis įstaigos taškas iš „OpenStreetMap“; įėjimą raskite pagal skelbiamą adresą.",
+    "cuisine": "Tradicinė lietuviška virtuvė"
+  },
+  "senoji-kibinine": {
+    "name": "Senoji kibininė",
+    "description": "Gerai žinoma Trakų stotelė kibinams ir karaimų virtuvės įkvėptiems patiekalams. Šį Karaimų gatvės restoraną rinkitės planuodami valgį tarp ežerų ir pilių lankymo.",
+    "reasons": [
+      "Gerai žinoma Trakų stotelė kibinams ir karaimų virtuvės įkvėptiems patiekalams",
+      "Pažinkite vietovės apylinkes",
+      "Vietos maisto kultūra"
+    ],
+    "visitorInfo": [
+      "Adresas: Karaimų g. 65, Trakai.",
+      "Aktualų meniu, darbo laiką ir rezervavimo sąlygas tikrinkite nurodytame restorano arba turizmo puslapyje.",
+      "Dėl mitybos poreikių ir vietos prieinamumo susisiekite su įstaiga prieš apsilankydami."
+    ],
+    "coordinateNote": "Orientacinis įstaigos taškas iš „OpenStreetMap“; įėjimą raskite pagal skelbiamą adresą.",
+    "cuisine": "Karaimų ir lietuviška virtuvė"
+  },
+  "svyturys-bhouse": {
+    "name": "Švyturys BHouse",
+    "description": "Prie veikiančios „Švyturio“ alaus daryklos įsikūręs gastrobaras jungia maistą ir Klaipėdos pramoninį paveldą. Ekskursijos darykloje organizuojamos atskirai – sąlygas tikrinkite pas organizatorių.",
+    "reasons": [
+      "Prie veikiančios „Švyturio“ alaus daryklos įsikūręs gastrobaras jungia maistą ir Klaipėdos pramoninį paveldą",
+      "Pažinkite vietovės apylinkes",
+      "Vietos maisto kultūra"
+    ],
+    "visitorInfo": [
+      "Adresas: Kūlių Vartų g. 7, Klaipėda.",
+      "Aktualų meniu, darbo laiką ir rezervavimo sąlygas tikrinkite nurodytame restorano arba turizmo puslapyje.",
+      "Dėl mitybos poreikių ir vietos prieinamumo susisiekite su įstaiga prieš apsilankydami."
+    ],
+    "coordinateNote": "Orientacinis įstaigos taškas iš „OpenStreetMap“; įėjimą raskite pagal skelbiamą adresą.",
+    "cuisine": "Alaus daryklos gastrobaras"
+  }
+}

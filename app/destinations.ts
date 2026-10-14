@@ -1,4 +1,7 @@
 import assetRecords from "./data/destination-assets.json";
+import expandedPlaces from "./data/expanded-destinations.json";
+import restaurants from "./data/restaurants.json";
+import lithuanian from "./data/destinations.lt.json";
 
 export const categories = [
   { id: "all", label: "All places", color: "#667b50" },
@@ -7,10 +10,11 @@ export const categories = [
   { id: "nature", label: "Nature", color: "#517957" },
   { id: "coast", label: "Coast", color: "#527d89" },
   { id: "culture", label: "Culture & curiosities", color: "#8b6b88" },
+  { id: "restaurants", label: "Restaurants & cafés", color: "#b36738" },
 ] as const;
 export type Category = typeof categories[number]["id"];
 export type Collection = "all" | "popular" | "hidden";
-export const cities = [
+const originalCities = [
   { id: "vilnius", label: "Vilnius" }, { id: "kaunas", label: "Kaunas" },
   { id: "klaipeda", label: "Klaipėda" }, { id: "siauliai", label: "Šiauliai" },
   { id: "trakai", label: "Trakai" }, { id: "druskininkai", label: "Druskininkai" },
@@ -19,6 +23,7 @@ export const cities = [
   { id: "kernave", label: "Kernavė" }, { id: "plunge", label: "Plungė" },
   { id: "jurbarkas", label: "Jurbarkas" }, { id: "varena", label: "Varėna" },
 ] as const;
+export const cities = [...originalCities, ...[...new Map(expandedPlaces.map(place=>[place.cityId,{id:place.cityId,label:place.location.split(" · ")[0]}])).values()].filter(city=>!originalCities.some(original=>original.id===city.id)).sort((a,b)=>a.label.localeCompare(b.label))];
 export type CityId = "all" | typeof cities[number]["id"];
 const cityBySlug: Record<string, CityId> = {
   "vilnius-old-town": "vilnius", "gediminas-tower": "vilnius", "puckoriai-outcrop": "vilnius",
@@ -35,6 +40,7 @@ export type Destination = {
   description: string; reasons: string[]; visitorInfo: string[];
   featured: boolean; hidden: boolean; photos: Photo[]; sources: { label: string; url: string }[];
   reviewed: string;
+  address?: string; cuisine?: string;
 };
 
 type Entry = { qid: string; slug: string; name: string; location: string; category: Destination["category"]; description: string; reasons: string[]; visitorInfo: string[]; featured?: boolean; hidden?: boolean; official?: string; coordinateNote?: string; coordinates?: [number, number] };
@@ -123,7 +129,7 @@ const entries: Entry[] = [
     official:"https://lithuania.travel/en/where-to-visit/top-sites-in-lithuania/spa-and-wellness-in-druskininkai" },
 ];
 
-export const destinations: Destination[] = entries.map(entry => {
+const originalDestinations: Destination[] = entries.map(entry => {
   const asset = assetRecords.find(record => record.qid === entry.qid);
   if (!asset || !asset.coordinates) throw new Error(`Missing researched assets for ${entry.slug}`);
   const photos: Photo[] = [asset.image];
@@ -137,6 +143,7 @@ export const destinations: Destination[] = entries.map(entry => {
     reviewed:"2026-10-13",
   };
 });
+export const destinations: Destination[] = [...originalDestinations, ...[...expandedPlaces,...restaurants].map(place=>({...place,category:place.category as Destination["category"],coordinates:[place.coordinates[0],place.coordinates[1]] as [number,number]}))];
 
 export function getDestination(slug: string) { return destinations.find(place => place.slug === slug); }
 export function normalizeSearch(value: string) { return value.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase().trim(); }
@@ -145,9 +152,30 @@ export function filterDestinations(query: string, category: Category, collection
   return destinations.filter(place => (category === "all" || place.category === category)
     && (city === "all" || place.cityId === city)
     && (collection === "all" || (collection === "popular" ? place.featured : place.hidden))
-    && terms.every(term => normalizeSearch(`${place.name} ${place.location} ${place.description} ${place.category}`).includes(term)));
+    && terms.every(term => {
+      const lt = (lithuanian as Record<string,{name:string;description:string}>)[place.slug];
+      return normalizeSearch(`${place.name} ${place.location} ${place.description} ${place.category} ${place.address??""} ${place.cuisine??""} ${lt?.name??""} ${lt?.description??""}`).includes(term);
+    }));
+}
+
+/** Great-circle distance between reference pins; this is not a road itinerary. */
+export function distanceKm(a: [number, number], b: [number, number]) {
+  const radians = (degrees: number) => degrees * Math.PI / 180;
+  const dLat = radians(b[0] - a[0]);
+  const dLng = radians(b[1] - a[1]);
+  const h = Math.sin(dLat / 2) ** 2 + Math.cos(radians(a[0])) * Math.cos(radians(b[0])) * Math.sin(dLng / 2) ** 2;
+  return 6371 * 2 * Math.asin(Math.sqrt(Math.min(1, Math.max(0, h))));
+}
+
+export function nearbyDestinations(slug: string, limit = 3) {
+  const origin = getDestination(slug);
+  if (!origin) return [];
+  return destinations.filter(place => place.slug !== slug)
+    .map(place => ({ place, distanceKm: distanceKm(origin.coordinates, place.coordinates) }))
+    .sort((a, b) => a.distanceKm - b.distanceKm).slice(0, Math.max(0, limit));
 }
 
 export function directionsUrl(place: Destination) {
-  return `https://www.google.com/maps/dir/?api=1&destination=${encodeURIComponent(place.coordinates.join(","))}`;
+  const destination=place.address?`${place.address}, ${cities.find(city=>city.id===place.cityId)?.label??place.cityId}, Lithuania`:place.coordinates.join(",");
+  return `https://www.google.com/maps/dir/?api=1&destination=${encodeURIComponent(destination)}`;
 }

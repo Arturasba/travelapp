@@ -1,0 +1,4410 @@
+[
+  {
+    "slug": "vilnius-cathedral",
+    "name": "Vilnius Cathedral",
+    "location": "Vilnius · Lithuania",
+    "category": "culture",
+    "cityId": "vilnius",
+    "coordinates": [
+      54.68583333,
+      25.28777778
+    ],
+    "coordinateSource": "https://en.wikipedia.org/wiki/Vilnius_Cathedral",
+    "coordinateNote": "Sourced reference pin; confirm the appropriate entrance or access point.",
+    "description": "The cathedral and its square form a useful starting point for exploring central Vilnius, between the Old Town and Castle Hill.",
+    "reasons": [
+      "The cathedral and its square form a useful starting point for exploring central Vilnius, between the Old Town and Castle Hill",
+      "Explore the Vilnius area",
+      "A cultural stop beyond the main route"
+    ],
+    "visitorInfo": [
+      "Use the Vilnius Cathedral reference pin to orient yourself, then confirm the appropriate visitor entrance locally.",
+      "Check the venue’s current visiting arrangements before travelling; interior access, tickets and events may have separate conditions."
+    ],
+    "featured": false,
+    "hidden": false,
+    "photos": [
+      {
+        "src": "/destinations/Q1281237.jpg",
+        "alt": "Vilnius Cathedral — Vilnius Cathedral 20",
+        "author": "Scotch Mist",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Vilnius_Cathedral_20.jpg",
+        "width": 2560,
+        "height": 1702
+      }
+    ],
+    "sources": [
+      {
+        "label": "Location reference",
+        "url": "https://en.wikipedia.org/wiki/Vilnius_Cathedral"
+      },
+      {
+        "label": "Wikidata reference",
+        "url": "https://www.wikidata.org/wiki/Q1281237"
+      }
+    ],
+    "reviewed": "2026-10-14"
+  },
+  {
+    "slug": "st-anne-s-church",
+    "name": "St Anne's Church",
+    "location": "Vilnius · Lithuania",
+    "category": "culture",
+    "cityId": "vilnius",
+    "coordinates": [
+      54.68305556,
+      25.29333333
+    ],
+    "coordinateSource": "https://en.wikipedia.org/wiki/Church_of_St._Anne%2C_Vilnius",
+    "coordinateNote": "Sourced reference pin; confirm the appropriate entrance or access point.",
+    "description": "An intricate red-brick church brings a distinctive Gothic silhouette to the edge of Vilnius Old Town.",
+    "reasons": [
+      "An intricate red-brick church brings a distinctive Gothic silhouette to the edge of Vilnius Old Town",
+      "Explore the Vilnius area",
+      "A cultural stop beyond the main route"
+    ],
+    "visitorInfo": [
+      "Use the St Anne's Church reference pin to orient yourself, then confirm the appropriate visitor entrance locally.",
+      "Check the venue’s current visiting arrangements before travelling; interior access, tickets and events may have separate conditions."
+    ],
+    "featured": false,
+    "hidden": false,
+    "photos": [
+      {
+        "src": "/destinations/Q937290.jpg",
+        "alt": "St Anne's Church — St. Anne's Church Exterior 3, Vilnius, Lithuania - Diliff",
+        "author": "Diliff",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "source": "https://commons.wikimedia.org/wiki/File:St._Anne%27s_Church_Exterior_3,_Vilnius,_Lithuania_-_Diliff.jpg",
+        "width": 1790,
+        "height": 2560
+      }
+    ],
+    "sources": [
+      {
+        "label": "Location reference",
+        "url": "https://en.wikipedia.org/wiki/Church_of_St._Anne%2C_Vilnius"
+      },
+      {
+        "label": "Wikidata reference",
+        "url": "https://www.wikidata.org/wiki/Q937290"
+      }
+    ],
+    "reviewed": "2026-10-14"
+  },
+  {
+    "slug": "gate-of-dawn",
+    "name": "Gate of Dawn",
+    "location": "Vilnius · Lithuania",
+    "category": "culture",
+    "cityId": "vilnius",
+    "coordinates": [
+      54.67432,
+      25.28954
+    ],
+    "coordinateSource": "https://en.wikipedia.org/wiki/Gate_of_Dawn",
+    "coordinateNote": "Sourced reference pin; confirm the appropriate entrance or access point.",
+    "description": "A surviving city gate and pilgrimage chapel connect Vilnius's historic streets with its living religious traditions.",
+    "reasons": [
+      "A surviving city gate and pilgrimage chapel connect Vilnius's historic streets with its living religious traditions",
+      "Explore the Vilnius area",
+      "A cultural stop beyond the main route"
+    ],
+    "visitorInfo": [
+      "Use the Gate of Dawn reference pin to orient yourself, then confirm the appropriate visitor entrance locally.",
+      "Check the venue’s current visiting arrangements before travelling; interior access, tickets and events may have separate conditions."
+    ],
+    "featured": false,
+    "hidden": false,
+    "photos": [
+      {
+        "src": "/destinations/Q937212.jpg",
+        "alt": "Gate of Dawn — Aušros Vartų 02(js) Vilnius",
+        "author": "Jerzy Strzelecki",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Au%C5%A1ros_Vart%C5%B3_02(js)_Vilnius.jpg",
+        "width": 1611,
+        "height": 2560
+      }
+    ],
+    "sources": [
+      {
+        "label": "Location reference",
+        "url": "https://en.wikipedia.org/wiki/Gate_of_Dawn"
+      },
+      {
+        "label": "Wikidata reference",
+        "url": "https://www.wikidata.org/wiki/Q937212"
+      }
+    ],
+    "reviewed": "2026-10-14"
+  },
+  {
+    "slug": "church-of-st-peter-and-st-paul",
+    "name": "Church of St Peter and St Paul",
+    "location": "Vilnius · Lithuania",
+    "category": "culture",
+    "cityId": "vilnius",
+    "coordinates": [
+      54.69416667,
+      25.30638889
+    ],
+    "coordinateSource": "https://en.wikipedia.org/wiki/Church_of_St._Peter_and_St._Paul%2C_Vilnius",
+    "coordinateNote": "Sourced reference pin; confirm the appropriate entrance or access point.",
+    "description": "Step beyond the Old Town to discover a Baroque church known for its elaborate white interior decoration.",
+    "reasons": [
+      "Step beyond the Old Town to discover a Baroque church known for its elaborate white interior decoration",
+      "Explore the Vilnius area",
+      "A cultural stop beyond the main route"
+    ],
+    "visitorInfo": [
+      "Use the Church of St Peter and St Paul reference pin to orient yourself, then confirm the appropriate visitor entrance locally.",
+      "Check the venue’s current visiting arrangements before travelling; interior access, tickets and events may have separate conditions."
+    ],
+    "featured": false,
+    "hidden": false,
+    "photos": [
+      {
+        "src": "/destinations/Q1283798.jpg",
+        "alt": "Church of St Peter and St Paul — St. Peter and St. Paul's Church Exterior, Vilnius, Lithuania - Diliff",
+        "author": "Diliff",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "source": "https://commons.wikimedia.org/wiki/File:St._Peter_and_St._Paul%27s_Church_Exterior,_Vilnius,_Lithuania_-_Diliff.jpg",
+        "width": 2486,
+        "height": 2560
+      }
+    ],
+    "sources": [
+      {
+        "label": "Location reference",
+        "url": "https://en.wikipedia.org/wiki/Church_of_St._Peter_and_St._Paul%2C_Vilnius"
+      },
+      {
+        "label": "Wikidata reference",
+        "url": "https://www.wikidata.org/wiki/Q1283798"
+      }
+    ],
+    "reviewed": "2026-10-14"
+  },
+  {
+    "slug": "three-crosses-hill",
+    "name": "Three Crosses Hill",
+    "location": "Vilnius · Lithuania",
+    "category": "nature",
+    "cityId": "vilnius",
+    "coordinates": [
+      54.6867,
+      25.2976
+    ],
+    "coordinateSource": "https://en.wikipedia.org/wiki/Three_Crosses",
+    "coordinateNote": "Sourced reference pin; confirm the appropriate entrance or access point.",
+    "description": "The hilltop monument offers another perspective on Vilnius, with wooded slopes and views towards the historic centre.",
+    "reasons": [
+      "The hilltop monument offers another perspective on Vilnius, with wooded slopes and views towards the historic centre",
+      "Explore the Vilnius area",
+      "A landscape-focused excursion"
+    ],
+    "visitorInfo": [
+      "This pin is an area reference. Choose the entrance, trailhead or venue you intend to visit before requesting directions.",
+      "Choose a signed route and check local protected-area access information before setting out."
+    ],
+    "featured": false,
+    "hidden": false,
+    "photos": [
+      {
+        "src": "/destinations/Q83238.jpg",
+        "alt": "Three Crosses Hill — Three Crosses monument at sunset (8178265580)",
+        "author": "Guillaume Speurt from Vilnius, Lithuania",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Three_Crosses_monument_at_sunset_(8178265580).jpg",
+        "width": 2560,
+        "height": 1863
+      }
+    ],
+    "sources": [
+      {
+        "label": "Location reference",
+        "url": "https://en.wikipedia.org/wiki/Three_Crosses"
+      },
+      {
+        "label": "Wikidata reference",
+        "url": "https://www.wikidata.org/wiki/Q83238"
+      }
+    ],
+    "reviewed": "2026-10-14"
+  },
+  {
+    "slug": "uzupis",
+    "name": "Užupis",
+    "location": "Vilnius · Lithuania",
+    "category": "cities",
+    "cityId": "vilnius",
+    "coordinates": [
+      54.68055556,
+      25.29694444
+    ],
+    "coordinateSource": "https://en.wikipedia.org/wiki/U%C5%BEupis",
+    "coordinateNote": "Sourced reference pin; confirm the appropriate entrance or access point.",
+    "description": "Cross the Vilnia into a neighbourhood associated with artists, small streets and the playful idea of an independent republic.",
+    "reasons": [
+      "Cross the Vilnia into a neighbourhood associated with artists, small streets and the playful idea of an independent republic",
+      "Explore the Vilnius area",
+      "Historic streets and local life"
+    ],
+    "visitorInfo": [
+      "This pin is an area reference. Choose the entrance, trailhead or venue you intend to visit before requesting directions.",
+      "Individual museums, churches and attractions have their own visiting arrangements."
+    ],
+    "featured": false,
+    "hidden": false,
+    "photos": [
+      {
+        "src": "/destinations/Q945499.jpg",
+        "alt": "Užupis — Užupio respublika",
+        "author": "Jodkovska",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": "https://commons.wikimedia.org/wiki/File:U%C5%BEupio_respublika.jpg",
+        "width": 1920,
+        "height": 2560
+      }
+    ],
+    "sources": [
+      {
+        "label": "Location reference",
+        "url": "https://en.wikipedia.org/wiki/U%C5%BEupis"
+      },
+      {
+        "label": "Wikidata reference",
+        "url": "https://www.wikidata.org/wiki/Q945499"
+      }
+    ],
+    "reviewed": "2026-10-14"
+  },
+  {
+    "slug": "vilnius-university-courtyards",
+    "name": "Vilnius University Courtyards",
+    "location": "Vilnius · Lithuania",
+    "category": "culture",
+    "cityId": "vilnius",
+    "coordinates": [
+      54.6825,
+      25.28722222
+    ],
+    "coordinateSource": "https://en.wikipedia.org/wiki/Vilnius_University",
+    "coordinateNote": "Sourced reference pin; confirm the appropriate entrance or access point.",
+    "description": "The university's historic ensemble brings courtyards, architecture and academic history into the heart of the Old Town.",
+    "reasons": [
+      "The university's historic ensemble brings courtyards, architecture and academic history into the heart of the Old Town",
+      "Explore the Vilnius area",
+      "A cultural stop beyond the main route"
+    ],
+    "visitorInfo": [
+      "Use the Vilnius University Courtyards reference pin to orient yourself, then confirm the appropriate visitor entrance locally.",
+      "Check the venue’s current visiting arrangements before travelling; interior access, tickets and events may have separate conditions."
+    ],
+    "featured": false,
+    "hidden": false,
+    "photos": [
+      {
+        "src": "/destinations/Q658192.jpg",
+        "alt": "Vilnius University Courtyards — Senamiestis, Vilnius, Lithuania - panoramio (165)",
+        "author": "Michal Gorski",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Senamiestis,_Vilnius,_Lithuania_-_panoramio_(165).jpg",
+        "width": 2560,
+        "height": 1707
+      }
+    ],
+    "sources": [
+      {
+        "label": "Location reference",
+        "url": "https://en.wikipedia.org/wiki/Vilnius_University"
+      },
+      {
+        "label": "Wikidata reference",
+        "url": "https://www.wikidata.org/wiki/Q658192"
+      }
+    ],
+    "reviewed": "2026-10-14"
+  },
+  {
+    "slug": "palace-of-the-grand-dukes",
+    "name": "Palace of the Grand Dukes",
+    "location": "Vilnius · Lithuania",
+    "category": "castles",
+    "cityId": "vilnius",
+    "coordinates": [
+      54.6862,
+      25.289
+    ],
+    "coordinateSource": "https://en.wikipedia.org/wiki/Palace_of_the_Grand_Dukes_of_Lithuania",
+    "coordinateNote": "Sourced reference pin; confirm the appropriate entrance or access point.",
+    "description": "Beside the cathedral, a reconstructed palace introduces the history and material culture of Lithuania's rulers.",
+    "reasons": [
+      "Beside the cathedral, a reconstructed palace introduces the history and material culture of Lithuania's rulers",
+      "Explore the Vilnius area",
+      "Estate and architectural heritage"
+    ],
+    "visitorInfo": [
+      "Use the Palace of the Grand Dukes reference pin to orient yourself, then confirm the appropriate visitor entrance locally.",
+      "Check the venue’s current visiting arrangements before travelling; interior access, tickets and events may have separate conditions."
+    ],
+    "featured": false,
+    "hidden": false,
+    "photos": [
+      {
+        "src": "/destinations/Q1284847.jpg",
+        "alt": "Palace of the Grand Dukes — Vilnius Gedimino Pilies Bokštas Blick auf die Valdovu rumai",
+        "author": "Zairon",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Vilnius_Gedimino_Pilies_Bok%C5%A1tas_Blick_auf_die_Valdovu_rumai.jpg",
+        "width": 2560,
+        "height": 1829
+      }
+    ],
+    "sources": [
+      {
+        "label": "Location reference",
+        "url": "https://en.wikipedia.org/wiki/Palace_of_the_Grand_Dukes_of_Lithuania"
+      },
+      {
+        "label": "Wikidata reference",
+        "url": "https://www.wikidata.org/wiki/Q1284847"
+      },
+      {
+        "label": "Visitor information",
+        "url": "https://www.valdovurumai.lt/"
+      }
+    ],
+    "reviewed": "2026-10-14"
+  },
+  {
+    "slug": "museum-of-occupations-and-freedom-fights",
+    "name": "Museum of Occupations and Freedom Fights",
+    "location": "Vilnius · Lithuania",
+    "category": "culture",
+    "cityId": "vilnius",
+    "coordinates": [
+      54.68787777777778,
+      25.270591666666668
+    ],
+    "coordinateSource": "https://www.wikidata.org/wiki/Q323860",
+    "coordinateNote": "Sourced reference pin; confirm the appropriate entrance or access point.",
+    "description": "This museum addresses occupation, repression and resistance in a former Soviet security-service building.",
+    "reasons": [
+      "This museum addresses occupation, repression and resistance in a former Soviet security-service building",
+      "Explore the Vilnius area",
+      "A cultural stop beyond the main route"
+    ],
+    "visitorInfo": [
+      "Use the Museum of Occupations and Freedom Fights reference pin to orient yourself, then confirm the appropriate visitor entrance locally.",
+      "Check the venue’s current visiting arrangements before travelling; interior access, tickets and events may have separate conditions."
+    ],
+    "featured": false,
+    "hidden": false,
+    "photos": [
+      {
+        "src": "/destinations/Q323860.jpg",
+        "alt": "Museum of Occupations and Freedom Fights — Vilnius, Gedimino prospektas 40 (3)",
+        "author": "Terminator216",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Vilnius,_Gedimino_prospektas_40_(3).jpg",
+        "width": 2560,
+        "height": 1707
+      }
+    ],
+    "sources": [
+      {
+        "label": "Location reference",
+        "url": "https://en.wikipedia.org/wiki/Museum_of_Occupations_and_Freedom_Fights"
+      },
+      {
+        "label": "Wikidata reference",
+        "url": "https://www.wikidata.org/wiki/Q323860"
+      }
+    ],
+    "reviewed": "2026-10-14"
+  },
+  {
+    "slug": "vilnius-tv-tower",
+    "name": "Vilnius TV Tower",
+    "location": "Vilnius · Lithuania",
+    "category": "culture",
+    "cityId": "vilnius",
+    "coordinates": [
+      54.68722222,
+      25.21472222
+    ],
+    "coordinateSource": "https://en.wikipedia.org/wiki/Vilnius_TV_Tower",
+    "coordinateNote": "Sourced reference pin; confirm the appropriate entrance or access point.",
+    "description": "A landmark of modern Vilnius provides a different view of the capital and an important connection to Lithuania's recent history.",
+    "reasons": [
+      "A landmark of modern Vilnius provides a different view of the capital and an important connection to Lithuania's recent history",
+      "Explore the Vilnius area",
+      "A cultural stop beyond the main route"
+    ],
+    "visitorInfo": [
+      "Use the Vilnius TV Tower reference pin to orient yourself, then confirm the appropriate visitor entrance locally.",
+      "Check the venue’s current visiting arrangements before travelling; interior access, tickets and events may have separate conditions."
+    ],
+    "featured": false,
+    "hidden": false,
+    "photos": [
+      {
+        "src": "/destinations/Q1407353.jpg",
+        "alt": "Vilnius TV Tower — Lazdynai - panoramio",
+        "author": "Darius Smalskys",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Lazdynai_-_panoramio.jpg",
+        "width": 2560,
+        "height": 1061
+      }
+    ],
+    "sources": [
+      {
+        "label": "Location reference",
+        "url": "https://en.wikipedia.org/wiki/Vilnius_TV_Tower"
+      },
+      {
+        "label": "Wikidata reference",
+        "url": "https://www.wikidata.org/wiki/Q1407353"
+      }
+    ],
+    "reviewed": "2026-10-14"
+  },
+  {
+    "slug": "verkiai-palace",
+    "name": "Verkiai Palace",
+    "location": "Vilnius · Lithuania",
+    "category": "castles",
+    "cityId": "vilnius",
+    "coordinates": [
+      54.748056,
+      25.292778
+    ],
+    "coordinateSource": "https://en.wikipedia.org/wiki/Verkiai_Palace",
+    "coordinateNote": "Sourced reference pin; confirm the appropriate entrance or access point.",
+    "description": "A palace ensemble on Vilnius's greener northern edge offers architecture and a landscape setting above the Neris valley.",
+    "reasons": [
+      "A palace ensemble on Vilnius's greener northern edge offers architecture and a landscape setting above the Neris valley",
+      "Explore the Vilnius area",
+      "Estate and architectural heritage"
+    ],
+    "visitorInfo": [
+      "Use the Verkiai Palace reference pin to orient yourself, then confirm the appropriate visitor entrance locally.",
+      "Check the venue’s current visiting arrangements before travelling; interior access, tickets and events may have separate conditions."
+    ],
+    "featured": false,
+    "hidden": false,
+    "photos": [
+      {
+        "src": "/destinations/Q4130435.jpg",
+        "alt": "Verkiai Palace — Lithuania Vilnius Verkiai palace",
+        "author": "Wojsyl",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+        "source": "https://commons.wikimedia.org/wiki/File:Lithuania_Vilnius_Verkiai_palace.jpg",
+        "width": 2560,
+        "height": 1920
+      }
+    ],
+    "sources": [
+      {
+        "label": "Location reference",
+        "url": "https://en.wikipedia.org/wiki/Verkiai_Palace"
+      },
+      {
+        "label": "Wikidata reference",
+        "url": "https://www.wikidata.org/wiki/Q4130435"
+      }
+    ],
+    "reviewed": "2026-10-14"
+  },
+  {
+    "slug": "vingis-park",
+    "name": "Vingis Park",
+    "location": "Vilnius · Lithuania",
+    "category": "nature",
+    "cityId": "vilnius",
+    "coordinates": [
+      54.6833,
+      25.2397
+    ],
+    "coordinateSource": "https://www.wikidata.org/wiki/Q2509362",
+    "coordinateNote": "Sourced reference pin; confirm the appropriate entrance or access point.",
+    "description": "Follow the paths through a large city park beside a bend in the Neris, a green break from the Old Town.",
+    "reasons": [
+      "Follow the paths through a large city park beside a bend in the Neris, a green break from the Old Town",
+      "Explore the Vilnius area",
+      "A landscape-focused excursion"
+    ],
+    "visitorInfo": [
+      "This pin is an area reference. Choose the entrance, trailhead or venue you intend to visit before requesting directions.",
+      "Choose a signed route and check local protected-area access information before setting out."
+    ],
+    "featured": false,
+    "hidden": false,
+    "photos": [
+      {
+        "src": "/destinations/Q2509362-2.jpg",
+        "alt": "Vingis Park — Vingio parkas–2019 08 (1)",
+        "author": "Stroncis",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Vingio_parkas%E2%80%932019_08_(1).jpg",
+        "width": 2560,
+        "height": 1901
+      }
+    ],
+    "sources": [
+      {
+        "label": "Location reference",
+        "url": "https://en.wikipedia.org/wiki/Vingis_Park"
+      },
+      {
+        "label": "Wikidata reference",
+        "url": "https://www.wikidata.org/wiki/Q2509362"
+      }
+    ],
+    "reviewed": "2026-10-14"
+  },
+  {
+    "slug": "trakai-peninsula-castle",
+    "name": "Trakai Peninsula Castle",
+    "location": "Trakai · Lithuania",
+    "category": "castles",
+    "cityId": "trakai",
+    "coordinates": [
+      54.646,
+      24.937
+    ],
+    "coordinateSource": "https://en.wikipedia.org/wiki/Trakai_Peninsula_Castle",
+    "coordinateNote": "Sourced reference pin; confirm the appropriate entrance or access point.",
+    "description": "The peninsula castle ruins reveal another part of Trakai's defensive history, away from the island castle's familiar silhouette.",
+    "reasons": [
+      "The peninsula castle ruins reveal another part of Trakai's defensive history, away from the island castle's familiar silhouette",
+      "Explore the Trakai area",
+      "Estate and architectural heritage"
+    ],
+    "visitorInfo": [
+      "Use the Trakai Peninsula Castle reference pin to orient yourself, then confirm the appropriate visitor entrance locally.",
+      "Check the venue’s current visiting arrangements before travelling; interior access, tickets and events may have separate conditions."
+    ],
+    "featured": false,
+    "hidden": false,
+    "photos": [
+      {
+        "src": "/destinations/Q3436990-2.jpg",
+        "alt": "Trakai Peninsula Castle — N trakai 1pilis",
+        "author": "Paulius Čiuladis",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+        "source": "https://commons.wikimedia.org/wiki/File:N_trakai_1pilis.JPG",
+        "width": 1920,
+        "height": 2560
+      }
+    ],
+    "sources": [
+      {
+        "label": "Location reference",
+        "url": "https://en.wikipedia.org/wiki/Trakai_Peninsula_Castle"
+      },
+      {
+        "label": "Wikidata reference",
+        "url": "https://www.wikidata.org/wiki/Q3436990"
+      }
+    ],
+    "reviewed": "2026-10-14"
+  },
+  {
+    "slug": "uzutrakis-manor",
+    "name": "Užutrakis Manor",
+    "location": "Trakai · Lithuania",
+    "category": "castles",
+    "cityId": "trakai",
+    "coordinates": [
+      54.6597,
+      24.9438
+    ],
+    "coordinateSource": "https://en.wikipedia.org/wiki/U%C5%BEutrakis_Manor",
+    "coordinateNote": "Sourced reference pin; confirm the appropriate entrance or access point.",
+    "description": "A lakeside estate and landscaped park offer a contrasting view of Trakai, with elegant architecture and broad water vistas.",
+    "reasons": [
+      "A lakeside estate and landscaped park offer a contrasting view of Trakai, with elegant architecture and broad water vistas",
+      "Explore the Trakai area",
+      "Estate and architectural heritage"
+    ],
+    "visitorInfo": [
+      "Use the Užutrakis Manor reference pin to orient yourself, then confirm the appropriate visitor entrance locally.",
+      "Check the venue’s current visiting arrangements before travelling; interior access, tickets and events may have separate conditions."
+    ],
+    "featured": false,
+    "hidden": false,
+    "photos": [
+      {
+        "src": "/destinations/Q16474829.jpg",
+        "alt": "Užutrakis Manor — Uzutrakis autumn",
+        "author": "Juliux",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Uzutrakis_autumn.jpg",
+        "width": 2560,
+        "height": 1707
+      }
+    ],
+    "sources": [
+      {
+        "label": "Location reference",
+        "url": "https://en.wikipedia.org/wiki/U%C5%BEutrakis_Manor"
+      },
+      {
+        "label": "Wikidata reference",
+        "url": "https://www.wikidata.org/wiki/Q16474829"
+      },
+      {
+        "label": "Visitor information",
+        "url": "https://www.uzutrakiodvaras.lt/"
+      }
+    ],
+    "reviewed": "2026-10-14"
+  },
+  {
+    "slug": "kaunas-castle",
+    "name": "Kaunas Castle",
+    "location": "Kaunas · Lithuania",
+    "category": "castles",
+    "cityId": "kaunas",
+    "coordinates": [
+      54.89888889,
+      23.885
+    ],
+    "coordinateSource": "https://en.wikipedia.org/wiki/Kaunas_Castle",
+    "coordinateNote": "Sourced reference pin; confirm the appropriate entrance or access point.",
+    "description": "A surviving medieval castle beside the meeting of two rivers makes a natural starting point for Kaunas Old Town.",
+    "reasons": [
+      "A surviving medieval castle beside the meeting of two rivers makes a natural starting point for Kaunas Old Town",
+      "Explore the Kaunas area",
+      "Estate and architectural heritage"
+    ],
+    "visitorInfo": [
+      "Use the Kaunas Castle reference pin to orient yourself, then confirm the appropriate visitor entrance locally.",
+      "Check the venue’s current visiting arrangements before travelling; interior access, tickets and events may have separate conditions."
+    ],
+    "featured": false,
+    "hidden": false,
+    "photos": [
+      {
+        "src": "/destinations/Q2468497.jpg",
+        "alt": "Kaunas Castle — Kaunas castle 20160603",
+        "author": "Skelanard",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Kaunas_castle_20160603.jpg",
+        "width": 2560,
+        "height": 1649
+      }
+    ],
+    "sources": [
+      {
+        "label": "Location reference",
+        "url": "https://en.wikipedia.org/wiki/Kaunas_Castle"
+      },
+      {
+        "label": "Wikidata reference",
+        "url": "https://www.wikidata.org/wiki/Q2468497"
+      },
+      {
+        "label": "Visitor information",
+        "url": "https://kaunomuziejus.lt/en/plan-your-visit-to-kaunas-castle/kaunas-castle/"
+      }
+    ],
+    "reviewed": "2026-10-14"
+  },
+  {
+    "slug": "kaunas-town-hall",
+    "name": "Kaunas Town Hall",
+    "location": "Kaunas · Lithuania",
+    "category": "culture",
+    "cityId": "kaunas",
+    "coordinates": [
+      54.89666667,
+      23.88555556
+    ],
+    "coordinateSource": "https://en.wikipedia.org/wiki/Town_Hall%2C_Kaunas",
+    "coordinateNote": "Sourced reference pin; confirm the appropriate entrance or access point.",
+    "description": "The Town Hall anchors a historic square that is well suited to an unhurried walk through the old city.",
+    "reasons": [
+      "The Town Hall anchors a historic square that is well suited to an unhurried walk through the old city",
+      "Explore the Kaunas area",
+      "A cultural stop beyond the main route"
+    ],
+    "visitorInfo": [
+      "Use the Kaunas Town Hall reference pin to orient yourself, then confirm the appropriate visitor entrance locally.",
+      "Check the venue’s current visiting arrangements before travelling; interior access, tickets and events may have separate conditions."
+    ],
+    "featured": false,
+    "hidden": false,
+    "photos": [
+      {
+        "src": "/destinations/Q1851654.jpg",
+        "alt": "Kaunas Town Hall — Kaunas Town Hall 1, Kaunas, Lithuania - Diliff",
+        "author": "Diliff",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Kaunas_Town_Hall_1,_Kaunas,_Lithuania_-_Diliff.jpg",
+        "width": 2016,
+        "height": 2560
+      }
+    ],
+    "sources": [
+      {
+        "label": "Location reference",
+        "url": "https://en.wikipedia.org/wiki/Town_Hall%2C_Kaunas"
+      },
+      {
+        "label": "Wikidata reference",
+        "url": "https://www.wikidata.org/wiki/Q1851654"
+      }
+    ],
+    "reviewed": "2026-10-14"
+  },
+  {
+    "slug": "laisves-aleja",
+    "name": "Laisvės alėja",
+    "location": "Kaunas · Lithuania",
+    "category": "cities",
+    "cityId": "kaunas",
+    "coordinates": [
+      54.89722222,
+      23.91361111
+    ],
+    "coordinateSource": "https://en.wikipedia.org/wiki/Laisv%C4%97s_al%C4%97ja",
+    "coordinateNote": "Sourced reference pin; confirm the appropriate entrance or access point.",
+    "description": "Walk Kaunas's long pedestrian avenue to connect its civic architecture, cafes and everyday city life.",
+    "reasons": [
+      "Walk Kaunas's long pedestrian avenue to connect its civic architecture, cafes and everyday city life",
+      "Explore the Kaunas area",
+      "Historic streets and local life"
+    ],
+    "visitorInfo": [
+      "This pin is an area reference. Choose the entrance, trailhead or venue you intend to visit before requesting directions.",
+      "Individual museums, churches and attractions have their own visiting arrangements."
+    ],
+    "featured": false,
+    "hidden": false,
+    "photos": [
+      {
+        "src": "/destinations/Q3274100-2.jpg",
+        "alt": "Laisvės alėja — Laisves St., Kaunas, Lithuania, 11 Sept. 2008 - Flickr - PhillipC",
+        "author": "Phillip Capper from Wellington, New Zealand",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Laisves_St.,_Kaunas,_Lithuania,_11_Sept._2008_-_Flickr_-_PhillipC.jpg",
+        "width": 2560,
+        "height": 1535
+      }
+    ],
+    "sources": [
+      {
+        "label": "Location reference",
+        "url": "https://en.wikipedia.org/wiki/Laisv%C4%97s_al%C4%97ja"
+      },
+      {
+        "label": "Wikidata reference",
+        "url": "https://www.wikidata.org/wiki/Q3274100"
+      }
+    ],
+    "reviewed": "2026-10-14"
+  },
+  {
+    "slug": "m-k-ciurlionis-national-art-museum",
+    "name": "M. K. Čiurlionis National Art Museum",
+    "location": "Kaunas · Lithuania",
+    "category": "culture",
+    "cityId": "kaunas",
+    "coordinates": [
+      54.9,
+      23.91138889
+    ],
+    "coordinateSource": "https://en.wikipedia.org/wiki/M._K._%C4%8Ciurlionis_National_Art_Museum",
+    "coordinateNote": "Sourced reference pin; confirm the appropriate entrance or access point.",
+    "description": "Explore the work and cultural legacy of Lithuania's celebrated artist and composer in a major Kaunas museum.",
+    "reasons": [
+      "Explore the work and cultural legacy of Lithuania's celebrated artist and composer in a major Kaunas museum",
+      "Explore the Kaunas area",
+      "A cultural stop beyond the main route"
+    ],
+    "visitorInfo": [
+      "Use the M. K. Čiurlionis National Art Museum reference pin to orient yourself, then confirm the appropriate visitor entrance locally.",
+      "Check the venue’s current visiting arrangements before travelling; interior access, tickets and events may have separate conditions."
+    ],
+    "featured": false,
+    "hidden": false,
+    "photos": [
+      {
+        "src": "/destinations/Q4381425.jpg",
+        "alt": "M. K. Čiurlionis National Art Museum — M. K. Ciurlionis National Art Museum (2018)",
+        "author": "Pofka",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": "https://commons.wikimedia.org/wiki/File:M._K._Ciurlionis_National_Art_Museum_(2018).jpg",
+        "width": 2048,
+        "height": 1536
+      }
+    ],
+    "sources": [
+      {
+        "label": "Location reference",
+        "url": "https://en.wikipedia.org/wiki/M._K._%C4%8Ciurlionis_National_Art_Museum"
+      },
+      {
+        "label": "Wikidata reference",
+        "url": "https://www.wikidata.org/wiki/Q4381425"
+      },
+      {
+        "label": "Visitor information",
+        "url": "https://ciurlionis.lt/"
+      }
+    ],
+    "reviewed": "2026-10-14"
+  },
+  {
+    "slug": "devils-museum",
+    "name": "Devils' Museum",
+    "location": "Kaunas · Lithuania",
+    "category": "culture",
+    "cityId": "kaunas",
+    "coordinates": [
+      54.900833,
+      23.910556
+    ],
+    "coordinateSource": "https://www.wikidata.org/wiki/Q2305235",
+    "coordinateNote": "Sourced reference pin; confirm the appropriate entrance or access point.",
+    "description": "A distinctive collection of devil figures offers a playful route into folk imagery and collecting traditions.",
+    "reasons": [
+      "A distinctive collection of devil figures offers a playful route into folk imagery and collecting traditions",
+      "Explore the Kaunas area",
+      "A cultural stop beyond the main route"
+    ],
+    "visitorInfo": [
+      "Use the Devils' Museum reference pin to orient yourself, then confirm the appropriate visitor entrance locally.",
+      "Check the venue’s current visiting arrangements before travelling; interior access, tickets and events may have separate conditions."
+    ],
+    "featured": false,
+    "hidden": false,
+    "photos": [
+      {
+        "src": "/destinations/Q2305235.jpg",
+        "alt": "Devils' Museum — A. Žmuidzinavičiaus memorialiniai namai, Velnių muziejus",
+        "author": "Andrijana F",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": "https://commons.wikimedia.org/wiki/File:A._%C5%BDmuidzinavi%C4%8Diaus_memorialiniai_namai,_Velni%C5%B3_muziejus.jpg",
+        "width": 2560,
+        "height": 1707
+      }
+    ],
+    "sources": [
+      {
+        "label": "Location reference",
+        "url": "https://en.wikipedia.org/wiki/%C5%BDmuidzinavi%C4%8Dius_Museum"
+      },
+      {
+        "label": "Wikidata reference",
+        "url": "https://www.wikidata.org/wiki/Q2305235"
+      }
+    ],
+    "reviewed": "2026-10-14"
+  },
+  {
+    "slug": "ninth-fort",
+    "name": "Ninth Fort",
+    "location": "Kaunas · Lithuania",
+    "category": "culture",
+    "cityId": "kaunas",
+    "coordinates": [
+      54.94472222,
+      23.87055556
+    ],
+    "coordinateSource": "https://en.wikipedia.org/wiki/Ninth_Fort",
+    "coordinateNote": "Sourced reference pin; confirm the appropriate entrance or access point.",
+    "description": "A fortress site, museum and memorial address difficult histories of imprisonment, occupation and mass murder.",
+    "reasons": [
+      "A fortress site, museum and memorial address difficult histories of imprisonment, occupation and mass murder",
+      "Explore the Kaunas area",
+      "A cultural stop beyond the main route"
+    ],
+    "visitorInfo": [
+      "Use the Ninth Fort reference pin to orient yourself, then confirm the appropriate visitor entrance locally.",
+      "Check the venue’s current visiting arrangements before travelling; interior access, tickets and events may have separate conditions."
+    ],
+    "featured": false,
+    "hidden": false,
+    "photos": [
+      {
+        "src": "/destinations/Q665266.jpg",
+        "alt": "Ninth Fort — Kauno IX forto vaizdas",
+        "author": "Jurgis Jarašiūnas",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Kauno_IX_forto_vaizdas.jpg",
+        "width": 2560,
+        "height": 1920
+      }
+    ],
+    "sources": [
+      {
+        "label": "Location reference",
+        "url": "https://en.wikipedia.org/wiki/Ninth_Fort"
+      },
+      {
+        "label": "Wikidata reference",
+        "url": "https://www.wikidata.org/wiki/Q665266"
+      }
+    ],
+    "reviewed": "2026-10-14"
+  },
+  {
+    "slug": "house-of-perkunas",
+    "name": "House of Perkūnas",
+    "location": "Kaunas · Lithuania",
+    "category": "culture",
+    "cityId": "kaunas",
+    "coordinates": [
+      54.89555556,
+      23.88611111
+    ],
+    "coordinateSource": "https://en.wikipedia.org/wiki/House_of_Perk%C5%ABnas",
+    "coordinateNote": "Sourced reference pin; confirm the appropriate entrance or access point.",
+    "description": "A richly detailed Gothic house is a compact architectural stop within Kaunas Old Town.",
+    "reasons": [
+      "A richly detailed Gothic house is a compact architectural stop within Kaunas Old Town",
+      "Explore the Kaunas area",
+      "A cultural stop beyond the main route"
+    ],
+    "visitorInfo": [
+      "Use the House of Perkūnas reference pin to orient yourself, then confirm the appropriate visitor entrance locally.",
+      "Check the venue’s current visiting arrangements before travelling; interior access, tickets and events may have separate conditions."
+    ],
+    "featured": false,
+    "hidden": false,
+    "photos": [
+      {
+        "src": "/destinations/Q2626734.jpg",
+        "alt": "House of Perkūnas — House of Perkūnas, Kaunas, Lithuania - Diliff",
+        "author": "Diliff",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "source": "https://commons.wikimedia.org/wiki/File:House_of_Perk%C5%ABnas,_Kaunas,_Lithuania_-_Diliff.jpg",
+        "width": 1926,
+        "height": 2560
+      }
+    ],
+    "sources": [
+      {
+        "label": "Location reference",
+        "url": "https://en.wikipedia.org/wiki/House_of_Perk%C5%ABnas"
+      },
+      {
+        "label": "Wikidata reference",
+        "url": "https://www.wikidata.org/wiki/Q2626734"
+      }
+    ],
+    "reviewed": "2026-10-14"
+  },
+  {
+    "slug": "st-michael-the-archangel-church",
+    "name": "St Michael the Archangel Church",
+    "location": "Kaunas · Lithuania",
+    "category": "culture",
+    "cityId": "kaunas",
+    "coordinates": [
+      54.89694,
+      23.92111
+    ],
+    "coordinateSource": "https://en.wikipedia.org/wiki/Church_of_St._Michael_the_Archangel%2C_Kaunas",
+    "coordinateNote": "Sourced reference pin; confirm the appropriate entrance or access point.",
+    "description": "The domed church at the end of Laisvės alėja is an unmistakable landmark in central Kaunas.",
+    "reasons": [
+      "The domed church at the end of Laisvės alėja is an unmistakable landmark in central Kaunas",
+      "Explore the Kaunas area",
+      "A cultural stop beyond the main route"
+    ],
+    "visitorInfo": [
+      "Use the St Michael the Archangel Church reference pin to orient yourself, then confirm the appropriate visitor entrance locally.",
+      "Check the venue’s current visiting arrangements before travelling; interior access, tickets and events may have separate conditions."
+    ],
+    "featured": false,
+    "hidden": false,
+    "photos": [
+      {
+        "src": "/destinations/Q3325.jpg",
+        "alt": "St Michael the Archangel Church — St. Michael the Archangel Church 1, Kaunas, Lithuania - Diliff",
+        "author": "Diliff",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "source": "https://commons.wikimedia.org/wiki/File:St._Michael_the_Archangel_Church_1,_Kaunas,_Lithuania_-_Diliff.jpg",
+        "width": 2560,
+        "height": 2413
+      }
+    ],
+    "sources": [
+      {
+        "label": "Location reference",
+        "url": "https://en.wikipedia.org/wiki/Church_of_St._Michael_the_Archangel%2C_Kaunas"
+      },
+      {
+        "label": "Wikidata reference",
+        "url": "https://www.wikidata.org/wiki/Q3325"
+      }
+    ],
+    "reviewed": "2026-10-14"
+  },
+  {
+    "slug": "kaunas-botanical-garden",
+    "name": "Kaunas Botanical Garden",
+    "location": "Kaunas · Lithuania",
+    "category": "nature",
+    "cityId": "kaunas",
+    "coordinates": [
+      54.87055556,
+      23.91027778
+    ],
+    "coordinateSource": "https://en.wikipedia.org/wiki/Vytautas_Magnus_University_Botanical_Garden",
+    "coordinateNote": "Sourced reference pin; confirm the appropriate entrance or access point.",
+    "description": "Gardens and plant collections provide a gentler outdoor stop beyond central Kaunas's busy streets.",
+    "reasons": [
+      "Gardens and plant collections provide a gentler outdoor stop beyond central Kaunas's busy streets",
+      "Explore the Kaunas area",
+      "A landscape-focused excursion"
+    ],
+    "visitorInfo": [
+      "This pin is an area reference. Choose the entrance, trailhead or venue you intend to visit before requesting directions.",
+      "Choose a signed route and check local protected-area access information before setting out."
+    ],
+    "featured": false,
+    "hidden": false,
+    "photos": [
+      {
+        "src": "/destinations/Q3443536.jpg",
+        "alt": "Kaunas Botanical Garden — VMU Botanical Garden in Kaunas greenhouse 2025",
+        "author": "SUJIRENas",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "source": "https://commons.wikimedia.org/wiki/File:VMU_Botanical_Garden_in_Kaunas_greenhouse_2025.jpg",
+        "width": 2560,
+        "height": 1520
+      }
+    ],
+    "sources": [
+      {
+        "label": "Location reference",
+        "url": "https://en.wikipedia.org/wiki/Vytautas_Magnus_University_Botanical_Garden"
+      },
+      {
+        "label": "Wikidata reference",
+        "url": "https://www.wikidata.org/wiki/Q3443536"
+      },
+      {
+        "label": "Visitor information",
+        "url": "https://botanika.vdu.lt/"
+      }
+    ],
+    "reviewed": "2026-10-14"
+  },
+  {
+    "slug": "zaliakalnis-funicular",
+    "name": "Žaliakalnis Funicular",
+    "location": "Kaunas · Lithuania",
+    "category": "culture",
+    "cityId": "kaunas",
+    "coordinates": [
+      54.90083333,
+      23.9175
+    ],
+    "coordinateSource": "https://en.wikipedia.org/wiki/%C5%BDaliakalnis_Funicular",
+    "coordinateNote": "Sourced reference pin; confirm the appropriate entrance or access point.",
+    "description": "A historic hillside railway connects the lower city with Žaliakalnis and adds a memorable transport experience to a Kaunas visit.",
+    "reasons": [
+      "A historic hillside railway connects the lower city with Žaliakalnis and adds a memorable transport experience to a Kaunas visit",
+      "Explore the Kaunas area",
+      "A cultural stop beyond the main route"
+    ],
+    "visitorInfo": [
+      "Use the Žaliakalnis Funicular reference pin to orient yourself, then confirm the appropriate visitor entrance locally.",
+      "Check the venue’s current visiting arrangements before travelling; interior access, tickets and events may have separate conditions."
+    ],
+    "featured": false,
+    "hidden": false,
+    "photos": [
+      {
+        "src": "/destinations/Q3435987.jpg",
+        "alt": "Žaliakalnis Funicular — Žaliakalnis funicular",
+        "author": "Bernardaas",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": "https://commons.wikimedia.org/wiki/File:%C5%BDaliakalnis_funicular.jpg",
+        "width": 2198,
+        "height": 1466
+      }
+    ],
+    "sources": [
+      {
+        "label": "Location reference",
+        "url": "https://en.wikipedia.org/wiki/%C5%BDaliakalnis_Funicular"
+      },
+      {
+        "label": "Wikidata reference",
+        "url": "https://www.wikidata.org/wiki/Q3435987"
+      }
+    ],
+    "reviewed": "2026-10-14"
+  },
+  {
+    "slug": "lithuanian-zoo",
+    "name": "Lithuanian Zoo",
+    "location": "Kaunas · Lithuania",
+    "category": "nature",
+    "cityId": "kaunas",
+    "coordinates": [
+      54.90138889,
+      23.95138889
+    ],
+    "coordinateSource": "https://en.wikipedia.org/wiki/Lithuanian_Zoo",
+    "coordinateNote": "Sourced reference pin; confirm the appropriate entrance or access point.",
+    "description": "An established zoological garden offers an alternative outing in Kaunas; plan around the operator's current visitor arrangements.",
+    "reasons": [
+      "An established zoological garden offers an alternative outing in Kaunas; plan around the operator's current visitor arrangements",
+      "Explore the Kaunas area",
+      "A landscape-focused excursion"
+    ],
+    "visitorInfo": [
+      "This pin is an area reference. Choose the entrance, trailhead or venue you intend to visit before requesting directions.",
+      "Choose a signed route and check local protected-area access information before setting out."
+    ],
+    "featured": false,
+    "hidden": false,
+    "photos": [
+      {
+        "src": "/destinations/Q3266986.jpg",
+        "alt": "Lithuanian Zoo — Lietuvos zoologijos sodas",
+        "author": "Stanislovas01",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Lietuvos_zoologijos_sodas.jpg",
+        "width": 2560,
+        "height": 1729
+      }
+    ],
+    "sources": [
+      {
+        "label": "Location reference",
+        "url": "https://en.wikipedia.org/wiki/Lithuanian_Zoo"
+      },
+      {
+        "label": "Wikidata reference",
+        "url": "https://www.wikidata.org/wiki/Q3266986"
+      },
+      {
+        "label": "Visitor information",
+        "url": "https://www.zoosodas.lt/"
+      }
+    ],
+    "reviewed": "2026-10-14"
+  },
+  {
+    "slug": "raudone-castle",
+    "name": "Raudonė Castle",
+    "location": "Jurbarkas · Lithuania",
+    "category": "castles",
+    "cityId": "jurbarkas",
+    "coordinates": [
+      55.09666667,
+      23.13055556
+    ],
+    "coordinateSource": "https://en.wikipedia.org/wiki/Raudon%C4%97_Castle",
+    "coordinateNote": "Sourced reference pin; confirm the appropriate entrance or access point.",
+    "description": "A red-brick castle and park make a rewarding stop along the Nemunas, pairing estate history with a river-valley setting.",
+    "reasons": [
+      "A red-brick castle and park make a rewarding stop along the Nemunas, pairing estate history with a river-valley setting",
+      "Explore the Jurbarkas area",
+      "Estate and architectural heritage"
+    ],
+    "visitorInfo": [
+      "Use the Raudonė Castle reference pin to orient yourself, then confirm the appropriate visitor entrance locally.",
+      "Check the venue’s current visiting arrangements before travelling; interior access, tickets and events may have separate conditions."
+    ],
+    "featured": false,
+    "hidden": false,
+    "photos": [
+      {
+        "src": "/destinations/Q2970356.jpg",
+        "alt": "Raudonė Castle — Raudonė Castle front",
+        "author": "Juliux",
+        "license": "Public domain",
+        "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "source": "https://commons.wikimedia.org/wiki/File:Raudon%C4%97_Castle_front.jpg",
+        "width": 2560,
+        "height": 1131
+      }
+    ],
+    "sources": [
+      {
+        "label": "Location reference",
+        "url": "https://en.wikipedia.org/wiki/Raudon%C4%97_Castle"
+      },
+      {
+        "label": "Wikidata reference",
+        "url": "https://www.wikidata.org/wiki/Q2970356"
+      }
+    ],
+    "reviewed": "2026-10-14"
+  },
+  {
+    "slug": "raudondvaris-manor",
+    "name": "Raudondvaris Manor",
+    "location": "Kaunas · Lithuania",
+    "category": "castles",
+    "cityId": "kaunas",
+    "coordinates": [
+      54.94305556,
+      23.78333333
+    ],
+    "coordinateSource": "https://www.wikidata.org/wiki/Q2970344",
+    "coordinateNote": "Sourced reference pin; confirm the appropriate entrance or access point.",
+    "description": "An estate near Kaunas brings together historic architecture, a park and cultural uses within a compact manor ensemble.",
+    "reasons": [
+      "An estate near Kaunas brings together historic architecture, a park and cultural uses within a compact manor ensemble",
+      "Explore the Kaunas area",
+      "Estate and architectural heritage"
+    ],
+    "visitorInfo": [
+      "Use the Raudondvaris Manor reference pin to orient yourself, then confirm the appropriate visitor entrance locally.",
+      "Check the venue’s current visiting arrangements before travelling; interior access, tickets and events may have separate conditions."
+    ],
+    "featured": false,
+    "hidden": false,
+    "photos": [
+      {
+        "src": "/destinations/Q2970344.jpg",
+        "alt": "Raudondvaris Manor — Raudondvario dvaro rūmai - panoramio",
+        "author": "Aidas U.",
+        "license": "CC BY 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Raudondvario_dvaro_r%C5%ABmai_-_panoramio.jpg",
+        "width": 2560,
+        "height": 1920
+      }
+    ],
+    "sources": [
+      {
+        "label": "Location reference",
+        "url": "https://en.wikipedia.org/wiki/Raudondvaris_Castle"
+      },
+      {
+        "label": "Wikidata reference",
+        "url": "https://www.wikidata.org/wiki/Q2970344"
+      }
+    ],
+    "reviewed": "2026-10-14"
+  },
+  {
+    "slug": "kedainiai-old-town",
+    "name": "Kėdainiai Old Town",
+    "location": "Kėdainiai · Lithuania",
+    "category": "cities",
+    "cityId": "kedainiai",
+    "coordinates": [
+      55.28333333,
+      23.96666667
+    ],
+    "coordinateSource": "https://en.wikipedia.org/wiki/K%C4%97dainiai",
+    "coordinateNote": "Sourced reference pin; confirm the appropriate entrance or access point.",
+    "description": "Explore a historic town whose streets, squares and religious buildings reflect a varied merchant and community past.",
+    "reasons": [
+      "Explore a historic town whose streets, squares and religious buildings reflect a varied merchant and community past",
+      "Explore the Kėdainiai area",
+      "Historic streets and local life"
+    ],
+    "visitorInfo": [
+      "This pin is an area reference. Choose the entrance, trailhead or venue you intend to visit before requesting directions.",
+      "Individual museums, churches and attractions have their own visiting arrangements."
+    ],
+    "featured": false,
+    "hidden": false,
+    "photos": [
+      {
+        "src": "/destinations/Q735138.jpg",
+        "alt": "Kėdainiai Old Town — Kėdainiai town hall 130252401",
+        "author": "Michał Derela",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": "https://commons.wikimedia.org/wiki/File:K%C4%97dainiai_town_hall_130252401.jpg",
+        "width": 2560,
+        "height": 1927
+      }
+    ],
+    "sources": [
+      {
+        "label": "Location reference",
+        "url": "https://en.wikipedia.org/wiki/K%C4%97dainiai"
+      },
+      {
+        "label": "Wikidata reference",
+        "url": "https://www.wikidata.org/wiki/Q735138"
+      }
+    ],
+    "reviewed": "2026-10-14"
+  },
+  {
+    "slug": "birzai-castle",
+    "name": "Biržai Castle",
+    "location": "Biržai · Lithuania",
+    "category": "castles",
+    "cityId": "birzai",
+    "coordinates": [
+      56.2,
+      24.75
+    ],
+    "coordinateSource": "https://en.wikipedia.org/wiki/Bir%C5%BEai_Castle",
+    "coordinateNote": "Sourced reference pin; confirm the appropriate entrance or access point.",
+    "description": "A reconstructed residential castle introduces the history of the Radvila family and northern Lithuania.",
+    "reasons": [
+      "A reconstructed residential castle introduces the history of the Radvila family and northern Lithuania",
+      "Explore the Biržai area",
+      "Estate and architectural heritage"
+    ],
+    "visitorInfo": [
+      "Use the Biržai Castle reference pin to orient yourself, then confirm the appropriate visitor entrance locally.",
+      "Check the venue’s current visiting arrangements before travelling; interior access, tickets and events may have separate conditions."
+    ],
+    "featured": false,
+    "hidden": false,
+    "photos": [
+      {
+        "src": "/destinations/Q2659104.jpg",
+        "alt": "Biržai Castle — Lithuania Birże Radziwiłł Castle",
+        "author": "Wojsyl",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+        "source": "https://commons.wikimedia.org/wiki/File:Lithuania_Bir%C5%BCe_Radziwi%C5%82%C5%82_Castle.jpg",
+        "width": 2560,
+        "height": 1920
+      }
+    ],
+    "sources": [
+      {
+        "label": "Location reference",
+        "url": "https://en.wikipedia.org/wiki/Bir%C5%BEai_Castle"
+      },
+      {
+        "label": "Wikidata reference",
+        "url": "https://www.wikidata.org/wiki/Q2659104"
+      }
+    ],
+    "reviewed": "2026-10-14"
+  },
+  {
+    "slug": "birzai-regional-park",
+    "name": "Biržai Regional Park",
+    "location": "Biržai · Lithuania",
+    "category": "nature",
+    "cityId": "birzai",
+    "coordinates": [
+      56.201,
+      24.659
+    ],
+    "coordinateSource": "https://en.wikipedia.org/wiki/Bir%C5%BEai_Regional_Park",
+    "coordinateNote": "Sourced reference pin; confirm the appropriate entrance or access point.",
+    "description": "This northern landscape is shaped by karst processes, with sinkholes and geological features spread across the park.",
+    "reasons": [
+      "This northern landscape is shaped by karst processes, with sinkholes and geological features spread across the park",
+      "Explore the Biržai area",
+      "A landscape-focused excursion"
+    ],
+    "visitorInfo": [
+      "This pin is an area reference. Choose the entrance, trailhead or venue you intend to visit before requesting directions.",
+      "Choose a signed route and check local protected-area access information before setting out."
+    ],
+    "featured": false,
+    "hidden": false,
+    "photos": [
+      {
+        "src": "/destinations/Q2039160-2.jpg",
+        "alt": "Biržai Regional Park — Kirkilai karstiniai ezereliai",
+        "author": "Qwarc at Lithuanian Wikipedia",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+        "source": "https://commons.wikimedia.org/wiki/File:Kirkilai_karstiniai_ezereliai.jpg",
+        "width": 2560,
+        "height": 1920
+      }
+    ],
+    "sources": [
+      {
+        "label": "Location reference",
+        "url": "https://en.wikipedia.org/wiki/Bir%C5%BEai_Regional_Park"
+      },
+      {
+        "label": "Wikidata reference",
+        "url": "https://www.wikidata.org/wiki/Q2039160"
+      }
+    ],
+    "reviewed": "2026-10-14"
+  },
+  {
+    "slug": "astravas-manor",
+    "name": "Astravas Manor",
+    "location": "Biržai · Lithuania",
+    "category": "castles",
+    "cityId": "birzai",
+    "coordinates": [
+      56.22083333,
+      24.77
+    ],
+    "coordinateSource": "https://en.wikipedia.org/wiki/Astravas_Manor",
+    "coordinateNote": "Sourced reference pin; confirm the appropriate entrance or access point.",
+    "description": "A lakeside manor ensemble offers an architectural detour outside Biržai's centre.",
+    "reasons": [
+      "A lakeside manor ensemble offers an architectural detour outside Biržai's centre",
+      "Explore the Biržai area",
+      "Estate and architectural heritage"
+    ],
+    "visitorInfo": [
+      "Use the Astravas Manor reference pin to orient yourself, then confirm the appropriate visitor entrance locally.",
+      "Check the venue’s current visiting arrangements before travelling; interior access, tickets and events may have separate conditions."
+    ],
+    "featured": false,
+    "hidden": false,
+    "photos": [
+      {
+        "src": "/destinations/Q12649377.jpg",
+        "alt": "Astravas Manor — Lithuania Birże Tyszkiewicz Palace",
+        "author": "Wojsyl",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+        "source": "https://commons.wikimedia.org/wiki/File:Lithuania_Bir%C5%BCe_Tyszkiewicz_Palace.jpg",
+        "width": 2560,
+        "height": 1920
+      }
+    ],
+    "sources": [
+      {
+        "label": "Location reference",
+        "url": "https://en.wikipedia.org/wiki/Astravas_Manor"
+      },
+      {
+        "label": "Wikidata reference",
+        "url": "https://www.wikidata.org/wiki/Q12649377"
+      }
+    ],
+    "reviewed": "2026-10-14"
+  },
+  {
+    "slug": "rokiskis-manor",
+    "name": "Rokiškis Manor",
+    "location": "Rokiškis · Lithuania",
+    "category": "castles",
+    "cityId": "rokiskis",
+    "coordinates": [
+      55.96527778,
+      25.60111111
+    ],
+    "coordinateSource": "https://en.wikipedia.org/wiki/Roki%C5%A1kis_Manor",
+    "coordinateNote": "Sourced reference pin; confirm the appropriate entrance or access point.",
+    "description": "The manor ensemble and its museum connect estate architecture with the history and artistic traditions of the Rokiškis region.",
+    "reasons": [
+      "The manor ensemble and its museum connect estate architecture with the history and artistic traditions of the Rokiškis region",
+      "Explore the Rokiškis area",
+      "Estate and architectural heritage"
+    ],
+    "visitorInfo": [
+      "Use the Rokiškis Manor reference pin to orient yourself, then confirm the appropriate visitor entrance locally.",
+      "Check the venue’s current visiting arrangements before travelling; interior access, tickets and events may have separate conditions."
+    ],
+    "featured": false,
+    "hidden": false,
+    "photos": [
+      {
+        "src": "/destinations/Q12671565.jpg",
+        "alt": "Rokiškis Manor — Rokiskio dvaras - panoramio",
+        "author": "Aleksandrs Timofejev…",
+        "license": "CC BY 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Rokiskio_dvaras_-_panoramio.jpg",
+        "width": 2048,
+        "height": 1536
+      }
+    ],
+    "sources": [
+      {
+        "label": "Location reference",
+        "url": "https://en.wikipedia.org/wiki/Roki%C5%A1kis_Manor"
+      },
+      {
+        "label": "Wikidata reference",
+        "url": "https://www.wikidata.org/wiki/Q12671565"
+      }
+    ],
+    "reviewed": "2026-10-14"
+  },
+  {
+    "slug": "pakruojis-manor",
+    "name": "Pakruojis Manor",
+    "location": "Pakruojis · Lithuania",
+    "category": "castles",
+    "cityId": "pakruojis",
+    "coordinates": [
+      55.98611111,
+      23.87916667
+    ],
+    "coordinateSource": "https://en.wikipedia.org/wiki/Pakruojis_Manor",
+    "coordinateNote": "Sourced reference pin; confirm the appropriate entrance or access point.",
+    "description": "A large historic estate offers buildings, parkland and changing visitor programmes in northern Lithuania.",
+    "reasons": [
+      "A large historic estate offers buildings, parkland and changing visitor programmes in northern Lithuania",
+      "Explore the Pakruojis area",
+      "Estate and architectural heritage"
+    ],
+    "visitorInfo": [
+      "Use the Pakruojis Manor reference pin to orient yourself, then confirm the appropriate visitor entrance locally.",
+      "Check the venue’s current visiting arrangements before travelling; interior access, tickets and events may have separate conditions."
+    ],
+    "featured": false,
+    "hidden": false,
+    "photos": [
+      {
+        "src": "/destinations/Q12667934.jpg",
+        "alt": "Pakruojis Manor — Pakruojis manor",
+        "author": "Андрей Романенко",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Pakruojis_manor.jpg",
+        "width": 2560,
+        "height": 1927
+      }
+    ],
+    "sources": [
+      {
+        "label": "Location reference",
+        "url": "https://en.wikipedia.org/wiki/Pakruojis_Manor"
+      },
+      {
+        "label": "Wikidata reference",
+        "url": "https://www.wikidata.org/wiki/Q12667934"
+      }
+    ],
+    "reviewed": "2026-10-14"
+  },
+  {
+    "slug": "taujenai-manor",
+    "name": "Taujėnai Manor",
+    "location": "Ukmergė · Lithuania",
+    "category": "castles",
+    "cityId": "ukmerge",
+    "coordinates": [
+      55.39722222,
+      24.76055556
+    ],
+    "coordinateSource": "https://en.wikipedia.org/wiki/Tauj%C4%97nai_Manor",
+    "coordinateNote": "Sourced reference pin; confirm the appropriate entrance or access point.",
+    "description": "A manor ensemble near Ukmergė is a useful stop for travellers interested in estate architecture and parkland.",
+    "reasons": [
+      "A manor ensemble near Ukmergė is a useful stop for travellers interested in estate architecture and parkland",
+      "Explore the Ukmergė area",
+      "Estate and architectural heritage"
+    ],
+    "visitorInfo": [
+      "Use the Taujėnai Manor reference pin to orient yourself, then confirm the appropriate visitor entrance locally.",
+      "Check the venue’s current visiting arrangements before travelling; interior access, tickets and events may have separate conditions."
+    ],
+    "featured": false,
+    "hidden": false,
+    "photos": [
+      {
+        "src": "/destinations/Q12674686.jpg",
+        "alt": "Taujėnai Manor — Taujėnų dvaras (cropped)",
+        "author": "Original:  Watas Cropped by: Blowwhite",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Tauj%C4%97n%C5%B3_dvaras_(cropped).jpg",
+        "width": 2560,
+        "height": 1707
+      }
+    ],
+    "sources": [
+      {
+        "label": "Location reference",
+        "url": "https://en.wikipedia.org/wiki/Tauj%C4%97nai_Manor"
+      },
+      {
+        "label": "Wikidata reference",
+        "url": "https://www.wikidata.org/wiki/Q12674686"
+      }
+    ],
+    "reviewed": "2026-10-14"
+  },
+  {
+    "slug": "plunge-manor",
+    "name": "Plungė Manor",
+    "location": "Plungė · Lithuania",
+    "category": "castles",
+    "cityId": "plunge",
+    "coordinates": [
+      55.91944444,
+      21.84416667
+    ],
+    "coordinateSource": "https://en.wikipedia.org/wiki/Plung%C4%97_Manor",
+    "coordinateNote": "Sourced reference pin; confirm the appropriate entrance or access point.",
+    "description": "The Oginskiai estate brings together a palace, park and regional art heritage in the town of Plungė.",
+    "reasons": [
+      "The Oginskiai estate brings together a palace, park and regional art heritage in the town of Plungė",
+      "Explore the Plungė area",
+      "Estate and architectural heritage"
+    ],
+    "visitorInfo": [
+      "Use the Plungė Manor reference pin to orient yourself, then confirm the appropriate visitor entrance locally.",
+      "Check the venue’s current visiting arrangements before travelling; interior access, tickets and events may have separate conditions."
+    ],
+    "featured": false,
+    "hidden": false,
+    "photos": [
+      {
+        "src": "/destinations/Q12669734.jpg",
+        "alt": "Plungė Manor — Plunges Oginskio dvaras",
+        "author": "Viskonsas",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Plunges_Oginskio_dvaras.JPG",
+        "width": 1979,
+        "height": 1074
+      }
+    ],
+    "sources": [
+      {
+        "label": "Location reference",
+        "url": "https://en.wikipedia.org/wiki/Plung%C4%97_Manor"
+      },
+      {
+        "label": "Wikidata reference",
+        "url": "https://www.wikidata.org/wiki/Q12669734"
+      }
+    ],
+    "reviewed": "2026-10-14"
+  },
+  {
+    "slug": "kretinga-manor",
+    "name": "Kretinga Manor",
+    "location": "Kretinga · Lithuania",
+    "category": "castles",
+    "cityId": "kretinga",
+    "coordinates": [
+      55.9,
+      21.2486
+    ],
+    "coordinateSource": "https://en.wikipedia.org/wiki/Kretinga_Museum",
+    "coordinateNote": "Sourced reference pin; confirm the appropriate entrance or access point.",
+    "description": "A historic estate and museum make Kretinga a worthwhile cultural detour from the Baltic coast.",
+    "reasons": [
+      "A historic estate and museum make Kretinga a worthwhile cultural detour from the Baltic coast",
+      "Explore the Kretinga area",
+      "Estate and architectural heritage"
+    ],
+    "visitorInfo": [
+      "Use the Kretinga Manor reference pin to orient yourself, then confirm the appropriate visitor entrance locally.",
+      "Check the venue’s current visiting arrangements before travelling; interior access, tickets and events may have separate conditions."
+    ],
+    "featured": false,
+    "hidden": false,
+    "photos": [
+      {
+        "src": "/destinations/Q5620534.jpg",
+        "alt": "Kretinga Manor — 2010 09 30 KretingaSaulėsobseravtorija003",
+        "author": "Rimantas Lazdynas",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+        "source": "https://commons.wikimedia.org/wiki/File:2010_09_30_KretingaSaul%C4%97sobseravtorija003.JPG",
+        "width": 2487,
+        "height": 1368
+      }
+    ],
+    "sources": [
+      {
+        "label": "Location reference",
+        "url": "https://en.wikipedia.org/wiki/Kretinga_Museum"
+      },
+      {
+        "label": "Wikidata reference",
+        "url": "https://www.wikidata.org/wiki/Q5620534"
+      },
+      {
+        "label": "Visitor information",
+        "url": "https://www.kretingosmuziejus.lt/"
+      }
+    ],
+    "reviewed": "2026-10-14"
+  },
+  {
+    "slug": "renavas-manor",
+    "name": "Renavas Manor",
+    "location": "Mažeikiai · Lithuania",
+    "category": "castles",
+    "cityId": "mazeikiai",
+    "coordinates": [
+      56.22777778,
+      22.05694444
+    ],
+    "coordinateSource": "https://en.wikipedia.org/wiki/Renavas_Manor",
+    "coordinateNote": "Sourced reference pin; confirm the appropriate entrance or access point.",
+    "description": "A manor above the Varduva valley offers architecture and a wooded landscape setting in northwestern Lithuania.",
+    "reasons": [
+      "A manor above the Varduva valley offers architecture and a wooded landscape setting in northwestern Lithuania",
+      "Explore the Mažeikiai area",
+      "Estate and architectural heritage"
+    ],
+    "visitorInfo": [
+      "Use the Renavas Manor reference pin to orient yourself, then confirm the appropriate visitor entrance locally.",
+      "Check the venue’s current visiting arrangements before travelling; interior access, tickets and events may have separate conditions."
+    ],
+    "featured": false,
+    "hidden": false,
+    "photos": [
+      {
+        "src": "/destinations/Q12671204.jpg",
+        "alt": "Renavas Manor — Renavas Manor 2018 2",
+        "author": "Zidikai1",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Renavas_Manor_2018_2.jpg",
+        "width": 2560,
+        "height": 1707
+      }
+    ],
+    "sources": [
+      {
+        "label": "Location reference",
+        "url": "https://en.wikipedia.org/wiki/Renavas_Manor"
+      },
+      {
+        "label": "Wikidata reference",
+        "url": "https://www.wikidata.org/wiki/Q12671204"
+      }
+    ],
+    "reviewed": "2026-10-14"
+  },
+  {
+    "slug": "palanga",
+    "name": "Palanga",
+    "location": "Palanga · Lithuania",
+    "category": "coast",
+    "cityId": "palanga",
+    "coordinates": [
+      55.91666667,
+      21.06666667
+    ],
+    "coordinateSource": "https://en.wikipedia.org/wiki/Palanga",
+    "coordinateNote": "Sourced reference pin; confirm the appropriate entrance or access point.",
+    "description": "Lithuania's seaside resort combines Baltic beaches, parks and busy town streets, with quieter walks beyond its central promenade.",
+    "reasons": [
+      "Lithuania's seaside resort combines Baltic beaches, parks and busy town streets, with quieter walks beyond its central promenade",
+      "Explore the Palanga area",
+      "Baltic and lagoon-side discoveries"
+    ],
+    "visitorInfo": [
+      "Use the Palanga reference pin to orient yourself, then confirm the appropriate visitor entrance locally.",
+      "Choose a specific beach, village or waterfront access point; check local transport arrangements before travelling."
+    ],
+    "featured": false,
+    "hidden": false,
+    "photos": [
+      {
+        "src": "/destinations/Q2047414-2.jpg",
+        "alt": "Palanga — Palanga, J. Basanavičiaus gatvė",
+        "author": "Terminator216",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Palanga,_J._Basanavi%C4%8Diaus_gatv%C4%97.jpg",
+        "width": 2560,
+        "height": 1920
+      }
+    ],
+    "sources": [
+      {
+        "label": "Location reference",
+        "url": "https://en.wikipedia.org/wiki/Palanga"
+      },
+      {
+        "label": "Wikidata reference",
+        "url": "https://www.wikidata.org/wiki/Q2047414"
+      }
+    ],
+    "reviewed": "2026-10-14"
+  },
+  {
+    "slug": "sventoji",
+    "name": "Šventoji",
+    "location": "Palanga · Lithuania",
+    "category": "coast",
+    "cityId": "palanga",
+    "coordinates": [
+      56.0298,
+      21.0812
+    ],
+    "coordinateSource": "https://en.wikipedia.org/wiki/%C5%A0ventoji%2C_Lithuania",
+    "coordinateNote": "Sourced reference pin; confirm the appropriate entrance or access point.",
+    "description": "A seaside settlement near the Latvian border offers beaches and a different coastal base from central Palanga.",
+    "reasons": [
+      "A seaside settlement near the Latvian border offers beaches and a different coastal base from central Palanga",
+      "Explore the Palanga area",
+      "Baltic and lagoon-side discoveries"
+    ],
+    "visitorInfo": [
+      "Use the Šventoji reference pin to orient yourself, then confirm the appropriate visitor entrance locally.",
+      "Choose a specific beach, village or waterfront access point; check local transport arrangements before travelling."
+    ],
+    "featured": false,
+    "hidden": false,
+    "photos": [
+      {
+        "src": "/destinations/Q392757-shore.jpg",
+        "alt": "Šventoji town and its coastal setting",
+        "author": "BigHead",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Sventoji_town_by_Augustas_Didzgalvis.jpg",
+        "width": 1800,
+        "height": 1200
+      }
+    ],
+    "sources": [
+      {
+        "label": "Location reference",
+        "url": "https://en.wikipedia.org/wiki/%C5%A0ventoji%2C_Lithuania"
+      },
+      {
+        "label": "Wikidata reference",
+        "url": "https://www.wikidata.org/wiki/Q392757"
+      }
+    ],
+    "reviewed": "2026-10-14"
+  },
+  {
+    "slug": "juodkrante",
+    "name": "Juodkrantė",
+    "location": "Juodkrantė · Lithuania",
+    "category": "coast",
+    "cityId": "juodkrante",
+    "coordinates": [
+      55.55,
+      21.11666667
+    ],
+    "coordinateSource": "https://en.wikipedia.org/wiki/Juodkrant%C4%97",
+    "coordinateNote": "Sourced reference pin; confirm the appropriate entrance or access point.",
+    "description": "A lagoon-side village on the Curonian Spit combines wooded slopes, waterfront walking and traditional buildings.",
+    "reasons": [
+      "A lagoon-side village on the Curonian Spit combines wooded slopes, waterfront walking and traditional buildings",
+      "Explore the Juodkrantė area",
+      "Baltic and lagoon-side discoveries"
+    ],
+    "visitorInfo": [
+      "Use the Juodkrantė reference pin to orient yourself, then confirm the appropriate visitor entrance locally.",
+      "Choose a specific beach, village or waterfront access point; check local transport arrangements before travelling."
+    ],
+    "featured": false,
+    "hidden": false,
+    "photos": [
+      {
+        "src": "/destinations/Q20990.jpg",
+        "alt": "Juodkrantė — Juodkrante from bird's-eye view",
+        "author": "LinasD",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Juodkrante_from_bird%27s-eye_view.jpg",
+        "width": 2560,
+        "height": 1922
+      }
+    ],
+    "sources": [
+      {
+        "label": "Location reference",
+        "url": "https://en.wikipedia.org/wiki/Juodkrant%C4%97"
+      },
+      {
+        "label": "Wikidata reference",
+        "url": "https://www.wikidata.org/wiki/Q20990"
+      }
+    ],
+    "reviewed": "2026-10-14"
+  },
+  {
+    "slug": "preila",
+    "name": "Preila",
+    "location": "Nida · Lithuania",
+    "category": "coast",
+    "cityId": "nida",
+    "coordinates": [
+      55.37333333,
+      21.06805556
+    ],
+    "coordinateSource": "https://en.wikipedia.org/wiki/Preila",
+    "coordinateNote": "Sourced reference pin; confirm the appropriate entrance or access point.",
+    "description": "A small settlement on the Curonian Lagoon invites a slower exploration of the spit between Nida and Juodkrantė.",
+    "reasons": [
+      "A small settlement on the Curonian Lagoon invites a slower exploration of the spit between Nida and Juodkrantė",
+      "Explore the Nida area",
+      "Baltic and lagoon-side discoveries"
+    ],
+    "visitorInfo": [
+      "Use the Preila reference pin to orient yourself, then confirm the appropriate visitor entrance locally.",
+      "Choose a specific beach, village or waterfront access point; check local transport arrangements before travelling."
+    ],
+    "featured": false,
+    "hidden": false,
+    "photos": [
+      {
+        "src": "/destinations/Q145508.jpg",
+        "alt": "Preila — Preila from bird's-eye view",
+        "author": "LinasD",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Preila_from_bird%27s-eye_view.jpg",
+        "width": 2560,
+        "height": 1923
+      }
+    ],
+    "sources": [
+      {
+        "label": "Location reference",
+        "url": "https://en.wikipedia.org/wiki/Preila"
+      },
+      {
+        "label": "Wikidata reference",
+        "url": "https://www.wikidata.org/wiki/Q145508"
+      }
+    ],
+    "reviewed": "2026-10-14"
+  },
+  {
+    "slug": "pervalka",
+    "name": "Pervalka",
+    "location": "Nida · Lithuania",
+    "category": "coast",
+    "cityId": "nida",
+    "coordinates": [
+      55.41388889,
+      21.09444444
+    ],
+    "coordinateSource": "https://en.wikipedia.org/wiki/Pervalka",
+    "coordinateNote": "Sourced reference pin; confirm the appropriate entrance or access point.",
+    "description": "This small lagoon-side village offers a quieter perspective on the Curonian Spit's settlements and water landscapes.",
+    "reasons": [
+      "This small lagoon-side village offers a quieter perspective on the Curonian Spit's settlements and water landscapes",
+      "Explore the Nida area",
+      "Baltic and lagoon-side discoveries"
+    ],
+    "visitorInfo": [
+      "Use the Pervalka reference pin to orient yourself, then confirm the appropriate visitor entrance locally.",
+      "Choose a specific beach, village or waterfront access point; check local transport arrangements before travelling."
+    ],
+    "featured": false,
+    "hidden": false,
+    "photos": [
+      {
+        "src": "/destinations/Q225581.jpg",
+        "alt": "Pervalka — Pervalka from bird's-eye view",
+        "author": "LinasD",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Pervalka_from_bird%27s-eye_view.jpg",
+        "width": 2560,
+        "height": 1927
+      }
+    ],
+    "sources": [
+      {
+        "label": "Location reference",
+        "url": "https://en.wikipedia.org/wiki/Pervalka"
+      },
+      {
+        "label": "Wikidata reference",
+        "url": "https://www.wikidata.org/wiki/Q225581"
+      }
+    ],
+    "reviewed": "2026-10-14"
+  },
+  {
+    "slug": "smiltyne",
+    "name": "Smiltynė",
+    "location": "Klaipėda · Lithuania",
+    "category": "coast",
+    "cityId": "klaipeda",
+    "coordinates": [
+      55.70611111,
+      21.11111111
+    ],
+    "coordinateSource": "https://en.wikipedia.org/wiki/Smiltyn%C4%97",
+    "coordinateNote": "Sourced reference pin; confirm the appropriate entrance or access point.",
+    "description": "Across the lagoon from Klaipėda, Smiltynė connects ferry arrivals with pine woods, beaches and maritime attractions.",
+    "reasons": [
+      "Across the lagoon from Klaipėda, Smiltynė connects ferry arrivals with pine woods, beaches and maritime attractions",
+      "Explore the Klaipėda area",
+      "Baltic and lagoon-side discoveries"
+    ],
+    "visitorInfo": [
+      "Use the Smiltynė reference pin to orient yourself, then confirm the appropriate visitor entrance locally.",
+      "Choose a specific beach, village or waterfront access point; check local transport arrangements before travelling."
+    ],
+    "featured": false,
+    "hidden": false,
+    "photos": [
+      {
+        "src": "/destinations/Q1894830.jpg",
+        "alt": "Smiltynė — Smiltyne fort",
+        "author": "Wojsyl",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+        "source": "https://commons.wikimedia.org/wiki/File:Smiltyne_fort.jpg",
+        "width": 2560,
+        "height": 1920
+      }
+    ],
+    "sources": [
+      {
+        "label": "Location reference",
+        "url": "https://en.wikipedia.org/wiki/Smiltyn%C4%97"
+      },
+      {
+        "label": "Wikidata reference",
+        "url": "https://www.wikidata.org/wiki/Q1894830"
+      }
+    ],
+    "reviewed": "2026-10-14"
+  },
+  {
+    "slug": "vente-cape",
+    "name": "Ventė Cape",
+    "location": "Šilutė · Lithuania",
+    "category": "coast",
+    "cityId": "silute",
+    "coordinates": [
+      55.35,
+      21.2
+    ],
+    "coordinateSource": "https://en.wikipedia.org/wiki/Vent%C4%97_Cape",
+    "coordinateNote": "Sourced reference pin; confirm the appropriate entrance or access point.",
+    "description": "A headland on the Curonian Lagoon is associated with bird observation, an ornithological station and broad water views.",
+    "reasons": [
+      "A headland on the Curonian Lagoon is associated with bird observation, an ornithological station and broad water views",
+      "Explore the Šilutė area",
+      "Baltic and lagoon-side discoveries"
+    ],
+    "visitorInfo": [
+      "Use the Ventė Cape reference pin to orient yourself, then confirm the appropriate visitor entrance locally.",
+      "Choose a specific beach, village or waterfront access point; check local transport arrangements before travelling."
+    ],
+    "featured": false,
+    "hidden": false,
+    "photos": [
+      {
+        "src": "/destinations/Q2300182.jpg",
+        "alt": "Ventė Cape — Ventės ragas - panoramio (1)",
+        "author": "Aidas U.",
+        "license": "CC BY 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Vent%C4%97s_ragas_-_panoramio_(1).jpg",
+        "width": 1920,
+        "height": 1440
+      }
+    ],
+    "sources": [
+      {
+        "label": "Location reference",
+        "url": "https://en.wikipedia.org/wiki/Vent%C4%97_Cape"
+      },
+      {
+        "label": "Wikidata reference",
+        "url": "https://www.wikidata.org/wiki/Q2300182"
+      }
+    ],
+    "reviewed": "2026-10-14"
+  },
+  {
+    "slug": "rusne",
+    "name": "Rusnė",
+    "location": "Šilutė · Lithuania",
+    "category": "coast",
+    "cityId": "silute",
+    "coordinates": [
+      55.29722222,
+      21.37777778
+    ],
+    "coordinateSource": "https://en.wikipedia.org/wiki/Rusn%C4%97",
+    "coordinateNote": "Sourced reference pin; confirm the appropriate entrance or access point.",
+    "description": "A settlement in the Nemunas Delta offers waterways, lowland scenery and a useful base for exploring Lithuania's lagoon-side landscape.",
+    "reasons": [
+      "A settlement in the Nemunas Delta offers waterways, lowland scenery and a useful base for exploring Lithuania's lagoon-side landscape",
+      "Explore the Šilutė area",
+      "Baltic and lagoon-side discoveries"
+    ],
+    "visitorInfo": [
+      "Use the Rusnė reference pin to orient yourself, then confirm the appropriate visitor entrance locally.",
+      "Choose a specific beach, village or waterfront access point; check local transport arrangements before travelling."
+    ],
+    "featured": false,
+    "hidden": false,
+    "photos": [
+      {
+        "src": "/destinations/Q1939758.jpg",
+        "alt": "Rusnė — Near the shore houses (1C, 1B, 1A) at Neringos Gatvė street left from Atmata river beach, Rusnė, Lithuania, 40 meters off the shore view from Rusne territorial waters at Skirvytė river, spring, 2007",
+        "author": "Lokyz",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+        "source": "https://commons.wikimedia.org/wiki/File:Near_the_shore_houses_(1C,_1B,_1A)_at_Neringos_Gatv%C4%97_street_left_from_Atmata_river_beach,_Rusn%C4%97,_Lithuania,_40_meters_off_the_shore_view_from_Rusne_territorial_waters_at_Skirvyt%C4%97_river,_spring,_2007.jpg",
+        "width": 1920,
+        "height": 1209
+      }
+    ],
+    "sources": [
+      {
+        "label": "Location reference",
+        "url": "https://en.wikipedia.org/wiki/Rusn%C4%97"
+      },
+      {
+        "label": "Wikidata reference",
+        "url": "https://www.wikidata.org/wiki/Q1939758"
+      }
+    ],
+    "reviewed": "2026-10-14"
+  },
+  {
+    "slug": "nemunas-delta-regional-park",
+    "name": "Nemunas Delta Regional Park",
+    "location": "Šilutė · Lithuania",
+    "category": "nature",
+    "cityId": "silute",
+    "coordinates": [
+      55.3,
+      21.4
+    ],
+    "coordinateSource": "https://en.wikipedia.org/wiki/Nemunas_Delta_Regional_Park",
+    "coordinateNote": "Sourced reference pin; confirm the appropriate entrance or access point.",
+    "description": "Wetlands, channels and floodplain landscapes make the delta a distinctive destination for nature-focused travel.",
+    "reasons": [
+      "Wetlands, channels and floodplain landscapes make the delta a distinctive destination for nature-focused travel",
+      "Explore the Šilutė area",
+      "A landscape-focused excursion"
+    ],
+    "visitorInfo": [
+      "This pin is an area reference. Choose the entrance, trailhead or venue you intend to visit before requesting directions.",
+      "Choose a signed route and check local protected-area access information before setting out."
+    ],
+    "featured": false,
+    "hidden": false,
+    "photos": [
+      {
+        "src": "/destinations/Q5621257.jpg",
+        "alt": "Nemunas Delta Regional Park — Vente lighthouse",
+        "author": "Wojsyl",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+        "source": "https://commons.wikimedia.org/wiki/File:Vente_lighthouse.jpg",
+        "width": 1920,
+        "height": 1440
+      }
+    ],
+    "sources": [
+      {
+        "label": "Location reference",
+        "url": "https://en.wikipedia.org/wiki/Nemunas_Delta_Regional_Park"
+      },
+      {
+        "label": "Wikidata reference",
+        "url": "https://www.wikidata.org/wiki/Q5621257"
+      }
+    ],
+    "reviewed": "2026-10-14"
+  },
+  {
+    "slug": "silute",
+    "name": "Šilutė",
+    "location": "Šilutė · Lithuania",
+    "category": "cities",
+    "cityId": "silute",
+    "coordinates": [
+      55.35,
+      21.48333333
+    ],
+    "coordinateSource": "https://en.wikipedia.org/wiki/%C5%A0ilut%C4%97",
+    "coordinateNote": "Sourced reference pin; confirm the appropriate entrance or access point.",
+    "description": "The town introduces Lithuania Minor's architectural and cultural heritage on the approach to the Nemunas Delta.",
+    "reasons": [
+      "The town introduces Lithuania Minor's architectural and cultural heritage on the approach to the Nemunas Delta",
+      "Explore the Šilutė area",
+      "Historic streets and local life"
+    ],
+    "visitorInfo": [
+      "This pin is an area reference. Choose the entrance, trailhead or venue you intend to visit before requesting directions.",
+      "Individual museums, churches and attractions have their own visiting arrangements."
+    ],
+    "featured": false,
+    "hidden": false,
+    "photos": [
+      {
+        "src": "/destinations/Q391626.jpg",
+        "alt": "Šilutė — Hugo Šojaus dvaro įėjimas su veranda iš kiemo",
+        "author": "Petriukas",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Hugo_%C5%A0ojaus_dvaro_%C4%AF%C4%97jimas_su_veranda_i%C5%A1_kiemo.jpg",
+        "width": 1920,
+        "height": 1440
+      }
+    ],
+    "sources": [
+      {
+        "label": "Location reference",
+        "url": "https://en.wikipedia.org/wiki/%C5%A0ilut%C4%97"
+      },
+      {
+        "label": "Wikidata reference",
+        "url": "https://www.wikidata.org/wiki/Q391626"
+      }
+    ],
+    "reviewed": "2026-10-14"
+  },
+  {
+    "slug": "aukstaitija-national-park",
+    "name": "Aukštaitija National Park",
+    "location": "Ignalina · Lithuania",
+    "category": "nature",
+    "cityId": "ignalina",
+    "coordinates": [
+      55.344,
+      26.057
+    ],
+    "coordinateSource": "https://en.wikipedia.org/wiki/Auk%C5%A1taitija_National_Park",
+    "coordinateNote": "Sourced reference pin; confirm the appropriate entrance or access point.",
+    "description": "Lakes, forests and traditional settlements form one of Lithuania's classic landscapes for a carefully planned outdoor visit.",
+    "reasons": [
+      "Lakes, forests and traditional settlements form one of Lithuania's classic landscapes for a carefully planned outdoor visit",
+      "Explore the Ignalina area",
+      "A landscape-focused excursion"
+    ],
+    "visitorInfo": [
+      "This pin is an area reference. Choose the entrance, trailhead or venue you intend to visit before requesting directions.",
+      "Choose a signed route and check local protected-area access information before setting out."
+    ],
+    "featured": false,
+    "hidden": false,
+    "photos": [
+      {
+        "src": "/destinations/Q400200.jpg",
+        "alt": "Aukštaitija National Park — Paluse Lusiai lake",
+        "author": "Wojsyl",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+        "source": "https://commons.wikimedia.org/wiki/File:Paluse_Lusiai_lake.jpg",
+        "width": 1920,
+        "height": 1440
+      }
+    ],
+    "sources": [
+      {
+        "label": "Location reference",
+        "url": "https://en.wikipedia.org/wiki/Auk%C5%A1taitija_National_Park"
+      },
+      {
+        "label": "Wikidata reference",
+        "url": "https://www.wikidata.org/wiki/Q400200"
+      },
+      {
+        "label": "Visitor information",
+        "url": "https://www.aparkai.lt/"
+      }
+    ],
+    "reviewed": "2026-10-14"
+  },
+  {
+    "slug": "zemaitija-national-park",
+    "name": "Žemaitija National Park",
+    "location": "Plungė · Lithuania",
+    "category": "nature",
+    "cityId": "plunge",
+    "coordinates": [
+      56.04861111,
+      21.88888889
+    ],
+    "coordinateSource": "https://en.wikipedia.org/wiki/%C5%BDemaitija_National_Park",
+    "coordinateNote": "Sourced reference pin; confirm the appropriate entrance or access point.",
+    "description": "Explore a lake-and-forest landscape in Samogitia, choosing a specific trail, village or visitor site before setting out.",
+    "reasons": [
+      "Explore a lake-and-forest landscape in Samogitia, choosing a specific trail, village or visitor site before setting out",
+      "Explore the Plungė area",
+      "A landscape-focused excursion"
+    ],
+    "visitorInfo": [
+      "This pin is an area reference. Choose the entrance, trailhead or venue you intend to visit before requesting directions.",
+      "Choose a signed route and check local protected-area access information before setting out."
+    ],
+    "featured": false,
+    "hidden": false,
+    "photos": [
+      {
+        "src": "/destinations/Q268533.jpg",
+        "alt": "Žemaitija National Park — Lithuania Plateliai lake",
+        "author": "Wojsyl",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+        "source": "https://commons.wikimedia.org/wiki/File:Lithuania_Plateliai_lake.jpg",
+        "width": 1920,
+        "height": 1314
+      }
+    ],
+    "sources": [
+      {
+        "label": "Location reference",
+        "url": "https://en.wikipedia.org/wiki/%C5%BDemaitija_National_Park"
+      },
+      {
+        "label": "Wikidata reference",
+        "url": "https://www.wikidata.org/wiki/Q268533"
+      },
+      {
+        "label": "Visitor information",
+        "url": "https://zemaitijosnp.lt/"
+      }
+    ],
+    "reviewed": "2026-10-14"
+  },
+  {
+    "slug": "plateliai",
+    "name": "Plateliai",
+    "location": "Plungė · Lithuania",
+    "category": "cities",
+    "cityId": "plunge",
+    "coordinates": [
+      56.05,
+      21.81666667
+    ],
+    "coordinateSource": "https://en.wikipedia.org/wiki/Plateliai",
+    "coordinateNote": "Sourced reference pin; confirm the appropriate entrance or access point.",
+    "description": "A small town beside Lake Plateliai makes a natural base for exploring Žemaitija National Park.",
+    "reasons": [
+      "A small town beside Lake Plateliai makes a natural base for exploring Žemaitija National Park",
+      "Explore the Plungė area",
+      "Historic streets and local life"
+    ],
+    "visitorInfo": [
+      "This pin is an area reference. Choose the entrance, trailhead or venue you intend to visit before requesting directions.",
+      "Individual museums, churches and attractions have their own visiting arrangements."
+    ],
+    "featured": false,
+    "hidden": false,
+    "photos": [
+      {
+        "src": "/destinations/Q1028246.jpg",
+        "alt": "Plateliai — Plateliai1.2007-06-15",
+        "author": "Algirdas at Lithuanian Wikipedia",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+        "source": "https://commons.wikimedia.org/wiki/File:Plateliai1.2007-06-15.jpg",
+        "width": 1600,
+        "height": 1200
+      }
+    ],
+    "sources": [
+      {
+        "label": "Location reference",
+        "url": "https://en.wikipedia.org/wiki/Plateliai"
+      },
+      {
+        "label": "Wikidata reference",
+        "url": "https://www.wikidata.org/wiki/Q1028246"
+      }
+    ],
+    "reviewed": "2026-10-14"
+  },
+  {
+    "slug": "lake-plateliai",
+    "name": "Lake Plateliai",
+    "location": "Plungė · Lithuania",
+    "category": "nature",
+    "cityId": "plunge",
+    "coordinates": [
+      56.04722222,
+      21.85638889
+    ],
+    "coordinateSource": "https://en.wikipedia.org/wiki/Plateliai_Lake",
+    "coordinateNote": "Sourced reference pin; confirm the appropriate entrance or access point.",
+    "description": "A large lake within Žemaitija National Park brings together water views, woodland and access to surrounding trails and settlements.",
+    "reasons": [
+      "A large lake within Žemaitija National Park brings together water views, woodland and access to surrounding trails and settlements",
+      "Explore the Plungė area",
+      "A landscape-focused excursion"
+    ],
+    "visitorInfo": [
+      "This pin is an area reference. Choose the entrance, trailhead or venue you intend to visit before requesting directions.",
+      "Choose a signed route and check local protected-area access information before setting out."
+    ],
+    "featured": false,
+    "hidden": false,
+    "photos": [
+      {
+        "src": "/destinations/Q2464737.jpg",
+        "alt": "Lake Plateliai — Lithuania Plateliai lake",
+        "author": "Wojsyl",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+        "source": "https://commons.wikimedia.org/wiki/File:Lithuania_Plateliai_lake.jpg",
+        "width": 1920,
+        "height": 1314
+      }
+    ],
+    "sources": [
+      {
+        "label": "Location reference",
+        "url": "https://en.wikipedia.org/wiki/Plateliai_Lake"
+      },
+      {
+        "label": "Wikidata reference",
+        "url": "https://www.wikidata.org/wiki/Q2464737"
+      }
+    ],
+    "reviewed": "2026-10-14"
+  },
+  {
+    "slug": "paluse",
+    "name": "Palūšė",
+    "location": "Ignalina · Lithuania",
+    "category": "cities",
+    "cityId": "ignalina",
+    "coordinates": [
+      55.33333333,
+      26.1
+    ],
+    "coordinateSource": "https://en.wikipedia.org/wiki/Pal%C5%AB%C5%A1%C4%97",
+    "coordinateNote": "Sourced reference pin; confirm the appropriate entrance or access point.",
+    "description": "A village within Aukštaitija National Park offers a lakeside setting and a historic wooden church.",
+    "reasons": [
+      "A village within Aukštaitija National Park offers a lakeside setting and a historic wooden church",
+      "Explore the Ignalina area",
+      "Historic streets and local life"
+    ],
+    "visitorInfo": [
+      "This pin is an area reference. Choose the entrance, trailhead or venue you intend to visit before requesting directions.",
+      "Individual museums, churches and attractions have their own visiting arrangements."
+    ],
+    "featured": false,
+    "hidden": false,
+    "photos": [
+      {
+        "src": "/destinations/Q3492204.jpg",
+        "alt": "Palūšė — Lithuania Paluse church",
+        "author": "Wojsyl",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+        "source": "https://commons.wikimedia.org/wiki/File:Lithuania_Paluse_church.jpg",
+        "width": 1920,
+        "height": 1440
+      }
+    ],
+    "sources": [
+      {
+        "label": "Location reference",
+        "url": "https://en.wikipedia.org/wiki/Pal%C5%AB%C5%A1%C4%97"
+      },
+      {
+        "label": "Wikidata reference",
+        "url": "https://www.wikidata.org/wiki/Q3492204"
+      }
+    ],
+    "reviewed": "2026-10-14"
+  },
+  {
+    "slug": "ginuciai",
+    "name": "Ginučiai",
+    "location": "Ignalina · Lithuania",
+    "category": "cities",
+    "cityId": "ignalina",
+    "coordinates": [
+      55.38527778,
+      25.99472222
+    ],
+    "coordinateSource": "https://en.wikipedia.org/wiki/Ginu%C4%8Diai",
+    "coordinateNote": "Sourced reference pin; confirm the appropriate entrance or access point.",
+    "description": "A village in Aukštaitija National Park connects traditional buildings, lakes and the area's rural heritage.",
+    "reasons": [
+      "A village in Aukštaitija National Park connects traditional buildings, lakes and the area's rural heritage",
+      "Explore the Ignalina area",
+      "Historic streets and local life"
+    ],
+    "visitorInfo": [
+      "This pin is an area reference. Choose the entrance, trailhead or venue you intend to visit before requesting directions.",
+      "Individual museums, churches and attractions have their own visiting arrangements."
+    ],
+    "featured": false,
+    "hidden": false,
+    "photos": [
+      {
+        "src": "/destinations/Q265070-2.jpg",
+        "alt": "Ginučiai — Lithuania Ginučiai Watermill",
+        "author": "Wojsyl",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+        "source": "https://commons.wikimedia.org/wiki/File:Lithuania_Ginu%C4%8Diai_Watermill.jpg",
+        "width": 1920,
+        "height": 1440
+      }
+    ],
+    "sources": [
+      {
+        "label": "Location reference",
+        "url": "https://en.wikipedia.org/wiki/Ginu%C4%8Diai"
+      },
+      {
+        "label": "Wikidata reference",
+        "url": "https://www.wikidata.org/wiki/Q265070"
+      }
+    ],
+    "reviewed": "2026-10-14"
+  },
+  {
+    "slug": "asveja-regional-park",
+    "name": "Asveja Regional Park",
+    "location": "Molėtai · Lithuania",
+    "category": "nature",
+    "cityId": "moletai",
+    "coordinates": [
+      55.05,
+      25.53
+    ],
+    "coordinateSource": "https://en.wikipedia.org/wiki/Asveja_Regional_Park",
+    "coordinateNote": "Sourced reference pin; confirm the appropriate entrance or access point.",
+    "description": "A protected lake landscape near Dubingiai offers woodland, shorelines and a quieter countryside excursion.",
+    "reasons": [
+      "A protected lake landscape near Dubingiai offers woodland, shorelines and a quieter countryside excursion",
+      "Explore the Molėtai area",
+      "A landscape-focused excursion"
+    ],
+    "visitorInfo": [
+      "This pin is an area reference. Choose the entrance, trailhead or venue you intend to visit before requesting directions.",
+      "Choose a signed route and check local protected-area access information before setting out."
+    ],
+    "featured": false,
+    "hidden": false,
+    "photos": [
+      {
+        "src": "/destinations/Q4811971.jpg",
+        "alt": "Asveja Regional Park — Asveja nuo Žalktynės",
+        "author": "Šarūnas Šimkus",
+        "license": "Public domain",
+        "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "source": "https://commons.wikimedia.org/wiki/File:Asveja_nuo_%C5%BDalktyn%C4%97s.JPG",
+        "width": 1920,
+        "height": 1124
+      }
+    ],
+    "sources": [
+      {
+        "label": "Location reference",
+        "url": "https://en.wikipedia.org/wiki/Asveja_Regional_Park"
+      },
+      {
+        "label": "Wikidata reference",
+        "url": "https://www.wikidata.org/wiki/Q4811971"
+      }
+    ],
+    "reviewed": "2026-10-14"
+  },
+  {
+    "slug": "moletai-astronomical-observatory",
+    "name": "Molėtai Astronomical Observatory",
+    "location": "Molėtai · Lithuania",
+    "category": "culture",
+    "cityId": "moletai",
+    "coordinates": [
+      55.31597222,
+      25.56333333
+    ],
+    "coordinateSource": "https://en.wikipedia.org/wiki/Mol%C4%97tai_Astronomical_Observatory",
+    "coordinateNote": "Sourced reference pin; confirm the appropriate entrance or access point.",
+    "description": "An observatory near Kulionys offers a distinctive astronomy-related stop; consult current visitor and programme arrangements before travelling.",
+    "reasons": [
+      "An observatory near Kulionys offers a distinctive astronomy-related stop; consult current visitor and programme arrangements before travelling",
+      "Explore the Molėtai area",
+      "A cultural stop beyond the main route"
+    ],
+    "visitorInfo": [
+      "Use the Molėtai Astronomical Observatory reference pin to orient yourself, then confirm the appropriate visitor entrance locally.",
+      "Check the venue’s current visiting arrangements before travelling; interior access, tickets and events may have separate conditions."
+    ],
+    "featured": false,
+    "hidden": false,
+    "photos": [
+      {
+        "src": "/destinations/Q578010-2.jpg",
+        "alt": "Molėtai Astronomical Observatory — P200 Dome Open",
+        "author": "Coneslayer at English Wikipedia",
+        "license": "CC BY 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+        "source": "https://commons.wikimedia.org/wiki/File:P200_Dome_Open.jpg",
+        "width": 1920,
+        "height": 1278
+      }
+    ],
+    "sources": [
+      {
+        "label": "Location reference",
+        "url": "https://en.wikipedia.org/wiki/Mol%C4%97tai_Astronomical_Observatory"
+      },
+      {
+        "label": "Wikidata reference",
+        "url": "https://www.wikidata.org/wiki/Q578010"
+      }
+    ],
+    "reviewed": "2026-10-14"
+  },
+  {
+    "slug": "anyksciai",
+    "name": "Anykščiai",
+    "location": "Anykščiai · Lithuania",
+    "category": "cities",
+    "cityId": "anyksciai",
+    "coordinates": [
+      55.53333333,
+      25.1
+    ],
+    "coordinateSource": "https://en.wikipedia.org/wiki/Anyk%C5%A1%C4%8Diai",
+    "coordinateNote": "Sourced reference pin; confirm the appropriate entrance or access point.",
+    "description": "A town on the Šventoji provides a base for forest walks, local museums and the wider regional park.",
+    "reasons": [
+      "A town on the Šventoji provides a base for forest walks, local museums and the wider regional park",
+      "Explore the Anykščiai area",
+      "Historic streets and local life"
+    ],
+    "visitorInfo": [
+      "This pin is an area reference. Choose the entrance, trailhead or venue you intend to visit before requesting directions.",
+      "Individual museums, churches and attractions have their own visiting arrangements."
+    ],
+    "featured": false,
+    "hidden": false,
+    "photos": [
+      {
+        "src": "/destinations/Q505416.jpg",
+        "alt": "Anykščiai — Anykščiai, 2020",
+        "author": "Hugo.arg",
+        "license": "Public domain",
+        "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "source": "https://commons.wikimedia.org/wiki/File:Anyk%C5%A1%C4%8Diai,_2020.JPG",
+        "width": 1920,
+        "height": 1272
+      }
+    ],
+    "sources": [
+      {
+        "label": "Location reference",
+        "url": "https://en.wikipedia.org/wiki/Anyk%C5%A1%C4%8Diai"
+      },
+      {
+        "label": "Wikidata reference",
+        "url": "https://www.wikidata.org/wiki/Q505416"
+      }
+    ],
+    "reviewed": "2026-10-14"
+  },
+  {
+    "slug": "stelmuze-oak",
+    "name": "Stelmužė Oak",
+    "location": "Zarasai · Lithuania",
+    "category": "nature",
+    "cityId": "zarasai",
+    "coordinates": [
+      55.8298,
+      26.2174
+    ],
+    "coordinateSource": "https://en.wikipedia.org/wiki/Stelmu%C5%BE%C4%97_Oak",
+    "coordinateNote": "Sourced reference pin; confirm the appropriate entrance or access point.",
+    "description": "An ancient oak in Stelmužė is a living landmark best appreciated from the designated visitor area.",
+    "reasons": [
+      "An ancient oak in Stelmužė is a living landmark best appreciated from the designated visitor area",
+      "Explore the Zarasai area",
+      "A landscape-focused excursion"
+    ],
+    "visitorInfo": [
+      "This pin is an area reference. Choose the entrance, trailhead or venue you intend to visit before requesting directions.",
+      "Choose a signed route and check local protected-area access information before setting out."
+    ],
+    "featured": false,
+    "hidden": false,
+    "photos": [
+      {
+        "src": "/destinations/Q2972120.jpg",
+        "alt": "Stelmužė Oak — 2017 Stelmuže oak LT",
+        "author": "Algimantas Navickas, Arnoldas Abramavičius, Gintautas Antanavičius, Arvydas Veikšra, Jurgita Mikutavičiene, delfi.lt",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": "https://commons.wikimedia.org/wiki/File:2017_Stelmu%C5%BEe_oak_LT.jpg",
+        "width": 1920,
+        "height": 1439
+      }
+    ],
+    "sources": [
+      {
+        "label": "Location reference",
+        "url": "https://en.wikipedia.org/wiki/Stelmu%C5%BE%C4%97_Oak"
+      },
+      {
+        "label": "Wikidata reference",
+        "url": "https://www.wikidata.org/wiki/Q2972120"
+      }
+    ],
+    "reviewed": "2026-10-14"
+  },
+  {
+    "slug": "trakai-historical-national-park",
+    "name": "Trakai Historical National Park",
+    "location": "Trakai · Lithuania",
+    "category": "nature",
+    "cityId": "trakai",
+    "coordinates": [
+      54.639,
+      24.419
+    ],
+    "coordinateSource": "https://en.wikipedia.org/wiki/Trakai_Historical_National_Park",
+    "coordinateNote": "Sourced reference pin; confirm the appropriate entrance or access point.",
+    "description": "Lakes, wooded shores and historic settlements surround Trakai's castles within a protected cultural landscape.",
+    "reasons": [
+      "Lakes, wooded shores and historic settlements surround Trakai's castles within a protected cultural landscape",
+      "Explore the Trakai area",
+      "A landscape-focused excursion"
+    ],
+    "visitorInfo": [
+      "This pin is an area reference. Choose the entrance, trailhead or venue you intend to visit before requesting directions.",
+      "Choose a signed route and check local protected-area access information before setting out."
+    ],
+    "featured": false,
+    "hidden": false,
+    "photos": [
+      {
+        "src": "/destinations/Q1539772-2.jpg",
+        "alt": "Trakai Historical National Park — Front facade of the Trakai Island Castle, 2009",
+        "author": "Leszek Kozlowski",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Front_facade_of_the_Trakai_Island_Castle,_2009.jpg",
+        "width": 1920,
+        "height": 1078
+      }
+    ],
+    "sources": [
+      {
+        "label": "Location reference",
+        "url": "https://en.wikipedia.org/wiki/Trakai_Historical_National_Park"
+      },
+      {
+        "label": "Wikidata reference",
+        "url": "https://www.wikidata.org/wiki/Q1539772"
+      }
+    ],
+    "reviewed": "2026-10-14"
+  },
+  {
+    "slug": "neris-regional-park",
+    "name": "Neris Regional Park",
+    "location": "Vilnius · Lithuania",
+    "category": "nature",
+    "cityId": "vilnius",
+    "coordinates": [
+      54.751575,
+      25.22529722
+    ],
+    "coordinateSource": "https://en.wikipedia.org/wiki/Neris_Regional_Park",
+    "coordinateNote": "Sourced reference pin; confirm the appropriate entrance or access point.",
+    "description": "Wooded slopes and river bends offer outdoor exploration between Vilnius and Kernavė.",
+    "reasons": [
+      "Wooded slopes and river bends offer outdoor exploration between Vilnius and Kernavė",
+      "Explore the Vilnius area",
+      "A landscape-focused excursion"
+    ],
+    "visitorInfo": [
+      "This pin is an area reference. Choose the entrance, trailhead or venue you intend to visit before requesting directions.",
+      "Choose a signed route and check local protected-area access information before setting out."
+    ],
+    "featured": false,
+    "hidden": false,
+    "photos": [
+      {
+        "src": "/destinations/Q3325973.jpg",
+        "alt": "Neris Regional Park — Neris Regional Park (52527081890)",
+        "author": "Šarūnas Burdulis",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Neris_Regional_Park_(52527081890).jpg",
+        "width": 1920,
+        "height": 1308
+      }
+    ],
+    "sources": [
+      {
+        "label": "Location reference",
+        "url": "https://en.wikipedia.org/wiki/Neris_Regional_Park"
+      },
+      {
+        "label": "Wikidata reference",
+        "url": "https://www.wikidata.org/wiki/Q3325973"
+      }
+    ],
+    "reviewed": "2026-10-14"
+  },
+  {
+    "slug": "kaunas-reservoir-regional-park",
+    "name": "Kaunas Reservoir Regional Park",
+    "location": "Kaunas · Lithuania",
+    "category": "nature",
+    "cityId": "kaunas",
+    "coordinates": [
+      54.86666667,
+      24.11666667
+    ],
+    "coordinateSource": "https://en.wikipedia.org/wiki/Kauno_Marios_Regional_Park",
+    "coordinateNote": "Sourced reference pin; confirm the appropriate entrance or access point.",
+    "description": "The reservoir's shores offer a wider landscape context for visits to Kaunas, Pažaislis and Rumšiškės.",
+    "reasons": [
+      "The reservoir's shores offer a wider landscape context for visits to Kaunas, Pažaislis and Rumšiškės",
+      "Explore the Kaunas area",
+      "A landscape-focused excursion"
+    ],
+    "visitorInfo": [
+      "This pin is an area reference. Choose the entrance, trailhead or venue you intend to visit before requesting directions.",
+      "Choose a signed route and check local protected-area access information before setting out."
+    ],
+    "featured": false,
+    "hidden": false,
+    "photos": [
+      {
+        "src": "/destinations/Q3513601.jpg",
+        "alt": "Kaunas Reservoir Regional Park — Kauno mariu pakrante",
+        "author": "The original uploader was Shimatonis at Lithuanian Wikipedia.",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+        "source": "https://commons.wikimedia.org/wiki/File:Kauno_mariu_pakrante.jpg",
+        "width": 1920,
+        "height": 1282
+      }
+    ],
+    "sources": [
+      {
+        "label": "Location reference",
+        "url": "https://en.wikipedia.org/wiki/Kauno_Marios_Regional_Park"
+      },
+      {
+        "label": "Wikidata reference",
+        "url": "https://www.wikidata.org/wiki/Q3513601"
+      }
+    ],
+    "reviewed": "2026-10-14"
+  },
+  {
+    "slug": "rambynas-hill",
+    "name": "Rambynas Hill",
+    "location": "Šilutė · Lithuania",
+    "category": "nature",
+    "cityId": "silute",
+    "coordinates": [
+      55.0875,
+      22.02111111
+    ],
+    "coordinateSource": "https://en.wikipedia.org/wiki/Rambynas",
+    "coordinateNote": "Sourced reference pin; confirm the appropriate entrance or access point.",
+    "description": "A hill above the Nemunas combines a river landscape with an important place in Lithuania Minor's cultural memory.",
+    "reasons": [
+      "A hill above the Nemunas combines a river landscape with an important place in Lithuania Minor's cultural memory",
+      "Explore the Šilutė area",
+      "A landscape-focused excursion"
+    ],
+    "visitorInfo": [
+      "This pin is an area reference. Choose the entrance, trailhead or venue you intend to visit before requesting directions.",
+      "Choose a signed route and check local protected-area access information before setting out."
+    ],
+    "featured": false,
+    "hidden": false,
+    "photos": [
+      {
+        "src": "/destinations/Q1793504-2.jpg",
+        "alt": "Rambynas Hill — Lithuania Rambynas hill",
+        "author": "Wojsyl",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+        "source": "https://commons.wikimedia.org/wiki/File:Lithuania_Rambynas_hill.jpg",
+        "width": 1920,
+        "height": 1440
+      }
+    ],
+    "sources": [
+      {
+        "label": "Location reference",
+        "url": "https://en.wikipedia.org/wiki/Rambynas"
+      },
+      {
+        "label": "Wikidata reference",
+        "url": "https://www.wikidata.org/wiki/Q1793504"
+      }
+    ],
+    "reviewed": "2026-10-14"
+  },
+  {
+    "slug": "rambynas-regional-park",
+    "name": "Rambynas Regional Park",
+    "location": "Šilutė · Lithuania",
+    "category": "nature",
+    "cityId": "silute",
+    "coordinates": [
+      55.08333333,
+      22.08333333
+    ],
+    "coordinateSource": "https://en.wikipedia.org/wiki/Rambynas_Regional_Park",
+    "coordinateNote": "Sourced reference pin; confirm the appropriate entrance or access point.",
+    "description": "River-valley landscapes and cultural sites define this protected area near the lower Nemunas.",
+    "reasons": [
+      "River-valley landscapes and cultural sites define this protected area near the lower Nemunas",
+      "Explore the Šilutė area",
+      "A landscape-focused excursion"
+    ],
+    "visitorInfo": [
+      "This pin is an area reference. Choose the entrance, trailhead or venue you intend to visit before requesting directions.",
+      "Choose a signed route and check local protected-area access information before setting out."
+    ],
+    "featured": false,
+    "hidden": false,
+    "photos": [
+      {
+        "src": "/destinations/Q969624.jpg",
+        "alt": "Rambynas Regional Park — NemunasRambynas2",
+        "author": "Rimantas Lazdynas",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "source": "https://commons.wikimedia.org/wiki/File:NemunasRambynas2.JPG",
+        "width": 1920,
+        "height": 1440
+      }
+    ],
+    "sources": [
+      {
+        "label": "Location reference",
+        "url": "https://en.wikipedia.org/wiki/Rambynas_Regional_Park"
+      },
+      {
+        "label": "Wikidata reference",
+        "url": "https://www.wikidata.org/wiki/Q969624"
+      }
+    ],
+    "reviewed": "2026-10-14"
+  },
+  {
+    "slug": "tytuvenai-regional-park",
+    "name": "Tytuvėnai Regional Park",
+    "location": "Kelmė · Lithuania",
+    "category": "nature",
+    "cityId": "kelme",
+    "coordinates": [
+      55.58333333,
+      23.25
+    ],
+    "coordinateSource": "https://en.wikipedia.org/wiki/Tytuv%C4%97nai_Regional_Park",
+    "coordinateNote": "Sourced reference pin; confirm the appropriate entrance or access point.",
+    "description": "A landscape of lakes and wooded hills surrounds Tytuvėnai's historic religious ensemble.",
+    "reasons": [
+      "A landscape of lakes and wooded hills surrounds Tytuvėnai's historic religious ensemble",
+      "Explore the Kelmė area",
+      "A landscape-focused excursion"
+    ],
+    "visitorInfo": [
+      "This pin is an area reference. Choose the entrance, trailhead or venue you intend to visit before requesting directions.",
+      "Choose a signed route and check local protected-area access information before setting out."
+    ],
+    "featured": false,
+    "hidden": false,
+    "photos": [
+      {
+        "src": "/destinations/Q9197683.jpg",
+        "alt": "Tytuvėnai Regional Park — Tytuvėnų reg. parkas, būstinė",
+        "author": "Vilensija",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Tytuv%C4%97n%C5%B3_reg._parkas,_b%C5%ABstin%C4%97.JPG",
+        "width": 1920,
+        "height": 1440
+      }
+    ],
+    "sources": [
+      {
+        "label": "Location reference",
+        "url": "https://en.wikipedia.org/wiki/Tytuv%C4%97nai_Regional_Park"
+      },
+      {
+        "label": "Wikidata reference",
+        "url": "https://www.wikidata.org/wiki/Q9197683"
+      }
+    ],
+    "reviewed": "2026-10-14"
+  },
+  {
+    "slug": "tytuvenai-monastery",
+    "name": "Tytuvėnai Monastery",
+    "location": "Kelmė · Lithuania",
+    "category": "culture",
+    "cityId": "kelme",
+    "coordinates": [
+      55.5966,
+      23.201
+    ],
+    "coordinateSource": "https://en.wikipedia.org/wiki/Tytuv%C4%97nai_Monastery",
+    "coordinateNote": "Sourced reference pin; confirm the appropriate entrance or access point.",
+    "description": "A church and monastery ensemble offers a rich architectural and religious-history stop in Samogitia.",
+    "reasons": [
+      "A church and monastery ensemble offers a rich architectural and religious-history stop in Samogitia",
+      "Explore the Kelmė area",
+      "A cultural stop beyond the main route"
+    ],
+    "visitorInfo": [
+      "Use the Tytuvėnai Monastery reference pin to orient yourself, then confirm the appropriate visitor entrance locally.",
+      "Check the venue’s current visiting arrangements before travelling; interior access, tickets and events may have separate conditions."
+    ],
+    "featured": false,
+    "hidden": false,
+    "photos": [
+      {
+        "src": "/destinations/Q942809.jpg",
+        "alt": "Tytuvėnai Monastery — Church of the Virgin Mary and Tytuvėnai Monastery in Tytuvėnai, Lithuania in 2022",
+        "author": "user:CD",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Church_of_the_Virgin_Mary_and_Tytuv%C4%97nai_Monastery_in_Tytuv%C4%97nai,_Lithuania_in_2022.jpg",
+        "width": 1920,
+        "height": 1440
+      }
+    ],
+    "sources": [
+      {
+        "label": "Location reference",
+        "url": "https://en.wikipedia.org/wiki/Tytuv%C4%97nai_Monastery"
+      },
+      {
+        "label": "Wikidata reference",
+        "url": "https://www.wikidata.org/wiki/Q942809"
+      }
+    ],
+    "reviewed": "2026-10-14"
+  },
+  {
+    "slug": "telsiai-cathedral",
+    "name": "Telšiai Cathedral",
+    "location": "Telšiai · Lithuania",
+    "category": "culture",
+    "cityId": "telsiai",
+    "coordinates": [
+      55.98222222,
+      22.24638889
+    ],
+    "coordinateSource": "https://en.wikipedia.org/wiki/Tel%C5%A1iai_Cathedral",
+    "coordinateNote": "Sourced reference pin; confirm the appropriate entrance or access point.",
+    "description": "A cathedral on the town's hill connects religious heritage with a useful landmark for exploring Telšiai.",
+    "reasons": [
+      "A cathedral on the town's hill connects religious heritage with a useful landmark for exploring Telšiai",
+      "Explore the Telšiai area",
+      "A cultural stop beyond the main route"
+    ],
+    "visitorInfo": [
+      "Use the Telšiai Cathedral reference pin to orient yourself, then confirm the appropriate visitor entrance locally.",
+      "Check the venue’s current visiting arrangements before travelling; interior access, tickets and events may have separate conditions."
+    ],
+    "featured": false,
+    "hidden": false,
+    "photos": [
+      {
+        "src": "/destinations/Q1736136.jpg",
+        "alt": "Telšiai Cathedral — Telšiai Cathedral Exterior, Telšiai, Lithuania - Diliff",
+        "author": "Diliff",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Tel%C5%A1iai_Cathedral_Exterior,_Tel%C5%A1iai,_Lithuania_-_Diliff.jpg",
+        "width": 1920,
+        "height": 2268
+      }
+    ],
+    "sources": [
+      {
+        "label": "Location reference",
+        "url": "https://en.wikipedia.org/wiki/Tel%C5%A1iai_Cathedral"
+      },
+      {
+        "label": "Wikidata reference",
+        "url": "https://www.wikidata.org/wiki/Q1736136"
+      }
+    ],
+    "reviewed": "2026-10-14"
+  },
+  {
+    "slug": "siauliai-cathedral",
+    "name": "Šiauliai Cathedral",
+    "location": "Šiauliai · Lithuania",
+    "category": "culture",
+    "cityId": "siauliai",
+    "coordinates": [
+      55.9492,
+      23.3198
+    ],
+    "coordinateSource": "https://en.wikipedia.org/wiki/%C5%A0iauliai_Cathedral",
+    "coordinateNote": "Sourced reference pin; confirm the appropriate entrance or access point.",
+    "description": "A prominent cathedral is a useful architectural anchor for a walk through central Šiauliai.",
+    "reasons": [
+      "A prominent cathedral is a useful architectural anchor for a walk through central Šiauliai",
+      "Explore the Šiauliai area",
+      "A cultural stop beyond the main route"
+    ],
+    "visitorInfo": [
+      "Use the Šiauliai Cathedral reference pin to orient yourself, then confirm the appropriate visitor entrance locally.",
+      "Check the venue’s current visiting arrangements before travelling; interior access, tickets and events may have separate conditions."
+    ],
+    "featured": false,
+    "hidden": false,
+    "photos": [
+      {
+        "src": "/destinations/Q1736144.jpg",
+        "alt": "Šiauliai Cathedral — Cathedral of Saints Peter and Paul in Šiauliai, Lithuania in 2018 (cropped)",
+        "author": "Scotch Mist",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Cathedral_of_Saints_Peter_and_Paul_in_%C5%A0iauliai,_Lithuania_in_2018_(cropped).jpg",
+        "width": 1703,
+        "height": 2560
+      }
+    ],
+    "sources": [
+      {
+        "label": "Location reference",
+        "url": "https://en.wikipedia.org/wiki/%C5%A0iauliai_Cathedral"
+      },
+      {
+        "label": "Wikidata reference",
+        "url": "https://www.wikidata.org/wiki/Q1736144"
+      }
+    ],
+    "reviewed": "2026-10-14"
+  },
+  {
+    "slug": "panevezys",
+    "name": "Panevėžys",
+    "location": "Panevėžys · Lithuania",
+    "category": "cities",
+    "cityId": "panevezys",
+    "coordinates": [
+      55.73333333,
+      24.35
+    ],
+    "coordinateSource": "https://en.wikipedia.org/wiki/Panev%C4%97%C5%BEys",
+    "coordinateNote": "Sourced reference pin; confirm the appropriate entrance or access point.",
+    "description": "Explore a northern Lithuanian city shaped by the Nevėžis River, with cultural stops and everyday urban life beyond the main tourist circuit.",
+    "reasons": [
+      "Explore a northern Lithuanian city shaped by the Nevėžis River, with cultural stops and everyday urban life beyond the main tourist circuit",
+      "Explore the Panevėžys area",
+      "Historic streets and local life"
+    ],
+    "visitorInfo": [
+      "This pin is an area reference. Choose the entrance, trailhead or venue you intend to visit before requesting directions.",
+      "Individual museums, churches and attractions have their own visiting arrangements."
+    ],
+    "featured": false,
+    "hidden": false,
+    "photos": [
+      {
+        "src": "/destinations/Q1719466.jpg",
+        "alt": "Panevėžys — Recreational area near Senvagė Pond and Nevėžis in Panevėžys",
+        "author": "Modris Putns",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Recreational_area_near_Senvag%C4%97_Pond_and_Nev%C4%97%C5%BEis_in_Panev%C4%97%C5%BEys.jpg",
+        "width": 1920,
+        "height": 1463
+      }
+    ],
+    "sources": [
+      {
+        "label": "Location reference",
+        "url": "https://en.wikipedia.org/wiki/Panev%C4%97%C5%BEys"
+      },
+      {
+        "label": "Wikidata reference",
+        "url": "https://www.wikidata.org/wiki/Q1719466"
+      }
+    ],
+    "reviewed": "2026-10-14"
+  },
+  {
+    "slug": "marijampole",
+    "name": "Marijampolė",
+    "location": "Marijampolė · Lithuania",
+    "category": "cities",
+    "cityId": "marijampole",
+    "coordinates": [
+      54.54722222,
+      23.35
+    ],
+    "coordinateSource": "https://en.wikipedia.org/wiki/Marijampol%C4%97",
+    "coordinateNote": "Sourced reference pin; confirm the appropriate entrance or access point.",
+    "description": "A southern Lithuanian town offers public art, squares and parks along the Šešupė.",
+    "reasons": [
+      "A southern Lithuanian town offers public art, squares and parks along the Šešupė",
+      "Explore the Marijampolė area",
+      "Historic streets and local life"
+    ],
+    "visitorInfo": [
+      "This pin is an area reference. Choose the entrance, trailhead or venue you intend to visit before requesting directions.",
+      "Individual museums, churches and attractions have their own visiting arrangements."
+    ],
+    "featured": false,
+    "hidden": false,
+    "photos": [
+      {
+        "src": "/destinations/Q1351046.jpg",
+        "alt": "Marijampolė — Marijampole city",
+        "author": "Juliux",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Marijampole_city.jpg",
+        "width": 1920,
+        "height": 1196
+      }
+    ],
+    "sources": [
+      {
+        "label": "Location reference",
+        "url": "https://en.wikipedia.org/wiki/Marijampol%C4%97"
+      },
+      {
+        "label": "Wikidata reference",
+        "url": "https://www.wikidata.org/wiki/Q1351046"
+      }
+    ],
+    "reviewed": "2026-10-14"
+  },
+  {
+    "slug": "ukmerge",
+    "name": "Ukmergė",
+    "location": "Ukmergė · Lithuania",
+    "category": "cities",
+    "cityId": "ukmerge",
+    "coordinates": [
+      55.25,
+      24.75
+    ],
+    "coordinateSource": "https://en.wikipedia.org/wiki/Ukmerg%C4%97",
+    "coordinateNote": "Sourced reference pin; confirm the appropriate entrance or access point.",
+    "description": "A town beside the Šventoji combines historic streets, a hillfort and access to surrounding manor landscapes.",
+    "reasons": [
+      "A town beside the Šventoji combines historic streets, a hillfort and access to surrounding manor landscapes",
+      "Explore the Ukmergė area",
+      "Historic streets and local life"
+    ],
+    "visitorInfo": [
+      "This pin is an area reference. Choose the entrance, trailhead or venue you intend to visit before requesting directions.",
+      "Individual museums, churches and attractions have their own visiting arrangements."
+    ],
+    "featured": false,
+    "hidden": false,
+    "photos": [
+      {
+        "src": "/destinations/Q213127.jpg",
+        "alt": "Ukmergė — Ukmergė centre, May 2023",
+        "author": "Mindaur",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Ukmerg%C4%97_centre,_May_2023.jpg",
+        "width": 1920,
+        "height": 1440
+      }
+    ],
+    "sources": [
+      {
+        "label": "Location reference",
+        "url": "https://en.wikipedia.org/wiki/Ukmerg%C4%97"
+      },
+      {
+        "label": "Wikidata reference",
+        "url": "https://www.wikidata.org/wiki/Q213127"
+      }
+    ],
+    "reviewed": "2026-10-14"
+  },
+  {
+    "slug": "kretinga",
+    "name": "Kretinga",
+    "location": "Kretinga · Lithuania",
+    "category": "cities",
+    "cityId": "kretinga",
+    "coordinates": [
+      55.89,
+      21.24222222
+    ],
+    "coordinateSource": "https://en.wikipedia.org/wiki/Kretinga",
+    "coordinateNote": "Sourced reference pin; confirm the appropriate entrance or access point.",
+    "description": "An inland town close to the coast combines a monastery, an estate and local heritage stops.",
+    "reasons": [
+      "An inland town close to the coast combines a monastery, an estate and local heritage stops",
+      "Explore the Kretinga area",
+      "Historic streets and local life"
+    ],
+    "visitorInfo": [
+      "This pin is an area reference. Choose the entrance, trailhead or venue you intend to visit before requesting directions.",
+      "Individual museums, churches and attractions have their own visiting arrangements."
+    ],
+    "featured": false,
+    "hidden": false,
+    "photos": [
+      {
+        "src": "/destinations/Q1788115.jpg",
+        "alt": "Kretinga — Kretinga Bernardine Monastery and the Lord’s Revelation to Virgin Mary Church building complex Nuotrauka 6",
+        "author": "Žemaitijos kelias",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Kretinga_Bernardine_Monastery_and_the_Lord%E2%80%99s_Revelation_to_Virgin_Mary_Church_building_complex_Nuotrauka_6.jpg",
+        "width": 1920,
+        "height": 1279
+      }
+    ],
+    "sources": [
+      {
+        "label": "Location reference",
+        "url": "https://en.wikipedia.org/wiki/Kretinga"
+      },
+      {
+        "label": "Wikidata reference",
+        "url": "https://www.wikidata.org/wiki/Q1788115"
+      }
+    ],
+    "reviewed": "2026-10-14"
+  },
+  {
+    "slug": "merkine",
+    "name": "Merkinė",
+    "location": "Varėna · Lithuania",
+    "category": "cities",
+    "cityId": "varena",
+    "coordinates": [
+      54.16388889,
+      24.18611111
+    ],
+    "coordinateSource": "https://en.wikipedia.org/wiki/Merkin%C4%97",
+    "coordinateNote": "Sourced reference pin; confirm the appropriate entrance or access point.",
+    "description": "A historic settlement near the meeting of the Nemunas and Merkys is a base for exploring Dzūkija.",
+    "reasons": [
+      "A historic settlement near the meeting of the Nemunas and Merkys is a base for exploring Dzūkija",
+      "Explore the Varėna area",
+      "Historic streets and local life"
+    ],
+    "visitorInfo": [
+      "This pin is an area reference. Choose the entrance, trailhead or venue you intend to visit before requesting directions.",
+      "Individual museums, churches and attractions have their own visiting arrangements."
+    ],
+    "featured": false,
+    "hidden": false,
+    "photos": [
+      {
+        "src": "/destinations/Q1594489.jpg",
+        "alt": "Merkinė — Merkinė, Lithuania - panoramio (21)",
+        "author": "VietovesLt",
+        "license": "CC BY 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Merkin%C4%97,_Lithuania_-_panoramio_(21).jpg",
+        "width": 1920,
+        "height": 1440
+      }
+    ],
+    "sources": [
+      {
+        "label": "Location reference",
+        "url": "https://en.wikipedia.org/wiki/Merkin%C4%97"
+      },
+      {
+        "label": "Wikidata reference",
+        "url": "https://www.wikidata.org/wiki/Q1594489"
+      }
+    ],
+    "reviewed": "2026-10-14"
+  },
+  {
+    "slug": "liskiava",
+    "name": "Liškiava",
+    "location": "Druskininkai · Lithuania",
+    "category": "culture",
+    "cityId": "druskininkai",
+    "coordinates": [
+      54.08055556,
+      24.05555556
+    ],
+    "coordinateSource": "https://en.wikipedia.org/wiki/Li%C5%A1kiava",
+    "coordinateNote": "Sourced reference pin; confirm the appropriate entrance or access point.",
+    "description": "A riverside settlement with a church and former monastery offers a cultural excursion from Druskininkai.",
+    "reasons": [
+      "A riverside settlement with a church and former monastery offers a cultural excursion from Druskininkai",
+      "Explore the Druskininkai area",
+      "A cultural stop beyond the main route"
+    ],
+    "visitorInfo": [
+      "Use the Liškiava reference pin to orient yourself, then confirm the appropriate visitor entrance locally.",
+      "Check the venue’s current visiting arrangements before travelling; interior access, tickets and events may have separate conditions."
+    ],
+    "featured": false,
+    "hidden": false,
+    "photos": [
+      {
+        "src": "/destinations/Q570725.jpg",
+        "alt": "Liškiava — Church of the Holy Trinity in Liškiava, Lithuania in 2005",
+        "author": "Wojsyl",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+        "source": "https://commons.wikimedia.org/wiki/File:Church_of_the_Holy_Trinity_in_Li%C5%A1kiava,_Lithuania_in_2005.jpg",
+        "width": 1920,
+        "height": 1440
+      }
+    ],
+    "sources": [
+      {
+        "label": "Location reference",
+        "url": "https://en.wikipedia.org/wiki/Li%C5%A1kiava"
+      },
+      {
+        "label": "Wikidata reference",
+        "url": "https://www.wikidata.org/wiki/Q570725"
+      }
+    ],
+    "reviewed": "2026-10-14"
+  },
+  {
+    "slug": "grutas-park",
+    "name": "Grūtas Park",
+    "location": "Druskininkai · Lithuania",
+    "category": "culture",
+    "cityId": "druskininkai",
+    "coordinates": [
+      54.022,
+      24.079
+    ],
+    "coordinateSource": "https://en.wikipedia.org/wiki/Gr%C5%ABtas_Park",
+    "coordinateNote": "Sourced reference pin; confirm the appropriate entrance or access point.",
+    "description": "An outdoor collection of Soviet-era monuments presents a controversial and thought-provoking encounter with twentieth-century history.",
+    "reasons": [
+      "An outdoor collection of Soviet-era monuments presents a controversial and thought-provoking encounter with twentieth-century history",
+      "Explore the Druskininkai area",
+      "A cultural stop beyond the main route"
+    ],
+    "visitorInfo": [
+      "Use the Grūtas Park reference pin to orient yourself, then confirm the appropriate visitor entrance locally.",
+      "Check the venue’s current visiting arrangements before travelling; interior access, tickets and events may have separate conditions."
+    ],
+    "featured": false,
+    "hidden": false,
+    "photos": [
+      {
+        "src": "/destinations/Q1050522.jpg",
+        "alt": "Grūtas Park — Grūto parkas - Lenin",
+        "author": "Adriao",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Gr%C5%ABto_parkas_-_Lenin.JPG",
+        "width": 1920,
+        "height": 1440
+      }
+    ],
+    "sources": [
+      {
+        "label": "Location reference",
+        "url": "https://en.wikipedia.org/wiki/Gr%C5%ABtas_Park"
+      },
+      {
+        "label": "Wikidata reference",
+        "url": "https://www.wikidata.org/wiki/Q1050522"
+      }
+    ],
+    "reviewed": "2026-10-14"
+  },
+  {
+    "slug": "cepkeliai-marsh",
+    "name": "Čepkeliai Marsh",
+    "location": "Varėna · Lithuania",
+    "category": "nature",
+    "cityId": "varena",
+    "coordinates": [
+      54,
+      24.51666667
+    ],
+    "coordinateSource": "https://en.wikipedia.org/wiki/%C4%8Cepkeliai_Marsh",
+    "coordinateNote": "Sourced reference pin; confirm the appropriate entrance or access point.",
+    "description": "A major wetland in southern Lithuania is a protected landscape that requires checking current reserve access arrangements before visiting.",
+    "reasons": [
+      "A major wetland in southern Lithuania is a protected landscape that requires checking current reserve access arrangements before visiting",
+      "Explore the Varėna area",
+      "A landscape-focused excursion"
+    ],
+    "visitorInfo": [
+      "This pin is an area reference. Choose the entrance, trailhead or venue you intend to visit before requesting directions.",
+      "Choose a signed route and check local protected-area access information before setting out."
+    ],
+    "featured": false,
+    "hidden": false,
+    "photos": [
+      {
+        "src": "/destinations/Q3287428.jpg",
+        "alt": "Čepkeliai Marsh — Čepkeliai (didzi bala) nuo Musteikos",
+        "author": "Hugo.arg",
+        "license": "Public domain",
+        "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "source": "https://commons.wikimedia.org/wiki/File:%C4%8Cepkeliai_(didzi_bala)_nuo_Musteikos.JPG",
+        "width": 1920,
+        "height": 1272
+      }
+    ],
+    "sources": [
+      {
+        "label": "Location reference",
+        "url": "https://en.wikipedia.org/wiki/%C4%8Cepkeliai_Marsh"
+      },
+      {
+        "label": "Wikidata reference",
+        "url": "https://www.wikidata.org/wiki/Q3287428"
+      }
+    ],
+    "reviewed": "2026-10-14"
+  },
+  {
+    "slug": "marcinkonys",
+    "name": "Marcinkonys",
+    "location": "Varėna · Lithuania",
+    "category": "cities",
+    "cityId": "varena",
+    "coordinates": [
+      54.06111111,
+      24.4
+    ],
+    "coordinateSource": "https://en.wikipedia.org/wiki/Marcinkonys",
+    "coordinateNote": "Sourced reference pin; confirm the appropriate entrance or access point.",
+    "description": "A village in Dzūkija connects traditional rural buildings with forest landscapes and access to the national park.",
+    "reasons": [
+      "A village in Dzūkija connects traditional rural buildings with forest landscapes and access to the national park",
+      "Explore the Varėna area",
+      "Historic streets and local life"
+    ],
+    "visitorInfo": [
+      "This pin is an area reference. Choose the entrance, trailhead or venue you intend to visit before requesting directions.",
+      "Individual museums, churches and attractions have their own visiting arrangements."
+    ],
+    "featured": false,
+    "hidden": false,
+    "photos": [
+      {
+        "src": "/destinations/Q1893620.jpg",
+        "alt": "Marcinkonys — Winter river in Marcinkonys - Зимняя радость - panoramio",
+        "author": "D&G photo",
+        "license": "CC BY 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Winter_river_in_Marcinkonys_-_%D0%97%D0%B8%D0%BC%D0%BD%D1%8F%D1%8F_%D1%80%D0%B0%D0%B4%D0%BE%D1%81%D1%82%D1%8C_-_panoramio.jpg",
+        "width": 1920,
+        "height": 1440
+      }
+    ],
+    "sources": [
+      {
+        "label": "Location reference",
+        "url": "https://en.wikipedia.org/wiki/Marcinkonys"
+      },
+      {
+        "label": "Wikidata reference",
+        "url": "https://www.wikidata.org/wiki/Q1893620"
+      }
+    ],
+    "reviewed": "2026-10-14"
+  },
+  {
+    "slug": "zervynos",
+    "name": "Zervynos",
+    "location": "Varėna · Lithuania",
+    "category": "cities",
+    "cityId": "varena",
+    "coordinates": [
+      54.11666667,
+      24.5
+    ],
+    "coordinateSource": "https://en.wikipedia.org/wiki/Zervynos",
+    "coordinateNote": "Sourced reference pin; confirm the appropriate entrance or access point.",
+    "description": "A traditional village beside the Ūla offers a chance to appreciate Dzūkian wooden buildings within a lived-in rural setting.",
+    "reasons": [
+      "A traditional village beside the Ūla offers a chance to appreciate Dzūkian wooden buildings within a lived-in rural setting",
+      "Explore the Varėna area",
+      "Historic streets and local life"
+    ],
+    "visitorInfo": [
+      "This pin is an area reference. Choose the entrance, trailhead or venue you intend to visit before requesting directions.",
+      "Individual museums, churches and attractions have their own visiting arrangements."
+    ],
+    "featured": false,
+    "hidden": false,
+    "photos": [
+      {
+        "src": "/destinations/Q2357792.jpg",
+        "alt": "Zervynos — Zervynos, 2023",
+        "author": "Hugo.arg (talk)",
+        "license": "Public domain",
+        "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "source": "https://commons.wikimedia.org/wiki/File:Zervynos,_2023.JPG",
+        "width": 1920,
+        "height": 1272
+      }
+    ],
+    "sources": [
+      {
+        "label": "Location reference",
+        "url": "https://en.wikipedia.org/wiki/Zervynos"
+      },
+      {
+        "label": "Wikidata reference",
+        "url": "https://www.wikidata.org/wiki/Q2357792"
+      }
+    ],
+    "reviewed": "2026-10-14"
+  },
+  {
+    "slug": "meteliai-regional-park",
+    "name": "Meteliai Regional Park",
+    "location": "Lazdijai · Lithuania",
+    "category": "nature",
+    "cityId": "lazdijai",
+    "coordinates": [
+      54.28,
+      23.72
+    ],
+    "coordinateSource": "https://en.wikipedia.org/wiki/Meteliai_Regional_Park",
+    "coordinateNote": "Sourced reference pin; confirm the appropriate entrance or access point.",
+    "description": "A group of large lakes and protected habitats offers a distinctive southern Lithuanian nature excursion.",
+    "reasons": [
+      "A group of large lakes and protected habitats offers a distinctive southern Lithuanian nature excursion",
+      "Explore the Lazdijai area",
+      "A landscape-focused excursion"
+    ],
+    "visitorInfo": [
+      "This pin is an area reference. Choose the entrance, trailhead or venue you intend to visit before requesting directions.",
+      "Choose a signed route and check local protected-area access information before setting out."
+    ],
+    "featured": false,
+    "hidden": false,
+    "photos": [
+      {
+        "src": "/destinations/Q6823402-2.jpg",
+        "alt": "Meteliai Regional Park — Dusia ties Straigiške",
+        "author": "Hugo.arg (talk)",
+        "license": "Public domain",
+        "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "source": "https://commons.wikimedia.org/wiki/File:Dusia_ties_Straigi%C5%A1ke.JPG",
+        "width": 1920,
+        "height": 1272
+      }
+    ],
+    "sources": [
+      {
+        "label": "Location reference",
+        "url": "https://en.wikipedia.org/wiki/Meteliai_Regional_Park"
+      },
+      {
+        "label": "Wikidata reference",
+        "url": "https://www.wikidata.org/wiki/Q6823402"
+      }
+    ],
+    "reviewed": "2026-10-14"
+  },
+  {
+    "slug": "vistytis-regional-park",
+    "name": "Vištytis Regional Park",
+    "location": "Vilkaviškis · Lithuania",
+    "category": "nature",
+    "cityId": "vilkaviskis",
+    "coordinates": [
+      54.43333333,
+      22.73333333
+    ],
+    "coordinateSource": "https://en.wikipedia.org/wiki/Vi%C5%A1tytis_(lake)",
+    "coordinateNote": "Sourced reference pin; confirm the appropriate entrance or access point.",
+    "description": "A protected landscape in Lithuania's southwestern corner combines lakes, hills and countryside near the border.",
+    "reasons": [
+      "A protected landscape in Lithuania's southwestern corner combines lakes, hills and countryside near the border",
+      "Explore the Vilkaviškis area",
+      "A landscape-focused excursion"
+    ],
+    "visitorInfo": [
+      "This pin is an area reference. Choose the entrance, trailhead or venue you intend to visit before requesting directions.",
+      "Choose a signed route and check local protected-area access information before setting out."
+    ],
+    "featured": false,
+    "hidden": false,
+    "photos": [
+      {
+        "src": "/destinations/Q5633.jpg",
+        "alt": "Vištytis Regional Park — Vištyčio ežeras",
+        "author": "Šarūnas Šimkus",
+        "license": "Public domain",
+        "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "source": "https://commons.wikimedia.org/wiki/File:Vi%C5%A1ty%C4%8Dio_e%C5%BEeras.JPG",
+        "width": 1920,
+        "height": 1272
+      }
+    ],
+    "sources": [
+      {
+        "label": "Location reference",
+        "url": "https://en.wikipedia.org/wiki/Vi%C5%A1tytis_(lake)"
+      },
+      {
+        "label": "Wikidata reference",
+        "url": "https://www.wikidata.org/wiki/Q5633"
+      }
+    ],
+    "reviewed": "2026-10-14"
+  },
+  {
+    "slug": "lake-sirvena",
+    "name": "Lake Širvėna",
+    "location": "Biržai · Lithuania",
+    "category": "nature",
+    "cityId": "birzai",
+    "coordinates": [
+      56.21194444,
+      24.755
+    ],
+    "coordinateSource": "https://en.wikipedia.org/wiki/%C5%A0irv%C4%97na_Lake",
+    "coordinateNote": "Sourced reference pin; confirm the appropriate entrance or access point.",
+    "description": "The lake beside Biržai connects town views with the landscape around Astravas Manor.",
+    "reasons": [
+      "The lake beside Biržai connects town views with the landscape around Astravas Manor",
+      "Explore the Biržai area",
+      "A landscape-focused excursion"
+    ],
+    "visitorInfo": [
+      "This pin is an area reference. Choose the entrance, trailhead or venue you intend to visit before requesting directions.",
+      "Choose a signed route and check local protected-area access information before setting out."
+    ],
+    "featured": false,
+    "hidden": false,
+    "photos": [
+      {
+        "src": "/destinations/Q3488953.jpg",
+        "alt": "Lake Širvėna — Sirvenos ezeras",
+        "author": "Original uploader was Qwarc at lt.wikipedia",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+        "source": "https://commons.wikimedia.org/wiki/File:Sirvenos_ezeras.JPG",
+        "width": 1920,
+        "height": 1440
+      }
+    ],
+    "sources": [
+      {
+        "label": "Location reference",
+        "url": "https://en.wikipedia.org/wiki/%C5%A0irv%C4%97na_Lake"
+      },
+      {
+        "label": "Wikidata reference",
+        "url": "https://www.wikidata.org/wiki/Q3488953"
+      }
+    ],
+    "reviewed": "2026-10-14"
+  },
+  {
+    "slug": "kelme-manor",
+    "name": "Kelmė Manor",
+    "location": "Kelmė · Lithuania",
+    "category": "castles",
+    "cityId": "kelme",
+    "coordinates": [
+      55.63833333,
+      22.93833333
+    ],
+    "coordinateSource": "https://en.wikipedia.org/wiki/Kelm%C4%97_Manor",
+    "coordinateNote": "Sourced reference pin; confirm the appropriate entrance or access point.",
+    "description": "An estate and regional museum introduce the history of the Kelmė area within a historic manor ensemble.",
+    "reasons": [
+      "An estate and regional museum introduce the history of the Kelmė area within a historic manor ensemble",
+      "Explore the Kelmė area",
+      "Estate and architectural heritage"
+    ],
+    "visitorInfo": [
+      "Use the Kelmė Manor reference pin to orient yourself, then confirm the appropriate visitor entrance locally.",
+      "Check the venue’s current visiting arrangements before travelling; interior access, tickets and events may have separate conditions."
+    ],
+    "featured": false,
+    "hidden": false,
+    "photos": [
+      {
+        "src": "/destinations/Q15136514.jpg",
+        "alt": "Kelmė Manor — Kelme manor",
+        "author": "Juliux",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Kelme_manor.jpg",
+        "width": 1920,
+        "height": 1218
+      }
+    ],
+    "sources": [
+      {
+        "label": "Location reference",
+        "url": "https://en.wikipedia.org/wiki/Kelm%C4%97_Manor"
+      },
+      {
+        "label": "Wikidata reference",
+        "url": "https://www.wikidata.org/wiki/Q15136514"
+      }
+    ],
+    "reviewed": "2026-10-14"
+  },
+  {
+    "slug": "ilzenberg-manor",
+    "name": "Ilzenberg Manor",
+    "location": "Rokiškis · Lithuania",
+    "category": "castles",
+    "cityId": "rokiskis",
+    "coordinates": [
+      56.15972222,
+      25.52444444
+    ],
+    "coordinateSource": "https://en.wikipedia.org/wiki/Ilzenberg_Manor",
+    "coordinateNote": "Sourced reference pin; confirm the appropriate entrance or access point.",
+    "description": "A countryside manor near the Latvian border offers estate architecture and a landscape setting in northeastern Lithuania.",
+    "reasons": [
+      "A countryside manor near the Latvian border offers estate architecture and a landscape setting in northeastern Lithuania",
+      "Explore the Rokiškis area",
+      "Estate and architectural heritage"
+    ],
+    "visitorInfo": [
+      "Use the Ilzenberg Manor reference pin to orient yourself, then confirm the appropriate visitor entrance locally.",
+      "Check the venue’s current visiting arrangements before travelling; interior access, tickets and events may have separate conditions."
+    ],
+    "featured": false,
+    "hidden": false,
+    "photos": [
+      {
+        "src": "/destinations/Q12656720.jpg",
+        "alt": "Ilzenberg Manor — Ilzenbergas manor 2018",
+        "author": "Zidikai1",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Ilzenbergas_manor_2018.jpg",
+        "width": 1920,
+        "height": 1280
+      }
+    ],
+    "sources": [
+      {
+        "label": "Location reference",
+        "url": "https://en.wikipedia.org/wiki/Ilzenberg_Manor"
+      },
+      {
+        "label": "Wikidata reference",
+        "url": "https://www.wikidata.org/wiki/Q12656720"
+      }
+    ],
+    "reviewed": "2026-10-14"
+  },
+  {
+    "slug": "siesikai-castle",
+    "name": "Siesikai Castle",
+    "location": "Ukmergė · Lithuania",
+    "category": "castles",
+    "cityId": "ukmerge",
+    "coordinates": [
+      55.28666667,
+      24.51361111
+    ],
+    "coordinateSource": "https://en.wikipedia.org/wiki/Siesikai_Castle",
+    "coordinateNote": "Sourced reference pin; confirm the appropriate entrance or access point.",
+    "description": "A residential castle beside a lake offers a different perspective on Lithuania's historic estates.",
+    "reasons": [
+      "A residential castle beside a lake offers a different perspective on Lithuania's historic estates",
+      "Explore the Ukmergė area",
+      "Estate and architectural heritage"
+    ],
+    "visitorInfo": [
+      "Use the Siesikai Castle reference pin to orient yourself, then confirm the appropriate visitor entrance locally.",
+      "Check the venue’s current visiting arrangements before travelling; interior access, tickets and events may have separate conditions."
+    ],
+    "featured": false,
+    "hidden": false,
+    "photos": [
+      {
+        "src": "/destinations/Q957072.jpg",
+        "alt": "Siesikai Castle — Siesikai castle",
+        "author": "Juliux",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Siesikai_castle.jpg",
+        "width": 1920,
+        "height": 1280
+      }
+    ],
+    "sources": [
+      {
+        "label": "Location reference",
+        "url": "https://en.wikipedia.org/wiki/Siesikai_Castle"
+      },
+      {
+        "label": "Wikidata reference",
+        "url": "https://www.wikidata.org/wiki/Q957072"
+      }
+    ],
+    "reviewed": "2026-10-14"
+  },
+  {
+    "slug": "norviliskes-castle",
+    "name": "Norviliškės Castle",
+    "location": "Šalčininkai · Lithuania",
+    "category": "castles",
+    "cityId": "salcininkai",
+    "coordinates": [
+      54.23638889,
+      25.78166667
+    ],
+    "coordinateSource": "https://en.wikipedia.org/wiki/Norvili%C5%A1k%C4%97s_Castle",
+    "coordinateNote": "Sourced reference pin; confirm the appropriate entrance or access point.",
+    "description": "A historic fortified residence in southeastern Lithuania offers an architectural detour near the border region.",
+    "reasons": [
+      "A historic fortified residence in southeastern Lithuania offers an architectural detour near the border region",
+      "Explore the Šalčininkai area",
+      "Estate and architectural heritage"
+    ],
+    "visitorInfo": [
+      "Use the Norviliškės Castle reference pin to orient yourself, then confirm the appropriate visitor entrance locally.",
+      "Check the venue’s current visiting arrangements before travelling; interior access, tickets and events may have separate conditions."
+    ],
+    "featured": false,
+    "hidden": false,
+    "photos": [
+      {
+        "src": "/destinations/Q2970158.jpg",
+        "alt": "Norviliškės Castle — Norviliskiu pilis.Norviliškės Castle",
+        "author": "Ampyx",
+        "license": "Public domain",
+        "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "source": "https://commons.wikimedia.org/wiki/File:Norviliskiu_pilis.Norvili%C5%A1k%C4%97s_Castle.JPG",
+        "width": 1920,
+        "height": 1264
+      }
+    ],
+    "sources": [
+      {
+        "label": "Location reference",
+        "url": "https://en.wikipedia.org/wiki/Norvili%C5%A1k%C4%97s_Castle"
+      },
+      {
+        "label": "Wikidata reference",
+        "url": "https://www.wikidata.org/wiki/Q2970158"
+      }
+    ],
+    "reviewed": "2026-10-14"
+  },
+  {
+    "slug": "dieveniskes",
+    "name": "Dieveniškės",
+    "location": "Šalčininkai · Lithuania",
+    "category": "cities",
+    "cityId": "salcininkai",
+    "coordinates": [
+      54.19444444,
+      25.625
+    ],
+    "coordinateSource": "https://en.wikipedia.org/wiki/Dieveni%C5%A1k%C4%97s",
+    "coordinateNote": "Sourced reference pin; confirm the appropriate entrance or access point.",
+    "description": "A settlement in southeastern Lithuania introduces a distinctive borderland cultural landscape and surrounding villages.",
+    "reasons": [
+      "A settlement in southeastern Lithuania introduces a distinctive borderland cultural landscape and surrounding villages",
+      "Explore the Šalčininkai area",
+      "Historic streets and local life"
+    ],
+    "visitorInfo": [
+      "This pin is an area reference. Choose the entrance, trailhead or venue you intend to visit before requesting directions.",
+      "Individual museums, churches and attractions have their own visiting arrangements."
+    ],
+    "featured": false,
+    "hidden": false,
+    "photos": [
+      {
+        "src": "/destinations/Q1224305.jpg",
+        "alt": "Dieveniškės — Dieveniskes church",
+        "author": "Juste",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Dieveniskes_church.jpg",
+        "width": 1920,
+        "height": 1440
+      }
+    ],
+    "sources": [
+      {
+        "label": "Location reference",
+        "url": "https://en.wikipedia.org/wiki/Dieveni%C5%A1k%C4%97s"
+      },
+      {
+        "label": "Wikidata reference",
+        "url": "https://www.wikidata.org/wiki/Q1224305"
+      }
+    ],
+    "reviewed": "2026-10-14"
+  },
+  {
+    "slug": "salcininkai",
+    "name": "Šalčininkai",
+    "location": "Šalčininkai · Lithuania",
+    "category": "cities",
+    "cityId": "salcininkai",
+    "coordinates": [
+      54.31666667,
+      25.38333333
+    ],
+    "coordinateSource": "https://en.wikipedia.org/wiki/%C5%A0al%C4%8Dininkai",
+    "coordinateNote": "Sourced reference pin; confirm the appropriate entrance or access point.",
+    "description": "A town southeast of Vilnius offers a base for exploring local estates and the Dieveniškės area.",
+    "reasons": [
+      "A town southeast of Vilnius offers a base for exploring local estates and the Dieveniškės area",
+      "Explore the Šalčininkai area",
+      "Historic streets and local life"
+    ],
+    "visitorInfo": [
+      "This pin is an area reference. Choose the entrance, trailhead or venue you intend to visit before requesting directions.",
+      "Individual museums, churches and attractions have their own visiting arrangements."
+    ],
+    "featured": false,
+    "hidden": false,
+    "photos": [
+      {
+        "src": "/destinations/Q391011.jpg",
+        "alt": "Šalčininkai — Šalčininkų centras",
+        "author": "Šarūnas Šimkus",
+        "license": "Public domain",
+        "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "source": "https://commons.wikimedia.org/wiki/File:%C5%A0al%C4%8Dinink%C5%B3_centras.JPG",
+        "width": 1920,
+        "height": 1272
+      }
+    ],
+    "sources": [
+      {
+        "label": "Location reference",
+        "url": "https://en.wikipedia.org/wiki/%C5%A0al%C4%8Dininkai"
+      },
+      {
+        "label": "Wikidata reference",
+        "url": "https://www.wikidata.org/wiki/Q391011"
+      }
+    ],
+    "reviewed": "2026-10-14"
+  },
+  {
+    "slug": "mo-museum",
+    "name": "MO Museum",
+    "location": "Vilnius · Lithuania",
+    "category": "culture",
+    "cityId": "vilnius",
+    "coordinates": [
+      54.67944444444444,
+      25.27777777777778
+    ],
+    "coordinateSource": "https://www.wikidata.org/wiki/Q16464897",
+    "coordinateNote": "Sourced reference pin; confirm the appropriate entrance or access point.",
+    "description": "A contemporary museum building and modern Lithuanian art collection connect architecture and visual culture close to the Old Town.",
+    "reasons": [
+      "A contemporary museum building and modern Lithuanian art collection connect architecture and visual culture close to the Old Town",
+      "Explore the Vilnius area",
+      "A cultural stop beyond the main route"
+    ],
+    "visitorInfo": [
+      "Use the MO Museum reference pin to orient yourself, then confirm the appropriate visitor entrance locally.",
+      "Check the venue’s current visiting arrangements before travelling; interior access, tickets and events may have separate conditions."
+    ],
+    "featured": false,
+    "hidden": false,
+    "photos": [
+      {
+        "src": "/destinations/Q16464897.jpg",
+        "alt": "MO Museum — Mo Museum, Vilnius",
+        "author": "Felix Winkelnkemper",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Mo_Museum,_Vilnius.jpg",
+        "width": 1920,
+        "height": 1280
+      }
+    ],
+    "sources": [
+      {
+        "label": "Location reference",
+        "url": "https://en.wikipedia.org/wiki/MO_Museum"
+      },
+      {
+        "label": "Wikidata reference",
+        "url": "https://www.wikidata.org/wiki/Q16464897"
+      },
+      {
+        "label": "Visitor information",
+        "url": "https://mo.lt/"
+      }
+    ],
+    "reviewed": "2026-10-14"
+  },
+  {
+    "slug": "bernardine-garden",
+    "name": "Bernardine Garden",
+    "location": "Vilnius · Lithuania",
+    "category": "nature",
+    "cityId": "vilnius",
+    "coordinates": [
+      54.68333333,
+      25.29694444
+    ],
+    "coordinateSource": "https://en.wikipedia.org/wiki/Bernardine_Garden",
+    "coordinateNote": "Sourced reference pin; confirm the appropriate entrance or access point.",
+    "description": "A riverside garden beside the Vilnia offers a relaxed outdoor stop between the Old Town and wooded hills.",
+    "reasons": [
+      "A riverside garden beside the Vilnia offers a relaxed outdoor stop between the Old Town and wooded hills",
+      "Explore the Vilnius area",
+      "A landscape-focused excursion"
+    ],
+    "visitorInfo": [
+      "This pin is an area reference. Choose the entrance, trailhead or venue you intend to visit before requesting directions.",
+      "Choose a signed route and check local protected-area access information before setting out."
+    ],
+    "featured": false,
+    "hidden": false,
+    "photos": [
+      {
+        "src": "/destinations/Q7453082-2.jpg",
+        "alt": "Bernardine Garden — Bernardinai garden",
+        "author": "Pofka",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Bernardinai_garden.jpg",
+        "width": 1920,
+        "height": 1440
+      }
+    ],
+    "sources": [
+      {
+        "label": "Location reference",
+        "url": "https://en.wikipedia.org/wiki/Bernardine_Garden"
+      },
+      {
+        "label": "Wikidata reference",
+        "url": "https://www.wikidata.org/wiki/Q7453082"
+      }
+    ],
+    "reviewed": "2026-10-14"
+  },
+  {
+    "slug": "vilnius-calvary",
+    "name": "Vilnius Calvary",
+    "location": "Vilnius · Lithuania",
+    "category": "culture",
+    "cityId": "vilnius",
+    "coordinates": [
+      54.73083333,
+      25.28722222
+    ],
+    "coordinateSource": "https://en.wikipedia.org/wiki/Verkiai_Calvary",
+    "coordinateNote": "Sourced reference pin; confirm the appropriate entrance or access point.",
+    "description": "A pilgrimage landscape in northern Vilnius combines religious sites with a wooded setting.",
+    "reasons": [
+      "A pilgrimage landscape in northern Vilnius combines religious sites with a wooded setting",
+      "Explore the Vilnius area",
+      "A cultural stop beyond the main route"
+    ],
+    "visitorInfo": [
+      "Use the Vilnius Calvary reference pin to orient yourself, then confirm the appropriate visitor entrance locally.",
+      "Check the venue’s current visiting arrangements before travelling; interior access, tickets and events may have separate conditions."
+    ],
+    "featured": false,
+    "hidden": false,
+    "photos": [
+      {
+        "src": "/destinations/Q4111357.jpg",
+        "alt": "Vilnius Calvary — Calvary Chapel in Zirmunai",
+        "author": "julius",
+        "license": "CC BY 2.5",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.5",
+        "source": "https://commons.wikimedia.org/wiki/File:Calvary_Chapel_in_Zirmunai.jpg",
+        "width": 1256,
+        "height": 1884
+      }
+    ],
+    "sources": [
+      {
+        "label": "Location reference",
+        "url": "https://en.wikipedia.org/wiki/Verkiai_Calvary"
+      },
+      {
+        "label": "Wikidata reference",
+        "url": "https://www.wikidata.org/wiki/Q4111357"
+      }
+    ],
+    "reviewed": "2026-10-14"
+  },
+  {
+    "slug": "presidential-palace",
+    "name": "Presidential Palace",
+    "location": "Vilnius · Lithuania",
+    "category": "culture",
+    "cityId": "vilnius",
+    "coordinates": [
+      54.683,
+      25.286
+    ],
+    "coordinateSource": "https://en.wikipedia.org/wiki/Presidential_Palace%2C_Vilnius",
+    "coordinateNote": "Sourced reference pin; confirm the appropriate entrance or access point.",
+    "description": "The presidential residence is a central Vilnius landmark whose exterior and surrounding streets fit naturally into an Old Town walk.",
+    "reasons": [
+      "The presidential residence is a central Vilnius landmark whose exterior and surrounding streets fit naturally into an Old Town walk",
+      "Explore the Vilnius area",
+      "A cultural stop beyond the main route"
+    ],
+    "visitorInfo": [
+      "Use the Presidential Palace reference pin to orient yourself, then confirm the appropriate visitor entrance locally.",
+      "Check the venue’s current visiting arrangements before travelling; interior access, tickets and events may have separate conditions."
+    ],
+    "featured": false,
+    "hidden": false,
+    "photos": [
+      {
+        "src": "/destinations/Q1577652.jpg",
+        "alt": "Presidential Palace — Vilnius presidential palace (cropped)",
+        "author": "Marcin Białek",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+        "source": "https://commons.wikimedia.org/wiki/File:Vilnius_presidential_palace_(cropped).jpg",
+        "width": 1920,
+        "height": 1440
+      }
+    ],
+    "sources": [
+      {
+        "label": "Location reference",
+        "url": "https://en.wikipedia.org/wiki/Presidential_Palace%2C_Vilnius"
+      },
+      {
+        "label": "Wikidata reference",
+        "url": "https://www.wikidata.org/wiki/Q1577652"
+      }
+    ],
+    "reviewed": "2026-10-14"
+  },
+  {
+    "slug": "vilnius-town-hall",
+    "name": "Vilnius Town Hall",
+    "location": "Vilnius · Lithuania",
+    "category": "culture",
+    "cityId": "vilnius",
+    "coordinates": [
+      54.678,
+      25.287
+    ],
+    "coordinateSource": "https://en.wikipedia.org/wiki/Town_Hall%2C_Vilnius",
+    "coordinateNote": "Sourced reference pin; confirm the appropriate entrance or access point.",
+    "description": "A civic landmark and broad square provide a convenient meeting point within the southern part of Vilnius Old Town.",
+    "reasons": [
+      "A civic landmark and broad square provide a convenient meeting point within the southern part of Vilnius Old Town",
+      "Explore the Vilnius area",
+      "A cultural stop beyond the main route"
+    ],
+    "visitorInfo": [
+      "Use the Vilnius Town Hall reference pin to orient yourself, then confirm the appropriate visitor entrance locally.",
+      "Check the venue’s current visiting arrangements before travelling; interior access, tickets and events may have separate conditions."
+    ],
+    "featured": false,
+    "hidden": false,
+    "photos": [
+      {
+        "src": "/destinations/Q1257109-2.jpg",
+        "alt": "Vilnius Town Hall — Rathaus+Kasimir-Kirche",
+        "author": "Barnos",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Rathaus%2BKasimir-Kirche.jpg",
+        "width": 1920,
+        "height": 1303
+      }
+    ],
+    "sources": [
+      {
+        "label": "Location reference",
+        "url": "https://en.wikipedia.org/wiki/Town_Hall%2C_Vilnius"
+      },
+      {
+        "label": "Wikidata reference",
+        "url": "https://www.wikidata.org/wiki/Q1257109"
+      }
+    ],
+    "reviewed": "2026-10-14"
+  },
+  {
+    "slug": "st-catherine-s-church",
+    "name": "St Catherine's Church",
+    "location": "Vilnius · Lithuania",
+    "category": "culture",
+    "cityId": "vilnius",
+    "coordinates": [
+      54.68177778,
+      25.28122222
+    ],
+    "coordinateSource": "https://en.wikipedia.org/wiki/Church_of_St._Catherine%2C_Vilnius",
+    "coordinateNote": "Sourced reference pin; confirm the appropriate entrance or access point.",
+    "description": "A Baroque church and cultural venue adds an architectural stop to a central Vilnius walk.",
+    "reasons": [
+      "A Baroque church and cultural venue adds an architectural stop to a central Vilnius walk",
+      "Explore the Vilnius area",
+      "A cultural stop beyond the main route"
+    ],
+    "visitorInfo": [
+      "Use the St Catherine's Church reference pin to orient yourself, then confirm the appropriate visitor entrance locally.",
+      "Check the venue’s current visiting arrangements before travelling; interior access, tickets and events may have separate conditions."
+    ],
+    "featured": false,
+    "hidden": false,
+    "photos": [
+      {
+        "src": "/destinations/Q1984956.jpg",
+        "alt": "St Catherine's Church — Church of St. Catherine in Vilnius by Augustas Didžgalvis",
+        "author": "Augustas Didžgalvis",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Church_of_St._Catherine_in_Vilnius_by_Augustas_Did%C5%BEgalvis.jpg",
+        "width": 1800,
+        "height": 1200
+      }
+    ],
+    "sources": [
+      {
+        "label": "Location reference",
+        "url": "https://en.wikipedia.org/wiki/Church_of_St._Catherine%2C_Vilnius"
+      },
+      {
+        "label": "Wikidata reference",
+        "url": "https://www.wikidata.org/wiki/Q1984956"
+      }
+    ],
+    "reviewed": "2026-10-14"
+  }
+]

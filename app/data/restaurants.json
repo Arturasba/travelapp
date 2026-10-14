@@ -1,0 +1,302 @@
+[
+  {
+    "slug": "neringa-restaurant",
+    "name": "Neringa",
+    "cityId": "vilnius",
+    "location": "Vilnius · Lithuania",
+    "category": "restaurants",
+    "address": "Gedimino pr. 23",
+    "cuisine": "Lithuanian classics & European cuisine",
+    "coordinates": [
+      54.6879651,
+      25.2757668
+    ],
+    "coordinateSource": "https://www.openstreetmap.org/node/31453209",
+    "coordinateNote": "OpenStreetMap venue reference pin; use the published address to identify the entrance.",
+    "description": "A Vilnius institution with a celebrated modernist interior. Neringa pairs the city’s cultural history with classic dishes on Gedimino Avenue.",
+    "reasons": [
+      "A landmark modernist dining room",
+      "A longstanding Vilnius meeting place",
+      "Classic dishes in the city centre"
+    ],
+    "visitorInfo": [
+      "Address: Gedimino pr. 23, Vilnius.",
+      "Check the linked venue or tourism page for current menus, opening hours and reservations.",
+      "Confirm dietary requirements and accessibility with the venue before visiting."
+    ],
+    "featured": false,
+    "hidden": false,
+    "photos": [],
+    "sources": [
+      {
+        "label": "Visitor information",
+        "url": "https://neringavilnius.com/restaurant/"
+      },
+      {
+        "label": "Tourism reference",
+        "url": "https://www.govilnius.lt/visit-vilnius/restaurants2/lithuanian-cuisine-restaurants"
+      },
+      {
+        "label": "Map data · OpenStreetMap / ODbL",
+        "url": "https://www.openstreetmap.org/node/31453209"
+      }
+    ],
+    "reviewed": "2026-10-14"
+  },
+  {
+    "slug": "lokys-restaurant",
+    "name": "Lokys",
+    "cityId": "vilnius",
+    "location": "Vilnius · Lithuania",
+    "category": "restaurants",
+    "address": "Stiklių g. 8",
+    "cuisine": "Historical Lithuanian cuisine & game",
+    "coordinates": [
+      54.6799375,
+      25.2863843
+    ],
+    "coordinateSource": "https://www.openstreetmap.org/node/963774612",
+    "coordinateNote": "OpenStreetMap venue reference pin; use the published address to identify the entrance.",
+    "description": "Historic dining rooms in Vilnius Old Town set the scene for Lithuanian cooking with a particular focus on game and culinary heritage.",
+    "reasons": [
+      "Historic Old Town setting",
+      "Lithuanian culinary heritage",
+      "Game dishes"
+    ],
+    "visitorInfo": [
+      "Address: Stiklių g. 8, Vilnius.",
+      "Check the linked venue or tourism page for current menus, opening hours and reservations.",
+      "Confirm dietary requirements and accessibility with the venue before visiting."
+    ],
+    "featured": false,
+    "hidden": false,
+    "photos": [],
+    "sources": [
+      {
+        "label": "Visitor information",
+        "url": "https://lokys.lt/en/"
+      },
+      {
+        "label": "Tourism reference",
+        "url": "https://www.govilnius.lt/visit-vilnius/restaurants2/lithuanian-cuisine-restaurants"
+      },
+      {
+        "label": "Map data · OpenStreetMap / ODbL",
+        "url": "https://www.openstreetmap.org/node/963774612"
+      }
+    ],
+    "reviewed": "2026-10-14"
+  },
+  {
+    "slug": "dziaugsmas-restaurant",
+    "name": "Džiaugsmas",
+    "cityId": "vilnius",
+    "location": "Vilnius · Lithuania",
+    "category": "restaurants",
+    "address": "Vilniaus g. 28",
+    "cuisine": "Contemporary Lithuanian cuisine",
+    "coordinates": [
+      54.6829277,
+      25.2804476
+    ],
+    "coordinateSource": "https://www.openstreetmap.org/node/12015397722",
+    "coordinateNote": "OpenStreetMap venue reference pin; use the published address to identify the entrance.",
+    "description": "A contemporary expression of Lithuanian cooking, focused on local seasonal ingredients. Visit for a different perspective on the country’s food culture.",
+    "reasons": [
+      "Seasonal Lithuanian ingredients",
+      "Contemporary cooking",
+      "A central Vilnius dining stop"
+    ],
+    "visitorInfo": [
+      "Address: Vilniaus g. 28, Vilnius.",
+      "Check the linked venue or tourism page for current menus, opening hours and reservations.",
+      "Confirm dietary requirements and accessibility with the venue before visiting."
+    ],
+    "featured": false,
+    "hidden": false,
+    "photos": [],
+    "sources": [
+      {
+        "label": "Visitor information",
+        "url": "https://www.dziaugsmas.com/"
+      },
+      {
+        "label": "Map data · OpenStreetMap / ODbL",
+        "url": "https://www.openstreetmap.org/node/12015397722"
+      }
+    ],
+    "reviewed": "2026-10-14"
+  },
+  {
+    "slug": "spurgine",
+    "name": "Spurginė",
+    "cityId": "kaunas",
+    "location": "Kaunas · Lithuania",
+    "category": "restaurants",
+    "address": "Laisvės al. 84",
+    "cuisine": "Doughnuts & coffee · café",
+    "coordinates": [
+      54.897721,
+      23.9088055
+    ],
+    "coordinateSource": "https://www.openstreetmap.org/node/1359049878",
+    "coordinateNote": "OpenStreetMap venue reference pin; use the published address to identify the entrance.",
+    "description": "An old-school Kaunas café on Laisvės alėja, known for its doughnuts and enduring character. A small, sweet stop during a walk through the city.",
+    "reasons": [
+      "A Kaunas café classic",
+      "Traditional doughnuts",
+      "A pause on Laisvės alėja"
+    ],
+    "visitorInfo": [
+      "Address: Laisvės al. 84, Kaunas.",
+      "Check the linked venue or tourism page for current menus, opening hours and reservations.",
+      "Confirm dietary requirements and accessibility with the venue before visiting."
+    ],
+    "featured": false,
+    "hidden": false,
+    "photos": [],
+    "sources": [
+      {
+        "label": "Visitor information",
+        "url": "https://www.visit.kaunas.lt/lt/paragaukite/restoranai/klasika/spurgine/"
+      },
+      {
+        "label": "Map data · OpenStreetMap / ODbL",
+        "url": "https://www.openstreetmap.org/node/1359049878"
+      }
+    ],
+    "reviewed": "2026-10-14"
+  },
+  {
+    "slug": "berneliu-uzeiga-old-town",
+    "name": "Bernelių užeiga · Senamiestis",
+    "cityId": "kaunas",
+    "location": "Kaunas · Lithuania",
+    "category": "restaurants",
+    "address": "M. Valančiaus g. 9",
+    "cuisine": "Traditional Lithuanian cuisine",
+    "coordinates": [
+      54.8979528,
+      23.8880687
+    ],
+    "coordinateSource": "https://www.openstreetmap.org/way/246536591",
+    "coordinateNote": "OpenStreetMap venue reference pin; use the published address to identify the entrance.",
+    "description": "The Old Town branch of Bernelių užeiga serves Lithuanian cooking in a rustic heritage setting, a short walk from Kaunas Town Hall Square.",
+    "reasons": [
+      "Traditional Lithuanian dishes",
+      "Old Town architecture",
+      "A central stop after sightseeing"
+    ],
+    "visitorInfo": [
+      "Address: M. Valančiaus g. 9, Kaunas.",
+      "Check the linked venue or tourism page for current menus, opening hours and reservations.",
+      "Confirm dietary requirements and accessibility with the venue before visiting."
+    ],
+    "featured": false,
+    "hidden": false,
+    "photos": [],
+    "sources": [
+      {
+        "label": "Visitor information",
+        "url": "https://berneliuuzeiga.lt/senamiestis/"
+      },
+      {
+        "label": "Tourism reference",
+        "url": "https://www.visit.kaunas.lt/lt/paragaukite/restoranai/tradicine-virtuve/berneliu-uzeiga-senamiestis/"
+      },
+      {
+        "label": "Map data · OpenStreetMap / ODbL",
+        "url": "https://www.openstreetmap.org/way/246536591"
+      }
+    ],
+    "reviewed": "2026-10-14"
+  },
+  {
+    "slug": "senoji-kibinine",
+    "name": "Senoji kibininė",
+    "cityId": "trakai",
+    "location": "Trakai · Lithuania",
+    "category": "restaurants",
+    "address": "Karaimų g. 65",
+    "cuisine": "Karaim & Lithuanian cuisine",
+    "coordinates": [
+      54.650991,
+      24.9239825
+    ],
+    "coordinateSource": "https://www.openstreetmap.org/node/567450190",
+    "coordinateNote": "OpenStreetMap venue reference pin; use the published address to identify the entrance.",
+    "description": "A well-known Trakai stop for kibinai and Karaim-inspired cooking. Choose this Karaimų Street branch when planning a meal around the town’s lakes and castles.",
+    "reasons": [
+      "Kibinai in Trakai",
+      "Karaim culinary traditions",
+      "A meal alongside a castle visit"
+    ],
+    "visitorInfo": [
+      "Address: Karaimų g. 65, Trakai.",
+      "Check the linked venue or tourism page for current menus, opening hours and reservations.",
+      "Confirm dietary requirements and accessibility with the venue before visiting."
+    ],
+    "featured": false,
+    "hidden": false,
+    "photos": [],
+    "sources": [
+      {
+        "label": "Visitor information",
+        "url": "https://www.kibinas.lt/en/contact-us/senoji-kibinine-in-trakai/"
+      },
+      {
+        "label": "Tourism reference",
+        "url": "https://www.trakai-visit.lt/pl/objektas/anno-1969-senoji-kibinine/"
+      },
+      {
+        "label": "Map data · OpenStreetMap / ODbL",
+        "url": "https://www.openstreetmap.org/node/567450190"
+      }
+    ],
+    "reviewed": "2026-10-14"
+  },
+  {
+    "slug": "svyturys-bhouse",
+    "name": "Švyturys BHouse",
+    "cityId": "klaipeda",
+    "location": "Klaipėda · Lithuania",
+    "category": "restaurants",
+    "address": "Kūlių Vartų g. 7",
+    "cuisine": "Brewery gastrobar",
+    "coordinates": [
+      55.7069224,
+      21.1411694
+    ],
+    "coordinateSource": "https://www.openstreetmap.org/node/6986925258",
+    "coordinateNote": "OpenStreetMap venue reference pin; use the published address to identify the entrance.",
+    "description": "A gastrobar beside the working Švyturys brewery brings food and industrial heritage together in Klaipėda. Brewery tours are separate experiences; check the operator’s current arrangements.",
+    "reasons": [
+      "A working brewery setting",
+      "Klaipėda’s brewing heritage",
+      "Food and a distinctive industrial interior"
+    ],
+    "visitorInfo": [
+      "Address: Kūlių Vartų g. 7, Klaipėda.",
+      "Check the linked venue or tourism page for current menus, opening hours and reservations.",
+      "Confirm dietary requirements and accessibility with the venue before visiting."
+    ],
+    "featured": false,
+    "hidden": false,
+    "photos": [],
+    "sources": [
+      {
+        "label": "Visitor information",
+        "url": "https://svyturysbrewery.lt/en/gastro-bar/"
+      },
+      {
+        "label": "Tourism reference",
+        "url": "https://klaipedon.lt/atrask/gastro-patirtys/"
+      },
+      {
+        "label": "Map data · OpenStreetMap / ODbL",
+        "url": "https://www.openstreetmap.org/node/6986925258"
+      }
+    ],
+    "reviewed": "2026-10-14"
+  }
+]

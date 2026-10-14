@@ -15,8 +15,11 @@
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
       "source": "https://commons.wikimedia.org/wiki/File:Kernave_mounds_20200926.jpg",
       "original": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Kernave_mounds_20200926.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-      "width": 1600,
-      "height": 1200
+      "width": 2560,
+      "height": 1920,
+      "originalWidth": 3968,
+      "originalHeight": 2976,
+      "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cc/Kernave_mounds_20200926.jpg/3840px-Kernave_mounds_20200926.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
     },
     "reference": "https://en.wikipedia.org/wiki/Kernav%C4%97",
     "extraImage": {
@@ -27,8 +30,11 @@
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
       "source": "https://commons.wikimedia.org/wiki/File:Kernave_Neris.jpg",
       "original": "https://upload.wikimedia.org/wikipedia/commons/f/f1/Kernave_Neris.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-      "width": 1400,
-      "height": 788
+      "width": 2000,
+      "height": 1125,
+      "originalWidth": 2000,
+      "originalHeight": 1125,
+      "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f1/Kernave_Neris.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
     }
   },
   {
@@ -47,8 +53,11 @@
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
       "source": "https://commons.wikimedia.org/wiki/File:Gedimino_kalnas_120.jpg",
       "original": "https://upload.wikimedia.org/wikipedia/commons/9/9d/Gedimino_kalnas_120.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-      "width": 1600,
-      "height": 899
+      "width": 2560,
+      "height": 1438,
+      "originalWidth": 4024,
+      "originalHeight": 2260,
+      "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9d/Gedimino_kalnas_120.jpg/3840px-Gedimino_kalnas_120.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
     },
     "reference": "https://en.wikipedia.org/wiki/Gediminas's_Tower",
     "extraImage": {
@@ -59,8 +68,11 @@
       "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
       "source": "https://commons.wikimedia.org/wiki/File:Gediminas_Tower_in_Vilnius_(cropped).jpg",
       "original": "https://upload.wikimedia.org/wikipedia/commons/3/38/Gediminas_Tower_in_Vilnius_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-      "width": 1400,
-      "height": 1823
+      "width": 1413,
+      "height": 1840,
+      "originalWidth": 1413,
+      "originalHeight": 1840,
+      "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/3/38/Gediminas_Tower_in_Vilnius_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
     }
   },
   {
@@ -78,9 +90,12 @@
       "license": "Public domain",
       "source": "https://commons.wikimedia.org/wiki/File:%C5%AAlos_Akis,_2021.JPG",
       "original": "https://upload.wikimedia.org/wikipedia/commons/f/f8/%C5%AAlos_Akis%2C_2021.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-      "width": 1600,
-      "height": 1060,
-      "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Licensing#Material_in_the_public_domain"
+      "width": 2560,
+      "height": 1695,
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Licensing#Material_in_the_public_domain",
+      "originalWidth": 4928,
+      "originalHeight": 3264,
+      "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f8/%C5%AAlos_Akis%2C_2021.JPG/3840px-%C5%AAlos_Akis%2C_2021.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
     },
     "reference": "https://en.wikipedia.org/wiki/Dz%C5%ABkija_National_Park",
     "extraImage": {
@@ -91,8 +106,11 @@
       "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
       "source": "https://commons.wikimedia.org/wiki/File:Merkine_Neman.JPG",
       "original": "https://upload.wikimedia.org/wikipedia/commons/a/a6/Merkine_Neman.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-      "width": 1400,
-      "height": 1050
+      "width": 2560,
+      "height": 1920,
+      "originalWidth": 2560,
+      "originalHeight": 1920,
+      "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a6/Merkine_Neman.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
     }
   },
   {
@@ -111,8 +129,11 @@
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
       "source": "https://commons.wikimedia.org/wiki/File:Kry%C5%BEi%C5%B3_kalnas_(G%C3%B3ra_Krzy%C5%BCy).JPG",
       "original": "https://upload.wikimedia.org/wikipedia/commons/8/8c/Kry%C5%BEi%C5%B3_kalnas_%28G%C3%B3ra_Krzy%C5%BCy%29.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-      "width": 1600,
-      "height": 578
+      "width": 2560,
+      "height": 925,
+      "originalWidth": 5539,
+      "originalHeight": 2000,
+      "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8c/Kry%C5%BEi%C5%B3_kalnas_%28G%C3%B3ra_Krzy%C5%BCy%29.JPG/3840px-Kry%C5%BEi%C5%B3_kalnas_%28G%C3%B3ra_Krzy%C5%BCy%29.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
     },
     "reference": "https://en.wikipedia.org/wiki/Hill_of_Crosses",
     "extraImage": {
@@ -123,8 +144,11 @@
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
       "source": "https://commons.wikimedia.org/wiki/File:Colina_de_las_Cruces,_Lituania,_2012-08-09,_DD_02.JPG",
       "original": "https://upload.wikimedia.org/wikipedia/commons/e/ed/Colina_de_las_Cruces%2C_Lituania%2C_2012-08-09%2C_DD_02.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-      "width": 1400,
-      "height": 682
+      "width": 2560,
+      "height": 1247,
+      "originalWidth": 4679,
+      "originalHeight": 2280,
+      "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ed/Colina_de_las_Cruces%2C_Lituania%2C_2012-08-09%2C_DD_02.JPG/3840px-Colina_de_las_Cruces%2C_Lituania%2C_2012-08-09%2C_DD_02.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
     }
   },
   {
@@ -143,8 +167,11 @@
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
       "source": "https://commons.wikimedia.org/wiki/File:Vilnius_old_town_by_Augustas_Didzgalvis.jpg",
       "original": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Vilnius_old_town_by_Augustas_Didzgalvis.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-      "width": 1600,
-      "height": 1067
+      "width": 1800,
+      "height": 1200,
+      "originalWidth": 1800,
+      "originalHeight": 1200,
+      "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Vilnius_old_town_by_Augustas_Didzgalvis.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
     },
     "reference": "https://en.wikipedia.org/wiki/Vilnius_Old_Town",
     "extraImage": {
@@ -155,8 +182,11 @@
       "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
       "source": "https://commons.wikimedia.org/wiki/File:Vilnius_-_Panorama_02.jpg",
       "original": "https://upload.wikimedia.org/wikipedia/commons/0/0d/Vilnius_-_Panorama_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-      "width": 1400,
-      "height": 417
+      "width": 2560,
+      "height": 762,
+      "originalWidth": 5355,
+      "originalHeight": 1594,
+      "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0d/Vilnius_-_Panorama_02.jpg/3840px-Vilnius_-_Panorama_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
     }
   },
   {
@@ -175,8 +205,11 @@
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
       "source": "https://commons.wikimedia.org/wiki/File:Pazaislis_by_Augustas_Didzgalvis.jpg",
       "original": "https://upload.wikimedia.org/wikipedia/commons/7/77/Pazaislis_by_Augustas_Didzgalvis.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-      "width": 1600,
-      "height": 1067
+      "width": 1800,
+      "height": 1200,
+      "originalWidth": 1800,
+      "originalHeight": 1200,
+      "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/7/77/Pazaislis_by_Augustas_Didzgalvis.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
     },
     "reference": "https://en.wikipedia.org/wiki/Pa%C5%BEaislis_Monastery",
     "extraImage": {
@@ -187,8 +220,11 @@
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
       "source": "https://commons.wikimedia.org/wiki/File:Pa%C5%BEaislis_Monastery_interior_dome,_Kaunas,_Lithuania_-_Diliff.jpg",
       "original": "https://upload.wikimedia.org/wikipedia/commons/f/f3/Pa%C5%BEaislis_Monastery_interior_dome%2C_Kaunas%2C_Lithuania_-_Diliff.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-      "width": 1400,
-      "height": 1355
+      "width": 2560,
+      "height": 2479,
+      "originalWidth": 3989,
+      "originalHeight": 3862,
+      "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f3/Pa%C5%BEaislis_Monastery_interior_dome%2C_Kaunas%2C_Lithuania_-_Diliff.jpg/3840px-Pa%C5%BEaislis_Monastery_interior_dome%2C_Kaunas%2C_Lithuania_-_Diliff.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
     }
   },
   {
@@ -207,8 +243,11 @@
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
       "source": "https://commons.wikimedia.org/wiki/File:Traku_pilis_by_Augustas_Didzgalvis.jpg",
       "original": "https://upload.wikimedia.org/wikipedia/commons/7/77/Traku_pilis_by_Augustas_Didzgalvis.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-      "width": 1600,
-      "height": 1067
+      "width": 1800,
+      "height": 1200,
+      "originalWidth": 1800,
+      "originalHeight": 1200,
+      "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/7/77/Traku_pilis_by_Augustas_Didzgalvis.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
     },
     "reference": "https://en.wikipedia.org/wiki/Trakai_Island_Castle",
     "extraImage": {
@@ -219,8 +258,11 @@
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
       "source": "https://commons.wikimedia.org/wiki/File:Trakai_Island_Castle,_Lithuania_-_Diliff.jpg",
       "original": "https://upload.wikimedia.org/wikipedia/commons/d/db/Trakai_Island_Castle%2C_Lithuania_-_Diliff.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-      "width": 1400,
-      "height": 868
+      "width": 2560,
+      "height": 1587,
+      "originalWidth": 6850,
+      "originalHeight": 4245,
+      "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/db/Trakai_Island_Castle%2C_Lithuania_-_Diliff.jpg/3840px-Trakai_Island_Castle%2C_Lithuania_-_Diliff.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
     }
   },
   {
@@ -239,8 +281,11 @@
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
       "source": "https://commons.wikimedia.org/wiki/File:Panemun%C4%97s_pilies_kiemas.jpg",
       "original": "https://upload.wikimedia.org/wikipedia/commons/d/de/Panemun%C4%97s_pilies_kiemas.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-      "width": 1600,
-      "height": 1199
+      "width": 2200,
+      "height": 1649,
+      "originalWidth": 2200,
+      "originalHeight": 1649,
+      "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/d/de/Panemun%C4%97s_pilies_kiemas.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
     },
     "reference": "https://en.wikipedia.org/wiki/Panemun%C4%97_Castle",
     "extraImage": {
@@ -251,8 +296,11 @@
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
       "source": "https://commons.wikimedia.org/wiki/File:Panemune_Castle_Aerial.jpg",
       "original": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Panemune_Castle_Aerial.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-      "width": 1400,
-      "height": 1163
+      "width": 2560,
+      "height": 2126,
+      "originalWidth": 2726,
+      "originalHeight": 2264,
+      "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Panemune_Castle_Aerial.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
     }
   },
   {
@@ -271,8 +319,11 @@
       "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
       "source": "https://commons.wikimedia.org/wiki/File:Raimundas_ir_Anicentas_Pu%C5%A1koriai_%E2%80%9ELiuciferis_ir_pragaro_vartai%E2%80%9C.jpg",
       "original": "https://upload.wikimedia.org/wikipedia/commons/3/30/Raimundas_ir_Anicentas_Pu%C5%A1koriai_%E2%80%9ELiuciferis_ir_pragaro_vartai%E2%80%9C.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-      "width": 1600,
-      "height": 2133
+      "width": 1920,
+      "height": 2560,
+      "originalWidth": 1920,
+      "originalHeight": 2560,
+      "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/3/30/Raimundas_ir_Anicentas_Pu%C5%A1koriai_%E2%80%9ELiuciferis_ir_pragaro_vartai%E2%80%9C.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
     },
     "reference": "https://en.wikipedia.org/wiki/Hill_of_Witches",
     "extraImage": {
@@ -283,8 +334,11 @@
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
       "source": "https://commons.wikimedia.org/wiki/File:Eduardo_Jonu%C5%A1o_skulpt%C5%ABra-rodykle_%E2%80%9ERagan%C5%B3_kalnas%E2%80%9C.jpg",
       "original": "https://upload.wikimedia.org/wikipedia/commons/0/02/Eduardo_Jonu%C5%A1o_skulpt%C5%ABra-rodykle_%E2%80%9ERagan%C5%B3_kalnas%E2%80%9C.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-      "width": 1400,
-      "height": 2642
+      "width": 1840,
+      "height": 3472,
+      "originalWidth": 1840,
+      "originalHeight": 3472,
+      "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/0/02/Eduardo_Jonu%C5%A1o_skulpt%C5%ABra-rodykle_%E2%80%9ERagan%C5%B3_kalnas%E2%80%9C.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
     }
   },
   {
@@ -303,8 +357,11 @@
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
       "source": "https://commons.wikimedia.org/wiki/File:Ti%C5%A1kevi%C4%8Diai_Palace_at_dusk,_Palanga,_Lithuania_-_Diliff.jpg",
       "original": "https://upload.wikimedia.org/wikipedia/commons/3/30/Ti%C5%A1kevi%C4%8Diai_Palace_at_dusk%2C_Palanga%2C_Lithuania_-_Diliff.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-      "width": 1600,
-      "height": 1001
+      "width": 2560,
+      "height": 1601,
+      "originalWidth": 5436,
+      "originalHeight": 3401,
+      "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/30/Ti%C5%A1kevi%C4%8Diai_Palace_at_dusk%2C_Palanga%2C_Lithuania_-_Diliff.jpg/3840px-Ti%C5%A1kevi%C4%8Diai_Palace_at_dusk%2C_Palanga%2C_Lithuania_-_Diliff.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
     },
     "reference": "https://en.wikipedia.org/wiki/Palanga_Amber_Museum",
     "extraImage": {
@@ -315,8 +372,11 @@
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
       "source": "https://commons.wikimedia.org/wiki/File:Sun_of_Amber.jpg",
       "original": "https://upload.wikimedia.org/wikipedia/commons/b/b7/Sun_of_Amber.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-      "width": 1400,
-      "height": 1050
+      "width": 1024,
+      "height": 768,
+      "originalWidth": 1024,
+      "originalHeight": 768,
+      "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b7/Sun_of_Amber.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
     }
   },
   {
@@ -335,8 +395,11 @@
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
       "source": "https://commons.wikimedia.org/wiki/File:Puntuko_brolis_(09-06-28)02.jpg",
       "original": "https://upload.wikimedia.org/wikipedia/commons/1/10/Puntuko_brolis_%2809-06-28%2902.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-      "width": 1600,
-      "height": 992
+      "width": 2560,
+      "height": 1587,
+      "originalWidth": 2816,
+      "originalHeight": 1746,
+      "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/1/10/Puntuko_brolis_%2809-06-28%2902.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
     },
     "reference": "https://en.wikipedia.org/wiki/Anyk%C5%A1%C4%8Diai_Regional_Park",
     "extraImage": {
@@ -346,9 +409,12 @@
       "license": "Public domain",
       "source": "https://commons.wikimedia.org/wiki/File:Puntukas.jpg",
       "original": "https://upload.wikimedia.org/wikipedia/commons/2/20/Puntukas.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-      "width": 1600,
-      "height": 643,
-      "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Licensing#Material_in_the_public_domain"
+      "width": 2549,
+      "height": 1024,
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Licensing#Material_in_the_public_domain",
+      "originalWidth": 2549,
+      "originalHeight": 1024,
+      "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/2/20/Puntukas.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
     }
   },
   {
@@ -367,8 +433,11 @@
       "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
       "source": "https://commons.wikimedia.org/wiki/File:Plok%C5%A1tin%C4%97_missile_base,_the_dome_covering_missile_silo,_2019.jpg",
       "original": "https://upload.wikimedia.org/wikipedia/commons/c/c8/Plok%C5%A1tin%C4%97_missile_base%2C_the_dome_covering_missile_silo%2C_2019.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-      "width": 1600,
-      "height": 1067
+      "width": 2560,
+      "height": 1707,
+      "originalWidth": 6000,
+      "originalHeight": 4000,
+      "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/Plok%C5%A1tin%C4%97_missile_base%2C_the_dome_covering_missile_silo%2C_2019.jpg/3840px-Plok%C5%A1tin%C4%97_missile_base%2C_the_dome_covering_missile_silo%2C_2019.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
     },
     "reference": "https://en.wikipedia.org/wiki/Plok%C5%A1tin%C4%97_missile_base",
     "extraImage": {
@@ -379,8 +448,11 @@
       "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
       "source": "https://commons.wikimedia.org/wiki/File:Plok%C5%A1tin%C4%97_missile_base,_the_launch_silo,_2019.jpg",
       "original": "https://upload.wikimedia.org/wikipedia/commons/0/06/Plok%C5%A1tin%C4%97_missile_base%2C_the_launch_silo%2C_2019.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-      "width": 1400,
-      "height": 933
+      "width": 2560,
+      "height": 1707,
+      "originalWidth": 6000,
+      "originalHeight": 4000,
+      "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/06/Plok%C5%A1tin%C4%97_missile_base%2C_the_launch_silo%2C_2019.jpg/3840px-Plok%C5%A1tin%C4%97_missile_base%2C_the_launch_silo%2C_2019.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
     }
   },
   {
@@ -399,8 +471,11 @@
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
       "source": "https://commons.wikimedia.org/wiki/File:Nida_from_bird%27s-eye_view.jpg",
       "original": "https://upload.wikimedia.org/wikipedia/commons/0/02/Nida_from_bird%27s-eye_view.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-      "width": 1600,
-      "height": 1199
+      "width": 2560,
+      "height": 1919,
+      "originalWidth": 4056,
+      "originalHeight": 3040,
+      "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/02/Nida_from_bird%27s-eye_view.jpg/3840px-Nida_from_bird%27s-eye_view.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
     },
     "reference": "https://en.wikipedia.org/wiki/Nida%2C_Lithuania",
     "extraImage": {
@@ -411,8 +486,11 @@
       "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
       "source": "https://commons.wikimedia.org/wiki/File:Nida_Beach_07.jpg",
       "original": "https://upload.wikimedia.org/wikipedia/commons/c/c5/Nida_Beach_07.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-      "width": 1400,
-      "height": 631
+      "width": 2560,
+      "height": 1153,
+      "originalWidth": 4032,
+      "originalHeight": 1816,
+      "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c5/Nida_Beach_07.jpg/3840px-Nida_Beach_07.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
     }
   },
   {
@@ -431,8 +509,11 @@
       "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Licensing",
       "source": "https://commons.wikimedia.org/wiki/File:Klaipeda_old_town.jpg",
       "original": "https://upload.wikimedia.org/wikipedia/commons/5/59/Klaipeda_old_town.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-      "width": 1600,
-      "height": 899
+      "width": 2560,
+      "height": 1438,
+      "originalWidth": 2592,
+      "originalHeight": 1456,
+      "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/5/59/Klaipeda_old_town.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
     },
     "reference": "https://lt.wikipedia.org/wiki/Klaip%C4%97dos_senamiestis",
     "extraImage": {
@@ -443,8 +524,11 @@
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
       "source": "https://commons.wikimedia.org/wiki/File:Meridianas_2019_m.jpg",
       "original": "https://upload.wikimedia.org/wikipedia/commons/5/57/Meridianas_2019_m.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-      "width": 1400,
-      "height": 1050
+      "width": 2560,
+      "height": 1920,
+      "originalWidth": 5152,
+      "originalHeight": 3864,
+      "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/57/Meridianas_2019_m.jpg/3840px-Meridianas_2019_m.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
     }
   },
   {
@@ -463,8 +547,11 @@
       "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
       "source": "https://commons.wikimedia.org/wiki/File:P%C5%AB%C4%8Dkori%C5%B3Atodanga.JPG",
       "original": "https://upload.wikimedia.org/wikipedia/commons/e/e0/P%C5%AB%C4%8Dkori%C5%B3Atodanga.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-      "width": 1600,
-      "height": 2133
+      "width": 1920,
+      "height": 2560,
+      "originalWidth": 2448,
+      "originalHeight": 3264,
+      "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e0/P%C5%AB%C4%8Dkori%C5%B3Atodanga.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
     },
     "reference": "https://lt.wikipedia.org/wiki/P%C5%AB%C4%8Dkori%C5%B3_atodanga",
     "extraImage": {
@@ -475,8 +562,11 @@
       "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Licensing",
       "source": "https://commons.wikimedia.org/wiki/File:Puckoriu-atodanga-2.jpg",
       "original": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Puckoriu-atodanga-2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-      "width": 1400,
-      "height": 931
+      "width": 1000,
+      "height": 665,
+      "originalWidth": 1000,
+      "originalHeight": 665,
+      "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Puckoriu-atodanga-2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
     }
   },
   {
@@ -495,8 +585,11 @@
       "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
       "source": "https://commons.wikimedia.org/wiki/File:Druskininkai,_Lithuania.jpg",
       "original": "https://upload.wikimedia.org/wikipedia/commons/d/da/Druskininkai%2C_Lithuania.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-      "width": 1600,
-      "height": 1067
+      "width": 2560,
+      "height": 1707,
+      "originalWidth": 8064,
+      "originalHeight": 5376,
+      "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/da/Druskininkai%2C_Lithuania.jpg/3840px-Druskininkai%2C_Lithuania.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
     },
     "extraImage": {
       "src": "/destinations/Q1261509-2.jpg",
@@ -506,8 +599,11 @@
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
       "source": "https://commons.wikimedia.org/wiki/File:Druskininkai_Blick_von_der_Seilbahn_auf_Druskininkai_5.jpg",
       "original": "https://upload.wikimedia.org/wikipedia/commons/1/16/Druskininkai_Blick_von_der_Seilbahn_auf_Druskininkai_5.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-      "width": 1600,
-      "height": 1136
+      "width": 2560,
+      "height": 1817,
+      "originalWidth": 4523,
+      "originalHeight": 3210,
+      "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/Druskininkai_Blick_von_der_Seilbahn_auf_Druskininkai_5.jpg/3840px-Druskininkai_Blick_von_der_Seilbahn_auf_Druskininkai_5.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
     },
     "reference": "https://en.wikipedia.org/wiki/Druskininkai"
   }

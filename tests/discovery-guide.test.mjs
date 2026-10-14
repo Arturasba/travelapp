@@ -1,167 +1,102 @@
-import { test } from 'node:test';
+import {test} from 'node:test';
 import assert from 'node:assert/strict';
-import fs from 'node:fs';
 import vm from 'node:vm';
-import ts from 'typescript';
+import {compile,loadModule} from './modules.mjs';
 
-function createGuide({ initialSlug, initialPath = "/?view=places", reduced = true } = {}) {
-  const states=[],refs=[],effects=[],timers=[],listeners=new Map();
-  let stateIndex,refIndex,effectIndex;
-  const url = new URL(initialSlug ? `/places/${initialSlug}` : initialPath, 'http://localhost');
-  const events = {
-    addEventListener(name,fn){if(!listeners.has(name))listeners.set(name,new Set());listeners.get(name).add(fn);},
-    removeEventListener(name,fn){listeners.get(name)?.delete(fn);},
-    dispatchEvent(event){for(const fn of listeners.get(event.type)||[])fn(event);},
-  };
-  const react={
-    useState(initial){const i=stateIndex++;if(!(i in states))states[i]=initial;return[states[i],value=>{states[i]=typeof value==='function'?value(states[i]):value;}];},
-    useRef(initial){const i=refIndex++;return refs[i]||=( {current:initial} );},
-    useCallback:callback=>callback, useMemo:callback=>callback(),
-    useSyncExternalStore:(_subscribe,snapshot)=>snapshot(),
-    useEffect(callback,deps){const i=effectIndex++;const old=effects[i];if(!old||!deps||deps.some((d,j)=>old.deps[j]!==d)){old?.cleanup?.();effects[i]={callback,deps};}},
-  };
+function createGuide({locale='en',initialSlug,initialPath=`/${locale}?view=places`,storage=new Map(),compact=false}={}){
+  const states=[],refs=[],effects=[],listeners=new Map();let stateIndex,refIndex,effectIndex;
+  const url=new URL(initialSlug?`/${locale}/places/${initialSlug}`:initialPath,'http://localhost');
+  const events={addEventListener(name,fn){if(!listeners.has(name))listeners.set(name,new Set());listeners.get(name).add(fn);},removeEventListener(name,fn){listeners.get(name)?.delete(fn);},dispatchEvent(event){for(const fn of listeners.get(event.type)??[])fn(event);}};
+  const react={useState(initial){const i=stateIndex++;if(!(i in states))states[i]=initial;return[states[i],value=>{states[i]=typeof value==='function'?value(states[i]):value;}];},useRef(initial){const i=refIndex++;return refs[i]??={current:initial};},useCallback:fn=>fn,useMemo:fn=>fn(),useSyncExternalStore:(_subscribe,snapshot)=>snapshot(),useEffect(callback,deps){const i=effectIndex++;const old=effects[i];if(!old||!deps||deps.some((d,j)=>old.deps[j]!==d)){old?.cleanup?.();effects[i]={callback,deps};}}};
   const jsx=(type,props)=>({type,props});
-  const compile=file=>ts.transpileModule(fs.readFileSync(file,'utf8'),{compilerOptions:{jsx:ts.JsxEmit.ReactJSX,module:ts.ModuleKind.CommonJS,esModuleInterop:true}}).outputText;
-  const data={exports:{},require:()=>JSON.parse(fs.readFileSync('app/data/destination-assets.json','utf8'))};
-  vm.runInNewContext(compile('app/destinations.ts'),data);
-  const navigation={exports:{},URLSearchParams,require:()=>data.exports};
-  vm.runInNewContext(compile('app/guide-navigation.ts'),navigation);
   const css=new Proxy({},{get:(_target,key)=>key==='__esModule'?false:String(key)});
-  const scope={
-    exports:{},URLSearchParams,Event,HTMLElement:class{},document:{title:""},
-    window:{...events,location:url,matchMedia:query=>({matches:query.includes('prefers-reduced-motion')?reduced:false}),history:{pushState(_state,_unused,path){url.href=new URL(path,url).href;},replaceState(_state,_unused,path){url.href=new URL(path,url).href;}}},
-    setTimeout:fn=>{timers.push(fn);return timers.length;},clearTimeout(){},
-    require:name=>name==='react'?react:name==='react/jsx-runtime'?{jsx,jsxs:jsx,Fragment:'fragment'}:name==='./destinations'?data.exports:name==='./guide-navigation'?navigation.exports:name==='next/dynamic'?()=>function MapStub(){}:name.endsWith('.css')?css:()=>null,
-  };
+  const document={title:'',body:{style:{}},activeElement:null};
+  const scope={exports:{},Event,URLSearchParams,HTMLElement:class{},document,window:{...events,location:url,matchMedia:()=>({matches:compact}),history:{pushState(_state,_unused,path){url.href=new URL(path,url).href;},replaceState(_state,_unused,path){url.href=new URL(path,url).href;}}},require:name=>name==='react'?react:name==='react/jsx-runtime'?{jsx,jsxs:jsx,Fragment:'fragment'}:name==='./locale-context'?{useLocale:()=>locale}:name==='./route-planner-panel'?function PlannerStub(){}:name==='next/dynamic'?()=>function MapStub(){}:name.endsWith('.css')?css:name==='next/image'?()=>null:loadModule('app/'+name.replace(/^\.\//,'')+'.ts')};
   vm.runInNewContext(compile('app/discovery-guide.tsx'),scope);
-  const walk=node=>{if(!node||typeof node!=='object')return[];const children=node.props?.children;return[node,...(Array.isArray(children)?children.flat(Infinity):[children]).flatMap(walk)];};
+  const walk=node=>{if(!node||typeof node!=='object')return[];const c=node.props?.children;return[node,...(Array.isArray(c)?c.flat(Infinity):[c]).flatMap(walk)];};
   const render=()=>{stateIndex=refIndex=effectIndex=0;const tree=scope.exports.default({initialSlug});for(const effect of effects)if(effect.callback){effect.cleanup=effect.callback();effect.callback=null;}return tree;};
-  const click=(node,extra={})=>node.props.onClick({button:0,preventDefault(){},...extra});
-  return{ render,click,find:(tree,predicate)=>walk(tree).find(predicate),all:(tree,predicate)=>walk(tree).filter(predicate),url:()=>url.pathname+url.search,finish:()=>{while(timers.length)timers.shift()();},key:key=>events.dispatchEvent({type:'keydown',key,target:null,preventDefault(){}}),pop:path=>{url.href=new URL(path,url).href;events.dispatchEvent({type:'popstate'});} };
+  return {render,document,storage,find:(tree,predicate)=>walk(tree).find(predicate),all:(tree,predicate)=>walk(tree).filter(predicate),click:(node,extra={})=>{assert(node,'expected a working control');node.props.onClick({button:0,preventDefault(){},...extra});},url:()=>url.pathname+url.search,key:key=>events.dispatchEvent({type:'keydown',key}),pop:path=>{url.href=new URL(path,url).href;events.dispatchEvent({type:'popstate'});}};
 }
 
-test('search and category filters update the discovery index, including empty results',()=>{
-  const guide=createGuide();let tree=guide.render();
-  guide.find(tree,n=>n.type==='input').props.onChange({target:{value:'Puckoriai'}});
-  tree=guide.render();
-  assert(guide.find(tree,n=>n.type==='a'&&n.props.href.startsWith('/places/puckoriai-outcrop')));
-  assert(!guide.find(tree,n=>n.type==='a'&&n.props.href.startsWith('/places/trakai-island-castle')));
-  guide.find(tree,n=>n.type==='select'&&n.props['aria-label']==='Category').props.onChange({target:{value:'castles'}});
-  tree=guide.render();
-  assert(guide.find(tree,n=>n.type==='h2'&&n.props.children==='No places found.'));
-  guide.click(guide.find(tree,n=>n.type==='button'&&n.props.children==='Show all places'));
-  tree=guide.render();
-  assert(guide.find(tree,n=>n.type==='a'&&n.props.href.startsWith('/places/trakai-island-castle')));
-});
-test('destination links, previous/next controls and keyboard update shareable URLs',()=>{
-  const guide=createGuide();let tree=guide.render();
-  guide.click(guide.find(tree,n=>n.type==='a'&&n.props.href.startsWith('/places/trakai-island-castle')));
-  assert.equal(guide.url(),'/places/trakai-island-castle?from=places');
-  tree=guide.render();
-  assert(guide.find(tree,n=>n.props?.['aria-label']==='Previous place').props.disabled);
-  guide.click(guide.find(tree,n=>n.props?.['aria-label']==='Next place'));
-  assert.equal(guide.url(),'/places/vilnius-old-town?from=places');
-  tree=guide.render();guide.key('ArrowLeft');
-  assert.equal(guide.url(),'/places/trakai-island-castle?from=places');
-});
-test('map focus follows new marker selections and the popup opens a destination',()=>{
-  const guide=createGuide({initialSlug:'trakai-island-castle'});let tree=guide.render();
-  guide.click(guide.find(tree,n=>n.type==='button'&&n.props.children==='Show on map'));
-  assert.equal(guide.url(),'/?map=trakai-island-castle');
-  tree=guide.render();let map=guide.find(tree,n=>n.type?.name==='MapStub');
-  assert.equal(map.props.focusedSlug,'trakai-island-castle');
-  map.props.onSelect('nida');
-  tree=guide.render();map=guide.find(tree,n=>n.type?.name==='MapStub');
-  assert.equal(map.props.focusedSlug,'nida');
-  map.props.onOpen('nida');
-  assert.equal(guide.url(),'/places/nida?from=map');
-  guide.pop('/');tree=guide.render();
-  assert(guide.find(tree,n=>n.type==='input'&&n.props.id==='destination-search'));
-});
-test('rapid page clicks lock during animation and normal links retain modifier behavior',()=>{
-  const guide=createGuide({initialSlug:'trakai-island-castle',reduced:false});let tree=guide.render();
-  const next=guide.find(tree,n=>n.props?.['aria-label']==='Next place');
-  guide.click(next);guide.click(next);
-  assert.equal(guide.url(),'/places/vilnius-old-town?from=map');
-  tree=guide.render();assert(guide.find(tree,n=>n.props?.['aria-label']==='Next place').props.disabled);
-  guide.finish();tree=guide.render();assert(!guide.find(tree,n=>n.props?.['aria-label']==='Next place').props.disabled);
-  const first=createGuide();tree=first.render();
-  first.click(first.find(tree,n=>n.type==='a'&&n.props.href.startsWith('/places/trakai-island-castle')),{ctrlKey:true});
-  assert.equal(first.url(),'/?view=places');
-});
-test('horizontal swipes navigate while vertical gestures stay on the current destination',()=>{
-  const guide=createGuide({initialSlug:'trakai-island-castle'});let tree=guide.render();
-  const main=guide.find(tree,n=>n.type==='main');
-  main.props.onTouchStart({touches:[{clientX:200,clientY:100}],target:null});
-  main.props.onTouchEnd({preventDefault(){},changedTouches:[{clientX:60,clientY:102}]});
-  assert.equal(guide.url(),'/places/vilnius-old-town?from=map');
-  tree=guide.render();const nextMain=guide.find(tree,n=>n.type==='main');
-  nextMain.props.onTouchStart({touches:[{clientX:100,clientY:100}],target:null});
-  nextMain.props.onTouchEnd({preventDefault(){},changedTouches:[{clientX:90,clientY:300}]});
-  assert.equal(guide.url(),'/places/vilnius-old-town?from=map');
+for(const locale of ['en','lt']){
+ test(`${locale}: search, category filters, empty results and reset work together`,()=>{
+  const guide=createGuide({locale});let tree=guide.render();
+  guide.find(tree,n=>n.type==='input').props.onChange({target:{value:locale==='lt'?'Puckoriu':'Puckoriai'}});tree=guide.render();
+  assert(guide.find(tree,n=>n.type==='a'&&n.props.href?.startsWith(`/${locale}/places/puckoriai-outcrop`)));
+  guide.click(guide.find(tree,n=>n.type==='button'&&n.props.children===(locale==='lt'?'Pilys ir dvarai':'Castles')));tree=guide.render();
+  assert(guide.find(tree,n=>n.type==='h2'&&n.props.children===(locale==='lt'?'Vietų nerasta.':'No places found.')));
+  guide.click(guide.find(tree,n=>n.type==='button'&&n.props.children===(locale==='lt'?'Rodyti visas vietas':'Show all places')));tree=guide.render();
+  assert(guide.find(tree,n=>n.type==='a'&&n.props.href?.startsWith(`/${locale}/places/trakai-island-castle`)));
+ });
+ test(`${locale}: city, selected marker, destination and browser back preserve context`,()=>{
+  const guide=createGuide({locale,initialPath:`/${locale}`});let tree=guide.render();
+  guide.click(guide.find(tree,n=>n.type==='button'&&n.props.children?.[0]?.props?.children==='Vilnius'));tree=guide.render();
+  let map=guide.find(tree,n=>n.type?.name==='MapStub');assert(map.props.places.length>15);assert(map.props.places.every(place=>place.cityId==='vilnius'));
+  map.props.onSelect('vilnius-old-town');tree=guide.render();
+  assert(guide.find(tree,n=>n.type==='h2'&&n.props.children===(locale==='lt'?'Vilniaus senamiestis':'Vilnius Old Town')));
+  guide.click(guide.find(tree,n=>n.type==='a'&&n.props.href?.startsWith(`/${locale}/places/vilnius-old-town`)));tree=guide.render();
+  assert(guide.url().includes('city=vilnius')&&guide.url().includes('from=map'));
+  guide.click(guide.find(tree,n=>n.type==='button'&&n.props.children?.[1]===(locale==='lt'?'Grįžti į paiešką':'Back to Explore')));tree=guide.render();
+  map=guide.find(tree,n=>n.type?.name==='MapStub');assert.equal(map.props.focusedSlug,'vilnius-old-town');
+  guide.pop(`/${locale}?city=kaunas&map=all`);tree=guide.render();assert(guide.find(tree,n=>n.type?.name==='MapStub').props.places.every(place=>place.cityId==='kaunas'));
+ });
+ test(`${locale}: food shortcut exposes seven sourced venues with working details and directions`,()=>{
+  const guide=createGuide({locale,initialPath:`/${locale}?q=Trakai&city=trakai&map=all`});let tree=guide.render();
+  guide.click(guide.find(tree,n=>n.type==='button'&&n.props.children===(locale==='lt'?'Kur pavalgyti':'Where to eat')));tree=guide.render();
+  const map=guide.find(tree,n=>n.type?.name==='MapStub');assert.equal(map.props.places.length,7);assert(map.props.places.every(place=>place.category==='restaurants'));assert(!guide.url().includes('q='));
+  map.props.onSelect('lokys-restaurant');tree=guide.render();
+  guide.click(guide.find(tree,n=>n.type==='a'&&n.props.href?.startsWith(`/${locale}/places/lokys-restaurant`)));tree=guide.render();
+  const directions=guide.find(tree,n=>n.type==='a'&&n.props.href?.startsWith('https://www.google.com/maps/dir/'));
+  assert(new URL(directions.props.href).searchParams.get('destination').includes('Stiklių g. 8'));
+  assert(guide.find(tree,n=>n.type==='a'&&n.props.href==='https://lokys.lt/en/'));
+  assert(!guide.find(tree,n=>n.type==='dialog'),'venues without licensed photography must not have a fake gallery');
+ });
+ test(`${locale}: locating a bilingual search result dismisses the result overlay`,()=>{
+  const guide=createGuide({locale,initialPath:`/${locale}`});let tree=guide.render();
+  guide.find(tree,n=>n.type==='input').props.onChange({target:{value:'Trakai'}});tree=guide.render();
+  assert(guide.find(tree,n=>n.type==='ul'&&n.props['aria-label']===(locale==='lt'?'Rastos vietos':'Matching places')));
+  const locator=guide.find(tree,n=>n.type==='button'&&n.props['aria-label']===(locale==='lt'?'Rodyti žemėlapyje: Trakų salos pilis':'Locate Trakai Island Castle on the map'));
+  guide.click(locator);tree=guide.render();assert(!guide.find(tree,n=>n.type==='ul'&&n.props['aria-label']===(locale==='lt'?'Rastos vietos':'Matching places')));
+  assert(guide.url().includes('q=Trakai')&&guide.url().includes('map=trakai-island-castle'));
+ });
+}
+
+test('language links retain destination, selected pin, search and filter state',()=>{
+ const guide=createGuide({initialPath:'/en/places/trakai-island-castle?q=Trakai&city=trakai&from=map'});const tree=guide.render();
+ const link=guide.find(tree,n=>n.type==='a'&&n.props.hrefLang==='lt');
+ assert.equal(link.props.href,'/lt/places/trakai-island-castle?q=Trakai&city=trakai&from=map');
+ const mapGuide=createGuide({locale:'lt',initialPath:'/lt?q=Vilnius&map=vilnius-old-town&category=cities'});
+ assert.equal(mapGuide.find(mapGuide.render(),n=>n.type==='a'&&n.props.hrefLang==='en').props.href,'/en?q=Vilnius&map=vilnius-old-town&category=cities');
 });
 
-
-
-test('every requested town is a working filter with real results and map/list context is preserved',()=>{
-  const names=['Vilnius','Kaunas','Klaipėda','Šiauliai','Trakai','Druskininkai','Nida','Palanga'];
-  for(const name of names){
-    const guide=createGuide();let tree=guide.render();
-    const button=guide.find(tree,n=>n.type==='button'&&n.props.children?.[0]?.props?.children===name);
-    assert(button,`missing sidebar location ${name}`);
-    guide.click(button);tree=guide.render();
-    assert(guide.url().includes('city='));
-    const links=guide.all(tree,n=>n.type==='a'&&n.props.href?.startsWith('/places/'));
-    assert(links.length>0,`${name} must never open an empty city filter`);
-    assert(!guide.find(tree,n=>n.props.className?.includes('turnSurface')),'city filters must be immediate');
-    guide.click(guide.find(tree,n=>n.type==='button'&&n.props.children==='Explore the map'));
-    assert(guide.url().includes('city=')&&guide.url().includes('map=all'));
-    tree=guide.render();
-    const map=guide.find(tree,n=>n.type?.name==='MapStub');
-    assert(map.props.places.length>0);
-    guide.click(guide.find(tree,n=>n.type==='button'&&n.props.children==='Browse places'));
-    assert(guide.url().includes('city=')&&!guide.url().includes('map='));
-  }
-});
-test('directions use the actual destination pin and discovery has no page-turn controls',()=>{
-  const guide=createGuide();let tree=guide.render();
-  assert(!guide.find(tree,n=>n.props?.['aria-label']==='Next place'));
-  guide.click(guide.find(tree,n=>n.type==='a'&&n.props.href.startsWith('/places/trakai-island-castle')));
-  tree=guide.render();
-  const directions=guide.find(tree,n=>n.type==='a'&&n.props.children==='Get directions ↗');
-  const url=new URL(directions.props.href);
-  assert.equal(url.searchParams.get('api'),'1');
-  assert(url.searchParams.get('destination').startsWith('54.6525,'));
+test('destination browsing retains normal links and no book keyboard or swipe navigation',()=>{
+ const guide=createGuide({initialSlug:'trakai-island-castle'});let tree=guide.render();
+ guide.key('ArrowRight');assert.equal(guide.url(),'/en/places/trakai-island-castle');
+ const main=guide.find(tree,n=>n.type==='main');assert.equal(main.props.onTouchStart,undefined);assert.equal(main.props.onTouchEnd,undefined);
+ guide.click(guide.find(tree,n=>n.props['aria-label']==='Next place'));assert.equal(guide.url(),'/en/places/vilnius-old-town?from=map');
+ tree=guide.render();assert(!guide.find(tree,n=>n.props.href?.includes('/journal')));
+ const list=createGuide();tree=list.render();list.click(list.find(tree,n=>n.type==='a'&&n.props.href?.startsWith('/en/places/trakai-island-castle')),{ctrlKey:true});assert.equal(list.url(),'/en?view=places');
 });
 
-test('homepage opens the atlas; search, city results, destination return, and journal keep context',()=>{
-  const guide=createGuide({initialPath:'/'});let tree=guide.render();
-  assert(guide.find(tree,n=>n.type?.name==='MapStub'));
-  guide.click(guide.find(tree,n=>n.type==='button'&&n.props.children?.[0]?.props?.children==='Vilnius'));
-  tree=guide.render();
-  let map=guide.find(tree,n=>n.type?.name==='MapStub');
-  assert.equal(map.props.places.length,3);
-  map.props.onOpen('vilnius-old-town');tree=guide.render();
-  const back=guide.find(tree,n=>n.type==='button'&&n.props.children==='\u2190 Back to Explore');
-  guide.click(back);tree=guide.render();
-  assert(guide.url().includes('city=vilnius')&&guide.url().includes('map=vilnius-old-town'));
-  guide.click(guide.find(tree,n=>n.type==='button'&&n.props.children==='Clear filters \u00d7'));
-  tree=guide.render();guide.find(tree,n=>n.type==='input').props.onChange({target:{value:'Trakai'}});
-  tree=guide.render();
-  assert(guide.find(tree,n=>n.type==='a'&&n.props.href?.startsWith('/places/trakai-island-castle')));
-  map=guide.find(tree,n=>n.type?.name==='MapStub');
-  assert(map.props.places.some(place=>place.slug==='trakai-island-castle'));
-  const book=guide.find(tree,n=>n.props.children==='Open travel book');
-  assert.equal(new URL(book.props.href,'http://localhost').searchParams.get('returnTo'),guide.url());
-  guide.pop('/?city=vilnius&map=all');tree=guide.render();
-  assert.equal(guide.find(tree,n=>n.type?.name==='MapStub').props.places.length,3);
+test('localized practical information opens, focuses and closes from the header',()=>{
+ const guide=createGuide({locale:'lt'});const tree=guide.render();let focused=false;
+ const details=guide.find(tree,n=>n.props.id==='travel-essentials');details.props.ref.current={open:false,scrollIntoView(){},focus(){focused=true;}};
+ guide.click(guide.find(tree,n=>n.type==='a'&&n.props.href==='#travel-essentials'));assert(details.props.ref.current.open&&focused);
+ assert.equal(guide.all(details,n=>n.type==='a').length,5);
+ guide.click(guide.find(details,n=>n.type==='button'));assert(!details.props.ref.current.open);
 });
 
-test('map gestures never trigger destination page-turn navigation',()=>{
-  const guide=createGuide({initialPath:'/?map=all'});const tree=guide.render();
-  const main=guide.find(tree,n=>n.type==='main');
-  main.props.onTouchStart({touches:[{clientX:220,clientY:100}],target:null});
-  main.props.onTouchEnd({changedTouches:[{clientX:50,clientY:105}],preventDefault(){assert.fail('map swipes must remain native');}});
-  guide.key('ArrowRight');
-  assert.equal(guide.url(),'/?map=all');
+for(const locale of ['en','lt'])test(locale+': ordered route survives discovery, language switching and browser history',()=>{
+ const guide=createGuide({locale,initialSlug:'trakai-island-castle'});let tree=guide.render();
+ guide.click(guide.find(tree,n=>n.type==='button'&&n.props['aria-label']?.startsWith(locale==='lt'?'Pridėti į maršrutą:':'Add to route:')));tree=guide.render();
+ assert.equal(new URL(guide.url(),'http://localhost').searchParams.get('route'),'trakai-island-castle');
+ guide.click(guide.find(tree,n=>n.props['aria-label']===(locale==='lt'?'Kita vieta':'Next place')));tree=guide.render();
+ guide.click(guide.find(tree,n=>n.props['aria-label']?.startsWith(locale==='lt'?'Pridėti į maršrutą:':'Add to route:')));tree=guide.render();
+ let planner=guide.find(tree,n=>n.type?.name==='PlannerStub');assert.equal(planner.props.stops.length,2);
+ const original=guide.url();planner.props.onChange(['vilnius-old-town','trakai-island-castle']);tree=guide.render();
+ assert(guide.find(tree,n=>n.props.hrefLang===(locale==='lt'?'en':'lt')).props.href.includes('route=vilnius-old-town%2Ctrakai-island-castle'));
+ planner=guide.find(tree,n=>n.type?.name==='PlannerStub');planner.props.onViewMap();tree=guide.render();
+ const map=guide.find(tree,n=>n.type?.name==='MapStub');assert.equal(map.props.routePlaces[0].slug,'vilnius-old-town');assert(map.props.fitRouteRequest>0);
+ guide.pop(original);tree=guide.render();assert.equal(guide.find(tree,n=>n.type?.name==='PlannerStub').props.stops[0].slug,'trakai-island-castle');
+ assert(!guide.find(tree,n=>n.props['aria-label']?.startsWith('Save ')));
 });

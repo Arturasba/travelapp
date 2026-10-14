@@ -4,6 +4,11 @@
   color-scheme: light;
   --paper: #f4f1e8;
   --ink: #29382f;
+  --atlas-paper: #f7f4eb;
+  --atlas-ink: #243a32;
+  --atlas-muted: #5d685f;
+  --atlas-line: #d8d6c9;
+  --atlas-rust: #975238;
 }
 
 @theme inline {
@@ -13,13 +18,13 @@
 }
 
 * { box-sizing: border-box; }
-body { margin: 0; background: #dfdfd5; color: var(--ink); font-family: var(--font-inter), system-ui, sans-serif; }
+body { margin: 0; background: #eae6dd; color: var(--ink); font-family: var(--font-inter), system-ui, sans-serif; }
 button, a { -webkit-tap-highlight-color: transparent; }
 button { font: inherit; cursor: pointer; }
 a { color: inherit; }
 button:disabled { cursor: default; }
 button:focus-visible, a:focus-visible { outline: 2px solid #687a51; outline-offset: 5px; }
-::selection { background: #d8dfbd; color: #26372c; }
+::selection { background: #e5dac4; color: #26372c; }
 
 /* Leaflet is loaded only for the atlas; its base stylesheet is available globally. */
 .destination-pin { background: none; border: 0; }
@@ -36,7 +41,13 @@ button:focus-visible, a:focus-visible { outline: 2px solid #687a51; outline-offs
 .destination-map-preview .destination-map-credit { display: block; font-size: 11px; line-height: 1.6; color: #596f50; margin-top: 12px; }
 
 input:focus-visible, select:focus-visible, summary:focus-visible { outline: 2px solid #3b643e; outline-offset: 4px; }
+.route-stop-pin { display: grid; place-items: center; background: #975238; color: #fff; border: 3px solid #fffaf0; border-radius: 50%; box-shadow: 0 2px 8px #29382f55; font: 650 14px/1 var(--font-inter),system-ui,sans-serif; }
+.route-stop-pin:focus-visible { outline: 3px solid #243a32; outline-offset: 4px; }
 .destination-pin > span { width: 26px; height: 26px; position: absolute; top: 6px; left: 9px; }
+.destination-cluster { display: grid; place-items: center; border: 3px solid #faf8f0; border-radius: 50%; background: #31573d; color: #fffdf4; box-shadow: 0 2px 9px #20352555; font: 600 15px/1 var(--font-inter),system-ui,sans-serif; }
+.destination-cluster:hover { background: #223e2b; }
+.destination-pin-selected > span { border-color: #fff; box-shadow: 0 0 0 4px #975238,0 4px 14px #20352566; }
+.destination-cluster:focus-visible, .destination-pin:focus-visible { outline: 3px solid #975238; outline-offset: 4px; }
 .leaflet-touch .leaflet-bar a { width: 40px; height: 40px; line-height: 40px; }
 .destination-map-preview .destination-map-directions { display: inline-block; margin-left: 14px; min-height: 44px; padding-top: 10px; font-size: 13px; }
 .destination-map-preview > a:not(.destination-map-credit) { min-height: 44px; display: inline-block; padding-top: 10px; }

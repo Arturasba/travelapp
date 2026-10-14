@@ -1,0 +1,2275 @@
+[
+  {
+    "title": "Vilnius Cathedral",
+    "qid": "Q1281237",
+    "coordinates": [
+      54.68583333,
+      25.28777778
+    ],
+    "coordinateSource": "https://en.wikipedia.org/wiki/Vilnius_Cathedral",
+    "image": {
+      "src": "/destinations/Q1281237.jpg",
+      "alt": "Vilnius Cathedral — Vilnius Cathedral 20",
+      "author": "Scotch Mist",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Vilnius_Cathedral_20.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Vilnius_Cathedral_20.jpg",
+      "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ca/Vilnius_Cathedral_20.jpg/1920px-Vilnius_Cathedral_20.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 2560,
+      "height": 1702,
+      "originalWidth": 6016,
+      "originalHeight": 4000,
+      "targetLongEdge": 1920
+    },
+    "reference": "https://en.wikipedia.org/wiki/Vilnius_Cathedral"
+  },
+  {
+    "title": "St Anne's Church",
+    "qid": "Q937290",
+    "coordinates": [
+      54.68305556,
+      25.29333333
+    ],
+    "coordinateSource": "https://en.wikipedia.org/wiki/Church_of_St._Anne%2C_Vilnius",
+    "image": {
+      "src": "/destinations/Q937290.jpg",
+      "alt": "St Anne's Church — St. Anne's Church Exterior 3, Vilnius, Lithuania - Diliff",
+      "author": "Diliff",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:St._Anne%27s_Church_Exterior_3,_Vilnius,_Lithuania_-_Diliff.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/2/26/St._Anne%27s_Church_Exterior_3%2C_Vilnius%2C_Lithuania_-_Diliff.jpg",
+      "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/26/St._Anne%27s_Church_Exterior_3%2C_Vilnius%2C_Lithuania_-_Diliff.jpg/1920px-St._Anne%27s_Church_Exterior_3%2C_Vilnius%2C_Lithuania_-_Diliff.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1790,
+      "height": 2560,
+      "originalWidth": 5594,
+      "originalHeight": 8000,
+      "targetLongEdge": 2560
+    },
+    "reference": "https://en.wikipedia.org/wiki/Church_of_St._Anne%2C_Vilnius"
+  },
+  {
+    "title": "Gate of Dawn",
+    "qid": "Q937212",
+    "coordinates": [
+      54.67432,
+      25.28954
+    ],
+    "coordinateSource": "https://en.wikipedia.org/wiki/Gate_of_Dawn",
+    "image": {
+      "src": "/destinations/Q937212.jpg",
+      "alt": "Gate of Dawn — Aušros Vartų 02(js) Vilnius",
+      "author": "Jerzy Strzelecki",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Au%C5%A1ros_Vart%C5%B3_02(js)_Vilnius.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/e/e4/Au%C5%A1ros_Vart%C5%B3_02%28js%29_Vilnius.jpg",
+      "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e4/Au%C5%A1ros_Vart%C5%B3_02%28js%29_Vilnius.jpg/1920px-Au%C5%A1ros_Vart%C5%B3_02%28js%29_Vilnius.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1611,
+      "height": 2560,
+      "originalWidth": 3387,
+      "originalHeight": 5382,
+      "targetLongEdge": 2560
+    },
+    "reference": "https://en.wikipedia.org/wiki/Gate_of_Dawn"
+  },
+  {
+    "title": "Church of St Peter and St Paul",
+    "qid": "Q1283798",
+    "coordinates": [
+      54.69416667,
+      25.30638889
+    ],
+    "coordinateSource": "https://en.wikipedia.org/wiki/Church_of_St._Peter_and_St._Paul%2C_Vilnius",
+    "image": {
+      "src": "/destinations/Q1283798.jpg",
+      "alt": "Church of St Peter and St Paul — St. Peter and St. Paul's Church Exterior, Vilnius, Lithuania - Diliff",
+      "author": "Diliff",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:St._Peter_and_St._Paul%27s_Church_Exterior,_Vilnius,_Lithuania_-_Diliff.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/c/c7/St._Peter_and_St._Paul%27s_Church_Exterior%2C_Vilnius%2C_Lithuania_-_Diliff.jpg",
+      "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c7/St._Peter_and_St._Paul%27s_Church_Exterior%2C_Vilnius%2C_Lithuania_-_Diliff.jpg/1920px-St._Peter_and_St._Paul%27s_Church_Exterior%2C_Vilnius%2C_Lithuania_-_Diliff.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 2486,
+      "height": 2560,
+      "originalWidth": 4530,
+      "originalHeight": 4666,
+      "targetLongEdge": 1978
+    },
+    "reference": "https://en.wikipedia.org/wiki/Church_of_St._Peter_and_St._Paul%2C_Vilnius"
+  },
+  {
+    "title": "Three Crosses Hill",
+    "qid": "Q83238",
+    "coordinates": [
+      54.6867,
+      25.2976
+    ],
+    "coordinateSource": "https://en.wikipedia.org/wiki/Three_Crosses",
+    "image": {
+      "src": "/destinations/Q83238.jpg",
+      "alt": "Three Crosses Hill — Three Crosses monument at sunset (8178265580)",
+      "author": "Guillaume Speurt from Vilnius, Lithuania",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Three_Crosses_monument_at_sunset_(8178265580).jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Three_Crosses_monument_at_sunset_%288178265580%29.jpg",
+      "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6e/Three_Crosses_monument_at_sunset_%288178265580%29.jpg/1920px-Three_Crosses_monument_at_sunset_%288178265580%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 2560,
+      "height": 1863,
+      "originalWidth": 3265,
+      "originalHeight": 2376,
+      "targetLongEdge": 1920
+    },
+    "reference": "https://en.wikipedia.org/wiki/Three_Crosses"
+  },
+  {
+    "title": "Užupis",
+    "qid": "Q945499",
+    "coordinates": [
+      54.68055556,
+      25.29694444
+    ],
+    "coordinateSource": "https://en.wikipedia.org/wiki/U%C5%BEupis",
+    "image": {
+      "src": "/destinations/Q945499.jpg",
+      "alt": "Užupis — Užupio respublika",
+      "author": "Jodkovska",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:U%C5%BEupio_respublika.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/8/87/U%C5%BEupio_respublika.jpg",
+      "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/U%C5%BEupio_respublika.jpg/1920px-U%C5%BEupio_respublika.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1920,
+      "height": 2560,
+      "originalWidth": 2736,
+      "originalHeight": 3648,
+      "targetLongEdge": 2560
+    },
+    "reference": "https://en.wikipedia.org/wiki/U%C5%BEupis"
+  },
+  {
+    "title": "Vilnius University Courtyards",
+    "qid": "Q658192",
+    "coordinates": [
+      54.6825,
+      25.28722222
+    ],
+    "coordinateSource": "https://en.wikipedia.org/wiki/Vilnius_University",
+    "image": {
+      "src": "/destinations/Q658192.jpg",
+      "alt": "Vilnius University Courtyards — Senamiestis, Vilnius, Lithuania - panoramio (165)",
+      "author": "Michal Gorski",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Senamiestis,_Vilnius,_Lithuania_-_panoramio_(165).jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Senamiestis%2C_Vilnius%2C_Lithuania_-_panoramio_%28165%29.jpg",
+      "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b6/Senamiestis%2C_Vilnius%2C_Lithuania_-_panoramio_%28165%29.jpg/1920px-Senamiestis%2C_Vilnius%2C_Lithuania_-_panoramio_%28165%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 2560,
+      "height": 1707,
+      "originalWidth": 5472,
+      "originalHeight": 3648,
+      "targetLongEdge": 1920
+    },
+    "reference": "https://en.wikipedia.org/wiki/Vilnius_University"
+  },
+  {
+    "title": "Palace of the Grand Dukes",
+    "qid": "Q1284847",
+    "coordinates": [
+      54.6862,
+      25.289
+    ],
+    "coordinateSource": "https://en.wikipedia.org/wiki/Palace_of_the_Grand_Dukes_of_Lithuania",
+    "image": {
+      "src": "/destinations/Q1284847.jpg",
+      "alt": "Palace of the Grand Dukes — Vilnius Gedimino Pilies Bokštas Blick auf die Valdovu rumai",
+      "author": "Zairon",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Vilnius_Gedimino_Pilies_Bok%C5%A1tas_Blick_auf_die_Valdovu_rumai.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/7/7b/Vilnius_Gedimino_Pilies_Bok%C5%A1tas_Blick_auf_die_Valdovu_rumai.jpg",
+      "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7b/Vilnius_Gedimino_Pilies_Bok%C5%A1tas_Blick_auf_die_Valdovu_rumai.jpg/1920px-Vilnius_Gedimino_Pilies_Bok%C5%A1tas_Blick_auf_die_Valdovu_rumai.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 2560,
+      "height": 1829,
+      "originalWidth": 4544,
+      "originalHeight": 3247,
+      "targetLongEdge": 1920
+    },
+    "reference": "https://en.wikipedia.org/wiki/Palace_of_the_Grand_Dukes_of_Lithuania"
+  },
+  {
+    "title": "Museum of Occupations and Freedom Fights",
+    "qid": "Q323860",
+    "coordinates": [
+      54.68787777777778,
+      25.270591666666668
+    ],
+    "coordinateSource": "https://www.wikidata.org/wiki/Q323860",
+    "image": {
+      "src": "/destinations/Q323860.jpg",
+      "alt": "Museum of Occupations and Freedom Fights — Vilnius, Gedimino prospektas 40 (3)",
+      "author": "Terminator216",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Vilnius,_Gedimino_prospektas_40_(3).jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Vilnius%2C_Gedimino_prospektas_40_%283%29.jpg",
+      "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/Vilnius%2C_Gedimino_prospektas_40_%283%29.jpg/1920px-Vilnius%2C_Gedimino_prospektas_40_%283%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 2560,
+      "height": 1707,
+      "originalWidth": 5971,
+      "originalHeight": 3981,
+      "targetLongEdge": 1920
+    },
+    "reference": "https://en.wikipedia.org/wiki/Museum_of_Occupations_and_Freedom_Fights"
+  },
+  {
+    "title": "Vilnius TV Tower",
+    "qid": "Q1407353",
+    "coordinates": [
+      54.68722222,
+      25.21472222
+    ],
+    "coordinateSource": "https://en.wikipedia.org/wiki/Vilnius_TV_Tower",
+    "image": {
+      "src": "/destinations/Q1407353.jpg",
+      "alt": "Vilnius TV Tower — Lazdynai - panoramio",
+      "author": "Darius Smalskys",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Lazdynai_-_panoramio.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/2/25/Lazdynai_-_panoramio.jpg",
+      "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/25/Lazdynai_-_panoramio.jpg/1920px-Lazdynai_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 2560,
+      "height": 1061,
+      "originalWidth": 10981,
+      "originalHeight": 4553,
+      "targetLongEdge": 1920
+    },
+    "reference": "https://en.wikipedia.org/wiki/Vilnius_TV_Tower"
+  },
+  {
+    "title": "Verkiai Palace",
+    "qid": "Q4130435",
+    "coordinates": [
+      54.748056,
+      25.292778
+    ],
+    "coordinateSource": "https://en.wikipedia.org/wiki/Verkiai_Palace",
+    "image": {
+      "src": "/destinations/Q4130435.jpg",
+      "alt": "Verkiai Palace — Lithuania Vilnius Verkiai palace",
+      "author": "Wojsyl",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:Lithuania_Vilnius_Verkiai_palace.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/8/89/Lithuania_Vilnius_Verkiai_palace.jpg",
+      "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/89/Lithuania_Vilnius_Verkiai_palace.jpg/1920px-Lithuania_Vilnius_Verkiai_palace.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 2560,
+      "height": 1920,
+      "originalWidth": 2560,
+      "originalHeight": 1920,
+      "targetLongEdge": 1920
+    },
+    "reference": "https://en.wikipedia.org/wiki/Verkiai_Palace"
+  },
+  {
+    "title": "Vingis Park",
+    "qid": "Q2509362",
+    "coordinates": [
+      54.6833,
+      25.2397
+    ],
+    "coordinateSource": "https://www.wikidata.org/wiki/Q2509362",
+    "image": {
+      "src": "/destinations/Q2509362-2.jpg",
+      "alt": "Vingis Park — Vingio parkas–2019 08 (1)",
+      "author": "Stroncis",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Vingio_parkas%E2%80%932019_08_(1).jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/9/96/Vingio_parkas%E2%80%932019_08_%281%29.jpg",
+      "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/96/Vingio_parkas%E2%80%932019_08_%281%29.jpg/1920px-Vingio_parkas%E2%80%932019_08_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 2560,
+      "height": 1901,
+      "originalWidth": 4224,
+      "originalHeight": 3136,
+      "targetLongEdge": 1920
+    },
+    "reference": "https://en.wikipedia.org/wiki/Vingis_Park"
+  },
+  {
+    "title": "Trakai Peninsula Castle",
+    "qid": "Q3436990",
+    "coordinates": [
+      54.646,
+      24.937
+    ],
+    "coordinateSource": "https://en.wikipedia.org/wiki/Trakai_Peninsula_Castle",
+    "image": {
+      "src": "/destinations/Q3436990-2.jpg",
+      "alt": "Trakai Peninsula Castle — N trakai 1pilis",
+      "author": "Paulius Čiuladis",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:N_trakai_1pilis.JPG",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/9/99/N_trakai_1pilis.JPG",
+      "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/99/N_trakai_1pilis.JPG/1920px-N_trakai_1pilis.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1920,
+      "height": 2560,
+      "originalWidth": 2270,
+      "originalHeight": 3026,
+      "targetLongEdge": 2559
+    },
+    "reference": "https://en.wikipedia.org/wiki/Trakai_Peninsula_Castle"
+  },
+  {
+    "title": "Užutrakis Manor",
+    "qid": "Q16474829",
+    "coordinates": [
+      54.6597,
+      24.9438
+    ],
+    "coordinateSource": "https://en.wikipedia.org/wiki/U%C5%BEutrakis_Manor",
+    "image": {
+      "src": "/destinations/Q16474829.jpg",
+      "alt": "Užutrakis Manor — Uzutrakis autumn",
+      "author": "Juliux",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Uzutrakis_autumn.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/8/88/Uzutrakis_autumn.jpg",
+      "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/Uzutrakis_autumn.jpg/1920px-Uzutrakis_autumn.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 2560,
+      "height": 1707,
+      "originalWidth": 4190,
+      "originalHeight": 2793,
+      "targetLongEdge": 1920
+    },
+    "reference": "https://en.wikipedia.org/wiki/U%C5%BEutrakis_Manor"
+  },
+  {
+    "title": "Kaunas Castle",
+    "qid": "Q2468497",
+    "coordinates": [
+      54.89888889,
+      23.885
+    ],
+    "coordinateSource": "https://en.wikipedia.org/wiki/Kaunas_Castle",
+    "image": {
+      "src": "/destinations/Q2468497.jpg",
+      "alt": "Kaunas Castle — Kaunas castle 20160603",
+      "author": "Skelanard",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Kaunas_castle_20160603.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/6/68/Kaunas_castle_20160603.jpg",
+      "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/68/Kaunas_castle_20160603.jpg/1920px-Kaunas_castle_20160603.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 2560,
+      "height": 1649,
+      "originalWidth": 4808,
+      "originalHeight": 3097,
+      "targetLongEdge": 1920
+    },
+    "reference": "https://en.wikipedia.org/wiki/Kaunas_Castle"
+  },
+  {
+    "title": "Kaunas Town Hall",
+    "qid": "Q1851654",
+    "coordinates": [
+      54.89666667,
+      23.88555556
+    ],
+    "coordinateSource": "https://en.wikipedia.org/wiki/Town_Hall%2C_Kaunas",
+    "image": {
+      "src": "/destinations/Q1851654.jpg",
+      "alt": "Kaunas Town Hall — Kaunas Town Hall 1, Kaunas, Lithuania - Diliff",
+      "author": "Diliff",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Kaunas_Town_Hall_1,_Kaunas,_Lithuania_-_Diliff.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/c/c4/Kaunas_Town_Hall_1%2C_Kaunas%2C_Lithuania_-_Diliff.jpg",
+      "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c4/Kaunas_Town_Hall_1%2C_Kaunas%2C_Lithuania_-_Diliff.jpg/1920px-Kaunas_Town_Hall_1%2C_Kaunas%2C_Lithuania_-_Diliff.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 2016,
+      "height": 2560,
+      "originalWidth": 6302,
+      "originalHeight": 8002,
+      "targetLongEdge": 2438
+    },
+    "reference": "https://en.wikipedia.org/wiki/Town_Hall%2C_Kaunas"
+  },
+  {
+    "title": "Laisvės alėja",
+    "qid": "Q3274100",
+    "coordinates": [
+      54.89722222,
+      23.91361111
+    ],
+    "coordinateSource": "https://en.wikipedia.org/wiki/Laisv%C4%97s_al%C4%97ja",
+    "image": {
+      "src": "/destinations/Q3274100-2.jpg",
+      "alt": "Laisvės alėja — Laisves St., Kaunas, Lithuania, 11 Sept. 2008 - Flickr - PhillipC",
+      "author": "Phillip Capper from Wellington, New Zealand",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Laisves_St.,_Kaunas,_Lithuania,_11_Sept._2008_-_Flickr_-_PhillipC.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Laisves_St.%2C_Kaunas%2C_Lithuania%2C_11_Sept._2008_-_Flickr_-_PhillipC.jpg",
+      "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e0/Laisves_St.%2C_Kaunas%2C_Lithuania%2C_11_Sept._2008_-_Flickr_-_PhillipC.jpg/1920px-Laisves_St.%2C_Kaunas%2C_Lithuania%2C_11_Sept._2008_-_Flickr_-_PhillipC.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 2560,
+      "height": 1535,
+      "originalWidth": 3767,
+      "originalHeight": 2258,
+      "targetLongEdge": 1920
+    },
+    "reference": "https://en.wikipedia.org/wiki/Laisv%C4%97s_al%C4%97ja"
+  },
+  {
+    "title": "M. K. Čiurlionis National Art Museum",
+    "qid": "Q4381425",
+    "coordinates": [
+      54.9,
+      23.91138889
+    ],
+    "coordinateSource": "https://en.wikipedia.org/wiki/M._K._%C4%8Ciurlionis_National_Art_Museum",
+    "image": {
+      "src": "/destinations/Q4381425.jpg",
+      "alt": "M. K. Čiurlionis National Art Museum — M. K. Ciurlionis National Art Museum (2018)",
+      "author": "Pofka",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:M._K._Ciurlionis_National_Art_Museum_(2018).jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/7/71/M._K._Ciurlionis_National_Art_Museum_%282018%29.jpg",
+      "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/71/M._K._Ciurlionis_National_Art_Museum_%282018%29.jpg/1920px-M._K._Ciurlionis_National_Art_Museum_%282018%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 2048,
+      "height": 1536,
+      "originalWidth": 2048,
+      "originalHeight": 1536,
+      "targetLongEdge": 1920
+    },
+    "reference": "https://en.wikipedia.org/wiki/M._K._%C4%8Ciurlionis_National_Art_Museum"
+  },
+  {
+    "title": "Devils' Museum",
+    "qid": "Q2305235",
+    "coordinates": [
+      54.900833,
+      23.910556
+    ],
+    "coordinateSource": "https://www.wikidata.org/wiki/Q2305235",
+    "image": {
+      "src": "/destinations/Q2305235.jpg",
+      "alt": "Devils' Museum — A. Žmuidzinavičiaus memorialiniai namai, Velnių muziejus",
+      "author": "Andrijana F",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:A._%C5%BDmuidzinavi%C4%8Diaus_memorialiniai_namai,_Velni%C5%B3_muziejus.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/3/3a/A._%C5%BDmuidzinavi%C4%8Diaus_memorialiniai_namai%2C_Velni%C5%B3_muziejus.jpg",
+      "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3a/A._%C5%BDmuidzinavi%C4%8Diaus_memorialiniai_namai%2C_Velni%C5%B3_muziejus.jpg/1920px-A._%C5%BDmuidzinavi%C4%8Diaus_memorialiniai_namai%2C_Velni%C5%B3_muziejus.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 2560,
+      "height": 1707,
+      "originalWidth": 5184,
+      "originalHeight": 3456,
+      "targetLongEdge": 1920
+    },
+    "reference": "https://en.wikipedia.org/wiki/%C5%BDmuidzinavi%C4%8Dius_Museum"
+  },
+  {
+    "title": "Ninth Fort",
+    "qid": "Q665266",
+    "coordinates": [
+      54.94472222,
+      23.87055556
+    ],
+    "coordinateSource": "https://en.wikipedia.org/wiki/Ninth_Fort",
+    "image": {
+      "src": "/destinations/Q665266.jpg",
+      "alt": "Ninth Fort — Kauno IX forto vaizdas",
+      "author": "Jurgis Jarašiūnas",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Kauno_IX_forto_vaizdas.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Kauno_IX_forto_vaizdas.jpg",
+      "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f7/Kauno_IX_forto_vaizdas.jpg/1920px-Kauno_IX_forto_vaizdas.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 2560,
+      "height": 1920,
+      "originalWidth": 4000,
+      "originalHeight": 3000,
+      "targetLongEdge": 1920
+    },
+    "reference": "https://en.wikipedia.org/wiki/Ninth_Fort"
+  },
+  {
+    "title": "House of Perkūnas",
+    "qid": "Q2626734",
+    "coordinates": [
+      54.89555556,
+      23.88611111
+    ],
+    "coordinateSource": "https://en.wikipedia.org/wiki/House_of_Perk%C5%ABnas",
+    "image": {
+      "src": "/destinations/Q2626734.jpg",
+      "alt": "House of Perkūnas — House of Perkūnas, Kaunas, Lithuania - Diliff",
+      "author": "Diliff",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:House_of_Perk%C5%ABnas,_Kaunas,_Lithuania_-_Diliff.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/3/35/House_of_Perk%C5%ABnas%2C_Kaunas%2C_Lithuania_-_Diliff.jpg",
+      "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/35/House_of_Perk%C5%ABnas%2C_Kaunas%2C_Lithuania_-_Diliff.jpg/1920px-House_of_Perk%C5%ABnas%2C_Kaunas%2C_Lithuania_-_Diliff.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1926,
+      "height": 2560,
+      "originalWidth": 5300,
+      "originalHeight": 7044,
+      "targetLongEdge": 2552
+    },
+    "reference": "https://en.wikipedia.org/wiki/House_of_Perk%C5%ABnas"
+  },
+  {
+    "title": "St Michael the Archangel Church",
+    "qid": "Q3325",
+    "coordinates": [
+      54.89694,
+      23.92111
+    ],
+    "coordinateSource": "https://en.wikipedia.org/wiki/Church_of_St._Michael_the_Archangel%2C_Kaunas",
+    "image": {
+      "src": "/destinations/Q3325.jpg",
+      "alt": "St Michael the Archangel Church — St. Michael the Archangel Church 1, Kaunas, Lithuania - Diliff",
+      "author": "Diliff",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:St._Michael_the_Archangel_Church_1,_Kaunas,_Lithuania_-_Diliff.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/a/a1/St._Michael_the_Archangel_Church_1%2C_Kaunas%2C_Lithuania_-_Diliff.jpg",
+      "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a1/St._Michael_the_Archangel_Church_1%2C_Kaunas%2C_Lithuania_-_Diliff.jpg/1920px-St._Michael_the_Archangel_Church_1%2C_Kaunas%2C_Lithuania_-_Diliff.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 2560,
+      "height": 2413,
+      "originalWidth": 6000,
+      "originalHeight": 5655,
+      "targetLongEdge": 1920
+    },
+    "reference": "https://en.wikipedia.org/wiki/Church_of_St._Michael_the_Archangel%2C_Kaunas"
+  },
+  {
+    "title": "Kaunas Botanical Garden",
+    "qid": "Q3443536",
+    "coordinates": [
+      54.87055556,
+      23.91027778
+    ],
+    "coordinateSource": "https://en.wikipedia.org/wiki/Vytautas_Magnus_University_Botanical_Garden",
+    "image": {
+      "src": "/destinations/Q3443536.jpg",
+      "alt": "Kaunas Botanical Garden — VMU Botanical Garden in Kaunas greenhouse 2025",
+      "author": "SUJIRENas",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:VMU_Botanical_Garden_in_Kaunas_greenhouse_2025.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/b/b4/VMU_Botanical_Garden_in_Kaunas_greenhouse_2025.jpg",
+      "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b4/VMU_Botanical_Garden_in_Kaunas_greenhouse_2025.jpg/1920px-VMU_Botanical_Garden_in_Kaunas_greenhouse_2025.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 2560,
+      "height": 1520,
+      "originalWidth": 6378,
+      "originalHeight": 3787,
+      "targetLongEdge": 1920
+    },
+    "reference": "https://en.wikipedia.org/wiki/Vytautas_Magnus_University_Botanical_Garden"
+  },
+  {
+    "title": "Žaliakalnis Funicular",
+    "qid": "Q3435987",
+    "coordinates": [
+      54.90083333,
+      23.9175
+    ],
+    "coordinateSource": "https://en.wikipedia.org/wiki/%C5%BDaliakalnis_Funicular",
+    "image": {
+      "src": "/destinations/Q3435987.jpg",
+      "alt": "Žaliakalnis Funicular — Žaliakalnis funicular",
+      "author": "Bernardaas",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:%C5%BDaliakalnis_funicular.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/9/95/%C5%BDaliakalnis_funicular.jpg",
+      "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/%C5%BDaliakalnis_funicular.jpg/1920px-%C5%BDaliakalnis_funicular.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 2198,
+      "height": 1466,
+      "originalWidth": 2198,
+      "originalHeight": 1466,
+      "targetLongEdge": 1920
+    },
+    "reference": "https://en.wikipedia.org/wiki/%C5%BDaliakalnis_Funicular"
+  },
+  {
+    "title": "Lithuanian Zoo",
+    "qid": "Q3266986",
+    "coordinates": [
+      54.90138889,
+      23.95138889
+    ],
+    "coordinateSource": "https://en.wikipedia.org/wiki/Lithuanian_Zoo",
+    "image": {
+      "src": "/destinations/Q3266986.jpg",
+      "alt": "Lithuanian Zoo — Lietuvos zoologijos sodas",
+      "author": "Stanislovas01",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Lietuvos_zoologijos_sodas.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/3/30/Lietuvos_zoologijos_sodas.jpg",
+      "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/30/Lietuvos_zoologijos_sodas.jpg/1920px-Lietuvos_zoologijos_sodas.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 2560,
+      "height": 1729,
+      "originalWidth": 3852,
+      "originalHeight": 2602,
+      "targetLongEdge": 1920
+    },
+    "reference": "https://en.wikipedia.org/wiki/Lithuanian_Zoo"
+  },
+  {
+    "title": "Raudonė Castle",
+    "qid": "Q2970356",
+    "coordinates": [
+      55.09666667,
+      23.13055556
+    ],
+    "coordinateSource": "https://en.wikipedia.org/wiki/Raudon%C4%97_Castle",
+    "image": {
+      "src": "/destinations/Q2970356.jpg",
+      "alt": "Raudonė Castle — Raudonė Castle front",
+      "author": "Juliux",
+      "license": "Public domain",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:Raudon%C4%97_Castle_front.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/1/18/Raudon%C4%97_Castle_front.jpg",
+      "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/18/Raudon%C4%97_Castle_front.jpg/1920px-Raudon%C4%97_Castle_front.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 2560,
+      "height": 1131,
+      "originalWidth": 6384,
+      "originalHeight": 2822,
+      "targetLongEdge": 1920
+    },
+    "reference": "https://en.wikipedia.org/wiki/Raudon%C4%97_Castle"
+  },
+  {
+    "title": "Raudondvaris Manor",
+    "qid": "Q2970344",
+    "coordinates": [
+      54.94305556,
+      23.78333333
+    ],
+    "coordinateSource": "https://www.wikidata.org/wiki/Q2970344",
+    "image": {
+      "src": "/destinations/Q2970344.jpg",
+      "alt": "Raudondvaris Manor — Raudondvario dvaro rūmai - panoramio",
+      "author": "Aidas U.",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Raudondvario_dvaro_r%C5%ABmai_-_panoramio.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Raudondvario_dvaro_r%C5%ABmai_-_panoramio.jpg",
+      "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7a/Raudondvario_dvaro_r%C5%ABmai_-_panoramio.jpg/1920px-Raudondvario_dvaro_r%C5%ABmai_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 2560,
+      "height": 1920,
+      "originalWidth": 3264,
+      "originalHeight": 2448,
+      "targetLongEdge": 1920
+    },
+    "reference": "https://en.wikipedia.org/wiki/Raudondvaris_Castle"
+  },
+  {
+    "title": "Kėdainiai Old Town",
+    "qid": "Q735138",
+    "coordinates": [
+      55.28333333,
+      23.96666667
+    ],
+    "coordinateSource": "https://en.wikipedia.org/wiki/K%C4%97dainiai",
+    "image": {
+      "src": "/destinations/Q735138.jpg",
+      "alt": "Kėdainiai Old Town — Kėdainiai town hall 130252401",
+      "author": "Michał Derela",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:K%C4%97dainiai_town_hall_130252401.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/8/8d/K%C4%97dainiai_town_hall_130252401.jpg",
+      "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/K%C4%97dainiai_town_hall_130252401.jpg/1920px-K%C4%97dainiai_town_hall_130252401.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 2560,
+      "height": 1927,
+      "originalWidth": 4080,
+      "originalHeight": 3072,
+      "targetLongEdge": 1920
+    },
+    "reference": "https://en.wikipedia.org/wiki/K%C4%97dainiai"
+  },
+  {
+    "title": "Biržai Castle",
+    "qid": "Q2659104",
+    "coordinates": [
+      56.2,
+      24.75
+    ],
+    "coordinateSource": "https://en.wikipedia.org/wiki/Bir%C5%BEai_Castle",
+    "image": {
+      "src": "/destinations/Q2659104.jpg",
+      "alt": "Biržai Castle — Lithuania Birże Radziwiłł Castle",
+      "author": "Wojsyl",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:Lithuania_Bir%C5%BCe_Radziwi%C5%82%C5%82_Castle.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Lithuania_Bir%C5%BCe_Radziwi%C5%82%C5%82_Castle.jpg",
+      "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f5/Lithuania_Bir%C5%BCe_Radziwi%C5%82%C5%82_Castle.jpg/1920px-Lithuania_Bir%C5%BCe_Radziwi%C5%82%C5%82_Castle.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 2560,
+      "height": 1920,
+      "originalWidth": 2560,
+      "originalHeight": 1920,
+      "targetLongEdge": 1920
+    },
+    "reference": "https://en.wikipedia.org/wiki/Bir%C5%BEai_Castle"
+  },
+  {
+    "title": "Biržai Regional Park",
+    "qid": "Q2039160",
+    "coordinates": [
+      56.201,
+      24.659
+    ],
+    "coordinateSource": "https://en.wikipedia.org/wiki/Bir%C5%BEai_Regional_Park",
+    "image": {
+      "src": "/destinations/Q2039160-2.jpg",
+      "alt": "Biržai Regional Park — Kirkilai karstiniai ezereliai",
+      "author": "Qwarc at Lithuanian Wikipedia",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:Kirkilai_karstiniai_ezereliai.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/6/66/Kirkilai_karstiniai_ezereliai.jpg",
+      "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/66/Kirkilai_karstiniai_ezereliai.jpg/1920px-Kirkilai_karstiniai_ezereliai.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 2560,
+      "height": 1920,
+      "originalWidth": 3072,
+      "originalHeight": 2304,
+      "targetLongEdge": 1920
+    },
+    "reference": "https://en.wikipedia.org/wiki/Bir%C5%BEai_Regional_Park"
+  },
+  {
+    "title": "Astravas Manor",
+    "qid": "Q12649377",
+    "coordinates": [
+      56.22083333,
+      24.77
+    ],
+    "coordinateSource": "https://en.wikipedia.org/wiki/Astravas_Manor",
+    "image": {
+      "src": "/destinations/Q12649377.jpg",
+      "alt": "Astravas Manor — Lithuania Birże Tyszkiewicz Palace",
+      "author": "Wojsyl",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:Lithuania_Bir%C5%BCe_Tyszkiewicz_Palace.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/1/10/Lithuania_Bir%C5%BCe_Tyszkiewicz_Palace.jpg",
+      "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/10/Lithuania_Bir%C5%BCe_Tyszkiewicz_Palace.jpg/1920px-Lithuania_Bir%C5%BCe_Tyszkiewicz_Palace.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 2560,
+      "height": 1920,
+      "originalWidth": 2560,
+      "originalHeight": 1920,
+      "targetLongEdge": 1920
+    },
+    "reference": "https://en.wikipedia.org/wiki/Astravas_Manor"
+  },
+  {
+    "title": "Rokiškis Manor",
+    "qid": "Q12671565",
+    "coordinates": [
+      55.96527778,
+      25.60111111
+    ],
+    "coordinateSource": "https://en.wikipedia.org/wiki/Roki%C5%A1kis_Manor",
+    "image": {
+      "src": "/destinations/Q12671565.jpg",
+      "alt": "Rokiškis Manor — Rokiskio dvaras - panoramio",
+      "author": "Aleksandrs Timofejev…",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Rokiskio_dvaras_-_panoramio.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/5/51/Rokiskio_dvaras_-_panoramio.jpg",
+      "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/51/Rokiskio_dvaras_-_panoramio.jpg/1920px-Rokiskio_dvaras_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 2048,
+      "height": 1536,
+      "originalWidth": 2048,
+      "originalHeight": 1536,
+      "targetLongEdge": 1920
+    },
+    "reference": "https://en.wikipedia.org/wiki/Roki%C5%A1kis_Manor"
+  },
+  {
+    "title": "Pakruojis Manor",
+    "qid": "Q12667934",
+    "coordinates": [
+      55.98611111,
+      23.87916667
+    ],
+    "coordinateSource": "https://en.wikipedia.org/wiki/Pakruojis_Manor",
+    "image": {
+      "src": "/destinations/Q12667934.jpg",
+      "alt": "Pakruojis Manor — Pakruojis manor",
+      "author": "Андрей Романенко",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Pakruojis_manor.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/b/bc/Pakruojis_manor.jpg",
+      "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bc/Pakruojis_manor.jpg/1920px-Pakruojis_manor.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 2560,
+      "height": 1927,
+      "originalWidth": 4080,
+      "originalHeight": 3072,
+      "targetLongEdge": 1920
+    },
+    "reference": "https://en.wikipedia.org/wiki/Pakruojis_Manor"
+  },
+  {
+    "title": "Taujėnai Manor",
+    "qid": "Q12674686",
+    "coordinates": [
+      55.39722222,
+      24.76055556
+    ],
+    "coordinateSource": "https://en.wikipedia.org/wiki/Tauj%C4%97nai_Manor",
+    "image": {
+      "src": "/destinations/Q12674686.jpg",
+      "alt": "Taujėnai Manor — Taujėnų dvaras (cropped)",
+      "author": "Original:  Watas Cropped by: Blowwhite",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Tauj%C4%97n%C5%B3_dvaras_(cropped).jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/d/d6/Tauj%C4%97n%C5%B3_dvaras_%28cropped%29.jpg",
+      "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/Tauj%C4%97n%C5%B3_dvaras_%28cropped%29.jpg/1920px-Tauj%C4%97n%C5%B3_dvaras_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 2560,
+      "height": 1707,
+      "originalWidth": 3186,
+      "originalHeight": 2124,
+      "targetLongEdge": 1920
+    },
+    "reference": "https://en.wikipedia.org/wiki/Tauj%C4%97nai_Manor"
+  },
+  {
+    "title": "Plungė Manor",
+    "qid": "Q12669734",
+    "coordinates": [
+      55.91944444,
+      21.84416667
+    ],
+    "coordinateSource": "https://en.wikipedia.org/wiki/Plung%C4%97_Manor",
+    "image": {
+      "src": "/destinations/Q12669734.jpg",
+      "alt": "Plungė Manor — Plunges Oginskio dvaras",
+      "author": "Viskonsas",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Plunges_Oginskio_dvaras.JPG",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/6/65/Plunges_Oginskio_dvaras.JPG",
+      "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/65/Plunges_Oginskio_dvaras.JPG/1920px-Plunges_Oginskio_dvaras.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1979,
+      "height": 1074,
+      "originalWidth": 1979,
+      "originalHeight": 1074,
+      "targetLongEdge": 1920
+    },
+    "reference": "https://en.wikipedia.org/wiki/Plung%C4%97_Manor"
+  },
+  {
+    "title": "Kretinga Manor",
+    "qid": "Q5620534",
+    "coordinates": [
+      55.9,
+      21.2486
+    ],
+    "coordinateSource": "https://en.wikipedia.org/wiki/Kretinga_Museum",
+    "image": {
+      "src": "/destinations/Q5620534.jpg",
+      "alt": "Kretinga Manor — 2010 09 30 KretingaSaulėsobseravtorija003",
+      "author": "Rimantas Lazdynas",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:2010_09_30_KretingaSaul%C4%97sobseravtorija003.JPG",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/5/54/2010_09_30_KretingaSaul%C4%97sobseravtorija003.JPG",
+      "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/54/2010_09_30_KretingaSaul%C4%97sobseravtorija003.JPG/1920px-2010_09_30_KretingaSaul%C4%97sobseravtorija003.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 2487,
+      "height": 1368,
+      "originalWidth": 2487,
+      "originalHeight": 1368,
+      "targetLongEdge": 1920
+    },
+    "reference": "https://en.wikipedia.org/wiki/Kretinga_Museum"
+  },
+  {
+    "title": "Renavas Manor",
+    "qid": "Q12671204",
+    "coordinates": [
+      56.22777778,
+      22.05694444
+    ],
+    "coordinateSource": "https://en.wikipedia.org/wiki/Renavas_Manor",
+    "image": {
+      "src": "/destinations/Q12671204.jpg",
+      "alt": "Renavas Manor — Renavas Manor 2018 2",
+      "author": "Zidikai1",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Renavas_Manor_2018_2.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Renavas_Manor_2018_2.jpg",
+      "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e5/Renavas_Manor_2018_2.jpg/1920px-Renavas_Manor_2018_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 2560,
+      "height": 1707,
+      "originalWidth": 6000,
+      "originalHeight": 4000,
+      "targetLongEdge": 1920
+    },
+    "reference": "https://en.wikipedia.org/wiki/Renavas_Manor"
+  },
+  {
+    "title": "Palanga",
+    "qid": "Q2047414",
+    "coordinates": [
+      55.91666667,
+      21.06666667
+    ],
+    "coordinateSource": "https://en.wikipedia.org/wiki/Palanga",
+    "image": {
+      "src": "/destinations/Q2047414-2.jpg",
+      "alt": "Palanga — Palanga, J. Basanavičiaus gatvė",
+      "author": "Terminator216",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Palanga,_J._Basanavi%C4%8Diaus_gatv%C4%97.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/f/f1/Palanga%2C_J._Basanavi%C4%8Diaus_gatv%C4%97.jpg",
+      "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f1/Palanga%2C_J._Basanavi%C4%8Diaus_gatv%C4%97.jpg/1920px-Palanga%2C_J._Basanavi%C4%8Diaus_gatv%C4%97.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 2560,
+      "height": 1920,
+      "originalWidth": 4032,
+      "originalHeight": 3024,
+      "targetLongEdge": 1920
+    },
+    "reference": "https://en.wikipedia.org/wiki/Palanga"
+  },
+  {
+    "title": "Šventoji",
+    "qid": "Q392757",
+    "coordinates": [
+      56.0298,
+      21.0812
+    ],
+    "coordinateSource": "https://en.wikipedia.org/wiki/%C5%A0ventoji%2C_Lithuania",
+    "image": {
+      "src": "/destinations/Q392757-shore.jpg",
+      "alt": "Šventoji town and its coastal setting",
+      "author": "BigHead",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Sventoji_town_by_Augustas_Didzgalvis.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Sventoji_town_by_Augustas_Didzgalvis.jpg",
+      "width": 1800,
+      "height": 1200,
+      "originalWidth": 1800,
+      "originalHeight": 1200
+    },
+    "reference": "https://en.wikipedia.org/wiki/%C5%A0ventoji%2C_Lithuania"
+  },
+  {
+    "title": "Juodkrantė",
+    "qid": "Q20990",
+    "coordinates": [
+      55.55,
+      21.11666667
+    ],
+    "coordinateSource": "https://en.wikipedia.org/wiki/Juodkrant%C4%97",
+    "image": {
+      "src": "/destinations/Q20990.jpg",
+      "alt": "Juodkrantė — Juodkrante from bird's-eye view",
+      "author": "LinasD",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Juodkrante_from_bird%27s-eye_view.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/3/36/Juodkrante_from_bird%27s-eye_view.jpg",
+      "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/Juodkrante_from_bird%27s-eye_view.jpg/1920px-Juodkrante_from_bird%27s-eye_view.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 2560,
+      "height": 1922,
+      "originalWidth": 3692,
+      "originalHeight": 2772,
+      "targetLongEdge": 1920
+    },
+    "reference": "https://en.wikipedia.org/wiki/Juodkrant%C4%97"
+  },
+  {
+    "title": "Preila",
+    "qid": "Q145508",
+    "coordinates": [
+      55.37333333,
+      21.06805556
+    ],
+    "coordinateSource": "https://en.wikipedia.org/wiki/Preila",
+    "image": {
+      "src": "/destinations/Q145508.jpg",
+      "alt": "Preila — Preila from bird's-eye view",
+      "author": "LinasD",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Preila_from_bird%27s-eye_view.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/a/a2/Preila_from_bird%27s-eye_view.jpg",
+      "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a2/Preila_from_bird%27s-eye_view.jpg/1920px-Preila_from_bird%27s-eye_view.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 2560,
+      "height": 1923,
+      "originalWidth": 3198,
+      "originalHeight": 2402,
+      "targetLongEdge": 1920
+    },
+    "reference": "https://en.wikipedia.org/wiki/Preila"
+  },
+  {
+    "title": "Pervalka",
+    "qid": "Q225581",
+    "coordinates": [
+      55.41388889,
+      21.09444444
+    ],
+    "coordinateSource": "https://en.wikipedia.org/wiki/Pervalka",
+    "image": {
+      "src": "/destinations/Q225581.jpg",
+      "alt": "Pervalka — Pervalka from bird's-eye view",
+      "author": "LinasD",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Pervalka_from_bird%27s-eye_view.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/7/76/Pervalka_from_bird%27s-eye_view.jpg",
+      "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/76/Pervalka_from_bird%27s-eye_view.jpg/1920px-Pervalka_from_bird%27s-eye_view.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 2560,
+      "height": 1927,
+      "originalWidth": 2843,
+      "originalHeight": 2140,
+      "targetLongEdge": 1920
+    },
+    "reference": "https://en.wikipedia.org/wiki/Pervalka"
+  },
+  {
+    "title": "Smiltynė",
+    "qid": "Q1894830",
+    "coordinates": [
+      55.70611111,
+      21.11111111
+    ],
+    "coordinateSource": "https://en.wikipedia.org/wiki/Smiltyn%C4%97",
+    "image": {
+      "src": "/destinations/Q1894830.jpg",
+      "alt": "Smiltynė — Smiltyne fort",
+      "author": "Wojsyl",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:Smiltyne_fort.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/6/64/Smiltyne_fort.jpg",
+      "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/64/Smiltyne_fort.jpg/1920px-Smiltyne_fort.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 2560,
+      "height": 1920,
+      "originalWidth": 2560,
+      "originalHeight": 1920,
+      "targetLongEdge": 1920
+    },
+    "reference": "https://en.wikipedia.org/wiki/Smiltyn%C4%97"
+  },
+  {
+    "title": "Ventė Cape",
+    "qid": "Q2300182",
+    "coordinates": [
+      55.35,
+      21.2
+    ],
+    "coordinateSource": "https://en.wikipedia.org/wiki/Vent%C4%97_Cape",
+    "image": {
+      "src": "/destinations/Q2300182.jpg",
+      "alt": "Ventė Cape — Ventės ragas - panoramio (1)",
+      "author": "Aidas U.",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Vent%C4%97s_ragas_-_panoramio_(1).jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/6/6c/Vent%C4%97s_ragas_-_panoramio_%281%29.jpg",
+      "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6c/Vent%C4%97s_ragas_-_panoramio_%281%29.jpg/1920px-Vent%C4%97s_ragas_-_panoramio_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1920,
+      "height": 1440,
+      "originalWidth": 3264,
+      "originalHeight": 2448,
+      "targetLongEdge": 1920
+    },
+    "reference": "https://en.wikipedia.org/wiki/Vent%C4%97_Cape"
+  },
+  {
+    "title": "Rusnė",
+    "qid": "Q1939758",
+    "coordinates": [
+      55.29722222,
+      21.37777778
+    ],
+    "coordinateSource": "https://en.wikipedia.org/wiki/Rusn%C4%97",
+    "image": {
+      "src": "/destinations/Q1939758.jpg",
+      "alt": "Rusnė — Near the shore houses (1C, 1B, 1A) at Neringos Gatvė street left from Atmata river beach, Rusnė, Lithuania, 40 meters off the shore view from Rusne territorial waters at Skirvytė river, spring, 2007",
+      "author": "Lokyz",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:Near_the_shore_houses_(1C,_1B,_1A)_at_Neringos_Gatv%C4%97_street_left_from_Atmata_river_beach,_Rusn%C4%97,_Lithuania,_40_meters_off_the_shore_view_from_Rusne_territorial_waters_at_Skirvyt%C4%97_river,_spring,_2007.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/8/8b/Near_the_shore_houses_%281C%2C_1B%2C_1A%29_at_Neringos_Gatv%C4%97_street_left_from_Atmata_river_beach%2C_Rusn%C4%97%2C_Lithuania%2C_40_meters_off_the_shore_view_from_Rusne_territorial_waters_at_Skirvyt%C4%97_river%2C_spring%2C_2007.jpg",
+      "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/Near_the_shore_houses_%281C%2C_1B%2C_1A%29_at_Neringos_Gatv%C4%97_street_left_from_Atmata_river_beach%2C_Rusn%C4%97%2C_Lithuania%2C_40_meters_off_the_shore_view_from_Rusne_territorial_waters_at_Skirvyt%C4%97_river%2C_spring%2C_2007.jpg/1920px-thumbnail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1920,
+      "height": 1209,
+      "originalWidth": 1936,
+      "originalHeight": 1219,
+      "targetLongEdge": 1920
+    },
+    "reference": "https://en.wikipedia.org/wiki/Rusn%C4%97"
+  },
+  {
+    "title": "Nemunas Delta Regional Park",
+    "qid": "Q5621257",
+    "coordinates": [
+      55.3,
+      21.4
+    ],
+    "coordinateSource": "https://en.wikipedia.org/wiki/Nemunas_Delta_Regional_Park",
+    "image": {
+      "src": "/destinations/Q5621257.jpg",
+      "alt": "Nemunas Delta Regional Park — Vente lighthouse",
+      "author": "Wojsyl",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:Vente_lighthouse.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/5/5d/Vente_lighthouse.jpg",
+      "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/Vente_lighthouse.jpg/1920px-Vente_lighthouse.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1920,
+      "height": 1440,
+      "originalWidth": 2560,
+      "originalHeight": 1920,
+      "targetLongEdge": 1920
+    },
+    "reference": "https://en.wikipedia.org/wiki/Nemunas_Delta_Regional_Park"
+  },
+  {
+    "title": "Šilutė",
+    "qid": "Q391626",
+    "coordinates": [
+      55.35,
+      21.48333333
+    ],
+    "coordinateSource": "https://en.wikipedia.org/wiki/%C5%A0ilut%C4%97",
+    "image": {
+      "src": "/destinations/Q391626.jpg",
+      "alt": "Šilutė — Hugo Šojaus dvaro įėjimas su veranda iš kiemo",
+      "author": "Petriukas",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Hugo_%C5%A0ojaus_dvaro_%C4%AF%C4%97jimas_su_veranda_i%C5%A1_kiemo.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/4/4a/Hugo_%C5%A0ojaus_dvaro_%C4%AF%C4%97jimas_su_veranda_i%C5%A1_kiemo.jpg",
+      "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4a/Hugo_%C5%A0ojaus_dvaro_%C4%AF%C4%97jimas_su_veranda_i%C5%A1_kiemo.jpg/1920px-Hugo_%C5%A0ojaus_dvaro_%C4%AF%C4%97jimas_su_veranda_i%C5%A1_kiemo.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1920,
+      "height": 1440,
+      "originalWidth": 5120,
+      "originalHeight": 3840,
+      "targetLongEdge": 1920
+    },
+    "reference": "https://en.wikipedia.org/wiki/%C5%A0ilut%C4%97"
+  },
+  {
+    "title": "Aukštaitija National Park",
+    "qid": "Q400200",
+    "coordinates": [
+      55.344,
+      26.057
+    ],
+    "coordinateSource": "https://en.wikipedia.org/wiki/Auk%C5%A1taitija_National_Park",
+    "image": {
+      "src": "/destinations/Q400200.jpg",
+      "alt": "Aukštaitija National Park — Paluse Lusiai lake",
+      "author": "Wojsyl",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:Paluse_Lusiai_lake.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/0/09/Paluse_Lusiai_lake.jpg",
+      "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/09/Paluse_Lusiai_lake.jpg/1920px-Paluse_Lusiai_lake.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1920,
+      "height": 1440,
+      "originalWidth": 2560,
+      "originalHeight": 1920,
+      "targetLongEdge": 1920
+    },
+    "reference": "https://en.wikipedia.org/wiki/Auk%C5%A1taitija_National_Park"
+  },
+  {
+    "title": "Žemaitija National Park",
+    "qid": "Q268533",
+    "coordinates": [
+      56.04861111,
+      21.88888889
+    ],
+    "coordinateSource": "https://en.wikipedia.org/wiki/%C5%BDemaitija_National_Park",
+    "image": {
+      "src": "/destinations/Q268533.jpg",
+      "alt": "Žemaitija National Park — Lithuania Plateliai lake",
+      "author": "Wojsyl",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:Lithuania_Plateliai_lake.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/4/45/Lithuania_Plateliai_lake.jpg",
+      "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/45/Lithuania_Plateliai_lake.jpg/1920px-Lithuania_Plateliai_lake.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1920,
+      "height": 1314,
+      "originalWidth": 2560,
+      "originalHeight": 1752,
+      "targetLongEdge": 1920
+    },
+    "reference": "https://en.wikipedia.org/wiki/%C5%BDemaitija_National_Park"
+  },
+  {
+    "title": "Plateliai",
+    "qid": "Q1028246",
+    "coordinates": [
+      56.05,
+      21.81666667
+    ],
+    "coordinateSource": "https://en.wikipedia.org/wiki/Plateliai",
+    "image": {
+      "src": "/destinations/Q1028246.jpg",
+      "alt": "Plateliai — Plateliai1.2007-06-15",
+      "author": "Algirdas at Lithuanian Wikipedia",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:Plateliai1.2007-06-15.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/1/15/Plateliai1.2007-06-15.jpg",
+      "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/1/15/Plateliai1.2007-06-15.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "width": 1600,
+      "height": 1200,
+      "originalWidth": 1600,
+      "originalHeight": 1200,
+      "targetLongEdge": 1600
+    },
+    "reference": "https://en.wikipedia.org/wiki/Plateliai"
+  },
+  {
+    "title": "Lake Plateliai",
+    "qid": "Q2464737",
+    "coordinates": [
+      56.04722222,
+      21.85638889
+    ],
+    "coordinateSource": "https://en.wikipedia.org/wiki/Plateliai_Lake",
+    "image": {
+      "src": "/destinations/Q2464737.jpg",
+      "alt": "Lake Plateliai — Lithuania Plateliai lake",
+      "author": "Wojsyl",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:Lithuania_Plateliai_lake.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/4/45/Lithuania_Plateliai_lake.jpg",
+      "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/45/Lithuania_Plateliai_lake.jpg/1920px-Lithuania_Plateliai_lake.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1920,
+      "height": 1314,
+      "originalWidth": 2560,
+      "originalHeight": 1752,
+      "targetLongEdge": 1920
+    },
+    "reference": "https://en.wikipedia.org/wiki/Plateliai_Lake"
+  },
+  {
+    "title": "Palūšė",
+    "qid": "Q3492204",
+    "coordinates": [
+      55.33333333,
+      26.1
+    ],
+    "coordinateSource": "https://en.wikipedia.org/wiki/Pal%C5%AB%C5%A1%C4%97",
+    "image": {
+      "src": "/destinations/Q3492204.jpg",
+      "alt": "Palūšė — Lithuania Paluse church",
+      "author": "Wojsyl",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:Lithuania_Paluse_church.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Lithuania_Paluse_church.jpg",
+      "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1e/Lithuania_Paluse_church.jpg/1920px-Lithuania_Paluse_church.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1920,
+      "height": 1440,
+      "originalWidth": 2560,
+      "originalHeight": 1920,
+      "targetLongEdge": 1920
+    },
+    "reference": "https://en.wikipedia.org/wiki/Pal%C5%AB%C5%A1%C4%97"
+  },
+  {
+    "title": "Ginučiai",
+    "qid": "Q265070",
+    "coordinates": [
+      55.38527778,
+      25.99472222
+    ],
+    "coordinateSource": "https://en.wikipedia.org/wiki/Ginu%C4%8Diai",
+    "image": {
+      "src": "/destinations/Q265070-2.jpg",
+      "alt": "Ginučiai — Lithuania Ginučiai Watermill",
+      "author": "Wojsyl",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:Lithuania_Ginu%C4%8Diai_Watermill.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/e/ed/Lithuania_Ginu%C4%8Diai_Watermill.jpg",
+      "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ed/Lithuania_Ginu%C4%8Diai_Watermill.jpg/1920px-Lithuania_Ginu%C4%8Diai_Watermill.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1920,
+      "height": 1440,
+      "originalWidth": 2560,
+      "originalHeight": 1920,
+      "targetLongEdge": 1920
+    },
+    "reference": "https://en.wikipedia.org/wiki/Ginu%C4%8Diai"
+  },
+  {
+    "title": "Asveja Regional Park",
+    "qid": "Q4811971",
+    "coordinates": [
+      55.05,
+      25.53
+    ],
+    "coordinateSource": "https://en.wikipedia.org/wiki/Asveja_Regional_Park",
+    "image": {
+      "src": "/destinations/Q4811971.jpg",
+      "alt": "Asveja Regional Park — Asveja nuo Žalktynės",
+      "author": "Šarūnas Šimkus",
+      "license": "Public domain",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:Asveja_nuo_%C5%BDalktyn%C4%97s.JPG",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/c/cf/Asveja_nuo_%C5%BDalktyn%C4%97s.JPG",
+      "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/Asveja_nuo_%C5%BDalktyn%C4%97s.JPG/1920px-Asveja_nuo_%C5%BDalktyn%C4%97s.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1920,
+      "height": 1124,
+      "originalWidth": 4927,
+      "originalHeight": 2885,
+      "targetLongEdge": 1920
+    },
+    "reference": "https://en.wikipedia.org/wiki/Asveja_Regional_Park"
+  },
+  {
+    "title": "Molėtai Astronomical Observatory",
+    "qid": "Q578010",
+    "coordinates": [
+      55.31597222,
+      25.56333333
+    ],
+    "coordinateSource": "https://en.wikipedia.org/wiki/Mol%C4%97tai_Astronomical_Observatory",
+    "image": {
+      "src": "/destinations/Q578010-2.jpg",
+      "alt": "Molėtai Astronomical Observatory — P200 Dome Open",
+      "author": "Coneslayer at English Wikipedia",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:P200_Dome_Open.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/a/a3/P200_Dome_Open.jpg",
+      "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a3/P200_Dome_Open.jpg/1920px-P200_Dome_Open.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1920,
+      "height": 1278,
+      "originalWidth": 2000,
+      "originalHeight": 1331,
+      "targetLongEdge": 1920
+    },
+    "reference": "https://en.wikipedia.org/wiki/Mol%C4%97tai_Astronomical_Observatory"
+  },
+  {
+    "title": "Anykščiai",
+    "qid": "Q505416",
+    "coordinates": [
+      55.53333333,
+      25.1
+    ],
+    "coordinateSource": "https://en.wikipedia.org/wiki/Anyk%C5%A1%C4%8Diai",
+    "image": {
+      "src": "/destinations/Q505416.jpg",
+      "alt": "Anykščiai — Anykščiai, 2020",
+      "author": "Hugo.arg",
+      "license": "Public domain",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:Anyk%C5%A1%C4%8Diai,_2020.JPG",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/d/d4/Anyk%C5%A1%C4%8Diai%2C_2020.JPG",
+      "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d4/Anyk%C5%A1%C4%8Diai%2C_2020.JPG/1920px-Anyk%C5%A1%C4%8Diai%2C_2020.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1920,
+      "height": 1272,
+      "originalWidth": 4928,
+      "originalHeight": 3264,
+      "targetLongEdge": 1920
+    },
+    "reference": "https://en.wikipedia.org/wiki/Anyk%C5%A1%C4%8Diai"
+  },
+  {
+    "title": "Stelmužė Oak",
+    "qid": "Q2972120",
+    "coordinates": [
+      55.8298,
+      26.2174
+    ],
+    "coordinateSource": "https://en.wikipedia.org/wiki/Stelmu%C5%BE%C4%97_Oak",
+    "image": {
+      "src": "/destinations/Q2972120.jpg",
+      "alt": "Stelmužė Oak — 2017 Stelmuže oak LT",
+      "author": "Algimantas Navickas, Arnoldas Abramavičius, Gintautas Antanavičius, Arvydas Veikšra, Jurgita Mikutavičiene, delfi.lt",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:2017_Stelmu%C5%BEe_oak_LT.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/c/cf/2017_Stelmu%C5%BEe_oak_LT.jpg",
+      "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/2017_Stelmu%C5%BEe_oak_LT.jpg/1920px-2017_Stelmu%C5%BEe_oak_LT.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1920,
+      "height": 1439,
+      "originalWidth": 3748,
+      "originalHeight": 2809,
+      "targetLongEdge": 1920
+    },
+    "reference": "https://en.wikipedia.org/wiki/Stelmu%C5%BE%C4%97_Oak"
+  },
+  {
+    "title": "Trakai Historical National Park",
+    "qid": "Q1539772",
+    "coordinates": [
+      54.639,
+      24.419
+    ],
+    "coordinateSource": "https://en.wikipedia.org/wiki/Trakai_Historical_National_Park",
+    "image": {
+      "src": "/destinations/Q1539772-2.jpg",
+      "alt": "Trakai Historical National Park — Front facade of the Trakai Island Castle, 2009",
+      "author": "Leszek Kozlowski",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Front_facade_of_the_Trakai_Island_Castle,_2009.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/8/8a/Front_facade_of_the_Trakai_Island_Castle%2C_2009.jpg",
+      "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/Front_facade_of_the_Trakai_Island_Castle%2C_2009.jpg/1920px-Front_facade_of_the_Trakai_Island_Castle%2C_2009.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1920,
+      "height": 1078,
+      "originalWidth": 3264,
+      "originalHeight": 1832,
+      "targetLongEdge": 1920
+    },
+    "reference": "https://en.wikipedia.org/wiki/Trakai_Historical_National_Park"
+  },
+  {
+    "title": "Neris Regional Park",
+    "qid": "Q3325973",
+    "coordinates": [
+      54.751575,
+      25.22529722
+    ],
+    "coordinateSource": "https://en.wikipedia.org/wiki/Neris_Regional_Park",
+    "image": {
+      "src": "/destinations/Q3325973.jpg",
+      "alt": "Neris Regional Park — Neris Regional Park (52527081890)",
+      "author": "Šarūnas Burdulis",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Neris_Regional_Park_(52527081890).jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Neris_Regional_Park_%2852527081890%29.jpg",
+      "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c3/Neris_Regional_Park_%2852527081890%29.jpg/1920px-Neris_Regional_Park_%2852527081890%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1920,
+      "height": 1308,
+      "originalWidth": 4583,
+      "originalHeight": 3122,
+      "targetLongEdge": 1920
+    },
+    "reference": "https://en.wikipedia.org/wiki/Neris_Regional_Park"
+  },
+  {
+    "title": "Kaunas Reservoir Regional Park",
+    "qid": "Q3513601",
+    "coordinates": [
+      54.86666667,
+      24.11666667
+    ],
+    "coordinateSource": "https://en.wikipedia.org/wiki/Kauno_Marios_Regional_Park",
+    "image": {
+      "src": "/destinations/Q3513601.jpg",
+      "alt": "Kaunas Reservoir Regional Park — Kauno mariu pakrante",
+      "author": "The original uploader was Shimatonis at Lithuanian Wikipedia.",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:Kauno_mariu_pakrante.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/b/b0/Kauno_mariu_pakrante.jpg",
+      "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b0/Kauno_mariu_pakrante.jpg/1920px-Kauno_mariu_pakrante.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1920,
+      "height": 1282,
+      "originalWidth": 3293,
+      "originalHeight": 2198,
+      "targetLongEdge": 1920
+    },
+    "reference": "https://en.wikipedia.org/wiki/Kauno_Marios_Regional_Park"
+  },
+  {
+    "title": "Rambynas Hill",
+    "qid": "Q1793504",
+    "coordinates": [
+      55.0875,
+      22.02111111
+    ],
+    "coordinateSource": "https://en.wikipedia.org/wiki/Rambynas",
+    "image": {
+      "src": "/destinations/Q1793504-2.jpg",
+      "alt": "Rambynas Hill — Lithuania Rambynas hill",
+      "author": "Wojsyl",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:Lithuania_Rambynas_hill.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/c/cf/Lithuania_Rambynas_hill.jpg",
+      "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/Lithuania_Rambynas_hill.jpg/1920px-Lithuania_Rambynas_hill.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1920,
+      "height": 1440,
+      "originalWidth": 2560,
+      "originalHeight": 1920,
+      "targetLongEdge": 1920
+    },
+    "reference": "https://en.wikipedia.org/wiki/Rambynas"
+  },
+  {
+    "title": "Rambynas Regional Park",
+    "qid": "Q969624",
+    "coordinates": [
+      55.08333333,
+      22.08333333
+    ],
+    "coordinateSource": "https://en.wikipedia.org/wiki/Rambynas_Regional_Park",
+    "image": {
+      "src": "/destinations/Q969624.jpg",
+      "alt": "Rambynas Regional Park — NemunasRambynas2",
+      "author": "Rimantas Lazdynas",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:NemunasRambynas2.JPG",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/7/7b/NemunasRambynas2.JPG",
+      "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7b/NemunasRambynas2.JPG/1920px-NemunasRambynas2.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1920,
+      "height": 1440,
+      "originalWidth": 2816,
+      "originalHeight": 2112,
+      "targetLongEdge": 1920
+    },
+    "reference": "https://en.wikipedia.org/wiki/Rambynas_Regional_Park"
+  },
+  {
+    "title": "Tytuvėnai Regional Park",
+    "qid": "Q9197683",
+    "coordinates": [
+      55.58333333,
+      23.25
+    ],
+    "coordinateSource": "https://en.wikipedia.org/wiki/Tytuv%C4%97nai_Regional_Park",
+    "image": {
+      "src": "/destinations/Q9197683.jpg",
+      "alt": "Tytuvėnai Regional Park — Tytuvėnų reg. parkas, būstinė",
+      "author": "Vilensija",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Tytuv%C4%97n%C5%B3_reg._parkas,_b%C5%ABstin%C4%97.JPG",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/a/a2/Tytuv%C4%97n%C5%B3_reg._parkas%2C_b%C5%ABstin%C4%97.JPG",
+      "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a2/Tytuv%C4%97n%C5%B3_reg._parkas%2C_b%C5%ABstin%C4%97.JPG/1920px-Tytuv%C4%97n%C5%B3_reg._parkas%2C_b%C5%ABstin%C4%97.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1920,
+      "height": 1440,
+      "originalWidth": 5184,
+      "originalHeight": 3888,
+      "targetLongEdge": 1920
+    },
+    "reference": "https://en.wikipedia.org/wiki/Tytuv%C4%97nai_Regional_Park"
+  },
+  {
+    "title": "Tytuvėnai Monastery",
+    "qid": "Q942809",
+    "coordinates": [
+      55.5966,
+      23.201
+    ],
+    "coordinateSource": "https://en.wikipedia.org/wiki/Tytuv%C4%97nai_Monastery",
+    "image": {
+      "src": "/destinations/Q942809.jpg",
+      "alt": "Tytuvėnai Monastery — Church of the Virgin Mary and Tytuvėnai Monastery in Tytuvėnai, Lithuania in 2022",
+      "author": "user:CD",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Church_of_the_Virgin_Mary_and_Tytuv%C4%97nai_Monastery_in_Tytuv%C4%97nai,_Lithuania_in_2022.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/5/57/Church_of_the_Virgin_Mary_and_Tytuv%C4%97nai_Monastery_in_Tytuv%C4%97nai%2C_Lithuania_in_2022.jpg",
+      "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/57/Church_of_the_Virgin_Mary_and_Tytuv%C4%97nai_Monastery_in_Tytuv%C4%97nai%2C_Lithuania_in_2022.jpg/1920px-Church_of_the_Virgin_Mary_and_Tytuv%C4%97nai_Monastery_in_Tytuv%C4%97nai%2C_Lithuania_in_2022.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1920,
+      "height": 1440,
+      "originalWidth": 4000,
+      "originalHeight": 3000,
+      "targetLongEdge": 1920
+    },
+    "reference": "https://en.wikipedia.org/wiki/Tytuv%C4%97nai_Monastery"
+  },
+  {
+    "title": "Telšiai Cathedral",
+    "qid": "Q1736136",
+    "coordinates": [
+      55.98222222,
+      22.24638889
+    ],
+    "coordinateSource": "https://en.wikipedia.org/wiki/Tel%C5%A1iai_Cathedral",
+    "image": {
+      "src": "/destinations/Q1736136.jpg",
+      "alt": "Telšiai Cathedral — Telšiai Cathedral Exterior, Telšiai, Lithuania - Diliff",
+      "author": "Diliff",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Tel%C5%A1iai_Cathedral_Exterior,_Tel%C5%A1iai,_Lithuania_-_Diliff.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/8/8b/Tel%C5%A1iai_Cathedral_Exterior%2C_Tel%C5%A1iai%2C_Lithuania_-_Diliff.jpg",
+      "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/Tel%C5%A1iai_Cathedral_Exterior%2C_Tel%C5%A1iai%2C_Lithuania_-_Diliff.jpg/1920px-Tel%C5%A1iai_Cathedral_Exterior%2C_Tel%C5%A1iai%2C_Lithuania_-_Diliff.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1920,
+      "height": 2268,
+      "originalWidth": 5925,
+      "originalHeight": 7000,
+      "targetLongEdge": 2268
+    },
+    "reference": "https://en.wikipedia.org/wiki/Tel%C5%A1iai_Cathedral"
+  },
+  {
+    "title": "Šiauliai Cathedral",
+    "qid": "Q1736144",
+    "coordinates": [
+      55.9492,
+      23.3198
+    ],
+    "coordinateSource": "https://en.wikipedia.org/wiki/%C5%A0iauliai_Cathedral",
+    "image": {
+      "src": "/destinations/Q1736144.jpg",
+      "alt": "Šiauliai Cathedral — Cathedral of Saints Peter and Paul in Šiauliai, Lithuania in 2018 (cropped)",
+      "author": "Scotch Mist",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Cathedral_of_Saints_Peter_and_Paul_in_%C5%A0iauliai,_Lithuania_in_2018_(cropped).jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Cathedral_of_Saints_Peter_and_Paul_in_%C5%A0iauliai%2C_Lithuania_in_2018_%28cropped%29.jpg",
+      "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8e/Cathedral_of_Saints_Peter_and_Paul_in_%C5%A0iauliai%2C_Lithuania_in_2018_%28cropped%29.jpg/1920px-Cathedral_of_Saints_Peter_and_Paul_in_%C5%A0iauliai%2C_Lithuania_in_2018_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1703,
+      "height": 2560,
+      "originalWidth": 3702,
+      "originalHeight": 5567,
+      "targetLongEdge": 2560
+    },
+    "reference": "https://en.wikipedia.org/wiki/%C5%A0iauliai_Cathedral"
+  },
+  {
+    "title": "Panevėžys",
+    "qid": "Q1719466",
+    "coordinates": [
+      55.73333333,
+      24.35
+    ],
+    "coordinateSource": "https://en.wikipedia.org/wiki/Panev%C4%97%C5%BEys",
+    "image": {
+      "src": "/destinations/Q1719466.jpg",
+      "alt": "Panevėžys — Recreational area near Senvagė Pond and Nevėžis in Panevėžys",
+      "author": "Modris Putns",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Recreational_area_near_Senvag%C4%97_Pond_and_Nev%C4%97%C5%BEis_in_Panev%C4%97%C5%BEys.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Recreational_area_near_Senvag%C4%97_Pond_and_Nev%C4%97%C5%BEis_in_Panev%C4%97%C5%BEys.jpg",
+      "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f7/Recreational_area_near_Senvag%C4%97_Pond_and_Nev%C4%97%C5%BEis_in_Panev%C4%97%C5%BEys.jpg/1920px-Recreational_area_near_Senvag%C4%97_Pond_and_Nev%C4%97%C5%BEis_in_Panev%C4%97%C5%BEys.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1920,
+      "height": 1463,
+      "originalWidth": 3056,
+      "originalHeight": 2328,
+      "targetLongEdge": 1920
+    },
+    "reference": "https://en.wikipedia.org/wiki/Panev%C4%97%C5%BEys"
+  },
+  {
+    "title": "Marijampolė",
+    "qid": "Q1351046",
+    "coordinates": [
+      54.54722222,
+      23.35
+    ],
+    "coordinateSource": "https://en.wikipedia.org/wiki/Marijampol%C4%97",
+    "image": {
+      "src": "/destinations/Q1351046.jpg",
+      "alt": "Marijampolė — Marijampole city",
+      "author": "Juliux",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Marijampole_city.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/0/01/Marijampole_city.jpg",
+      "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/01/Marijampole_city.jpg/1920px-Marijampole_city.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1920,
+      "height": 1196,
+      "originalWidth": 3240,
+      "originalHeight": 2019,
+      "targetLongEdge": 1920
+    },
+    "reference": "https://en.wikipedia.org/wiki/Marijampol%C4%97"
+  },
+  {
+    "title": "Ukmergė",
+    "qid": "Q213127",
+    "coordinates": [
+      55.25,
+      24.75
+    ],
+    "coordinateSource": "https://en.wikipedia.org/wiki/Ukmerg%C4%97",
+    "image": {
+      "src": "/destinations/Q213127.jpg",
+      "alt": "Ukmergė — Ukmergė centre, May 2023",
+      "author": "Mindaur",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Ukmerg%C4%97_centre,_May_2023.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/4/44/Ukmerg%C4%97_centre%2C_May_2023.jpg",
+      "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/44/Ukmerg%C4%97_centre%2C_May_2023.jpg/1920px-Ukmerg%C4%97_centre%2C_May_2023.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1920,
+      "height": 1440,
+      "originalWidth": 4624,
+      "originalHeight": 3468,
+      "targetLongEdge": 1920
+    },
+    "reference": "https://en.wikipedia.org/wiki/Ukmerg%C4%97"
+  },
+  {
+    "title": "Kretinga",
+    "qid": "Q1788115",
+    "coordinates": [
+      55.89,
+      21.24222222
+    ],
+    "coordinateSource": "https://en.wikipedia.org/wiki/Kretinga",
+    "image": {
+      "src": "/destinations/Q1788115.jpg",
+      "alt": "Kretinga — Kretinga Bernardine Monastery and the Lord’s Revelation to Virgin Mary Church building complex Nuotrauka 6",
+      "author": "Žemaitijos kelias",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Kretinga_Bernardine_Monastery_and_the_Lord%E2%80%99s_Revelation_to_Virgin_Mary_Church_building_complex_Nuotrauka_6.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/c/c8/Kretinga_Bernardine_Monastery_and_the_Lord%E2%80%99s_Revelation_to_Virgin_Mary_Church_building_complex_Nuotrauka_6.jpg",
+      "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/Kretinga_Bernardine_Monastery_and_the_Lord%E2%80%99s_Revelation_to_Virgin_Mary_Church_building_complex_Nuotrauka_6.jpg/1920px-Kretinga_Bernardine_Monastery_and_the_Lord%E2%80%99s_Revelation_to_Virgin_Mary_Church_building_complex_Nuotrauka_6.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1920,
+      "height": 1279,
+      "originalWidth": 5449,
+      "originalHeight": 3630,
+      "targetLongEdge": 1920
+    },
+    "reference": "https://en.wikipedia.org/wiki/Kretinga"
+  },
+  {
+    "title": "Merkinė",
+    "qid": "Q1594489",
+    "coordinates": [
+      54.16388889,
+      24.18611111
+    ],
+    "coordinateSource": "https://en.wikipedia.org/wiki/Merkin%C4%97",
+    "image": {
+      "src": "/destinations/Q1594489.jpg",
+      "alt": "Merkinė — Merkinė, Lithuania - panoramio (21)",
+      "author": "VietovesLt",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Merkin%C4%97,_Lithuania_-_panoramio_(21).jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/d/d7/Merkin%C4%97%2C_Lithuania_-_panoramio_%2821%29.jpg",
+      "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d7/Merkin%C4%97%2C_Lithuania_-_panoramio_%2821%29.jpg/1920px-Merkin%C4%97%2C_Lithuania_-_panoramio_%2821%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1920,
+      "height": 1440,
+      "originalWidth": 4000,
+      "originalHeight": 3000,
+      "targetLongEdge": 1920
+    },
+    "reference": "https://en.wikipedia.org/wiki/Merkin%C4%97"
+  },
+  {
+    "title": "Liškiava",
+    "qid": "Q570725",
+    "coordinates": [
+      54.08055556,
+      24.05555556
+    ],
+    "coordinateSource": "https://en.wikipedia.org/wiki/Li%C5%A1kiava",
+    "image": {
+      "src": "/destinations/Q570725.jpg",
+      "alt": "Liškiava — Church of the Holy Trinity in Liškiava, Lithuania in 2005",
+      "author": "Wojsyl",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:Church_of_the_Holy_Trinity_in_Li%C5%A1kiava,_Lithuania_in_2005.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/d/d6/Church_of_the_Holy_Trinity_in_Li%C5%A1kiava%2C_Lithuania_in_2005.jpg",
+      "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/Church_of_the_Holy_Trinity_in_Li%C5%A1kiava%2C_Lithuania_in_2005.jpg/1920px-Church_of_the_Holy_Trinity_in_Li%C5%A1kiava%2C_Lithuania_in_2005.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1920,
+      "height": 1440,
+      "originalWidth": 2560,
+      "originalHeight": 1920,
+      "targetLongEdge": 1920
+    },
+    "reference": "https://en.wikipedia.org/wiki/Li%C5%A1kiava"
+  },
+  {
+    "title": "Grūtas Park",
+    "qid": "Q1050522",
+    "coordinates": [
+      54.022,
+      24.079
+    ],
+    "coordinateSource": "https://en.wikipedia.org/wiki/Gr%C5%ABtas_Park",
+    "image": {
+      "src": "/destinations/Q1050522.jpg",
+      "alt": "Grūtas Park — Grūto parkas - Lenin",
+      "author": "Adriao",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Gr%C5%ABto_parkas_-_Lenin.JPG",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/5/5b/Gr%C5%ABto_parkas_-_Lenin.JPG",
+      "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5b/Gr%C5%ABto_parkas_-_Lenin.JPG/1920px-Gr%C5%ABto_parkas_-_Lenin.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1920,
+      "height": 1440,
+      "originalWidth": 3648,
+      "originalHeight": 2736,
+      "targetLongEdge": 1920
+    },
+    "reference": "https://en.wikipedia.org/wiki/Gr%C5%ABtas_Park"
+  },
+  {
+    "title": "Čepkeliai Marsh",
+    "qid": "Q3287428",
+    "coordinates": [
+      54,
+      24.51666667
+    ],
+    "coordinateSource": "https://en.wikipedia.org/wiki/%C4%8Cepkeliai_Marsh",
+    "image": {
+      "src": "/destinations/Q3287428.jpg",
+      "alt": "Čepkeliai Marsh — Čepkeliai (didzi bala) nuo Musteikos",
+      "author": "Hugo.arg",
+      "license": "Public domain",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:%C4%8Cepkeliai_(didzi_bala)_nuo_Musteikos.JPG",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/3/3f/%C4%8Cepkeliai_%28didzi_bala%29_nuo_Musteikos.JPG",
+      "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3f/%C4%8Cepkeliai_%28didzi_bala%29_nuo_Musteikos.JPG/1920px-%C4%8Cepkeliai_%28didzi_bala%29_nuo_Musteikos.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1920,
+      "height": 1272,
+      "originalWidth": 4928,
+      "originalHeight": 3264,
+      "targetLongEdge": 1920
+    },
+    "reference": "https://en.wikipedia.org/wiki/%C4%8Cepkeliai_Marsh"
+  },
+  {
+    "title": "Marcinkonys",
+    "qid": "Q1893620",
+    "coordinates": [
+      54.06111111,
+      24.4
+    ],
+    "coordinateSource": "https://en.wikipedia.org/wiki/Marcinkonys",
+    "image": {
+      "src": "/destinations/Q1893620.jpg",
+      "alt": "Marcinkonys — Winter river in Marcinkonys - Зимняя радость - panoramio",
+      "author": "D&G photo",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Winter_river_in_Marcinkonys_-_%D0%97%D0%B8%D0%BC%D0%BD%D1%8F%D1%8F_%D1%80%D0%B0%D0%B4%D0%BE%D1%81%D1%82%D1%8C_-_panoramio.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/9/97/Winter_river_in_Marcinkonys_-_%D0%97%D0%B8%D0%BC%D0%BD%D1%8F%D1%8F_%D1%80%D0%B0%D0%B4%D0%BE%D1%81%D1%82%D1%8C_-_panoramio.jpg",
+      "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/97/Winter_river_in_Marcinkonys_-_%D0%97%D0%B8%D0%BC%D0%BD%D1%8F%D1%8F_%D1%80%D0%B0%D0%B4%D0%BE%D1%81%D1%82%D1%8C_-_panoramio.jpg/1920px-Winter_river_in_Marcinkonys_-_%D0%97%D0%B8%D0%BC%D0%BD%D1%8F%D1%8F_%D1%80%D0%B0%D0%B4%D0%BE%D1%81%D1%82%D1%8C_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1920,
+      "height": 1440,
+      "originalWidth": 2560,
+      "originalHeight": 1920,
+      "targetLongEdge": 1920
+    },
+    "reference": "https://en.wikipedia.org/wiki/Marcinkonys"
+  },
+  {
+    "title": "Zervynos",
+    "qid": "Q2357792",
+    "coordinates": [
+      54.11666667,
+      24.5
+    ],
+    "coordinateSource": "https://en.wikipedia.org/wiki/Zervynos",
+    "image": {
+      "src": "/destinations/Q2357792.jpg",
+      "alt": "Zervynos — Zervynos, 2023",
+      "author": "Hugo.arg (talk)",
+      "license": "Public domain",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:Zervynos,_2023.JPG",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Zervynos%2C_2023.JPG",
+      "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1f/Zervynos%2C_2023.JPG/1920px-Zervynos%2C_2023.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1920,
+      "height": 1272,
+      "originalWidth": 4928,
+      "originalHeight": 3264,
+      "targetLongEdge": 1920
+    },
+    "reference": "https://en.wikipedia.org/wiki/Zervynos"
+  },
+  {
+    "title": "Meteliai Regional Park",
+    "qid": "Q6823402",
+    "coordinates": [
+      54.28,
+      23.72
+    ],
+    "coordinateSource": "https://en.wikipedia.org/wiki/Meteliai_Regional_Park",
+    "image": {
+      "src": "/destinations/Q6823402-2.jpg",
+      "alt": "Meteliai Regional Park — Dusia ties Straigiške",
+      "author": "Hugo.arg (talk)",
+      "license": "Public domain",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:Dusia_ties_Straigi%C5%A1ke.JPG",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/0/04/Dusia_ties_Straigi%C5%A1ke.JPG",
+      "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/04/Dusia_ties_Straigi%C5%A1ke.JPG/1920px-Dusia_ties_Straigi%C5%A1ke.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1920,
+      "height": 1272,
+      "originalWidth": 4928,
+      "originalHeight": 3264,
+      "targetLongEdge": 1920
+    },
+    "reference": "https://en.wikipedia.org/wiki/Meteliai_Regional_Park"
+  },
+  {
+    "title": "Vištytis Regional Park",
+    "qid": "Q5633",
+    "coordinates": [
+      54.43333333,
+      22.73333333
+    ],
+    "coordinateSource": "https://en.wikipedia.org/wiki/Vi%C5%A1tytis_(lake)",
+    "image": {
+      "src": "/destinations/Q5633.jpg",
+      "alt": "Vištytis Regional Park — Vištyčio ežeras",
+      "author": "Šarūnas Šimkus",
+      "license": "Public domain",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:Vi%C5%A1ty%C4%8Dio_e%C5%BEeras.JPG",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Vi%C5%A1ty%C4%8Dio_e%C5%BEeras.JPG",
+      "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4b/Vi%C5%A1ty%C4%8Dio_e%C5%BEeras.JPG/1920px-Vi%C5%A1ty%C4%8Dio_e%C5%BEeras.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1920,
+      "height": 1272,
+      "originalWidth": 4928,
+      "originalHeight": 3264,
+      "targetLongEdge": 1920
+    },
+    "reference": "https://en.wikipedia.org/wiki/Vi%C5%A1tytis_(lake)"
+  },
+  {
+    "title": "Lake Širvėna",
+    "qid": "Q3488953",
+    "coordinates": [
+      56.21194444,
+      24.755
+    ],
+    "coordinateSource": "https://en.wikipedia.org/wiki/%C5%A0irv%C4%97na_Lake",
+    "image": {
+      "src": "/destinations/Q3488953.jpg",
+      "alt": "Lake Širvėna — Sirvenos ezeras",
+      "author": "Original uploader was Qwarc at lt.wikipedia",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:Sirvenos_ezeras.JPG",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/8/86/Sirvenos_ezeras.JPG",
+      "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/86/Sirvenos_ezeras.JPG/1920px-Sirvenos_ezeras.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1920,
+      "height": 1440,
+      "originalWidth": 2592,
+      "originalHeight": 1944,
+      "targetLongEdge": 1920
+    },
+    "reference": "https://en.wikipedia.org/wiki/%C5%A0irv%C4%97na_Lake"
+  },
+  {
+    "title": "Kelmė Manor",
+    "qid": "Q15136514",
+    "coordinates": [
+      55.63833333,
+      22.93833333
+    ],
+    "coordinateSource": "https://en.wikipedia.org/wiki/Kelm%C4%97_Manor",
+    "image": {
+      "src": "/destinations/Q15136514.jpg",
+      "alt": "Kelmė Manor — Kelme manor",
+      "author": "Juliux",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Kelme_manor.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/e/e2/Kelme_manor.jpg",
+      "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e2/Kelme_manor.jpg/1920px-Kelme_manor.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1920,
+      "height": 1218,
+      "originalWidth": 3850,
+      "originalHeight": 2443,
+      "targetLongEdge": 1920
+    },
+    "reference": "https://en.wikipedia.org/wiki/Kelm%C4%97_Manor"
+  },
+  {
+    "title": "Ilzenberg Manor",
+    "qid": "Q12656720",
+    "coordinates": [
+      56.15972222,
+      25.52444444
+    ],
+    "coordinateSource": "https://en.wikipedia.org/wiki/Ilzenberg_Manor",
+    "image": {
+      "src": "/destinations/Q12656720.jpg",
+      "alt": "Ilzenberg Manor — Ilzenbergas manor 2018",
+      "author": "Zidikai1",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Ilzenbergas_manor_2018.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/9/99/Ilzenbergas_manor_2018.jpg",
+      "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/99/Ilzenbergas_manor_2018.jpg/1920px-Ilzenbergas_manor_2018.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1920,
+      "height": 1280,
+      "originalWidth": 6000,
+      "originalHeight": 4000,
+      "targetLongEdge": 1920
+    },
+    "reference": "https://en.wikipedia.org/wiki/Ilzenberg_Manor"
+  },
+  {
+    "title": "Siesikai Castle",
+    "qid": "Q957072",
+    "coordinates": [
+      55.28666667,
+      24.51361111
+    ],
+    "coordinateSource": "https://en.wikipedia.org/wiki/Siesikai_Castle",
+    "image": {
+      "src": "/destinations/Q957072.jpg",
+      "alt": "Siesikai Castle — Siesikai castle",
+      "author": "Juliux",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Siesikai_castle.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/7/77/Siesikai_castle.jpg",
+      "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/77/Siesikai_castle.jpg/1920px-Siesikai_castle.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1920,
+      "height": 1280,
+      "originalWidth": 2496,
+      "originalHeight": 1664,
+      "targetLongEdge": 1920
+    },
+    "reference": "https://en.wikipedia.org/wiki/Siesikai_Castle"
+  },
+  {
+    "title": "Norviliškės Castle",
+    "qid": "Q2970158",
+    "coordinates": [
+      54.23638889,
+      25.78166667
+    ],
+    "coordinateSource": "https://en.wikipedia.org/wiki/Norvili%C5%A1k%C4%97s_Castle",
+    "image": {
+      "src": "/destinations/Q2970158.jpg",
+      "alt": "Norviliškės Castle — Norviliskiu pilis.Norviliškės Castle",
+      "author": "Ampyx",
+      "license": "Public domain",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:Norviliskiu_pilis.Norvili%C5%A1k%C4%97s_Castle.JPG",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/3/32/Norviliskiu_pilis.Norvili%C5%A1k%C4%97s_Castle.JPG",
+      "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/32/Norviliskiu_pilis.Norvili%C5%A1k%C4%97s_Castle.JPG/1920px-Norviliskiu_pilis.Norvili%C5%A1k%C4%97s_Castle.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1920,
+      "height": 1264,
+      "originalWidth": 2747,
+      "originalHeight": 1809,
+      "targetLongEdge": 1920
+    },
+    "reference": "https://en.wikipedia.org/wiki/Norvili%C5%A1k%C4%97s_Castle"
+  },
+  {
+    "title": "Dieveniškės",
+    "qid": "Q1224305",
+    "coordinates": [
+      54.19444444,
+      25.625
+    ],
+    "coordinateSource": "https://en.wikipedia.org/wiki/Dieveni%C5%A1k%C4%97s",
+    "image": {
+      "src": "/destinations/Q1224305.jpg",
+      "alt": "Dieveniškės — Dieveniskes church",
+      "author": "Juste",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Dieveniskes_church.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/5/52/Dieveniskes_church.jpg",
+      "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/52/Dieveniskes_church.jpg/1920px-Dieveniskes_church.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1920,
+      "height": 1440,
+      "originalWidth": 3648,
+      "originalHeight": 2736,
+      "targetLongEdge": 1920
+    },
+    "reference": "https://en.wikipedia.org/wiki/Dieveni%C5%A1k%C4%97s"
+  },
+  {
+    "title": "Šalčininkai",
+    "qid": "Q391011",
+    "coordinates": [
+      54.31666667,
+      25.38333333
+    ],
+    "coordinateSource": "https://en.wikipedia.org/wiki/%C5%A0al%C4%8Dininkai",
+    "image": {
+      "src": "/destinations/Q391011.jpg",
+      "alt": "Šalčininkai — Šalčininkų centras",
+      "author": "Šarūnas Šimkus",
+      "license": "Public domain",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:%C5%A0al%C4%8Dinink%C5%B3_centras.JPG",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/0/0c/%C5%A0al%C4%8Dinink%C5%B3_centras.JPG",
+      "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/%C5%A0al%C4%8Dinink%C5%B3_centras.JPG/1920px-%C5%A0al%C4%8Dinink%C5%B3_centras.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1920,
+      "height": 1272,
+      "originalWidth": 3696,
+      "originalHeight": 2448,
+      "targetLongEdge": 1920
+    },
+    "reference": "https://en.wikipedia.org/wiki/%C5%A0al%C4%8Dininkai"
+  },
+  {
+    "title": "MO Museum",
+    "qid": "Q16464897",
+    "coordinates": [
+      54.67944444444444,
+      25.27777777777778
+    ],
+    "coordinateSource": "https://www.wikidata.org/wiki/Q16464897",
+    "image": {
+      "src": "/destinations/Q16464897.jpg",
+      "alt": "MO Museum — Mo Museum, Vilnius",
+      "author": "Felix Winkelnkemper",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Mo_Museum,_Vilnius.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/1/18/Mo_Museum%2C_Vilnius.jpg",
+      "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/18/Mo_Museum%2C_Vilnius.jpg/1920px-Mo_Museum%2C_Vilnius.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1920,
+      "height": 1280,
+      "originalWidth": 4032,
+      "originalHeight": 2688,
+      "targetLongEdge": 1920
+    },
+    "reference": "https://en.wikipedia.org/wiki/MO_Museum"
+  },
+  {
+    "title": "Bernardine Garden",
+    "qid": "Q7453082",
+    "coordinates": [
+      54.68333333,
+      25.29694444
+    ],
+    "coordinateSource": "https://en.wikipedia.org/wiki/Bernardine_Garden",
+    "image": {
+      "src": "/destinations/Q7453082-2.jpg",
+      "alt": "Bernardine Garden — Bernardinai garden",
+      "author": "Pofka",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Bernardinai_garden.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/9/98/Bernardinai_garden.jpg",
+      "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/Bernardinai_garden.jpg/1920px-Bernardinai_garden.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1920,
+      "height": 1440,
+      "originalWidth": 3264,
+      "originalHeight": 2448,
+      "targetLongEdge": 1920
+    },
+    "reference": "https://en.wikipedia.org/wiki/Bernardine_Garden"
+  },
+  {
+    "title": "Vilnius Calvary",
+    "qid": "Q4111357",
+    "coordinates": [
+      54.73083333,
+      25.28722222
+    ],
+    "coordinateSource": "https://en.wikipedia.org/wiki/Verkiai_Calvary",
+    "image": {
+      "src": "/destinations/Q4111357.jpg",
+      "alt": "Vilnius Calvary — Calvary Chapel in Zirmunai",
+      "author": "julius",
+      "license": "CC BY 2.5",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.5",
+      "source": "https://commons.wikimedia.org/wiki/File:Calvary_Chapel_in_Zirmunai.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/9/9c/Calvary_Chapel_in_Zirmunai.jpg",
+      "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9c/Calvary_Chapel_in_Zirmunai.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "width": 1256,
+      "height": 1884,
+      "originalWidth": 1256,
+      "originalHeight": 1884,
+      "targetLongEdge": 1884
+    },
+    "reference": "https://en.wikipedia.org/wiki/Verkiai_Calvary"
+  },
+  {
+    "title": "Presidential Palace",
+    "qid": "Q1577652",
+    "coordinates": [
+      54.683,
+      25.286
+    ],
+    "coordinateSource": "https://en.wikipedia.org/wiki/Presidential_Palace%2C_Vilnius",
+    "image": {
+      "src": "/destinations/Q1577652.jpg",
+      "alt": "Presidential Palace — Vilnius presidential palace (cropped)",
+      "author": "Marcin Białek",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:Vilnius_presidential_palace_(cropped).jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/8/84/Vilnius_presidential_palace_%28cropped%29.jpg",
+      "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/84/Vilnius_presidential_palace_%28cropped%29.jpg/1920px-Vilnius_presidential_palace_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1920,
+      "height": 1440,
+      "originalWidth": 3015,
+      "originalHeight": 2262,
+      "targetLongEdge": 1920
+    },
+    "reference": "https://en.wikipedia.org/wiki/Presidential_Palace%2C_Vilnius"
+  },
+  {
+    "title": "Vilnius Town Hall",
+    "qid": "Q1257109",
+    "coordinates": [
+      54.678,
+      25.287
+    ],
+    "coordinateSource": "https://en.wikipedia.org/wiki/Town_Hall%2C_Vilnius",
+    "image": {
+      "src": "/destinations/Q1257109-2.jpg",
+      "alt": "Vilnius Town Hall — Rathaus+Kasimir-Kirche",
+      "author": "Barnos",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Rathaus%2BKasimir-Kirche.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Rathaus%2BKasimir-Kirche.jpg",
+      "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3e/Rathaus%2BKasimir-Kirche.jpg/1920px-Rathaus%2BKasimir-Kirche.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1920,
+      "height": 1303,
+      "originalWidth": 4828,
+      "originalHeight": 3277,
+      "targetLongEdge": 1920
+    },
+    "reference": "https://en.wikipedia.org/wiki/Town_Hall%2C_Vilnius"
+  },
+  {
+    "title": "St Catherine's Church",
+    "qid": "Q1984956",
+    "coordinates": [
+      54.68177778,
+      25.28122222
+    ],
+    "coordinateSource": "https://en.wikipedia.org/wiki/Church_of_St._Catherine%2C_Vilnius",
+    "image": {
+      "src": "/destinations/Q1984956.jpg",
+      "alt": "St Catherine's Church — Church of St. Catherine in Vilnius by Augustas Didžgalvis",
+      "author": "Augustas Didžgalvis",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Church_of_St._Catherine_in_Vilnius_by_Augustas_Did%C5%BEgalvis.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Church_of_St._Catherine_in_Vilnius_by_Augustas_Did%C5%BEgalvis.jpg",
+      "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Church_of_St._Catherine_in_Vilnius_by_Augustas_Did%C5%BEgalvis.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "width": 1800,
+      "height": 1200,
+      "originalWidth": 1800,
+      "originalHeight": 1200,
+      "targetLongEdge": 1800
+    },
+    "reference": "https://en.wikipedia.org/wiki/Church_of_St._Catherine%2C_Vilnius"
+  }
+]
